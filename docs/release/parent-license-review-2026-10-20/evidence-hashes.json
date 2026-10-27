@@ -1,0 +1,166 @@
+[
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/aead-4-comments.json",
+    "sha256": "e937baed6178345b33d847ea752ab23a8e67a447e501d00ffdf0e612a3d37478"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/aead-issues.json",
+    "sha256": "c18b63720493e92d0abd6d38afc001688179d27150d9aa023c572f0d6b3c0a0a"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/aead-license-fixed.json",
+    "sha256": "a5f05d03e9bb4311b2d246049d2a39e6a05976ea5229479d9c7e0222e7a3644c"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/aead-license-history.json",
+    "sha256": "2e6acacca618e247b7516079df1ba0e66d4dfda6ae717a8048c4060d3052c447"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/convert-1-comments.json",
+    "sha256": "9ce412794717b95d067958b5a5e42c3093d287f2244e0cde0cbfdf41e0a2660d"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/convert-1-files.json",
+    "sha256": "dccd7d3ad7253948c2a2763bf9218f30f5e69a475513511994643e2f9b4bafc2"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/convert-1.json",
+    "sha256": "4441b7de60f6ab8ca018a01032edaec7ffe688c2ae3ec0ede6c2294893bcbf94"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/convert-license-at-merge.json",
+    "sha256": "2291bf39c4c36ad4e17aba0ecf8fec08d4f9ecc53ac6babbcc76c2be53c13ee5"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/convert-old-to-license.json",
+    "sha256": "3b2233676526888aa770d8562ab8a841030717bf13e6aade5c266d3fb9512651"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/deno-current-README.md.json",
+    "sha256": "118b7df9e1807f9401656ba7f45b95a43f5cbaef94a03e1add0f25d5d1bf1340"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/deno-current-tree.json",
+    "sha256": "7b9fc256b1e63534959e3787d38f8463e88cf50014fa958da2d221821cc5bfeb"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/deno-issues.json",
+    "sha256": "9a577012c464534ef06125820ccd141826d98e06faaaaaebfdec00014285a4dc"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/deno-parent-license.json",
+    "sha256": "7b8e9589b17636e2c85e267682f413b1f6cab576dde21611ab8ad37f3934fcbd"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/denoland-deno_native_certs-license-issues.json",
+    "sha256": "c9938edecb99d754b2d039ac9eec320a94c769b6a6417921e2dcbef9e2fe01a0"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/denoland-deno_native_certs-repo.json",
+    "sha256": "b0964dbe9827284dca0c6876d42cc37b526eadf54782c2a61696f3a995c1af5f"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/dsherret-sys_traits-license-issues.json",
+    "sha256": "9fdd25fda9baf53d74c2c4e2d00600baa7976e0b60d724bbb3d7eecc70ee725c"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/dsherret-sys_traits-license.json",
+    "sha256": "103ee62abd12b79fb88d6207dd97fc1181c02979d629c16f4e036774dad7e855"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/dsherret-sys_traits-repo.json",
+    "sha256": "d08eb032a92efb2bbfc12b73e03d505ff505ea4571a63738feb06f8416caf7eb"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/fasterthanlime-stringsearch-license-issues.json",
+    "sha256": "8a16fc820df0a7edfb977231a994527a29224791a3152421a7c15ff828b3b6f5"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/fasterthanlime-stringsearch-repo.json",
+    "sha256": "70bf6495663bff86b5c274ae7720e634c78f741a735423840628b9a9fdc025f3"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/fqdn-current-tree.json",
+    "sha256": "c0d6cd058174174aec13526b6a3624853479475cc608eba52a1c1117197727cf"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/fqdn-issues.json",
+    "sha256": "cdd6240b50193dbbe98f7bfec548cd22a220adbcae0979c8013d9a61ac87c358"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/index.json",
+    "sha256": "ad1e5949c1cc8faeda3c90622e88617515e3bc1c2f29919f08d2b297284df9c3"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/littledivy-aead-stream-license.json",
+    "sha256": "65d65da9472f0c7794685d6737dcc0f8cb465dc11934475dcbca8945271afe73"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/littledivy-aead-stream-repo.json",
+    "sha256": "b51c2d4cce16fc9cb0cd2c49dff9bf902849569fac456a3f069bd7f294b29ed0"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/Orange-OpenSource-fqdn-license-issues.json",
+    "sha256": "c9938edecb99d754b2d039ac9eec320a94c769b6a6417921e2dcbef9e2fe01a0"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/Orange-OpenSource-fqdn-repo.json",
+    "sha256": "b01d4aaace78d90960c40d5a7f79d11f58ba2956a3f6b6dcd79d62c458d59f63"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/rutrum-convert-case-license-issues.json",
+    "sha256": "61ed6e1a9ddde0394a92236a624ea4970cab3a6e86b950d17c275fcd7c2634f6"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/rutrum-convert-case-license.json",
+    "sha256": "677e2f983a18e2ab7d93c2838646e17e66cd7147e67cca0f47baa2364df30ffd"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/rutrum-convert-case-repo.json",
+    "sha256": "c95e870b0612933109705f1f8d29f95357455a40880488ebd9de687cb3edd363"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sacabase-current-crates-sacabase-README.md.json",
+    "sha256": "8b7fa89c5f29c8837e35c5986071ad03a5a0bcec08e390a3a7ee75166b86a44f"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sacabase-current-README.md.json",
+    "sha256": "7a10bbb1029f1eb9b00a6e8e62ac8d6850d26395329d0751aefe00ca8f56ea88"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sacabase-current-tree.json",
+    "sha256": "8efabae88055970e0b335e135545e7543a43ecf5f0f5df3cd3e771c847c03830"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/supplement-index.json",
+    "sha256": "08ec3cea27a6abf4c60319ce10287dd4f0c3a98a679e4a7e244ede8e0540440e"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-88-comments.json",
+    "sha256": "b79154fc910d901927f12ddd5114a5421d9d94ee2c617287af6654ae765169cf"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-88.json",
+    "sha256": "d0c87c7ed33d8262377af4edd0f0c0f6eb732299f8bd1f80ba6bf8962593eed0"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-89-files.json",
+    "sha256": "ce61c6c59d3d99ab4f3ad2ff35f124e2b9afa6cb94d9affd5af94d210db285e6"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-89.json",
+    "sha256": "19f52de825713dc4d421c3fbc1c988226981dfa3db49882b725d98d760d6b736"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-license-at-merge.json",
+    "sha256": "a178409b49c0597f6ff83b2cabc9fd3884927363b6c184d4f0abc9e15ab6d93c"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-macros-manifest.json",
+    "sha256": "7857e621be2b224bd6a03183e656e1b1e485202cba3460ec630980a26532ec7f"
+  },
+  {
+    "path": "docs/release/parent-license-review-2026-10-20/sys-macros-source.json",
+    "sha256": "fea6644f136a0ad0662ddfa1645c93e2a1cdd73f4c0d64c8ef75719c493869bd"
+  }
+]

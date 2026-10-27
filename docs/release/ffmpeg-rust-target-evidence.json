@@ -1,0 +1,8 @@
+[
+  {
+    "path": "FFmpeg-Builds-autobuild-2026-09-30-13-08/images/base-win64/Dockerfile",
+    "lines": [
+      "    FFBUILD_RUST_TARGET=x86_64-pc-windows-gnu"
+    ]
+  }
+]

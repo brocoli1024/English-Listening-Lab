@@ -1,0 +1,63 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Remaining Deno Windows normal-dependency candidates declaring MIT; exact registry archives are verified, while copyright holders are not asserted from author metadata.",
+  "packages": [
+    {
+      "package": "deno_native_certs-0.3.0",
+      "declaredLicense": "MIT",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/deno_native_certs-0.3.0.crate",
+      "registryArchiveSha256": "c867603d2a5dfea31f55cecebb572554caa395437786d058faa9a2814c8d6eb9",
+      "publishedAt": "2024-06-04T15:16:07.538153Z",
+      "repositoryMetadata": null,
+      "packageAuthorsMetadata": [
+        "Divy Srivastava <dj.srivastava23@gmail.com>"
+      ],
+      "cargoVcsInfo": {
+        "git": {
+          "sha1": "700f235fe029ea839f5a64eea251abf8116ddb4c"
+        },
+        "path_in_vcs": ""
+      },
+      "licenseOrAttributionNamedFilesInCrate": [],
+      "copyrightEvidenceStatus": "unresolved; Cargo authors metadata is recorded as authorship metadata only and is not treated as a copyright notice"
+    },
+    {
+      "package": "fqdn-0.5.2",
+      "declaredLicense": "MIT",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/fqdn-0.5.2.crate",
+      "registryArchiveSha256": "886ac788f62d16d6b0f26b2fa762b34ef16ebfb4b624c2c15fbcadc9173c0f72",
+      "publishedAt": "2026-01-12T14:49:10.640864Z",
+      "repositoryMetadata": null,
+      "packageAuthorsMetadata": [
+        "Xophe <christophe.dousson@orange.com>"
+      ],
+      "cargoVcsInfo": {
+        "git": {
+          "sha1": "a23fef8570522a3b98a79afc45322d6487166cd9",
+          "dirty": true
+        },
+        "path_in_vcs": ""
+      },
+      "licenseOrAttributionNamedFilesInCrate": [],
+      "copyrightEvidenceStatus": "unresolved; Cargo authors metadata is recorded as authorship metadata only and is not treated as a copyright notice"
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "declaredLicense": "MIT",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/sacabase-2.0.0.crate",
+      "registryArchiveSha256": "9883fc3d6ce3d78bb54d908602f8bc1f7b5f983afe601dabe083009d86267a84",
+      "publishedAt": "2019-11-23T19:56:10.062644Z",
+      "repositoryMetadata": null,
+      "packageAuthorsMetadata": [
+        "Amos Wenger <amoswenger@gmail.com>"
+      ],
+      "cargoVcsInfo": {
+        "git": {
+          "sha1": "acd5846b959884a1d24247038e9c52b5cf900f67"
+        }
+      },
+      "licenseOrAttributionNamedFilesInCrate": [],
+      "copyrightEvidenceStatus": "unresolved; Cargo authors metadata is recorded as authorship metadata only and is not treated as a copyright notice"
+    }
+  ]
+}

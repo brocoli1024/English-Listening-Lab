@@ -1,0 +1,7 @@
+{
+  "sourceMember": "swc_ecma_transforms_base-30.0.1/src/fixer.rs",
+  "fixture": "issue_286",
+  "path": "docs/release/licenses/deno-swc-headers/core-js-test-fixture.txt",
+  "sha256": "2f9002e74560ee377bde222dc6a9d2a1060ecd2b0fb596aae9985f5159a33e0b",
+  "scope": "Original test fixture carrying Denis Pushkarev copyright text; retained for source distribution. Not classified as runtime code."
+}

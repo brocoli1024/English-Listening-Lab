@@ -1,0 +1,46 @@
+appId: org.englishlisteninglab.desktop
+productName: English Listening Lab
+asar: true
+directories:
+  output: release
+extraMetadata:
+  main: desktop/main.cjs
+files:
+  - desktop/*.cjs
+  - desktop/project-links.json
+  - dist/**/*
+  - package.json
+  - '!node_modules/**/*'
+extraResources:
+  - from: MICROSOFT_RUNTIME_TERMS.txt
+    to: MICROSOFT_RUNTIME_TERMS.txt
+  - from: LICENSE
+    to: APP-LICENSE.txt
+  - from: desktop/vendor
+    to: tools
+    filter:
+      - '*.exe'
+      - '*.dll'
+      - '*.json'
+      - 'licenses/**/*'
+  - from: THIRD_PARTY_NOTICES.md
+    to: THIRD_PARTY_NOTICES.md
+  - from: docs/release/licenses
+    to: licenses
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: assets/images/listening-lab.ico
+  signAndEditExecutable: true
+  signExecutable: false
+artifactName: English-Listening-Lab-${version}-Setup.${ext}
+nsis:
+  include: desktop/installer/terms.nsh
+  oneClick: false
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  createDesktopShortcut: true
+publish: null

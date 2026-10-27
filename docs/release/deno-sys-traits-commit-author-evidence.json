@@ -1,0 +1,41 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "GitHub commit authors for the exact revisions recorded in checksum-verified sys_traits crate archives.",
+  "packages": [
+    {
+      "package": "sys_traits-0.1.28",
+      "crateVcs": {
+        "git": {
+          "sha1": "709e02e198721f81b485c078ccdf1835fa3e6a40"
+        },
+        "path_in_vcs": ""
+      },
+      "apiUrl": "https://api.github.com/repos/dsherret/sys_traits/commits/709e02e198721f81b485c078ccdf1835fa3e6a40",
+      "cachedResponse": "desktop/.downloads/compliance/sys_traits-commit-709e02e198721f81b485c078ccdf1835fa3e6a40.json",
+      "cachedResponseSha256": "1a82a3d07e2f89af8d7bae084c328e192f6ef6ae59b94e05869205713bab40b5",
+      "commitAuthorName": "David Sherret",
+      "commitAuthorDate": "2026-05-16T19:52:23Z",
+      "commitMessage": "0.1.28 (#82)",
+      "githubAccount": "dsherret",
+      "attributionCaveat": "Commit author metadata is evidence of a contributor to the linked source revision, not conclusive proof of copyright ownership; the macro crate VCS record is marked dirty."
+    },
+    {
+      "package": "sys_traits_macros-0.1.0",
+      "crateVcs": {
+        "git": {
+          "sha1": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+          "dirty": true
+        },
+        "path_in_vcs": "macros"
+      },
+      "apiUrl": "https://api.github.com/repos/dsherret/sys_traits/commits/75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+      "cachedResponse": "desktop/.downloads/compliance/sys_traits-commit-75cbf3ea478624cc78275b0264e78e9ae13ce3f5.json",
+      "cachedResponseSha256": "f2f4a31486886c16f3f2eb6f165d7bce0aa252a8bbad21340b8a57df65dd5ede",
+      "commitAuthorName": "David Sherret",
+      "commitAuthorDate": "2025-04-09T16:56:04Z",
+      "commitMessage": "0.1.9 (#40)",
+      "githubAccount": "dsherret",
+      "attributionCaveat": "Commit author metadata is evidence of a contributor to the linked source revision, not conclusive proof of copyright ownership; the macro crate VCS record is marked dirty."
+    }
+  ]
+}

@@ -1,0 +1,917 @@
+{
+  "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+  "pythonVersion": 310,
+  "entries": [
+    {
+      "name": "struct",
+      "compressedSize": 206,
+      "size": 271,
+      "type": "m"
+    },
+    {
+      "name": "pyimod01_archive",
+      "compressedSize": 1850,
+      "size": 3125,
+      "type": "m"
+    },
+    {
+      "name": "pyimod02_importers",
+      "compressedSize": 9686,
+      "size": 22883,
+      "type": "m"
+    },
+    {
+      "name": "pyimod03_ctypes",
+      "compressedSize": 1769,
+      "size": 3620,
+      "type": "m"
+    },
+    {
+      "name": "pyimod04_pywin32",
+      "compressedSize": 634,
+      "size": 1053,
+      "type": "m"
+    },
+    {
+      "name": "pyiboot01_bootstrap",
+      "compressedSize": 665,
+      "size": 970,
+      "type": "s"
+    },
+    {
+      "name": "pyi_rth_inspect",
+      "compressedSize": 872,
+      "size": 1503,
+      "type": "s"
+    },
+    {
+      "name": "pyi_rth_pkgutil",
+      "compressedSize": 589,
+      "size": 910,
+      "type": "s"
+    },
+    {
+      "name": "pyi_rth_multiprocessing",
+      "compressedSize": 856,
+      "size": 1442,
+      "type": "s"
+    },
+    {
+      "name": "__main__",
+      "compressedSize": 264,
+      "size": 355,
+      "type": "s"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_ARC4.pyd",
+      "compressedSize": 4769,
+      "size": 10752,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_Salsa20.pyd",
+      "compressedSize": 6270,
+      "size": 13824,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_chacha20.pyd",
+      "compressedSize": 6193,
+      "size": 13312,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_pkcs1_decode.pyd",
+      "compressedSize": 5774,
+      "size": 13312,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_aes.pyd",
+      "compressedSize": 17911,
+      "size": 35328,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_aesni.pyd",
+      "compressedSize": 6785,
+      "size": 15360,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_arc2.pyd",
+      "compressedSize": 7317,
+      "size": 14848,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_blowfish.pyd",
+      "compressedSize": 10611,
+      "size": 19456,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_cast.pyd",
+      "compressedSize": 15983,
+      "size": 24064,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_cbc.pyd",
+      "compressedSize": 5289,
+      "size": 11776,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_cfb.pyd",
+      "compressedSize": 5579,
+      "size": 12288,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_ctr.pyd",
+      "compressedSize": 6131,
+      "size": 14848,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_des.pyd",
+      "compressedSize": 15318,
+      "size": 52736,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_des3.pyd",
+      "compressedSize": 15452,
+      "size": 52736,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_ecb.pyd",
+      "compressedSize": 4470,
+      "size": 10240,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_eksblowfish.pyd",
+      "compressedSize": 11227,
+      "size": 20480,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_ocb.pyd",
+      "compressedSize": 7437,
+      "size": 17920,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Cipher\\_raw_ofb.pyd",
+      "compressedSize": 5179,
+      "size": 11776,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_BLAKE2b.pyd",
+      "compressedSize": 6756,
+      "size": 14336,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_BLAKE2s.pyd",
+      "compressedSize": 6591,
+      "size": 13824,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_MD2.pyd",
+      "compressedSize": 5970,
+      "size": 14336,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_MD4.pyd",
+      "compressedSize": 6126,
+      "size": 13824,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_MD5.pyd",
+      "compressedSize": 7625,
+      "size": 15360,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_RIPEMD160.pyd",
+      "compressedSize": 6361,
+      "size": 13824,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_SHA1.pyd",
+      "compressedSize": 8795,
+      "size": 17920,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_SHA224.pyd",
+      "compressedSize": 10419,
+      "size": 21504,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_SHA256.pyd",
+      "compressedSize": 10420,
+      "size": 21504,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_SHA384.pyd",
+      "compressedSize": 11276,
+      "size": 26112,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_SHA512.pyd",
+      "compressedSize": 11498,
+      "size": 26112,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_ghash_clmul.pyd",
+      "compressedSize": 5501,
+      "size": 12800,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_ghash_portable.pyd",
+      "compressedSize": 5462,
+      "size": 12288,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_keccak.pyd",
+      "compressedSize": 7276,
+      "size": 15360,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Hash\\_poly1305.pyd",
+      "compressedSize": 6601,
+      "size": 13824,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Math\\_modexp.pyd",
+      "compressedSize": 15553,
+      "size": 30720,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Protocol\\_scrypt.pyd",
+      "compressedSize": 5327,
+      "size": 12288,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\PublicKey\\_curve25519.pyd",
+      "compressedSize": 9292,
+      "size": 19456,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\PublicKey\\_curve448.pyd",
+      "compressedSize": 22342,
+      "size": 58880,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\PublicKey\\_ec_ws.pyd",
+      "compressedSize": 637452,
+      "size": 755200,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\PublicKey\\_ed25519.pyd",
+      "compressedSize": 11708,
+      "size": 23552,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\PublicKey\\_ed448.pyd",
+      "compressedSize": 25914,
+      "size": 74752,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Util\\_cpuid_c.pyd",
+      "compressedSize": 4429,
+      "size": 10240,
+      "type": "b"
+    },
+    {
+      "name": "Cryptodome\\Util\\_strxor.pyd",
+      "compressedSize": 4429,
+      "size": 10240,
+      "type": "b"
+    },
+    {
+      "name": "THIRD_PARTY_LICENSES.txt",
+      "compressedSize": 58007,
+      "size": 248243,
+      "type": "b"
+    },
+    {
+      "name": "VCRUNTIME140.dll",
+      "compressedSize": 52405,
+      "size": 98224,
+      "type": "b"
+    },
+    {
+      "name": "_asyncio.pyd",
+      "compressedSize": 30317,
+      "size": 65304,
+      "type": "b"
+    },
+    {
+      "name": "_brotli.cp310-win_amd64.pyd",
+      "compressedSize": 362411,
+      "size": 856576,
+      "type": "b"
+    },
+    {
+      "name": "_bz2.pyd",
+      "compressedSize": 44644,
+      "size": 83736,
+      "type": "b"
+    },
+    {
+      "name": "_cffi_backend.cp310-win_amd64.pyd",
+      "compressedSize": 81069,
+      "size": 179712,
+      "type": "b"
+    },
+    {
+      "name": "_ctypes.pyd",
+      "compressedSize": 56800,
+      "size": 123672,
+      "type": "b"
+    },
+    {
+      "name": "_decimal.pyd",
+      "compressedSize": 122070,
+      "size": 254744,
+      "type": "b"
+    },
+    {
+      "name": "_elementtree.pyd",
+      "compressedSize": 57792,
+      "size": 128280,
+      "type": "b"
+    },
+    {
+      "name": "_hashlib.pyd",
+      "compressedSize": 29450,
+      "size": 64792,
+      "type": "b"
+    },
+    {
+      "name": "_lzma.pyd",
+      "compressedSize": 88169,
+      "size": 158488,
+      "type": "b"
+    },
+    {
+      "name": "_multiprocessing.pyd",
+      "compressedSize": 19030,
+      "size": 34584,
+      "type": "b"
+    },
+    {
+      "name": "_overlapped.pyd",
+      "compressedSize": 25275,
+      "size": 49944,
+      "type": "b"
+    },
+    {
+      "name": "_queue.pyd",
+      "compressedSize": 17710,
+      "size": 31512,
+      "type": "b"
+    },
+    {
+      "name": "_socket.pyd",
+      "compressedSize": 37883,
+      "size": 79128,
+      "type": "b"
+    },
+    {
+      "name": "_sqlite3.pyd",
+      "compressedSize": 47198,
+      "size": 99096,
+      "type": "b"
+    },
+    {
+      "name": "_ssl.pyd",
+      "compressedSize": 65955,
+      "size": 160536,
+      "type": "b"
+    },
+    {
+      "name": "_uuid.pyd",
+      "compressedSize": 14677,
+      "size": 25368,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-console-l1-1-0.dll",
+      "compressedSize": 7702,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-datetime-l1-1-0.dll",
+      "compressedSize": 7519,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-debug-l1-1-0.dll",
+      "compressedSize": 7411,
+      "size": 21944,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+      "compressedSize": 7601,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-fibers-l1-1-0.dll",
+      "compressedSize": 7542,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-fibers-l1-1-1.dll",
+      "compressedSize": 7497,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-file-l1-1-0.dll",
+      "compressedSize": 8676,
+      "size": 26152,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-file-l1-2-0.dll",
+      "compressedSize": 7555,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-file-l2-1-0.dll",
+      "compressedSize": 7557,
+      "size": 21960,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-handle-l1-1-0.dll",
+      "compressedSize": 7434,
+      "size": 21944,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-heap-l1-1-0.dll",
+      "compressedSize": 7740,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-interlocked-l1-1-0.dll",
+      "compressedSize": 7605,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+      "compressedSize": 7834,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-libraryloader-l1-1-0.dll",
+      "compressedSize": 7881,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-localization-l1-2-0.dll",
+      "compressedSize": 8434,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-memory-l1-1-0.dll",
+      "compressedSize": 7716,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-namedpipe-l1-1-0.dll",
+      "compressedSize": 7658,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+      "compressedSize": 7688,
+      "size": 21968,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-processthreads-l1-1-0.dll",
+      "compressedSize": 8326,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-processthreads-l1-1-1.dll",
+      "compressedSize": 7768,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-profile-l1-1-0.dll",
+      "compressedSize": 7521,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "compressedSize": 7639,
+      "size": 21960,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-string-l1-1-0.dll",
+      "compressedSize": 7606,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-synch-l1-1-0.dll",
+      "compressedSize": 8128,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-synch-l1-2-0.dll",
+      "compressedSize": 7804,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+      "compressedSize": 7853,
+      "size": 22072,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-sysinfo-l1-2-0.dll",
+      "compressedSize": 7685,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-timezone-l1-1-0.dll",
+      "compressedSize": 7713,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-core-util-l1-1-0.dll",
+      "compressedSize": 7415,
+      "size": 21944,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-conio-l1-1-0.dll",
+      "compressedSize": 7869,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-convert-l1-1-0.dll",
+      "compressedSize": 8832,
+      "size": 26056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-environment-l1-1-0.dll",
+      "compressedSize": 7725,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "compressedSize": 8332,
+      "size": 22056,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-heap-l1-1-0.dll",
+      "compressedSize": 7869,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-locale-l1-1-0.dll",
+      "compressedSize": 7836,
+      "size": 22080,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-math-l1-1-0.dll",
+      "compressedSize": 10831,
+      "size": 30248,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-process-l1-1-0.dll",
+      "compressedSize": 7917,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "compressedSize": 9134,
+      "size": 26152,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "compressedSize": 9583,
+      "size": 26168,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-string-l1-1-0.dll",
+      "compressedSize": 9752,
+      "size": 26176,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-time-l1-1-0.dll",
+      "compressedSize": 8414,
+      "size": 22096,
+      "type": "b"
+    },
+    {
+      "name": "api-ms-win-crt-utility-l1-1-0.dll",
+      "compressedSize": 7741,
+      "size": 21952,
+      "type": "b"
+    },
+    {
+      "name": "base_library.zip",
+      "compressedSize": 255276,
+      "size": 880569,
+      "type": "b"
+    },
+    {
+      "name": "certifi\\cacert.pem",
+      "compressedSize": 131713,
+      "size": 240216,
+      "type": "b"
+    },
+    {
+      "name": "certifi\\py.typed",
+      "compressedSize": 8,
+      "size": 0,
+      "type": "b"
+    },
+    {
+      "name": "charset_normalizer\\cd.cp310-win_amd64.pyd",
+      "compressedSize": 56994,
+      "size": 114176,
+      "type": "b"
+    },
+    {
+      "name": "charset_normalizer\\md.cp310-win_amd64.pyd",
+      "compressedSize": 79153,
+      "size": 200192,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\DELVEWHEEL",
+      "compressedSize": 217,
+      "size": 446,
+      "type": "b",
+      "metadata": "Version: 1.13.0\nArguments: ['C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-eeci8mw_\\\\cp310-win_amd64\\\\build\\\\venv\\\\Scripts\\\\delvewheel', 'repair', '--add-path', './lib64;./lib32;./libarm64', '-w', 'C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-eeci8mw_\\\\cp310-win_amd64\\\\repaired_wheel', 'C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-eeci8mw_\\\\cp310-win_amd64\\\\built_wheel\\\\curl_cffi-0.16.0-cp310-abi3-win_amd64.whl']\n"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\INSTALLER",
+      "compressedSize": 12,
+      "size": 4,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\METADATA",
+      "compressedSize": 6364,
+      "size": 17867,
+      "type": "b",
+      "metadata": "Metadata-Version: 2.4\r\nName: curl_cffi\r\nVersion: 0.16.0\r\nSummary: libcurl ffi bindings for Python, with impersonation support.\r\nAuthor-email: lexiforest <infinitesheldon@gmail.com>\r\nLicense-Expression: MIT\r\nProject-URL: repository, https://github.com/lexiforest/curl_cffi\r\nClassifier: Development Status :: 4 - Beta\r\nClassifier: Intended Audience :: Developers\r\nClassifier: Programming Language :: Python :: 3\r\nClassifier: Programming Language :: Python :: 3.10\r\nClassifier: Programming Language :: Python :: 3.11\r\nClassifier: Programming Language :: Python :: 3.12\r\nClassifier: Programming Language :: Python :: 3.13\r\nClassifier: Programming Language :: Python :: 3.14\r\nClassifier: Programming Language :: Python :: Free Threading\r\nRequires-Python: >=3.10\r\nDescription-Content-Type: text/markdown\r\nLicense-File: LICENSE\r\nRequires-Dist: cffi>=2.0.0\r\nRequires-Dist: certifi>=2024.2.2\r\nProvides-Extra: extra\r\nRequires-Dist: readability-lxml>=0.8.1; extra == \"extra\"\r\nRequires-Dist: markdownify>=1.1.0; extra == \"extra\"\r\nRequires-Dist: lxml_html_clean; extra == \"extra\"\r\nProvides-Extra: cli\r\nRequires-Dist: rich; extra == \"cli\"\r\nProvides-Extra: dev\r\nRequires-Dist: charset_normalizer<4.0,>=3.3.2; extra == \"dev\"\r\nRequires-Dist: coverage<7.0,>=6.4.1; extra == \"dev\"\r\nRequires-Dist: cryptography<47.0,>=46.0.4; extra == \"dev\"\r\nRequires-Dist: httpx==0.23.1; extra == \"dev\"\r\nRequires-Dist: mypy<2.0,>=1.9.0; extra == \"dev\"\r\nRequires-Dist: pytest<9.0,>=8.1.1; extra == \"dev\"\r\nRequires-Dist: pytest-asyncio<1.0,>=0.23.6; extra == \"dev\"\r\nRequires-Dist: pytest-trio<1.0,>=0.8.0; extra == \"dev\"\r\nRequires-Dist: ruff<1.0,>=0.3.5; extra == \"dev\"\r\nRequires-Dist: trio<1.0,>=0.25.0; extra == \"dev\"\r\nRequires-Dist: trustme<2.0,>=1.1.0; extra == \"dev\"\r\nRequires-Dist: uvicorn<1.0,>=0.29.0; extra == \"dev\"\r\nRequires-Dist: websockets>=14.0; extra == \"dev\"\r\nRequires-Dist: typing_extensions; extra == \"dev\"\r\nProvides-Extra: build\r\nRequires-Dist: cibuildwheel; extra == \"build\"\r\nRequires-Dist: wheel; extra == \"build\"\r\nProvides-Extra: test\r\nRequires-Dist: charset_normalizer<4.0,>=3.3.2; extra == \"test\"\r\nRequires-Dist: cryptography<47.0,>=46.0.4; extra == \"test\"\r\nRequires-Dist: litestar<3.0,>=2.19.0; extra == \"test\"\r\nRequires-Dist: httpx==0.23.1; extra == \"test\"\r\nRequires-Dist: proxy.py<3.0,>=2.4.3; extra == \"test\"\r\nRequires-Dist: pytest<9.0,>=8.1.1; extra == \"test\"\r\nRequires-Dist: pytest-asyncio<1.0,>=0.23.6; extra == \"test\"\r\nRequires-Dist: pytest-trio<1.0,>=0.8.0; extra == \"test\"\r\nRequires-Dist: python-multipart<1.0,>=0.0.9; extra == \"test\"\r\nRequires-Dist: trio<1.0,>=0.25.0; extra == \"test\"\r\nRequires-Dist: trustme<2.0,>=1.1.0; extra == \"test\"\r\nRequires-Dist: uvicorn<1.0,>=0.29.0; extra == \"test\"\r\nRequires-Dist: websockets>=14.0; extra == \"test\"\r\nRequires-Dist: typing_extensions; extra == \"test\"\r\nDynamic: license-file\r\n\r\n# curl_cffi\r\n\r\n[![PyPI Downloads](https://static.pepy.tech/badge/curl-cffi/week)](https://pepy.tech/projects/curl-cffi)\r\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/curl_cffi)\r\n[![PyPI version](https://badge.fury.io/py/curl-cffi.svg)](https://badge.fury.io/py/curl-cffi)\r\n[![Generic badge](https://img.shields.io/badge/Telegram%20Channel-join-blue?logo=telegram)](https://t.me/impersonate_pro)\r\n[![Generic badge](https://img.shields.io/badge/Discord-join-purple?logo=blue)](https://discord.gg/kJqMHHgdn2)\r\n\r\n[Documentation](https://curl-cffi.readthedocs.io)\r\n\r\nPython binding for [curl-impersonate fork](https://github.com/lexiforest/curl-impersonate)\r\nvia [cffi](https://cffi.readthedocs.io/en/latest/). For commercial support, visit [impersonate.pro](https://impersonate.pro).\r\n\r\n`curl_cffi` is the most popular Python binding for `curl`. Unlike other pure\r\npython http clients like `httpx` or `requests`, `curl_cffi` can impersonate\r\nbrowsers' TLS/JA3 and HTTP/2 fingerprints. If you are blocked by some\r\nwebsite for no obvious reason, you can give `curl_cffi` a try.\r\n\r\nPython 3.10 is the minimum supported version since v0.14.\r\n\r\n## Recent highlights\r\n\r\n- 💨 http/3 fingerprints and UDP socks5 proxy support was added in `v0.15.0`!\r\n- 🦞 Added `curl-cffi` CLI and skills for debugging and for claws/agents.\r\n\r\n## Recall.ai - API for meeting recordings\r\n\r\n<a href=\"https://www.recall.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=lexiforest-curl_cffi\" target=\"_blank\"><img src=\"https://cdn.prod.website-files.com/620d732b1f1f7b244ac89f0e/66b294e51ee15f18dd2b171e_recall-logo.svg\" alt=\"Recall.ai\" height=\"47\" width=\"149\"></a>\r\n\r\nIf you’re looking for a meeting recording API, consider checking out [Recall.ai](https://www.recall.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=lexiforest-curl_cffi), an API that records Zoom, Google Meet, Microsoft Teams, in-person meetings, and more.\r\n\r\n## Sponsors\r\n\r\nMaintenance of this project is made possible by all the <a href=\"https://github.com/lexiforest/curl_cffi/graphs/contributors\">contributors</a> and <a href=\"https://github.com/sponsors/lexiforest\">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href=\"https://github.com/sponsors/lexiforest\">click here</a>. 💖\r\n\r\n------\r\n\r\n### Bypass Cloudflare with API\r\n\r\n<a href=\"https://yescaptcha.com/i/stfnIO\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/lexiforest/curl_cffi/main/assets/yescaptcha.png\" alt=\"Yes Captcha!\" height=\"47\" width=\"149\"></a>\r\n\r\nYescaptcha is a proxy service that bypasses Cloudflare and uses the API interface to\r\nobtain verified cookies (e.g. `cf_clearance`). Click [here](https://yescaptcha.com/i/stfnIO)\r\nto register: <https://yescaptcha.com/i/stfnIO>\r\n\r\n------\r\n\r\n<a href=\"https://hypersolutions.co/?utm_source=github&utm_medium=readme&utm_campaign=curl_cffi\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/lexiforest/curl_cffi/main/assets/hypersolutions.png\" height=\"47\" width=\"149\"></a>\r\n\r\nTLS fingerprinting alone isn't enough for modern bot protection. [Hyper Solutions](https://hypersolutions.co?utm_source=github&utm_medium=readme&utm_campaign=curl_cffi) provides the missing piece - API endpoints that generate valid antibot tokens for:\r\n\r\nAkamai • DataDome • Kasada • Incapsula\r\n\r\nNo browser automation. Just simple API calls that return the exact cookies and headers these systems require.\r\n\r\n🚀 [Get Your API Key](https://hypersolutions.co?utm_source=github&utm_medium=readme&utm_campaign=curl_cffi) | 📖 [Docs](https://docs.justhyped.dev) | 💬 [Discord](https://discord.gg/akamai)\r\n\r\n------\r\n\r\n## Impersonate Suite\r\n\r\n`curl-cffi` is part of the impersonate suite.\r\n\r\n- [curl-impersonate](https://github.com/lexiforest/curl-impersonate). A curl distribution that impersonates browsers.\r\n- [curl_cffi](https://github.com/lexiforest/curl_cffi). Python binding to curl-impersonate.\r\n- [impers](https://github.com/lexiforest/impers). Node.js binding to curl-impersonate.\r\n- [impersonate.pro](https://impersonate.pro). Commercial support, more fingerprints and integrated solutions.\r\n\r\n## Features\r\n\r\n- Supports JA3/TLS and http2 fingerprints impersonation, including recent browsers and custom fingerprints.\r\n- Much faster than requests/httpx, on par with aiohttp/pycurl, see [benchmarks](https://github.com/lexiforest/curl_cffi/tree/main/benchmark).\r\n- Mimics the requests API, no need to learn another one.\r\n- Pre-compiled, so you don't have to compile on your machine.\r\n- Supports `asyncio` with proxy rotation on each request.\r\n- Supports http 2.0, which requests does not.\r\n- Supports http 3.0, with fingerprints and udp proxy.\r\n- Supports websocket.\r\n- MIT licensed.\r\n\r\n||requests|aiohttp|httpx|pycurl|curl_cffi|\r\n|---|---|---|---|---|---|\r\n|http/2|❌|❌|✅|✅|✅|\r\n|http/3|❌|❌|❌|☑️<sup>1</sup>|✅<sup>2</sup>|\r\n|sync|✅|❌|✅|✅|✅|\r\n|async|❌|✅|✅|❌|✅|\r\n|websocket|❌|✅|❌|❌|✅|\r\n|native retry|❌|❌|❌|❌|✅|\r\n|fingerprints|❌|❌|❌|❌|✅|\r\n|speed|🐇|🐇🐇|🐇|🐇🐇|🐇🐇|\r\n\r\nNotes:\r\n\r\n1. For pycurl, http/3 is usually disabled at compile time by default.\r\n2. http/3 support since v0.11.4, http/3 proxy and fingerprints since v0.15.0.\r\n\r\n### curl-cffi CLI(new)\r\n\r\nSince v0.15, `curl_cffi` comes with a CLI called `curl-cffi`, you can use it for debugging\r\na certain url with the `--impersonate` option. It can also serve as a `web_fetch`\r\nreplacement for \"claws\" and \"agents\".\r\n\r\n||curl|httpie|curl-cffi|\r\n|---|---|---|---|\r\n|http/2|✅|❌|✅|\r\n|http/3|☑️<sup>1</sup>|❌|✅|\r\n|human-friendly|☑️<sup>2</sup>|✅|✅|\r\n|colorful|❌|✅|✅<sup>3</sup>|\r\n|fingerprints|❌|❌|✅|\r\n\r\nNotes:\r\n\r\n1. You need an http/3 enabled curl build, it's not enabled by default, at leat on my machine.\r\n2. As a long time command line user, I personally feel very comfortable using `curl -X POST httpbin.org`, but some users may prefer `http GET httpbin.org` syntax. If you prefer the curl syntax, you can keep using `curl-impersonate`.\r\n3. Install `curl_cffi[cli]` for colorful CLI output. Without `rich`, the CLI uses plain text output.\r\n\r\n## Install\r\n\r\n    pip install curl_cffi --upgrade\r\n\r\nThis should work on Linux, macOS and Windows out of the box.\r\n\r\nOn macOS, you can also install via Homebrew:\r\n\r\n    brew install lexiforest/tap/curl-cffi\r\n\r\n<small>Android support, including Termux, is currently in beta, you can install the beta release for testing.\r\nFor BSD systems, we need to get libcurl-impersonate compile first, and then add support in curl_cffi.\r\nIf you are using these OSes, please lend an hand.</small>\r\n\r\nTo install beta releases:\r\n\r\n    pip install curl_cffi --upgrade --pre\r\n\r\nTo install unstable version from GitHub:\r\n\r\n    git clone https://github.com/lexiforest/curl_cffi/\r\n    cd curl_cffi\r\n    make preprocess\r\n    pip install .\r\n\r\n## Usage\r\n\r\n`curl_cffi` comes with a low-level `curl` API and a high-level `requests`-like API.\r\n`curl_cffi` also bundles with a CLI called `curl-cffi`.\r\n\r\n### CLI\r\n\r\n```sh\r\ncurl-cffi get tls.browserleaks.com/json\r\n\r\n# curl-cffi can be hard to type, use an alias if you want\r\nalias imp=curl-cffi\r\nimp get tls.browserleaks.com/json --impersonate chrome\r\n```\r\n\r\nFor a complete CLI guide, see [docs](https://curl-cffi.readthedocs.io).\r\n\r\n### requests-like\r\n\r\n```python\r\nimport curl_cffi\r\n\r\n# Notice the impersonate parameter\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", impersonate=\"chrome\")\r\n\r\nprint(r.json())\r\n# output: {..., \"ja3n_hash\": \"aa56c057ad164ec4fdcb7a5a283be9fc\", ...}\r\n# the js3n fingerprint should be the same as target browser\r\n\r\n# To keep using the latest browser version as `curl_cffi` updates,\r\n# simply set impersonate=\"chrome\" without specifying a version.\r\n# Other similar values are: \"safari\" and \"safari_ios\"\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", impersonate=\"chrome\")\r\n\r\n# Use http/3 with impersonation\r\nr = curl_cffi.get(\r\n    \"https://fp.impersonate.pro/api/http3\",\r\n    http_version=\"v3\",\r\n    impersonate=\"chrome\"\r\n)\r\n\r\n# To pin a specific version, use version numbers together.\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", impersonate=\"chrome124\")\r\n\r\n# To impersonate other than browsers, bring your own ja3/akamai strings\r\n# See examples directory for details.\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", ja3=..., akamai=...)\r\n\r\n# http/socks proxies are supported\r\nproxies = {\"https\": \"http://localhost:3128\"}\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", impersonate=\"chrome\", proxies=proxies)\r\n\r\nproxies = {\"https\": \"socks://localhost:3128\"}\r\nr = curl_cffi.get(\"https://tls.browserleaks.com/json\", impersonate=\"chrome\", proxies=proxies)\r\n```\r\n\r\n### Sessions\r\n\r\n```python\r\ns = curl_cffi.Session()\r\n\r\n# httpbin is a http test website, this endpoint makes the server set cookies\r\ns.get(\"https://httpbin.org/cookies/set/foo/bar\")\r\nprint(s.cookies)\r\n# <Cookies[<Cookie foo=bar for httpbin.org />]>\r\n\r\n# retrieve cookies again to verify\r\nr = s.get(\"https://httpbin.org/cookies\")\r\nprint(r.json())\r\n# {'cookies': {'foo': 'bar'}}\r\n```\r\n\r\n### Supported impersonate browsers\r\n\r\n`curl_cffi` supports the same browser versions preset as supported by our [fork](https://github.com/lexiforest/curl-impersonate) of [curl-impersonate](https://github.com/lwthiker/curl-impersonate):\r\n\r\nThe open source version of `curl_cffi` includes versions when we are adding new capabilities for impersonating.\r\nIf you see a version, e.g. `chrome135`, was skipped, it's simply because there's nothing new or we were busy at that time. \r\nYou can simply impersonate it with your own headers and the previous browser target.\r\n\r\nFor a full list of preset fingerprints, see the [curl-impersonate docs](https://curl-impersonate.readthedocs.io/en/latest/fingerprints.html). \r\nWe will no longer put duplicated and outdated info here.\r\n\r\nIf you don't want to look up the headers/etc by yourself, consider buying commercial support from [impersonate.pro](https://impersonate.pro).\r\nWe have comprehensive browser tls, http and JavaScript fingerprints database for almost all the browser versions on various platforms.\r\n\r\nSince v0.15.1, you can use `curl-cffi update` to retrieve the latest fingerprints, without updating to a new version.\r\nWe offer the Safari, Chrome, Firefox updates for free and others as part of the [commercial plan](https://impersonate.pro).\r\n\r\nThe current number of fingerprints:\r\n\r\n![Preset](https://img.shields.io/badge/Preset_Fingerprints-37-blue)\r\n![Free](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.impersonate.pro%2Fv1%2Fcounts&query=%24.free&label=Free%20Fingerprints) \r\n![Pro](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.impersonate.pro%2Fv1%2Fcounts&query=%24.all&label=Pro%20Fingerprints)\r\n\r\nTo see the current list of fingerprints on your device, use the command line:\r\n\r\n```sh\r\ncurl-cffi list\r\n```\r\n\r\nTo update fingerprints from impersonate.pro, use the command line:\r\n\r\n```sh\r\ncurl-cffi update\r\n```\r\n\r\nIf you are trying to impersonate a target other than a browser, use `ja3=...`, `akamai=...`, `extra_fp=...`, and `perk=...`\r\nto specify your own customized fingerprints. See the [docs on impersonation](https://curl-cffi.readthedocs.io/en/latest/impersonate/_index.html) for details.\r\n\r\n\r\n### Asyncio\r\n\r\n```python\r\nfrom curl_cffi import AsyncSession\r\n\r\nasync with AsyncSession() as s:\r\n    r = await s.get(\"https://example.com\")\r\n```\r\n\r\nMore concurrency:\r\n\r\n```python\r\nimport asyncio\r\nfrom curl_cffi import AsyncSession\r\n\r\nurls = [\r\n    \"https://google.com/\",\r\n    \"https://facebook.com/\",\r\n    \"https://twitter.com/\",\r\n]\r\n\r\nasync with AsyncSession() as s:\r\n    tasks = []\r\n    for url in urls:\r\n        task = s.get(url)\r\n        tasks.append(task)\r\n    results = await asyncio.gather(*tasks)\r\n```\r\n\r\nFor low-level APIs, Scrapy integration and other advanced topics, see the\r\n[docs](https://curl-cffi.readthedocs.io) for more details.\r\n\r\n### WebSockets\r\n\r\n```python\r\nfrom curl_cffi import WebSocket\r\n\r\ndef on_message(ws: WebSocket, message: str | bytes):\r\n    print(message)\r\n\r\nws = WebSocket(on_message=on_message)\r\nws.run_forever(\"wss://api.gemini.com/v1/marketdata/BTCUSD\")\r\n```\r\n\r\n### Asyncio WebSockets\r\n\r\n```python\r\nimport asyncio\r\nfrom curl_cffi import AsyncSession\r\n\r\nasync with AsyncSession() as session:\r\n    async with session.ws_connect(\"wss://echo.websocket.org\") as ws:\r\n        await asyncio.gather(*[ws.send_str(\"Hello, World!\") for _ in range(10)])\r\n        async for message in ws:\r\n            print(message)\r\n```\r\n\r\nSee the WebSocket [docs](https://curl-cffi.readthedocs.io/en/latest/websockets.html) for full details and advanced options.\r\n\r\n## Ecosystem\r\n\r\n- Integrating with Scrapy: [divtiply/scrapy-curl-cffi](https://github.com/divtiply/scrapy-curl-cffi), [jxlil/scrapy-impersonate](https://github.com/jxlil/scrapy-impersonate) and [tieyongjie/scrapy-fingerprint](https://github.com/tieyongjie/scrapy-fingerprint).\r\n- Integrating with [requests](https://github.com/el1s7/curl-adapter), [httpx](https://github.com/vgavro/httpx-curl-cffi) as adapter.\r\n- Integrating with captcha resolvers: [YesCaptcha](https://yescaptcha.com/i/stfnIO).\r\n\r\n## Acknowledgement\r\n\r\n- Originally forked from [multippt/python_curl_cffi](https://github.com/multippt/python_curl_cffi), which is under the MIT license.\r\n- Headers/Cookies files are copied from [httpx](https://github.com/encode/httpx/blob/master/httpx/_models.py), which is under the BSD license.\r\n- Asyncio support is inspired by Tornado's curl http client.\r\n- The synchronous WebSocket API is inspired by [websocket_client](https://github.com/websocket-client/websocket-client).\r\n- The asynchronous WebSocket API is inspired by [aiohttp](https://github.com/aio-libs/aiohttp).\r\n\r\n## Contributing\r\n\r\nWhen submitting an PR, please use a different branch other than `main` and check the\r\n\"Allow edits by maintainers\" box, so I can update your PR with lint or style fixes. Thanks!\r\n\r\n### AI Policy\r\n\r\n- Using AI is neither encouraged nor discouraged, use it by your own choice.\r\n- The bottom line here is that every line of code should be **reviewed by human**, and should be [proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).\r\n- It's not guaranteed that AI will come up with the cleanest solution, you are responsible to guide it to the right way you know.\r\n- Fix any lint errors, make sure your code follows the established convention in this project.\r\n- LLM tends to generate extensive or none comments, revise the comments and make sure they are concise and helpful.\r\n- It's absolutely **not acceptable** to generate the entire PR summary by LLM. To communicate with other human, use words from a human.\r\n- The only acceptable exception is to fix grammar issues if you are not a native English speaker.\r\n- The essence here is to keep [Human in the loop](https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159)\r\n\r\nYou can even feed the policy above to your \"copilot\" to let it adjust the style for you. :P\r\n"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\RECORD",
+      "compressedSize": 2142,
+      "size": 5010,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\REQUESTED",
+      "compressedSize": 8,
+      "size": 0,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\WHEEL",
+      "compressedSize": 106,
+      "size": 100,
+      "type": "b",
+      "metadata": "Wheel-Version: 1.0\nGenerator: setuptools (83.0.0)\nRoot-Is-Purelib: false\nTag: cp310-abi3-win_amd64\n\n"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\entry_points.txt",
+      "compressedSize": 52,
+      "size": 49,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\licenses\\LICENSE",
+      "compressedSize": 664,
+      "size": 1129,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi-0.16.0.dist-info\\top_level.txt",
+      "compressedSize": 18,
+      "size": 10,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi.libs\\libcurl-impersonate-ec8ead0e422fe4ae62a99233a63f6007.dll",
+      "compressedSize": 1844963,
+      "size": 3881472,
+      "type": "b"
+    },
+    {
+      "name": "curl_cffi\\_wrapper.pyd",
+      "compressedSize": 13491,
+      "size": 39424,
+      "type": "b"
+    },
+    {
+      "name": "libcrypto-1_1.dll",
+      "compressedSize": 1317374,
+      "size": 3450648,
+      "type": "b"
+    },
+    {
+      "name": "libffi-7.dll",
+      "compressedSize": 18268,
+      "size": 32792,
+      "type": "b"
+    },
+    {
+      "name": "libssl-1_1.dll",
+      "compressedSize": 249817,
+      "size": 704792,
+      "type": "b"
+    },
+    {
+      "name": "pyexpat.pyd",
+      "compressedSize": 95860,
+      "size": 198936,
+      "type": "b"
+    },
+    {
+      "name": "python3.dll",
+      "compressedSize": 22753,
+      "size": 66328,
+      "type": "b"
+    },
+    {
+      "name": "python310.dll",
+      "compressedSize": 1975846,
+      "size": 4458776,
+      "type": "b"
+    },
+    {
+      "name": "select.pyd",
+      "compressedSize": 17265,
+      "size": 29976,
+      "type": "b"
+    },
+    {
+      "name": "sqlite3.dll",
+      "compressedSize": 800402,
+      "size": 1511192,
+      "type": "b"
+    },
+    {
+      "name": "ucrtbase.dll",
+      "compressedSize": 650297,
+      "size": 1361448,
+      "type": "b"
+    },
+    {
+      "name": "unicodedata.pyd",
+      "compressedSize": 408904,
+      "size": 1123608,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\INSTALLER",
+      "compressedSize": 12,
+      "size": 4,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\METADATA",
+      "compressedSize": 2661,
+      "size": 6980,
+      "type": "b",
+      "metadata": "Metadata-Version: 2.4\r\nName: websockets\r\nVersion: 16.1.1\r\nSummary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)\r\nAuthor-email: Aymeric Augustin <aymeric.augustin@m4x.org>\r\nLicense-Expression: BSD-3-Clause\r\nProject-URL: Homepage, https://github.com/python-websockets/websockets\r\nProject-URL: Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html\r\nProject-URL: Documentation, https://websockets.readthedocs.io/\r\nProject-URL: Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme\r\nProject-URL: Tracker, https://github.com/python-websockets/websockets/issues\r\nKeywords: WebSocket\r\nClassifier: Development Status :: 5 - Production/Stable\r\nClassifier: Environment :: Web Environment\r\nClassifier: Intended Audience :: Developers\r\nClassifier: Operating System :: OS Independent\r\nClassifier: Programming Language :: Python\r\nClassifier: Programming Language :: Python :: 3\r\nClassifier: Programming Language :: Python :: 3.10\r\nClassifier: Programming Language :: Python :: 3.11\r\nClassifier: Programming Language :: Python :: 3.12\r\nClassifier: Programming Language :: Python :: 3.13\r\nClassifier: Programming Language :: Python :: 3.14\r\nRequires-Python: >=3.10\r\nDescription-Content-Type: text/x-rst\r\nLicense-File: LICENSE\r\nDynamic: description\r\nDynamic: description-content-type\r\nDynamic: license-file\r\n\r\n.. image:: logo/horizontal.svg\r\n   :width: 480px\r\n   :alt: websockets\r\n\r\n|licence| |version| |pyversions| |tests| |docs| |openssf|\r\n\r\n.. |licence| image:: https://img.shields.io/pypi/l/websockets.svg\r\n    :target: https://pypi.python.org/pypi/websockets\r\n\r\n.. |version| image:: https://img.shields.io/pypi/v/websockets.svg\r\n    :target: https://pypi.python.org/pypi/websockets\r\n\r\n.. |pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg\r\n    :target: https://pypi.python.org/pypi/websockets\r\n\r\n.. |tests| image:: https://img.shields.io/github/checks-status/python-websockets/websockets/main?label=tests\r\n   :target: https://github.com/python-websockets/websockets/actions/workflows/tests.yml\r\n\r\n.. |docs| image:: https://img.shields.io/readthedocs/websockets.svg\r\n   :target: https://websockets.readthedocs.io/\r\n\r\n.. |openssf| image:: https://bestpractices.coreinfrastructure.org/projects/6475/badge\r\n   :target: https://bestpractices.coreinfrastructure.org/projects/6475\r\n\r\nWhat is ``websockets``?\r\n-----------------------\r\n\r\nwebsockets is a library for building WebSocket_ servers and clients in Python\r\nwith a focus on correctness, simplicity, robustness, and performance.\r\n\r\n.. _WebSocket: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API\r\n\r\nBuilt on top of ``asyncio``, Python's standard asynchronous I/O framework, the\r\ndefault implementation provides an elegant coroutine-based API.\r\n\r\nAn implementation on top of ``threading`` and a Sans-I/O implementation are also\r\navailable.\r\n\r\n`Documentation is available on Read the Docs. <https://websockets.readthedocs.io/>`_\r\n\r\n.. copy-pasted because GitHub doesn't support the include directive\r\n\r\nHere's an echo server with the ``asyncio`` API:\r\n\r\n.. code:: python\r\n\r\n    #!/usr/bin/env python\r\n\r\n    import asyncio\r\n    from websockets.asyncio.server import serve\r\n\r\n    async def echo(websocket):\r\n        async for message in websocket:\r\n            await websocket.send(message)\r\n\r\n    async def main():\r\n        async with serve(echo, \"localhost\", 8765) as server:\r\n            await server.serve_forever()\r\n\r\n    asyncio.run(main())\r\n\r\nHere's how a client sends and receives messages with the ``threading`` API:\r\n\r\n.. code:: python\r\n\r\n    #!/usr/bin/env python\r\n\r\n    from websockets.sync.client import connect\r\n\r\n    def hello():\r\n        with connect(\"ws://localhost:8765\") as websocket:\r\n            websocket.send(\"Hello world!\")\r\n            message = websocket.recv()\r\n            print(f\"Received: {message}\")\r\n\r\n    hello()\r\n\r\n\r\nDoes that look good?\r\n\r\n`Get started with the tutorial! <https://websockets.readthedocs.io/en/stable/intro/index.html>`_\r\n\r\nWhy should I use ``websockets``?\r\n--------------------------------\r\n\r\nThe development of ``websockets`` is shaped by four principles:\r\n\r\n1. **Correctness**: ``websockets`` is heavily tested for compliance with\r\n   :rfc:`6455`. Continuous integration fails under 100% branch coverage.\r\n\r\n2. **Simplicity**: all you need to understand is ``msg = await ws.recv()`` and\r\n   ``await ws.send(msg)``. ``websockets`` takes care of managing connections\r\n   so you can focus on your application.\r\n\r\n3. **Robustness**: ``websockets`` is built for production. For example, it was\r\n   the only library to `handle backpressure correctly`_ before the issue\r\n   became widely known in the Python community.\r\n\r\n4. **Performance**: memory usage is optimized and configurable. A C extension\r\n   accelerates expensive operations. It's pre-compiled for Linux, macOS and\r\n   Windows and packaged in the wheel format for each system and Python version.\r\n\r\nDocumentation is a first class concern in the project. Head over to `Read the\r\nDocs`_ and see for yourself.\r\n\r\n.. _Read the Docs: https://websockets.readthedocs.io/\r\n.. _handle backpressure correctly: https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/#websocket-servers\r\n\r\nWhy shouldn't I use ``websockets``?\r\n-----------------------------------\r\n\r\n* If you prefer callbacks over coroutines: ``websockets`` was created to\r\n  provide the best coroutine-based API to manage WebSocket connections in\r\n  Python. Pick another library for a callback-based API.\r\n\r\n* If you're looking for a mixed HTTP / WebSocket library: ``websockets`` aims\r\n  at being an excellent implementation of :rfc:`6455`: The WebSocket Protocol\r\n  and :rfc:`7692`: Compression Extensions for WebSocket. Its support for HTTP\r\n  is minimal — just enough for an HTTP health check.\r\n\r\n  If you want to do both in the same server, look at HTTP + WebSocket servers\r\n  that build on top of ``websockets`` to support WebSocket connections, like\r\n  uvicorn_ or Sanic_.\r\n\r\n.. _uvicorn: https://www.uvicorn.org/\r\n.. _Sanic: https://sanic.dev/en/\r\n\r\nWhat else?\r\n----------\r\n\r\nBug reports, patches and suggestions are welcome!\r\n\r\nTo report a security vulnerability, please use the `Tidelift security\r\ncontact`_. Tidelift will coordinate the fix and disclosure.\r\n\r\n.. _Tidelift security contact: https://tidelift.com/security\r\n\r\nFor anything else, please open an issue_ or send a `pull request`_.\r\n\r\n.. _issue: https://github.com/python-websockets/websockets/issues/new\r\n.. _pull request: https://github.com/python-websockets/websockets/compare/\r\n\r\nParticipants must uphold the `Contributor Covenant code of conduct`_.\r\n\r\n.. _Contributor Covenant code of conduct: https://github.com/python-websockets/websockets/blob/main/CODE_OF_CONDUCT.md\r\n\r\n``websockets`` is released under the `BSD license`_.\r\n\r\n.. _BSD license: https://github.com/python-websockets/websockets/blob/main/LICENSE\r\n"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\RECORD",
+      "compressedSize": 2970,
+      "size": 7741,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\REQUESTED",
+      "compressedSize": 8,
+      "size": 0,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\WHEEL",
+      "compressedSize": 104,
+      "size": 101,
+      "type": "b",
+      "metadata": "Wheel-Version: 1.0\nGenerator: setuptools (83.0.0)\nRoot-Is-Purelib: false\nTag: cp310-cp310-win_amd64\n\n"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\entry_points.txt",
+      "compressedSize": 50,
+      "size": 51,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\licenses\\LICENSE",
+      "compressedSize": 783,
+      "size": 1538,
+      "type": "b"
+    },
+    {
+      "name": "websockets-16.1.1.dist-info\\top_level.txt",
+      "compressedSize": 19,
+      "size": 11,
+      "type": "b"
+    },
+    {
+      "name": "websockets\\speedups.cp310-win_amd64.pyd",
+      "compressedSize": 4967,
+      "size": 11264,
+      "type": "b"
+    },
+    {
+      "name": "yt_dlp_ejs\\yt\\solver\\core.min.js",
+      "compressedSize": 2307,
+      "size": 6945,
+      "type": "b"
+    },
+    {
+      "name": "yt_dlp_ejs\\yt\\solver\\lib.min.js",
+      "compressedSize": 46292,
+      "size": 151561,
+      "type": "b"
+    },
+    {
+      "name": "pyi-contents-directory _internal",
+      "compressedSize": 0,
+      "size": 0,
+      "type": "o"
+    },
+    {
+      "name": "PYZ.pyz",
+      "compressedSize": 7059909,
+      "size": 7059909,
+      "type": "z"
+    }
+  ]
+}

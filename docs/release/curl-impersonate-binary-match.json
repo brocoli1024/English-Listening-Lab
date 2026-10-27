@@ -1,0 +1,23 @@
+{
+  "releaseUrl": "https://github.com/lexiforest/curl-impersonate/releases/tag/v2.0.0",
+  "tag": "v2.0.0",
+  "releaseId": 363483298,
+  "publishedAt": "2026-08-01T09:22:20Z",
+  "assetId": 497765238,
+  "assetUrl": "https://github.com/lexiforest/curl-impersonate/releases/download/v2.0.0/libcurl-impersonate-v2.0.0.x86_64-win32.tar.gz",
+  "assetUpdatedAt": "2026-08-01T09:22:17Z",
+  "githubDigest": "sha256:88e5b641a13b9a991857996947837c6f058cc3b0c9142ded0fc17b82008e98b2",
+  "archiveSha256": "88e5b641a13b9a991857996947837c6f058cc3b0c9142ded0fc17b82008e98b2",
+  "officialDllSha256": "ec8ead0e422fe4ae62a99233a63f6007adc727caba97ff1f87385c00cafe200f",
+  "bundledDllSha256": "ec8ead0e422fe4ae62a99233a63f6007adc727caba97ff1f87385c00cafe200f",
+  "exactMatch": true,
+  "githubDigestMatches": true,
+  "source": {
+    "commit": "ec41b71ce888806bfec56ada7a7258d333eb3d19",
+    "url": "https://github.com/lexiforest/curl-impersonate/tree/ec41b71ce888806bfec56ada7a7258d333eb3d19",
+    "archiveUrl": "https://api.github.com/repos/lexiforest/curl-impersonate/tarball/ec41b71ce888806bfec56ada7a7258d333eb3d19",
+    "sha256": "3b3884b1668683b9c2fb691ab2b84f92d22a521c7232e2b2fafebec264e73025",
+    "file": "desktop/.downloads/compliance/curl-impersonate-v2.0.0-source.tar.gz",
+    "completeDependencySources": false
+  }
+}

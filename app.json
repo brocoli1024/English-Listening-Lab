@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "English Listening Lab",
+    "slug": "english-listening-lab",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/listening-lab.png",
+    "scheme": "englishlisteningapp",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#090B16",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false,
+          "recordAudioAndroid": false
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "status": "high-confidence historical resolution candidate; not direct evidence of the upstream effective Cargo.lock",
+  "build": {
+    "distribution": "BtbN FFmpeg Builds",
+    "releaseTag": "autobuild-2026-09-30-13-08",
+    "releaseUrl": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-09-30-13-08",
+    "releaseDate": "2026-09-30",
+    "target": "x86_64-pc-windows-gnu",
+    "targetEvidence": "docs/release/ffmpeg-build/images/base-win64/Dockerfile"
+  },
+  "recipe": {
+    "repository": "https://github.com/BtbN/FFmpeg-Builds",
+    "sourcePath": "docs/release/ffmpeg-build/scripts.d/50-rav1e.sh",
+    "sourceCommit": "31435de9d76fddd38f6dcc31d4014574cebb2092",
+    "command": "cargo update cc",
+    "pinnedRav1eSource": "desktop/.downloads/compliance/ffmpeg-enabled/50-rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092.tar.gz",
+    "pinnedCargoLockCc": {
+      "version": "1.2.26",
+      "checksum": "956a5e21988b87f372569b66183b78babf23ebc2e744b733e4350a752c4dafac"
+    },
+    "declaredCcRequirement": "1.0"
+  },
+  "resolutionMethod": {
+    "description": "Use the latest non-yanked compatible package published by the FFmpeg release date for the requested cc update. Cargo documents that a SPEC update conservatively keeps transitive lock entries unless the requested package cannot be updated without changing them.",
+    "cargoDocumentation": "https://doc.rust-lang.org/cargo/commands/cargo-update.html",
+    "cratesIoApi": "https://crates.io/api/v1/crates/{crate}/{version}",
+    "dateBoundary": "2026-09-30T13:09:00Z",
+    "candidateCc": "1.5.1",
+    "candidateDependencies": [
+      {
+        "name": "find-msvc-tools",
+        "candidateVersion": "0.1.14",
+        "requirementFromCc": "0.1.14",
+        "publishedAt": "2026-09-25T10:09:48.951244Z",
+        "notYankedAtMetadataQuery": true,
+        "cratesIoChecksum": "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484",
+        "archive": {
+          "path": "desktop/.downloads/compliance/find-msvc-tools-0.1.14.crate",
+          "cratesIoChecksum": "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484"
+        }
+      },
+      {
+        "name": "jobserver",
+        "candidateVersion": "0.1.33",
+        "requirementFromCc": "0.1.32",
+        "resolution": "Existing rav1e Cargo.lock entry satisfies the new requirement and is retained by Cargo's conservative SPEC update.",
+        "cratesIoChecksum": "38f262f097c174adebe41eb73d66ae9c06b2844fb0da69969647bbddd9b0538a"
+      },
+      {
+        "name": "libc",
+        "candidateVersion": "0.2.172",
+        "requirementFromCc": "0.2.168",
+        "resolution": "Existing rav1e Cargo.lock entry satisfies the new Unix build dependency requirement and is retained by Cargo's conservative SPEC update.",
+        "cratesIoChecksum": "d750af042f7ef4f724306de029d18836c26c1765a54a6a3f094cbd23a7267ffa"
+      },
+      {
+        "name": "shlex",
+        "candidateVersion": "2.0.1",
+        "requirementFromCc": "2.0.1",
+        "publishedAt": "2026-05-17T10:56:12Z",
+        "notYankedAtMetadataQuery": true,
+        "cratesIoChecksum": "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba",
+        "archive": {
+          "path": "desktop/.downloads/compliance/ffmpeg-librsvg-crates/shlex-2.0.1.crate",
+          "cratesIoChecksum": "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba"
+        }
+      }
+    ],
+    "unavoidableNewPackages": ["find-msvc-tools 0.1.14", "shlex 2.0.1"],
+    "candidateNewPackages": [
+      {
+        "name": "cc",
+        "version": "1.5.1",
+        "publishedAt": "2026-09-25T13:33:11.057198Z",
+        "notYankedAtMetadataQuery": true,
+        "license": "MIT OR Apache-2.0",
+        "cratesIoChecksum": "f360145194ee8e21db5ee7f3fcd4fe52210864c75c985dae33218202c8bbe040",
+        "archive": {
+          "path": "desktop/.downloads/compliance/cc-1.5.1.crate",
+          "cratesIoChecksum": "f360145194ee8e21db5ee7f3fcd4fe52210864c75c985dae33218202c8bbe040"
+        },
+        "embeddedLicenseFiles": ["cc-1.5.1/LICENSE-APACHE", "cc-1.5.1/LICENSE-MIT"],
+        "sourceNotes": "Verified downloaded archive SHA-256 against the official crates.io version API. The crate manifest identifies cc as a build-time dependency and enables optional jobserver/libc through its parallel feature."
+      },
+      {
+        "name": "find-msvc-tools",
+        "version": "0.1.14",
+        "publishedAt": "2026-09-25T10:09:48.951244Z",
+        "notYankedAtMetadataQuery": true,
+        "license": "MIT OR Apache-2.0",
+        "cratesIoChecksum": "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484",
+        "archive": {
+          "path": "desktop/.downloads/compliance/find-msvc-tools-0.1.14.crate",
+          "cratesIoChecksum": "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484"
+        },
+        "embeddedLicenseFiles": ["find-msvc-tools-0.1.14/LICENSE-APACHE", "find-msvc-tools-0.1.14/LICENSE-MIT"],
+        "sourceNotes": "Verified downloaded archive SHA-256 against the official crates.io version API. cc 1.5.1 requires version 0.1.14 or compatible."
+      }
+    ]
+  },
+  "independentVerification": {
+    "officialMetadataQueries": [
+      "https://crates.io/api/v1/crates/cc/versions",
+      "https://crates.io/api/v1/crates/find-msvc-tools/versions",
+      "https://crates.io/api/v1/crates/shlex/versions"
+    ],
+    "candidateCcNewestBeforeBoundary": "1.5.1; 1.6.0 was published 2026-10-03T02:04:06Z",
+    "candidateFindMsvcToolsNewestBeforeBoundary": "0.1.14",
+    "candidateShlexNewestBeforeBoundary": "2.0.1",
+    "archiveDigestsCheckedAgainstCratesIo": true,
+    "crateLicenseFilesChecked": true
+  },
+  "limitations": [
+    "No upstream build log, post-update Cargo.lock, or Cargo vendor directory was found for the exact FFmpeg binary. This is a historical resolver reconstruction, not proof of the exact lockfile used by that build.",
+    "The update command may have run against a different registry mirror/index snapshot or resolver configuration; no such build configuration record was available.",
+    "These are build-time dependency candidates. This record does not establish whether any build-time code is incorporated into the distributed FFmpeg runtime binary."
+  ]
+}

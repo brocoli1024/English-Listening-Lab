@@ -1,0 +1,89 @@
+{
+  "asOf": "2026-10-20",
+  "scope": "Notice applicability review, not legal clearance or full shipped SBOM. Later official supplements are distinguished from original release files.",
+  "resolved": [
+    {
+      "package": "aead-gcm-stream-0.4.0",
+      "status": "official-later-notice-supplement-accepted",
+      "licensePath": "docs/release/licenses/deno-embedded/aead-gcm-stream-0.4.0/LICENSE-MIT",
+      "licenseSha256": "c665b82513ae30115c38e72f7dc232d1652d9c07f0bde81358b57a28f61ec711",
+      "upstreamGitBlobSha": "cde70dde444c0584fea2d112053c6a8d67e08249",
+      "upstreamCommit": "34483de068985e32665292d736e9801ad7ec2502",
+      "licenseUrl": "https://github.com/littledivy/aead-gcm-stream/blob/34483de068985e32665292d736e9801ad7ec2502/LICENSE.md",
+      "discussionUrl": "https://github.com/littledivy/aead-gcm-stream/issues/4#issuecomment-6253827741",
+      "basis": "Owner explicitly confirms notice applies to 0.4.0 and all prior releases.",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/aead-gcm-stream-0.4.0.crate",
+      "registryArchiveSha256": "e70c8dec860340effb00f6945c49c0daaa6dac963602750db862eabb74bf7886",
+      "evidenceFile": "docs/release/parent-license-review-2026-10-20/aead-license-fixed.json",
+      "needNewMaintainerInquiry": false
+    },
+    {
+      "package": "convert_case-0.4.0",
+      "status": "official-later-notice-supplement-accepted",
+      "licensePath": "docs/release/licenses/deno-embedded/convert_case-0.4.0/LICENSE-MIT",
+      "licenseSha256": "797087750c4103075e96bb7a60202a040812f8679ae2f7263148a1cc0b298d28",
+      "upstreamGitBlobSha": "aea2ac60b6f7da90fac664bbe3b82cecdfa9f72a",
+      "upstreamCommit": "603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+      "licenseUrl": "https://github.com/rutrum/convert-case/blob/603143ab2b6fb6067fe6788ce3d2935fd5bc18ff/LICENSE",
+      "discussionUrl": "https://github.com/rutrum/convert-case/pull/1",
+      "basis": "Owner merged missing-license correction in 2020. Comparison from pinned 0.4.0 revision changes only LICENSE, README and documentation cfg attributes; accepted as a later official notice supplement, not a file originally shipped in the crate.",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/convert_case-0.4.0.crate",
+      "registryArchiveSha256": "6245d59a3e82a7fc217c5828a6692dbc6dfb63a0c8c90495621f7b9d79704a0e",
+      "evidenceFile": "docs/release/parent-license-review-2026-10-20/convert-license-at-merge.json",
+      "needNewMaintainerInquiry": false
+    },
+    {
+      "package": "sys_traits-0.1.28",
+      "status": "official-later-notice-supplement-accepted",
+      "licensePath": "docs/release/licenses/deno-embedded/sys_traits-0.1.28/LICENSE-MIT",
+      "licenseSha256": "429efaf45c4004a7e0b589b1938755dad03ad649a813bd7305457d3f8ee8035f",
+      "upstreamGitBlobSha": "be4e615332cdc55efc9d3d91aaa34364b8e4cea2",
+      "upstreamCommit": "4e60da07c2cb1828e359f4a3be21d5e4ae511404",
+      "licenseUrl": "https://github.com/dsherret/sys_traits/blob/4e60da07c2cb1828e359f4a3be21d5e4ae511404/LICENSE",
+      "discussionUrl": "https://github.com/dsherret/sys_traits/pull/89",
+      "basis": "Owner added root MIT license to resolve issue 88 explicitly about 0.1.28; owner acknowledged omission.",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/sys_traits-0.1.28.crate",
+      "registryArchiveSha256": "88826d6169418c98e8bc52a43f79d50907dfa3e87ba5161930d42c6f980b35ee",
+      "evidenceFile": "docs/release/parent-license-review-2026-10-20/sys-license-at-merge.json",
+      "needNewMaintainerInquiry": false
+    },
+    {
+      "package": "sys_traits_macros-0.1.0",
+      "status": "official-later-notice-supplement-accepted",
+      "licensePath": "docs/release/licenses/deno-embedded/sys_traits_macros-0.1.0/LICENSE-MIT",
+      "licenseSha256": "429efaf45c4004a7e0b589b1938755dad03ad649a813bd7305457d3f8ee8035f",
+      "upstreamGitBlobSha": "be4e615332cdc55efc9d3d91aaa34364b8e4cea2",
+      "upstreamCommit": "4e60da07c2cb1828e359f4a3be21d5e4ae511404",
+      "licenseUrl": "https://github.com/dsherret/sys_traits/blob/4e60da07c2cb1828e359f4a3be21d5e4ae511404/LICENSE",
+      "discussionUrl": "https://github.com/dsherret/sys_traits/pull/89",
+      "basis": "Root notice covers repository crates; macro lib.rs and Cargo.toml.orig from checksum-verified published 0.1.0 match macros/lib.rs and Cargo.toml at the license merge byte for byte. Original dirty VCS marker is not used as identity proof.",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/sys_traits_macros-0.1.0.crate",
+      "registryArchiveSha256": "181f22127402abcf8ee5c83ccd5b408933fec36a6095cf82cda545634692657e",
+      "evidenceFile": "docs/release/parent-license-review-2026-10-20/sys-license-at-merge.json",
+      "needNewMaintainerInquiry": false
+    }
+  ],
+  "awaitingExistingIssues": [
+    {
+      "package": "deno_native_certs-0.3.0",
+      "issue": "https://github.com/denoland/deno_native_certs/issues/7",
+      "reason": "Deno root MIT text does not explicitly identify this separate repository; no package-specific authoritative notice or response found.",
+      "needMaintainerClarification": true,
+      "createDuplicateIssue": false
+    },
+    {
+      "package": "fqdn-0.5.2",
+      "issue": "https://github.com/Orange-OpenSource/fqdn/issues/8",
+      "reason": "README and manifest declare MIT, but no full notice found; organization membership alone does not establish a package copyright statement.",
+      "needMaintainerClarification": true,
+      "createDuplicateIssue": false
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "issue": "https://github.com/fasterthanlime/stringsearch/issues/3",
+      "reason": "Monorepo root README directs readers to individual crates for licensing; sibling notices do not explicitly cover sacabase.",
+      "needMaintainerClarification": true,
+      "createDuplicateIssue": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parentCommit": "b87738951c1254cd8cccaa6d47712ba735da56d8",
+  "gitlinkEvidence": "docs/release/libjxl-git-tree.json",
+  "gitlinkPath": "third_party/highway",
+  "commit": "457c891775a7397bdb0376bb1031e6e027af1c48",
+  "url": "https://codeload.github.com/google/highway/tar.gz/457c891775a7397bdb0376bb1031e6e027af1c48",
+  "path": "desktop/.downloads/compliance/ffmpeg-enabled/highway-457c891775a7397bdb0376bb1031e6e027af1c48.tar.gz",
+  "sha256": "5124b0501c98d9930dbb065bfa1a5bbbd59ce0f12facb7e1e33aaef01a5f1f1a",
+  "licenses": [
+    {
+      "path": "docs/release/licenses/ffmpeg-highway/LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "docs/release/licenses/ffmpeg-highway/LICENSE-BSD3",
+      "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+    },
+    {
+      "path": "docs/release/licenses/ffmpeg-highway/debian/copyright",
+      "sha256": "6e4ecf1cae052b678ea3178dd4b3652d581ee66a82d58db8800dd7d80dd6de76"
+    }
+  ],
+  "nestedMetadata": [],
+  "scope": "Exact parent gitlink; local archive integrity hash, not upstream published checksum. No claim of full FFmpeg dependency closure."
+}

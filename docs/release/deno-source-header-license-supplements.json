@@ -1,0 +1,29 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Package-specific MIT license texts for Deno registry packages whose exact archived source contains an explicit copyright and MIT notice.",
+  "canonicalLicenseSource": "docs/release/licenses/spdx-canonical/MIT.txt",
+  "packages": [
+    {
+      "package": "deno_tunnel-0.8.1",
+      "declaredLicense": "MIT",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/deno_tunnel-0.8.1.crate",
+      "registryArchiveSha256": "e432929e0c167f2a003b963ee406c714fcd947a87d4f9edc7b3255e87be9881d",
+      "sourceFile": "deno_tunnel-0.8.1/src/lib.rs",
+      "verifiedCopyrightHeader": "Copyright 2018-2025 the Deno authors. MIT license.",
+      "licenseTextPath": "docs/release/licenses/deno-embedded/deno_tunnel-0.8.1/LICENSE-MIT",
+      "licenseTextSha256": "86e68d204d51eb96406b8956b299f9082e03bb6a2ada173db83696f10dcb8c31",
+      "licenseTextBasis": "SPDX canonical MIT full text with copyright line populated only from the checksum-verified crate source header"
+    },
+    {
+      "package": "rustls-tokio-stream-0.8.0",
+      "declaredLicense": "MIT",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/rustls-tokio-stream-0.8.0.crate",
+      "registryArchiveSha256": "0560d12c0d8c672f849197de91b9ee61f5bf9aa024c97aaeeb112ec2f6c347fd",
+      "sourceFile": "rustls-tokio-stream-0.8.0/src/lib.rs",
+      "verifiedCopyrightHeader": "Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.",
+      "licenseTextPath": "docs/release/licenses/deno-embedded/rustls-tokio-stream-0.8.0/LICENSE-MIT",
+      "licenseTextSha256": "4b474e09810b304630566060e719ceea27c85337ca40b9a682c5c60b679c6a6b",
+      "licenseTextBasis": "SPDX canonical MIT full text with copyright line populated only from the checksum-verified crate source header"
+    }
+  ]
+}

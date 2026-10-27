@@ -1,0 +1,5 @@
+# Preserve byte-for-byte upstream source, license, and compliance evidence.
+docs/release/** -text
+
+# MSYS2 bash must receive LF scripts even with core.autocrlf enabled.
+scripts/*.sh text eol=lf

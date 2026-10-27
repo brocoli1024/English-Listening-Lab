@@ -1,0 +1,321 @@
+{
+  "sha": "69a023098378b66e8f8852173b65ca5762b201e2",
+  "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/69a023098378b66e8f8852173b65ca5762b201e2",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4ebcb37c78a328be60de3c15299d2e600317202",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/c4ebcb37c78a328be60de3c15299d2e600317202"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c88a521cae45d5ec9e63ee23d4aad3c035f6740b",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/c88a521cae45d5ec9e63ee23d4aad3c035f6740b"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5b3e05c07b074f292245c2eaca8772caeffc75",
+      "size": 502,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/4e5b3e05c07b074f292245c2eaca8772caeffc75"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240c72a74ee1de41d8c39300d2042e54d3a7d72c",
+      "size": 19,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/240c72a74ee1de41d8c39300d2042e54d3a7d72c"
+    },
+    {
+      "path": "Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97a3bd7f954583d63450064ebc07420133e298e",
+      "size": 10732,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/a97a3bd7f954583d63450064ebc07420133e298e"
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac662138941d6bcd807417d4b4cdda3492709fa",
+      "size": 449,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/0ac662138941d6bcd807417d4b4cdda3492709fa"
+    },
+    {
+      "path": "README.md",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "a6504f0ced646b80943f8d5b58a0f06d65a88864",
+      "size": 26,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/a6504f0ced646b80943f8d5b58a0f06d65a88864"
+    },
+    {
+      "path": "crates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0433b21298a213b9a1266a464678eaf8abb84a78",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/0433b21298a213b9a1266a464678eaf8abb84a78"
+    },
+    {
+      "path": "crates/derive-io-macros",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e53846801a0513a67723511d43e6abae4abc55b3",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/e53846801a0513a67723511d43e6abae4abc55b3"
+    },
+    {
+      "path": "crates/derive-io-macros/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72acf1c33e42ae3f6133126e0c046097a268b3c3",
+      "size": 268,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/72acf1c33e42ae3f6133126e0c046097a268b3c3"
+    },
+    {
+      "path": "crates/derive-io-macros/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af5ce02f986109ee55335f1d499accf1764d194b",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/af5ce02f986109ee55335f1d499accf1764d194b"
+    },
+    {
+      "path": "crates/derive-io-macros/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5cf5a363c1acb77183cc6623e8c219e736ef83c",
+      "size": 22679,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/d5cf5a363c1acb77183cc6623e8c219e736ef83c"
+    },
+    {
+      "path": "crates/derive-io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef0c7ac569c1aa6a23a0940d7908ed3d6f770505",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/ef0c7ac569c1aa6a23a0940d7908ed3d6f770505"
+    },
+    {
+      "path": "crates/derive-io/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6611a5dd530be1e30ae7fecb14882fa9e84f497",
+      "size": 487,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/d6611a5dd530be1e30ae7fecb14882fa9e84f497"
+    },
+    {
+      "path": "crates/derive-io/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee95de3ad4baabd48b94006b8ea4cb30f4b02106",
+      "size": 6077,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/ee95de3ad4baabd48b94006b8ea4cb30f4b02106"
+    },
+    {
+      "path": "crates/derive-io/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb37b0479feb48a0a4a726589ec0ee3b378d653b",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/bb37b0479feb48a0a4a726589ec0ee3b378d653b"
+    },
+    {
+      "path": "crates/derive-io/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b10057a38c15a9d386233dac1021ed687511f44",
+      "size": 29190,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/1b10057a38c15a9d386233dac1021ed687511f44"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75fe9eee9f7be96e46d6e5ac9abda9e1255612b9",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/75fe9eee9f7be96e46d6e5ac9abda9e1255612b9"
+    },
+    {
+      "path": "examples/stdio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05a5ce867613cb55ad1fbd4f69dc71a12e5e9068",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/05a5ce867613cb55ad1fbd4f69dc71a12e5e9068"
+    },
+    {
+      "path": "examples/stdio/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b25fb6d1d9404398470ede63765d36b32742393",
+      "size": 373,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/6b25fb6d1d9404398470ede63765d36b32742393"
+    },
+    {
+      "path": "examples/stdio/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d630520b1e02ed189a1dabfbe476b50a855e54af",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/d630520b1e02ed189a1dabfbe476b50a855e54af"
+    },
+    {
+      "path": "examples/stdio/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd9eff61fcc44ebac582e87a3721575d513e49d",
+      "size": 1418,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/7fd9eff61fcc44ebac582e87a3721575d513e49d"
+    },
+    {
+      "path": "examples/stdio/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8731ae2a024f17ce3ec92d7496f9a27fd866748",
+      "size": 53,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/d8731ae2a024f17ce3ec92d7496f9a27fd866748"
+    },
+    {
+      "path": "examples/stdio/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c87039f854077c53fcefc2b879101ed29bfcc3e1",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/c87039f854077c53fcefc2b879101ed29bfcc3e1"
+    },
+    {
+      "path": "examples/stdio/tests/test_runner.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee60b7a981223523944d003f424df4f2bea5d222",
+      "size": 43,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/ee60b7a981223523944d003f424df4f2bea5d222"
+    },
+    {
+      "path": "examples/tokio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f186f8385c9aed321a7b8649585a027b03642f8e",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/f186f8385c9aed321a7b8649585a027b03642f8e"
+    },
+    {
+      "path": "examples/tokio/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150d3528efafb22c84805af8fce951d7db6b8d21",
+      "size": 423,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/150d3528efafb22c84805af8fce951d7db6b8d21"
+    },
+    {
+      "path": "examples/tokio/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24201f5cff9871d555036a4cd4b47315c90ae7f3",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/24201f5cff9871d555036a4cd4b47315c90ae7f3"
+    },
+    {
+      "path": "examples/tokio/src/as_ref.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba939998a466912e8fa79d3cb7bebcb22cfc1e7",
+      "size": 841,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/aba939998a466912e8fa79d3cb7bebcb22cfc1e7"
+    },
+    {
+      "path": "examples/tokio/src/complex_stream.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a56670f03716fa3dad04bb792e0a2ebf38626779",
+      "size": 546,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/a56670f03716fa3dad04bb792e0a2ebf38626779"
+    },
+    {
+      "path": "examples/tokio/src/duck_type.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebd50b49d38a6eff0dea93e14db4f465cf17bac",
+      "size": 1867,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/aebd50b49d38a6eff0dea93e14db4f465cf17bac"
+    },
+    {
+      "path": "examples/tokio/src/generic_enums.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80e4a22ed5b9bc9902e9bbb54c0501fafaa6cb85",
+      "size": 796,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/80e4a22ed5b9bc9902e9bbb54c0501fafaa6cb85"
+    },
+    {
+      "path": "examples/tokio/src/generic_structs.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0169d46614fea37af808f3342daaada3b213207b",
+      "size": 1516,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/0169d46614fea37af808f3342daaada3b213207b"
+    },
+    {
+      "path": "examples/tokio/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07738b4c657747051d82e681dbf6c93c8f0b308",
+      "size": 3627,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/a07738b4c657747051d82e681dbf6c93c8f0b308"
+    },
+    {
+      "path": "examples/tokio/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90054d0868bfdb31f38e5675f46c6a08a35e26f",
+      "size": 51,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/e90054d0868bfdb31f38e5675f46c6a08a35e26f"
+    },
+    {
+      "path": "examples/tokio/src/named_structs.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db2cd1f6d0c5ae0b95072d606a4ba9a8a9366713",
+      "size": 953,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/db2cd1f6d0c5ae0b95072d606a4ba9a8a9366713"
+    },
+    {
+      "path": "examples/tokio/src/override_example.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd3339e84e475b0282ff6cf75f63c574e4cfc8d",
+      "size": 2189,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/8cd3339e84e475b0282ff6cf75f63c574e4cfc8d"
+    },
+    {
+      "path": "examples/tokio/src/tokio_streams.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a9ef08e24cab772e7511feb5632fa2887bc1995",
+      "size": 971,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/3a9ef08e24cab772e7511feb5632fa2887bc1995"
+    },
+    {
+      "path": "examples/tokio/src/tuple_structs.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c2118317ce898c3d68e543c093cd4866f0a49a1",
+      "size": 1167,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/3c2118317ce898c3d68e543c093cd4866f0a49a1"
+    },
+    {
+      "path": "examples/tokio/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20196a7b4e15589c3fe686e16849cbeaeacd5390",
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/trees/20196a7b4e15589c3fe686e16849cbeaeacd5390"
+    },
+    {
+      "path": "examples/tokio/tests/test_runner.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e2019611e51dc8a9491463c5060da35afb0148",
+      "size": 43,
+      "url": "https://api.github.com/repos/mmastrac/derive-io/git/blobs/41e2019611e51dc8a9491463c5060da35afb0148"
+    }
+  ],
+  "truncated": false
+}

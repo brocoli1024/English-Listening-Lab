@@ -1,0 +1,339 @@
+{
+  "schema": 1,
+  "scope": "Fixed reviewed yt-dlp dependency sources and build support; not Microsoft SDK binary evidence or blanket distribution clearance",
+  "inputs": [
+    {
+      "name": "pycryptodomex",
+      "group": "direct-python",
+      "filename": "ytdlp-01-pycryptodomex-3.23.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/pycryptodomex-3.23.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/c9/85/e24bf90972a30b0fcd16c73009add1d7d7cd9140c2498a68252028899e41/pycryptodomex-3.23.0.tar.gz",
+      "sha256": "71909758f010c82bc99b0abf4ea12012c98962fbf0583c2164f8b84533c2e4da",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "brotli",
+      "group": "direct-python",
+      "filename": "ytdlp-02-brotli-1.2.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/brotli-1.2.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353f0a6490d7f6e06210f8554c8f874e454285/brotli-1.2.0.tar.gz",
+      "sha256": "e310f77e41941c13340a95976fe66a8a95b01e783d430eeaf7a2f87e0a57dd0a",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "certifi",
+      "group": "direct-python",
+      "filename": "ytdlp-03-certifi-2026.7.22.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/certifi-2026.7.22.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+      "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "curl_cffi",
+      "group": "direct-python",
+      "filename": "ytdlp-04-curl_cffi-0.16.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/curl_cffi-0.16.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/b4/23/d32e113b16dbfb458bea408871ed98dd12f306a366a04215e84537e0af7e/curl_cffi-0.16.0.tar.gz",
+      "sha256": "b00b423da8028eb6221e3b63bcd63d681150c07cee8b16000d1f7ea292731895",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "mutagen",
+      "group": "direct-python",
+      "filename": "ytdlp-05-mutagen-1.48.1.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/mutagen-1.48.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/df/70/1675da133ea92227da41bf5b24e1c66be597ff736a1533ade41da986852f/mutagen-1.48.1.tar.gz",
+      "sha256": "8f95637ab9f6f305cec6bd1294e197debe207998e3e068596563c74f86b0a173",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "requests",
+      "group": "direct-python",
+      "filename": "ytdlp-06-requests-2.34.2.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/requests-2.34.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+      "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "urllib3",
+      "group": "direct-python",
+      "filename": "ytdlp-07-urllib3-2.7.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/urllib3-2.7.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz",
+      "sha256": "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "websockets",
+      "group": "direct-python",
+      "filename": "ytdlp-08-websockets-16.1.1.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/websockets-16.1.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz",
+      "sha256": "db234eda965dcce15df96bb9709f587cd87d4d52aaf0e80e2f34ec04c7670c57",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "yt_dlp_ejs",
+      "group": "direct-python",
+      "filename": "ytdlp-09-yt_dlp_ejs-0.8.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/yt_dlp_ejs-0.8.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d3/e6/cceb9530e8f4e5940f6f7822d90e9d94f1b85343329a16baaf47bbbb3de1/yt_dlp_ejs-0.8.0.tar.gz",
+      "sha256": "d5fa1639f63b5c4af8d932495f60689d5370f1a095782c944f7f62a303eb104e",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "cffi",
+      "group": "indirect-python",
+      "filename": "ytdlp-10-cffi-2.1.1.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/cffi-2.1.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+      "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "pycparser",
+      "group": "indirect-python",
+      "filename": "ytdlp-11-pycparser-3.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/pycparser-3.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz",
+      "sha256": "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "charset_normalizer",
+      "group": "indirect-python",
+      "filename": "ytdlp-12-charset_normalizer-3.5.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/charset_normalizer-3.5.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/cb/31/4971872b3ed8715346231fb6eb4da8fcba65a4143c189db151ee28a2812b/charset_normalizer-3.5.0.tar.gz",
+      "sha256": "49bd5feb59b0bf3cbf6ebcf4352e371c95b9da9bacd4449f8b64d0ad2c10a26e",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "idna",
+      "group": "indirect-python",
+      "filename": "ytdlp-13-idna-3.18.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/idna-3.18.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz",
+      "sha256": "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "bzip2-1.0.8",
+      "group": "python-native",
+      "filename": "ytdlp-14-bzip2-1.0.8-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/bzip2-1.0.8-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/05301997b2f9590f49c672cf3dfd3d3dfa7ad521",
+      "sha256": "e09697066106f0cb83326e53867868d2d045a28d1f107fddf1fb692ccc19b5a1",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "libffi-3.3.0",
+      "group": "python-native",
+      "filename": "ytdlp-15-libffi-3.3.0-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/libffi-3.3.0-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/35a5081d073058159e8db96c43029f88c1da501a",
+      "sha256": "99dc867784bcb1521094016e6c654e3eea1fbb1c94697f8163aa61b4c73ff64d",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "openssl-1.1.1t",
+      "group": "python-native",
+      "filename": "ytdlp-16-openssl-1.1.1t-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/openssl-1.1.1t-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/82bfdc9e019e4892c5bd8f90b71c42fbf79f29d0",
+      "sha256": "f21521efbd79cf5701b976aa1e643bc5aa2b97909b36baf08b5ab8002a0b418f",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "sqlite-3.40.1.0",
+      "group": "python-native",
+      "filename": "ytdlp-17-sqlite-3.40.1.0-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/sqlite-3.40.1.0-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/db4ca556b25787c263ee72a4b764c4be474c322f",
+      "sha256": "41d074642f87b5c0a6c4f28b8369a8151107c472dc38218cd90874a1ca7a06cb",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "xz-5.2.5",
+      "group": "python-native",
+      "filename": "ytdlp-18-xz-5.2.5-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/xz-5.2.5-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/c6bc0c612605622aaef101a33a751f9de2ecc193",
+      "sha256": "1793abe3b34c9d7ce969ef569b69325d52a9ef02d194969f2053ac181e2e5e88",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "zlib-1.2.13",
+      "group": "python-native",
+      "filename": "ytdlp-19-zlib-1.2.13-cpython-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/zlib-1.2.13-cpython-source.tar.gz",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/9071e5ae1bd90c30518404b95ec0be0d4cf6cf84",
+      "sha256": "2f42a782e55c8f73260c4f2a51560b9cf5a2a8cc4a73296a2a1ee2781dd6a732",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "ZLIB",
+      "group": "curl-native",
+      "filename": "ytdlp-20-zlib.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/curl-native/zlib.tar.gz",
+      "url": "https://github.com/madler/zlib/releases/download/v1.3.1/zlib-1.3.1.tar.gz",
+      "sha256": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "ZSTD",
+      "group": "curl-native",
+      "filename": "ytdlp-21-zstd.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/curl-native/zstd.tar.gz",
+      "url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
+      "sha256": "eb33e51f49a15e023950cd7825ca74a4a2b43db8354825ac24fc1b7ee09e6fa3",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "BROTLI",
+      "group": "curl-native",
+      "filename": "ytdlp-22-brotli.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/curl-native/brotli.tar.gz",
+      "url": "https://github.com/google/brotli/archive/refs/tags/v1.2.0.tar.gz",
+      "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "BORINGSSL",
+      "group": "curl-native",
+      "filename": "ytdlp-23-boringssl.zip",
+      "cachePath": "desktop/.downloads/compliance/curl-native/boringssl.zip",
+      "url": "https://github.com/google/boringssl/archive/156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+      "sha256": "450e169b284697c6eafe523cb7679f4221fbe1a0993f773a566c33b188762844",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "NGHTTP2",
+      "group": "curl-native",
+      "filename": "ytdlp-24-nghttp2.tar.bz2",
+      "cachePath": "desktop/.downloads/compliance/curl-native/nghttp2.tar.bz2",
+      "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.63.0/nghttp2-1.63.0.tar.bz2",
+      "sha256": "607b174554d22a828bc532d1d734fe0f729b5d5ed207f2f12e96a62e83f29c55",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "NGTCP2",
+      "group": "curl-native",
+      "filename": "ytdlp-25-ngtcp2.tar.bz2",
+      "cachePath": "desktop/.downloads/compliance/curl-native/ngtcp2.tar.bz2",
+      "url": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.20.0/ngtcp2-1.20.0.tar.bz2",
+      "sha256": "871ec97ad86803cf312901b0c393b0ee70163e25a87c9b2894d1234341ce4e97",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "NGHTTP3",
+      "group": "curl-native",
+      "filename": "ytdlp-26-nghttp3.tar.bz2",
+      "cachePath": "desktop/.downloads/compliance/curl-native/nghttp3.tar.bz2",
+      "url": "https://github.com/ngtcp2/nghttp3/releases/download/v1.15.0/nghttp3-1.15.0.tar.bz2",
+      "sha256": "c6c491a52804814098e446630e6efc459afc0d3da7952ffe6cbdc0b3f99b2b62",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "CURL",
+      "group": "curl-native",
+      "filename": "ytdlp-27-curl.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/curl-native/curl.tar.gz",
+      "url": "https://github.com/curl/curl/archive/curl-8_21_0.tar.gz",
+      "sha256": "ec753aa6f408a3ca9f0d6d5f7a77417aecd1544db13c03ae5d443612bf367364",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "CPython 3.10.11",
+      "group": "python",
+      "filename": "ytdlp-28-Python-3.10.11.tar.xz",
+      "cachePath": "desktop/.downloads/compliance/Python-3.10.11.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.10.11/Python-3.10.11.tar.xz",
+      "sha256": "3c3bc3048303721c904a03eb8326b631e921f11cc3be2988456a42f115daf04c",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "pyinstaller-source.tar.gz",
+      "group": "pyinstaller",
+      "filename": "ytdlp-29-pyinstaller-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/pyinstaller-source.tar.gz",
+      "url": "https://codeload.github.com/pyinstaller/pyinstaller/tar.gz/70fc17210920bce17f4ab09bbf8104b0dbd45338",
+      "sha256": "587eb41e1087aeaf2a879b04db35b68bbe44b85f9227e263c873396806103540",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "pyinstaller-build-source.tar.gz",
+      "group": "pyinstaller",
+      "filename": "ytdlp-30-pyinstaller-build-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/pyinstaller-build-source.tar.gz",
+      "url": "https://codeload.github.com/yt-dlp/Pyinstaller-Builds/tar.gz/refs/tags/2026.08.19.215425",
+      "sha256": "861253d22a53cf73539ed5e48005a38e90df3fc5a2a1d073f79c4b5fcd6a6150",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "pyinstaller-6.22.0-win_amd64.whl",
+      "group": "pyinstaller",
+      "filename": "ytdlp-31-pyinstaller-6.22.0-win_amd64.whl",
+      "cachePath": "desktop/.downloads/compliance/pyinstaller-6.22.0-win_amd64.whl",
+      "url": "https://github.com/yt-dlp/Pyinstaller-Builds/releases/download/2026.08.19.215425/pyinstaller-6.22.0-py3-none-win_amd64.whl",
+      "sha256": "294099ecb5fdd2a13ae4c29006d4e335b697a63b6a16cf052b90ec2b40bef05a",
+      "kind": "build-support-binary"
+    },
+    {
+      "name": "typing_extensions",
+      "group": "newly-mapped-source",
+      "filename": "ytdlp-32-typing_extensions-4.16.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/typing_extensions-4.16.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+      "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "delvewheel",
+      "group": "newly-mapped-source",
+      "filename": "ytdlp-33-delvewheel-1.13.0.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/delvewheel-1.13.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/3c/ba/4ce769b09cdee86c576a35fc17bb954fa22f81037884a028c978a8479fe1/delvewheel-1.13.0.tar.gz",
+      "sha256": "440601f289c953d5b60e96af8a8dbe2729584d90b663e39c5eade6b9043b48f6",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "astring",
+      "group": "newly-mapped-source",
+      "filename": "ytdlp-34-astring-1.9.0.tgz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/astring-1.9.0.tgz",
+      "url": "https://registry.npmjs.org/astring/-/astring-1.9.0.tgz",
+      "sha256": "422cca9707aca293e85eb54fdbbc5a0a167ad415236a325ff342e720e67afb49",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "meriyah",
+      "group": "newly-mapped-source",
+      "filename": "ytdlp-35-meriyah-6.1.4.tgz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/meriyah-6.1.4.tgz",
+      "url": "https://registry.npmjs.org/meriyah/-/meriyah-6.1.4.tgz",
+      "sha256": "c0f105d9fb01bb48c76ea6ee382e6099277b95e3f351fb99b67ddfb79d6088b8",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "meriyah-preferred-source",
+      "group": "fixed-upstream-preferred-source",
+      "filename": "ytdlp-36-meriyah-abbbfe0c4e4d52649716028a4416bd0fe6644e57-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/meriyah-abbbfe0c4e4d52649716028a4416bd0fe6644e57-source.tar.gz",
+      "url": "https://codeload.github.com/meriyah/meriyah/tar.gz/abbbfe0c4e4d52649716028a4416bd0fe6644e57",
+      "sha256": "addecf994d152cfdfbe0acf492ce9a51aa16220ace76a5538de17d1cee46b2d1",
+      "kind": "source-or-distribution-input"
+    },
+    {
+      "name": "astring-preferred-source",
+      "group": "fixed-upstream-preferred-source",
+      "filename": "ytdlp-37-astring-96dfb2b347fc7e4f359b26579198097b9f0b1256-source.tar.gz",
+      "cachePath": "desktop/.downloads/compliance/yt-dlp-mapping/astring-96dfb2b347fc7e4f359b26579198097b9f0b1256-source.tar.gz",
+      "url": "https://codeload.github.com/davidbonnet/astring/tar.gz/96dfb2b347fc7e4f359b26579198097b9f0b1256",
+      "sha256": "cc907fe097a83c529235823820c787b1112d77c6ff216cae5fe17b14e5524fd5",
+      "kind": "source-or-distribution-input"
+    }
+  ]
+}

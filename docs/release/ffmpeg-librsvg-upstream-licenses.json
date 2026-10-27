@@ -1,0 +1,176 @@
+[
+  {
+    "name": "anes-0.1.6",
+    "version": "0.1.6",
+    "declaredLicense": "MIT OR Apache-2.0",
+    "repository": "https://github.com/zrzka/anes-rs",
+    "vcs": {
+      "git": {
+        "sha1": "378ac7461ecac29fde9e10df7b08359d1315a9ad"
+      }
+    },
+    "packageName": "anes",
+    "retrieved": [
+      {
+        "url": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-MIT",
+        "path": "docs/release/licenses/ffmpeg-librsvg-upstream/anes-0.1.6/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-APACHE",
+        "path": "docs/release/licenses/ffmpeg-librsvg-upstream/anes-0.1.6/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      }
+    ]
+  },
+  {
+    "name": "block-0.1.6",
+    "version": "0.1.6",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-block",
+    "vcs": null,
+    "packageName": "block",
+    "retrieved": []
+  },
+  {
+    "name": "defmt-parser-1.0.0",
+    "version": "1.0.0",
+    "declaredLicense": "MIT OR Apache-2.0",
+    "repository": "https://github.com/knurling-rs/defmt",
+    "vcs": {
+      "git": {
+        "sha1": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f"
+      },
+      "path_in_vcs": "parser"
+    },
+    "packageName": "defmt-parser",
+    "retrieved": [
+      {
+        "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+        "path": "docs/release/licenses/ffmpeg-librsvg-upstream/defmt-parser-1.0.0/LICENSE-MIT",
+        "sha256": "2710a622a896bba67356913d4d0492cab5465f61b2ecce6d880aeb483834fb50"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+        "path": "docs/release/licenses/ffmpeg-librsvg-upstream/defmt-parser-1.0.0/LICENSE-APACHE",
+        "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+      }
+    ]
+  },
+  {
+    "name": "difflib-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/DimaKudosh/difflib",
+    "vcs": null,
+    "packageName": "difflib",
+    "retrieved": []
+  },
+  {
+    "name": "malloc_buf-0.0.6",
+    "version": "0.0.6",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/SSheldon/malloc_buf",
+    "vcs": null,
+    "packageName": "malloc_buf",
+    "retrieved": []
+  },
+  {
+    "name": "mutants-0.0.4",
+    "version": "0.0.4",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/sourcefrog/cargo-mutants",
+    "vcs": {
+      "git": {
+        "sha1": "14011d08c42a7cd368698fe28f77eb4cd0b65bf0"
+      },
+      "path_in_vcs": "mutants_attrs"
+    },
+    "packageName": "mutants",
+    "retrieved": [
+      {
+        "url": "https://raw.githubusercontent.com/sourcefrog/cargo-mutants/14011d08c42a7cd368698fe28f77eb4cd0b65bf0/LICENSE",
+        "path": "docs/release/licenses/ffmpeg-librsvg-upstream/mutants-0.0.4/LICENSE",
+        "sha256": "479cbeb2506157776cf80abe31df18065d0fe50b5816ff77bfd75d5deb04ab5c"
+      }
+    ]
+  },
+  {
+    "name": "objc-foundation-0.1.1",
+    "version": "0.1.1",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-objc-foundation",
+    "vcs": null,
+    "packageName": "objc-foundation",
+    "retrieved": []
+  },
+  {
+    "name": "objc_id-0.1.1",
+    "version": "0.1.1",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-objc-id",
+    "vcs": null,
+    "packageName": "objc_id",
+    "retrieved": []
+  },
+  {
+    "name": "r-efi-5.3.0",
+    "version": "5.3.0",
+    "declaredLicense": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "vcs": {
+      "git": {
+        "sha1": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+      },
+      "path_in_vcs": ""
+    },
+    "packageName": "r-efi",
+    "retrieved": []
+  },
+  {
+    "name": "r-efi-6.0.0",
+    "version": "6.0.0",
+    "declaredLicense": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "vcs": {
+      "git": {
+        "sha1": "7e1b0322d31d625f81a5656096330934f9cd835d"
+      },
+      "path_in_vcs": ""
+    },
+    "packageName": "r-efi",
+    "retrieved": []
+  },
+  {
+    "name": "selectors-0.40.0",
+    "version": "0.40.0",
+    "declaredLicense": "MPL-2.0",
+    "repository": "https://github.com/servo/stylo",
+    "vcs": {
+      "git": {
+        "sha1": "67faaab3ff7aa66780ec1d0f51ca47e177b812d3"
+      },
+      "path_in_vcs": "selectors"
+    },
+    "packageName": "selectors",
+    "retrieved": []
+  },
+  {
+    "name": "winapi-i686-pc-windows-gnu-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT/Apache-2.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "vcs": null,
+    "packageName": "winapi-i686-pc-windows-gnu",
+    "retrieved": []
+  },
+  {
+    "name": "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT/Apache-2.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "vcs": null,
+    "packageName": "winapi-x86_64-pc-windows-gnu",
+    "retrieved": []
+  }
+]

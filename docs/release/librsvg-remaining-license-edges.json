@@ -1,0 +1,65 @@
+{
+  "scope": "Direct incoming manifest edges in the collected librsvg lockfile superset; not resolved feature graph or binary linkage proof.",
+  "edges": [
+    {
+      "parent": "locale_config-0.3.0",
+      "package": "objc-foundation",
+      "condition": "cfg(target_os = \"macos\")",
+      "kind": "dependencies",
+      "spec": {
+        "version": "^0.1"
+      }
+    },
+    {
+      "parent": "objc-0.2.7",
+      "package": "malloc_buf",
+      "condition": "all",
+      "kind": "dependencies",
+      "spec": {
+        "version": "0.0"
+      }
+    },
+    {
+      "parent": "objc-foundation-0.1.1",
+      "package": "block",
+      "condition": "all",
+      "kind": "dependencies",
+      "spec": "0.1"
+    },
+    {
+      "parent": "objc-foundation-0.1.1",
+      "package": "objc_id",
+      "condition": "all",
+      "kind": "dependencies",
+      "spec": "0.1"
+    },
+    {
+      "parent": "predicates-3.1.4",
+      "package": "difflib",
+      "condition": "all",
+      "kind": "dependencies",
+      "spec": {
+        "version": "0.4",
+        "optional": true
+      }
+    },
+    {
+      "parent": "winapi-0.3.9",
+      "package": "winapi-i686-pc-windows-gnu",
+      "condition": "i686-pc-windows-gnu",
+      "kind": "dependencies",
+      "spec": {
+        "version": "0.4"
+      }
+    },
+    {
+      "parent": "winapi-0.3.9",
+      "package": "winapi-x86_64-pc-windows-gnu",
+      "condition": "x86_64-pc-windows-gnu",
+      "kind": "dependencies",
+      "spec": {
+        "version": "0.4"
+      }
+    }
+  ]
+}

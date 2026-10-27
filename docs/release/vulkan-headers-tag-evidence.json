@@ -1,0 +1,8 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/KhronosGroup/Vulkan-Headers/git/commits/6802bb4733b63ed5efd3adb308a6c885ef180ea1",
+    "https://api.github.com/repos/KhronosGroup/Vulkan-Headers/git/refs/tags/v1.4.363",
+    "https://api.github.com/repos/KhronosGroup/Vulkan-Headers/git/tags/7feeb71f59b8c1531ef5f7bb4b36e1aac46a0acb"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/Orange-OpenSource/fqdn",
+    "https://api.github.com/repos/Orange-OpenSource/fqdn/pulls/3",
+    "https://api.github.com/repos/Orange-OpenSource/fqdn/pulls/6",
+    "https://api.github.com/repos/blind-oracle/fqdn",
+    "https://api.github.com/users/0f-0b",
+    "https://api.github.com/users/Orange-OpenSource",
+    "https://api.github.com/users/blind-oracle",
+    "https://github.com/0f-0b",
+    "https://github.com/Orange-OpenSource",
+    "https://github.com/Orange-OpenSource/fqdn",
+    "https://github.com/Orange-OpenSource/fqdn/pull/3",
+    "https://github.com/Orange-OpenSource/fqdn/pull/6",
+    "https://github.com/blind-oracle",
+    "https://github.com/blind-oracle/fqdn"
+  ]
+}

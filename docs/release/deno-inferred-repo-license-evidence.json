@@ -1,0 +1,82 @@
+{
+  "scope": "Fixed-revision upstream notice artifacts. Per-entry basis distinguishes same-release source evidence from later official missing-notice supplements.",
+  "results": [
+    {
+      "package": "cranelift-assembler-x64-0.117.2",
+      "url": "https://raw.githubusercontent.com/bytecodealliance/wasmtime/398694a59e24d37acde915086a9be308ec51f626/LICENSE",
+      "path": "docs/release/licenses/deno-inferred-repo/cranelift-assembler-x64-0.117.2/LICENSE",
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    },
+    {
+      "package": "cranelift-assembler-x64-meta-0.117.2",
+      "url": "https://raw.githubusercontent.com/bytecodealliance/wasmtime/398694a59e24d37acde915086a9be308ec51f626/LICENSE",
+      "path": "docs/release/licenses/deno-inferred-repo/cranelift-assembler-x64-meta-0.117.2/LICENSE",
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    },
+    {
+      "package": "zune-core-0.4.12",
+      "url": "https://raw.githubusercontent.com/etemesi254/zune-image/f8fbb123d5ed04441e8324a555bfcda0cb1bd28f/LICENSE-MIT",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "package": "dlopen2_derive-0.4.0",
+      "url": "https://raw.githubusercontent.com/OpenByteDev/dlopen2/122b5b7d9f15718de9525b5968ea8888ddc3a89d/LICENSE",
+      "path": "docs/release/licenses/deno-inferred-repo/dlopen2_derive-0.4.0/LICENSE",
+      "sha256": "39fa265207450e77c62e90c5594a06c085b655d8374c7ced4bf7894b6bd95dd2"
+    },
+    {
+      "package": "lazy-regex-proc_macros-3.1.0",
+      "repository": "https://github.com/Canop/lazy-regex",
+      "commit": "cc1e0888ba501509b4d38ba4c30142625c651343",
+      "url": "https://raw.githubusercontent.com/Canop/lazy-regex/cc1e0888ba501509b4d38ba4c30142625c651343/LICENSE",
+      "path": "docs/release/licenses/deno-upstream/lazy-regex-proc_macros-3.1.0/LICENSE",
+      "sha256": "89461664ce2aee7d80ea8fba7118fe7abd490d76ba435cf1d81d3128e060711f",
+      "basis": "The checked proc-macro crate archive records path_in_vcs src/proc_macros; the sibling lazy-regex 3.1.0 archive at the same VCS commit declares this repository. The upstream root LICENSE applies to that commit."
+    },
+    {
+      "package": "dlopen2-0.6.1",
+      "url": "https://github.com/OpenByteDev/dlopen2/blob/8580a7c1eafad6507b6c5fd37cb2e404af7e214d/LICENSE",
+      "path": "docs/release/licenses/deno-embedded/dlopen2-0.6.1/LICENSE-MIT",
+      "sha256": "39fa265207450e77c62e90c5594a06c085b655d8374c7ced4bf7894b6bd95dd2",
+      "commit": "8580a7c1eafad6507b6c5fd37cb2e404af7e214d",
+      "basis": "Repository declared by crate Cargo.toml.orig; all 40 non-generated package files match fixed upstream commit after CRLF/LF normalization. Root LICENSE preserved verbatim.",
+      "sourceComparison": "docs/release/dlopen2-0.6.1-source-comparison.json"
+    },
+    {
+      "package": "aead-gcm-stream-0.4.0",
+      "url": "https://github.com/littledivy/aead-gcm-stream/blob/34483de068985e32665292d736e9801ad7ec2502/LICENSE.md",
+      "path": "docs/release/licenses/deno-embedded/aead-gcm-stream-0.4.0/LICENSE-MIT",
+      "sha256": "c665b82513ae30115c38e72f7dc232d1652d9c07f0bde81358b57a28f61ec711",
+      "commit": "34483de068985e32665292d736e9801ad7ec2502",
+      "basis": "Owner explicitly confirms notice applies to 0.4.0 and all prior releases.",
+      "supplementReport": "docs/release/upstream-notice-supplements-2026-10-20.json"
+    },
+    {
+      "package": "convert_case-0.4.0",
+      "url": "https://github.com/rutrum/convert-case/blob/603143ab2b6fb6067fe6788ce3d2935fd5bc18ff/LICENSE",
+      "path": "docs/release/licenses/deno-embedded/convert_case-0.4.0/LICENSE-MIT",
+      "sha256": "797087750c4103075e96bb7a60202a040812f8679ae2f7263148a1cc0b298d28",
+      "commit": "603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+      "basis": "Owner merged missing-license correction in 2020. Comparison from pinned 0.4.0 revision changes only LICENSE, README and documentation cfg attributes; accepted as a later official notice supplement, not a file originally shipped in the crate.",
+      "supplementReport": "docs/release/upstream-notice-supplements-2026-10-20.json"
+    },
+    {
+      "package": "sys_traits-0.1.28",
+      "url": "https://github.com/dsherret/sys_traits/blob/4e60da07c2cb1828e359f4a3be21d5e4ae511404/LICENSE",
+      "path": "docs/release/licenses/deno-embedded/sys_traits-0.1.28/LICENSE-MIT",
+      "sha256": "429efaf45c4004a7e0b589b1938755dad03ad649a813bd7305457d3f8ee8035f",
+      "commit": "4e60da07c2cb1828e359f4a3be21d5e4ae511404",
+      "basis": "Owner added root MIT license to resolve issue 88 explicitly about 0.1.28; owner acknowledged omission.",
+      "supplementReport": "docs/release/upstream-notice-supplements-2026-10-20.json"
+    },
+    {
+      "package": "sys_traits_macros-0.1.0",
+      "url": "https://github.com/dsherret/sys_traits/blob/4e60da07c2cb1828e359f4a3be21d5e4ae511404/LICENSE",
+      "path": "docs/release/licenses/deno-embedded/sys_traits_macros-0.1.0/LICENSE-MIT",
+      "sha256": "429efaf45c4004a7e0b589b1938755dad03ad649a813bd7305457d3f8ee8035f",
+      "commit": "4e60da07c2cb1828e359f4a3be21d5e4ae511404",
+      "basis": "Root notice covers repository crates; macro lib.rs and Cargo.toml.orig from checksum-verified published 0.1.0 match macros/lib.rs and Cargo.toml at the license merge byte for byte. Original dirty VCS marker is not used as identity proof.",
+      "supplementReport": "docs/release/upstream-notice-supplements-2026-10-20.json"
+    }
+  ]
+}

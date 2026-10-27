@@ -1,0 +1,32 @@
+{
+  "checkedAtUtc": "2026-10-20T07:05:15.446592+00:00",
+  "status": "awaiting-authoritative-notices",
+  "externalMessagesSent": false,
+  "packages": [
+    {
+      "package": "fqdn-0.5.2",
+      "priority": "notice-remediation",
+      "resolved": false,
+      "issue": "https://github.com/Orange-OpenSource/fqdn/issues/8",
+      "issueState": "open",
+      "commentCount": 0,
+      "checkedTree": "a23fef8570522a3b98a79afc45322d6487166cd9"
+    },
+    {
+      "package": "deno_native_certs-0.3.0",
+      "priority": "notice-remediation",
+      "resolved": false,
+      "issue": "https://github.com/denoland/deno_native_certs/issues/7",
+      "issueState": "open",
+      "commentCount": 0,
+      "checkedTree": "af63bfbea7d761ab286fa357bc38350b39ad2df0"
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "priority": "lower-inclusion-undetermined",
+      "resolved": false,
+      "blocksSolelyFromDependencyList": false,
+      "basis": "docs/release/deno-binary-inclusion-2026-10-20.md"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "scope": "All source submodules, including build-only tools. GitHub trees are recursive; Gitiles trees are root-only. This is not a binary-linked SBOM or complete nested notice inventory.",
+  "complete": false,
+  "submodules": [
+    {
+      "path": "build",
+      "commit": "8acb33ac8dceef0503443109c0a92988189563ef",
+      "repository": "https://github.com/denoland/chromium_build",
+      "treeScan": "recursive",
+      "licenses": [
+        {
+          "url": "https://raw.githubusercontent.com/denoland/chromium_build/8acb33ac8dceef0503443109c0a92988189563ef/android/incremental_install/third_party/AndroidHiddenApiBypass/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/build/android/incremental_install/third_party/AndroidHiddenApiBypass/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "path": "buildtools",
+      "commit": "17495e454aae81b581e8b3caccbb53054509b280",
+      "repository": "https://chromium.googlesource.com/chromium/src/buildtools",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/buildtools/+/17495e454aae81b581e8b3caccbb53054509b280/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/buildtools/LICENSE",
+          "sha256": "ff11d445fb41a1087c7630e120ab15f1a2cb67c1b707173cb494141805fca35e"
+        }
+      ]
+    },
+    {
+      "path": "third_party/abseil-cpp",
+      "commit": "d16e32215c3ab90ba57c2e904a5344d85c7353e4",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/abseil-cpp",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/third_party/abseil-cpp/+/d16e32215c3ab90ba57c2e904a5344d85c7353e4/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/abseil-cpp/LICENSE",
+          "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747"
+        }
+      ]
+    },
+    {
+      "path": "third_party/dragonbox/src",
+      "commit": "beeeef91cf6fef89a4d4ba5e95d47ca64ccb3a44",
+      "repository": "https://chromium.googlesource.com/external/github.com/jk-jeon/dragonbox",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/jk-jeon/dragonbox/+/beeeef91cf6fef89a4d4ba5e95d47ca64ccb3a44/LICENSE-Apache2-LLVM?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/dragonbox/src/LICENSE-Apache2-LLVM",
+          "sha256": "9e45e856bedccee9f67254082ca11851d954de2fed7448c4bed19ad9aab99a91"
+        },
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/jk-jeon/dragonbox/+/beeeef91cf6fef89a4d4ba5e95d47ca64ccb3a44/LICENSE-Boost?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/dragonbox/src/LICENSE-Boost",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ]
+    },
+    {
+      "path": "third_party/fast_float/src",
+      "commit": "05087a303dad9c98768b33c829d398223a649bc6",
+      "repository": "https://chromium.googlesource.com/external/github.com/fastfloat/fast_float",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/fastfloat/fast_float/+/05087a303dad9c98768b33c829d398223a649bc6/LICENSE-APACHE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/fast_float/src/LICENSE-APACHE",
+          "sha256": "097a889aa954d04e088b790b10a4014d6189561d0a6013935a73ce3d4ddaaf06"
+        },
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/fastfloat/fast_float/+/05087a303dad9c98768b33c829d398223a649bc6/LICENSE-BOOST?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/fast_float/src/LICENSE-BOOST",
+          "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b"
+        },
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/fastfloat/fast_float/+/05087a303dad9c98768b33c829d398223a649bc6/LICENSE-MIT?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/fast_float/src/LICENSE-MIT",
+          "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6"
+        }
+      ]
+    },
+    {
+      "path": "third_party/fp16/src",
+      "commit": "3d2de1816307bac63c16a297e8c4dc501b4076df",
+      "repository": "https://github.com/Maratyszcza/FP16",
+      "treeScan": "recursive",
+      "licenses": [
+        {
+          "url": "https://raw.githubusercontent.com/Maratyszcza/FP16/3d2de1816307bac63c16a297e8c4dc501b4076df/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/fp16/src/LICENSE",
+          "sha256": "17e4f539024be2749ee729d1e2f01d24cef12ece8c9bf18e91a4349be29c80bf"
+        }
+      ]
+    },
+    {
+      "path": "third_party/highway/src",
+      "commit": "2607d3b5b0113992fe84d3848859eae13b3b52c1",
+      "repository": "https://chromium.googlesource.com/external/github.com/google/highway",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/google/highway/+/2607d3b5b0113992fe84d3848859eae13b3b52c1/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/highway/src/LICENSE",
+          "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
+        }
+      ]
+    },
+    {
+      "path": "third_party/icu",
+      "commit": "ee5f27adc28bd3f15b2c293f726d14d2e336cbd5",
+      "repository": "https://chromium.googlesource.com/chromium/deps/icu",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/deps/icu/+/ee5f27adc28bd3f15b2c293f726d14d2e336cbd5/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/icu/LICENSE",
+          "sha256": "451167c55c0fa447cc2d5632714f5e3c567fe4f1e1badefab2c1333852198aca"
+        },
+        {
+          "url": "https://chromium.googlesource.com/chromium/deps/icu/+/ee5f27adc28bd3f15b2c293f726d14d2e336cbd5/license.html?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/icu/license.html",
+          "sha256": "c62d7697c03979f5056d28b338fafc7a1152820f7b379adf4a9d88cd37160f96"
+        }
+      ]
+    },
+    {
+      "path": "third_party/jinja2",
+      "commit": "c3027d884967773057bf74b957e3fea87e5df4d7",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/jinja2",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/third_party/jinja2/+/c3027d884967773057bf74b957e3fea87e5df4d7/LICENSE.rst?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/jinja2/LICENSE.rst",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        }
+      ]
+    },
+    {
+      "path": "third_party/libc++/src",
+      "commit": "5abc7f839700f0f17338434e1c1c6a8c87c00c11",
+      "repository": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx/+/5abc7f839700f0f17338434e1c1c6a8c87c00c11/LICENSE.TXT?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/libc++/src/LICENSE.TXT",
+          "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+        }
+      ]
+    },
+    {
+      "path": "third_party/libc++abi/src",
+      "commit": "8f11bb1d4438d0239d0dfc1bd9456a9f31629dda",
+      "repository": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxxabi",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxxabi/+/8f11bb1d4438d0239d0dfc1bd9456a9f31629dda/LICENSE.TXT?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/libc++abi/src/LICENSE.TXT",
+          "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+        }
+      ]
+    },
+    {
+      "path": "third_party/libunwind/src",
+      "commit": "d6c7a21e978f0adaa43accaad53bc64f0b64f6ec",
+      "repository": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libunwind",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libunwind/+/d6c7a21e978f0adaa43accaad53bc64f0b64f6ec/LICENSE.TXT?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/libunwind/src/LICENSE.TXT",
+          "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+        }
+      ]
+    },
+    {
+      "path": "third_party/llvm-libc/src",
+      "commit": "9309c117ebae84dd2f9df1ef99de4782162527d5",
+      "repository": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libc",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libc/+/9309c117ebae84dd2f9df1ef99de4782162527d5/LICENSE.TXT?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/llvm-libc/src/LICENSE.TXT",
+          "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47"
+        }
+      ]
+    },
+    {
+      "path": "third_party/markupsafe",
+      "commit": "4256084ae14175d38a3ff7d739dca83ae49ccec6",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/markupsafe",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/third_party/markupsafe/+/4256084ae14175d38a3ff7d739dca83ae49ccec6/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/markupsafe/LICENSE",
+          "sha256": "0bbe88228fd63d20ec097f64e58d5a0a465123ae139140a18d406c60b48824b5"
+        }
+      ]
+    },
+    {
+      "path": "third_party/partition_alloc",
+      "commit": "ff3b8b885b8374cbd3902642d94dc737bda93d5d",
+      "repository": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator/+/ff3b8b885b8374cbd3902642d94dc737bda93d5d/src/partition_alloc/third_party/apple_apsl/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/partition_alloc/src/partition_alloc/third_party/apple_apsl/LICENSE",
+          "sha256": "b23e682fda7310afe43505ed6041919ccff8f9e0c6799ebd7542cbcef11102e3",
+          "scope": "Nested Apple Public Source License 2.0 file found in the exact source archive; platform and linkage applicability unresolved."
+        }
+      ]
+    },
+    {
+      "path": "third_party/rust",
+      "commit": "26e8ff47f18a8d28d6187a04b6a16cb7332356f8",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/rust",
+      "treeScan": "root-only",
+      "licenses": []
+    },
+    {
+      "path": "third_party/simdutf",
+      "commit": "f7356eed293f8208c40b3c1b344a50bd70971983",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/simdutf",
+      "treeScan": "root-only",
+      "licenses": [
+        {
+          "url": "https://chromium.googlesource.com/chromium/src/third_party/simdutf/+/f7356eed293f8208c40b3c1b344a50bd70971983/LICENSE?format=TEXT",
+          "path": "docs/release/licenses/deno-v8-submodules/third_party/simdutf/LICENSE",
+          "sha256": "fc8dbc04e03ad4efc08a647ffe7f995b811a95bc04c0e85a56d5277c6593fa5f"
+        }
+      ]
+    },
+    {
+      "path": "tools/clang",
+      "commit": "45f4b9e25124809497a27a8ae0e63d603b0f9f1b",
+      "repository": "https://chromium.googlesource.com/chromium/src/tools/clang",
+      "treeScan": "root-only",
+      "licenses": []
+    },
+    {
+      "path": "tools/win",
+      "commit": "faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0",
+      "repository": "https://chromium.googlesource.com/chromium/src/tools/win",
+      "treeScan": "root-only",
+      "licenses": []
+    },
+    {
+      "path": "v8",
+      "commit": "ac1e23989121713ca642f6650b34deff7b686896",
+      "repository": "https://github.com/denoland/v8",
+      "treeScan": "recursive",
+      "licenses": [
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/LICENSE",
+          "sha256": "6ab33af8774a0f396ee3aeeb761e3229057682d6f9fa7f572e390c2cb3a6e509"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/LICENSE.fdlibm",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/LICENSE.fdlibm",
+          "sha256": "e7115e18444dae09d17f361ddc365fb1d342640fe500796209c63f7c80dfae10"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/LICENSE.strongtalk",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/LICENSE.strongtalk",
+          "sha256": "6a585a9f466654abc8fc0829d56b1bc987e3a073d31faa03bba37d33640a23cd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/LICENSE.v8",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/LICENSE.v8",
+          "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/src/compiler/turboshaft/copying-phase.cc",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/src/compiler/turboshaft/copying-phase.cc",
+          "sha256": "8050804c21e9547da764741ae0aa9b8a3fb8df1f7a24c8ba5f94e7fa7e3564d9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/src/compiler/turboshaft/copying-phase.h",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/src/compiler/turboshaft/copying-phase.h",
+          "sha256": "d8545a0b06a374e1465c08ba15318a4385e9e603f96066e6f901af7f7a6c754b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/test/js-perf-test/SixSpeed/LICENSE.sixspeed",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/test/js-perf-test/SixSpeed/LICENSE.sixspeed",
+          "sha256": "f915aef5cdb93903ae8850c4a1efb638ee1195b1380b6e446a583c1d0eef3ff7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/test/mjsunit/third_party/object-keys/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/test/mjsunit/third_party/object-keys/LICENSE",
+          "sha256": "b5e27ca8c92bf5748046345e3c5621a97542abd931ad5870b2057c4e20e2ece8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/test/mjsunit/third_party/regexp-pcre/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/test/mjsunit/third_party/regexp-pcre/LICENSE",
+          "sha256": "f55e9e4ba1ce2ae3b0f21577d9dfd3cea376123cb69e444b891f2f0fc1f9069a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/test/wasm-js/third_party/LICENSE.testharness",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/test/wasm-js/third_party/LICENSE.testharness",
+          "sha256": "5a7b465d39b5e018bc40cc34162176269f7c476989cb4dbcf0ec0b81701545a7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/colorama/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/colorama/LICENSE",
+          "sha256": "15137d6c822e3ab097093a33c3a39a9df699f373f6438867ad534ff60762a947"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/fp16/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/fp16/LICENSE",
+          "sha256": "c91377adafa2f498211a4fe017788e20c38892124673860f068f2919c289193d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/glibc/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/glibc/LICENSE",
+          "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/highway/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/highway/LICENSE",
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/inspector_protocol/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/inspector_protocol/LICENSE",
+          "sha256": "450ebb9e9e50c2809d9ca581931fc8946d8d5aa0c8c35aae9ac471342fe4a88e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/jsoncpp/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/jsoncpp/LICENSE",
+          "sha256": "76c45ece83a26117f86f4e349e7df118708e061e87225328fb478ce1e8b3eb86"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/rapidhash-v8/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/rapidhash-v8/LICENSE",
+          "sha256": "db672df7faf793fbe28b8074fdd10822363e1525816b45c9627754885de842b0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/re2/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/re2/LICENSE",
+          "sha256": "6040cda75d90b1738292a631d89934c411ef7ffd543c4d6a1b7edfc8edf29449"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/siphash/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/siphash/LICENSE",
+          "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/utf8-decoder/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/utf8-decoder/LICENSE",
+          "sha256": "3f712e5fbdfdbd5ee7d9b8c8152580220df55de47f4eba2f26c95c4de19ad096"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/v8/builtins/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/v8/builtins/LICENSE",
+          "sha256": "b9a6d9320b8f2693e8d41e496ce56caadacaddcca9be2a64a61749278f425cf2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/v8/codegen/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/v8/codegen/LICENSE",
+          "sha256": "17e4f539024be2749ee729d1e2f01d24cef12ece8c9bf18e91a4349be29c80bf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/valgrind/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/valgrind/LICENSE",
+          "sha256": "ebf25b8ce59c9e8883acd1ca75b6fc121937ca034f666c4077d2be739d2e1622"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/vtune/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/vtune/LICENSE",
+          "sha256": "02aea3ade0c02470335987f7d93ffaed877bcefc8414a416e2e548665bb0bfd0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/third_party/wasm-api/LICENSE",
+          "path": "docs/release/licenses/deno-v8-submodules/v8/third_party/wasm-api/LICENSE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/littledivy/aead-gcm-stream/commits/2737345ddbccd5b3e1ae41060b136cfc3e0cb610",
+    "https://api.github.com/repos/littledivy/aead-gcm-stream/commits/34483de068985e32665292d736e9801ad7ec2502",
+    "https://api.github.com/repos/littledivy/aead-gcm-stream/git/commits/34483de068985e32665292d736e9801ad7ec2502",
+    "https://api.github.com/repos/littledivy/aead-gcm-stream/git/trees/e138abef9830b10f5ce07bd2b21bdd971b40f652",
+    "https://api.github.com/users/littledivy",
+    "https://github.com/littledivy",
+    "https://github.com/littledivy/aead-gcm-stream/commit/2737345ddbccd5b3e1ae41060b136cfc3e0cb610",
+    "https://github.com/littledivy/aead-gcm-stream/commit/34483de068985e32665292d736e9801ad7ec2502"
+  ]
+}

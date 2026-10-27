@@ -1,0 +1,176 @@
+[
+  {
+    "repo": "denoland/deno_native_certs",
+    "commit": "700f235fe029ea839f5a64eea251abf8116ddb4c",
+    "url": "https://codeload.github.com/denoland/deno_native_certs/tar.gz/700f235fe029ea839f5a64eea251abf8116ddb4c",
+    "source": "desktop/.downloads/compliance/denoland-deno_native_certs-700f235fe029ea839f5a64eea251abf8116ddb4c.tar.gz",
+    "sourceSha256": "292bf0412511e043c4b9987f4b4e2946ddc5152cd7d5448f2f54f37a98aabb2f",
+    "textFilesScanned": 9,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "littledivy/aead-stream",
+    "commit": "2737345ddbccd5b3e1ae41060b136cfc3e0cb610",
+    "url": "https://codeload.github.com/littledivy/aead-stream/tar.gz/2737345ddbccd5b3e1ae41060b136cfc3e0cb610",
+    "source": "desktop/.downloads/compliance/littledivy-aead-stream-2737345ddbccd5b3e1ae41060b136cfc3e0cb610.tar.gz",
+    "sourceSha256": "9a529c1650ceb32102ee3bf8d9c66537aed21929a76e955e4e15e0bfe7ec034d",
+    "textFilesScanned": 10,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "Orange-OpenSource/fqdn",
+    "commit": "a23fef8570522a3b98a79afc45322d6487166cd9",
+    "url": "https://codeload.github.com/Orange-OpenSource/fqdn/tar.gz/a23fef8570522a3b98a79afc45322d6487166cd9",
+    "source": "desktop/.downloads/compliance/Orange-OpenSource-fqdn-a23fef8570522a3b98a79afc45322d6487166cd9.tar.gz",
+    "sourceSha256": "a669f2342877312f76625bb6575f20ad11444cff98cf7008aea8f085b55b225b",
+    "textFilesScanned": 11,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "fasterthanlime/stringsearch",
+    "commit": "acd5846b959884a1d24247038e9c52b5cf900f67",
+    "url": "https://codeload.github.com/fasterthanlime/stringsearch/tar.gz/acd5846b959884a1d24247038e9c52b5cf900f67",
+    "source": "desktop/.downloads/compliance/fasterthanlime-stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67.tar.gz",
+    "sourceSha256": "14e2efdfddb95adff293982ff9befcf1f9a7e28a3ab9e61497b28f2c82f453dc",
+    "textFilesScanned": 52,
+    "skipped": [
+      "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/papers/dismantling-divsufsort-2017.pdf",
+      "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/src/testdata/crash-04dc74e45e66386a3312a5a5825b020bcadc175c",
+      "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/src/testdata/crash-16356e91966a827f79e49167170194fc3088a7ab",
+      "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/src/testdata/crash-cf8673530fdca659e0ddf070b4718b9c0bb504ec",
+      "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/src/testdata/fuzz3"
+    ],
+    "noticeHits": [
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/LICENSE",
+        "lines": [
+          "Copyright (c) 2019 Amos Wenger All rights reserved.",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "The above copyright notice and this permission notice shall be included in all",
+          "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/LICENSE",
+        "lines": [
+          "Copyright (c) 2003 Yuta Mori All rights reserved.",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "The above copyright notice and this permission notice shall be included in all",
+          "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/config.h",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/divsufsort.c",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/divsufsort.h",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/divsufsort_private.h",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/sssort.c",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/trsort.c",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/cdivsufsort/c-sources/utils.c",
+        "lines": [
+          " * Copyright (c) 2003-2008 Yuta Mori All Rights Reserved.",
+          " * Permission is hereby granted, free of charge, to any person",
+          " * The above copyright notice and this permission notice shall be",
+          " * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT"
+        ]
+      },
+      {
+        "path": "stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67/crates/divsufsort/LICENSE",
+        "lines": [
+          "Copyright (c) 2019 Amos Wenger All rights reserved.",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "The above copyright notice and this permission notice shall be included in all",
+          "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+        ]
+      }
+    ],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "dsherret/sys_traits",
+    "commit": "709e02e198721f81b485c078ccdf1835fa3e6a40",
+    "url": "https://codeload.github.com/dsherret/sys_traits/tar.gz/709e02e198721f81b485c078ccdf1835fa3e6a40",
+    "source": "desktop/.downloads/compliance/dsherret-sys_traits-709e02e198721f81b485c078ccdf1835fa3e6a40.tar.gz",
+    "sourceSha256": "9561d3ee60f5acef583f212f93087bffe05e8a90d29828d23b029c57e5ee6239",
+    "textFilesScanned": 22,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "dsherret/sys_traits",
+    "commit": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+    "url": "https://codeload.github.com/dsherret/sys_traits/tar.gz/75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+    "source": "desktop/.downloads/compliance/dsherret-sys_traits-75cbf3ea478624cc78275b0264e78e9ae13ce3f5.tar.gz",
+    "sourceSha256": "fc39ee1c7eaa31e83d0e96e81dbb054af758ec3e2d2a24c98b3f7a9a83b2d296",
+    "textFilesScanned": 18,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  },
+  {
+    "repo": "rutrum/convert-case",
+    "commit": "300d9eef9e8c970e15f324afbc3df8b6a4ebbf71",
+    "url": "https://codeload.github.com/rutrum/convert-case/tar.gz/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71",
+    "source": "desktop/.downloads/compliance/rutrum-convert-case-300d9eef9e8c970e15f324afbc3df8b6a4ebbf71.tar.gz",
+    "sourceSha256": "8069958a610e4480fda5a628c98b2a62c77f22064725dc373075956e89afea6f",
+    "textFilesScanned": 12,
+    "skipped": [],
+    "noticeHits": [],
+    "scope": "Text search for copyright and MIT permission markers; sibling package notices do not automatically apply to target crate."
+  }
+]

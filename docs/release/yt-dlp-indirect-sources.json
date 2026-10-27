@@ -1,0 +1,55 @@
+{
+  "tool": "yt-dlp 2026.08.19 win_exe",
+  "versionEvidence": "Python 3.10.11 disassembly of bundled PYZ version assignments; see python-indirect-version-evidence.json",
+  "complete": false,
+  "packages": [
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "licenseFiles": [
+        "docs/release/licenses/cffi-2.1.1-LICENSE"
+      ],
+      "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+      "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+      "file": "desktop\\.downloads\\compliance\\cffi-2.1.1.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.00",
+      "licenseFiles": [
+        "docs/release/licenses/pycparser-3.00-LICENSE"
+      ],
+      "url": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz",
+      "sha256": "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29",
+      "file": "desktop\\.downloads\\compliance\\pycparser-3.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review"
+    },
+    {
+      "name": "charset_normalizer",
+      "version": "3.5.0",
+      "licenseFiles": [
+        "docs/release/licenses/charset_normalizer-3.5.0-LICENSE"
+      ],
+      "url": "https://files.pythonhosted.org/packages/cb/31/4971872b3ed8715346231fb6eb4da8fcba65a4143c189db151ee28a2812b/charset_normalizer-3.5.0.tar.gz",
+      "sha256": "49bd5feb59b0bf3cbf6ebcf4352e371c95b9da9bacd4449f8b64d0ad2c10a26e",
+      "file": "desktop\\.downloads\\compliance\\charset_normalizer-3.5.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review"
+    },
+    {
+      "name": "idna",
+      "version": "3.18",
+      "licenseFiles": [
+        "docs/release/licenses/idna-3.18-LICENSE.md"
+      ],
+      "url": "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz",
+      "sha256": "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848",
+      "file": "desktop\\.downloads\\compliance\\idna-3.18.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review"
+    }
+  ]
+}

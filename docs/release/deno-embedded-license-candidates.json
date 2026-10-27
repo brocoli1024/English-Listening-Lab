@@ -1,0 +1,20 @@
+[
+  {
+    "package": "plist-1.9.0",
+    "members": [
+      "plist-1.9.0/LICENCE"
+    ]
+  },
+  {
+    "package": "r-efi-5.3.0",
+    "members": [
+      "r-efi-5.3.0/AUTHORS"
+    ]
+  },
+  {
+    "package": "win_uds-0.2.2",
+    "members": [
+      "win_uds-0.2.2/UNLICENSE"
+    ]
+  }
+]

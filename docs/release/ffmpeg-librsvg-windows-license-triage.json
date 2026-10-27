@@ -1,0 +1,41 @@
+{
+  "asOf": "2026-10-19",
+  "tool": "FFmpeg-Builds Windows x64; librsvg 2.63.2 Rust dependency graph",
+  "targetEvidence": {
+    "path": "docs/release/ffmpeg-rust-target-evidence.json",
+    "target": "x86_64-pc-windows-gnu"
+  },
+  "dependencyEvidence": {
+    "path": "docs/release/librsvg-windows-dependency-graph.json",
+    "root": "librsvg-c/avif",
+    "reachableCandidateCount": 1,
+    "candidateCount": 7,
+    "limitation": "Cargo normal/build reachability with workspace feature-unification over-approximation; not final binary linkage evidence."
+  },
+  "candidates": [
+    { "package": "block-0.1.6", "reachable": false },
+    { "package": "difflib-0.4.0", "reachable": false },
+    { "package": "malloc_buf-0.0.6", "reachable": false },
+    { "package": "objc-foundation-0.1.1", "reachable": false },
+    { "package": "objc_id-0.1.1", "reachable": false },
+    { "package": "winapi-i686-pc-windows-gnu-0.4.0", "reachable": false, "reason": "Target-specific crate is for i686, while the recorded FFmpeg build target is x86_64-pc-windows-gnu." },
+    {
+      "package": "winapi-x86_64-pc-windows-gnu-0.4.0",
+      "reachable": true,
+      "licenseAndSourceEvidence": "docs/release/winapi-gnu-exact-source-comparison.json",
+      "upstreamCommit": "9497609ef44cc9bcd16cd2411c0ee6ccaf5483aa",
+      "sourceArchiveSha256": "a31a5a37536489a2f6136bdbc32a0c6d2d454150c528c081e40fec6c438ca70e",
+      "comparison": "1,419 package files matched the fixed upstream commit; no differing or missing files.",
+      "licenseFiles": [
+        "docs/release/licenses/ffmpeg-librsvg-upstream/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-MIT",
+        "docs/release/licenses/ffmpeg-librsvg-upstream/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-APACHE"
+      ]
+    }
+  ],
+  "result": "The seven previously identified librsvg Windows GNU license-file gaps no longer leave an uncovered reachable candidate: the sole reachable candidate has checksum-verified registry metadata, an exact upstream source comparison, and both declared MIT and Apache-2.0 license texts preserved.",
+  "limitations": [
+    "This closes only the identified missing-license-file candidates for the recorded x86_64 Windows GNU librsvg dependency graph.",
+    "The full librsvg effective vendor set and FFmpeg binary link map remain unverified.",
+    "This candidate triage is not a substitute for a complete corresponding-source and notice review of FFmpeg."
+  ]
+}

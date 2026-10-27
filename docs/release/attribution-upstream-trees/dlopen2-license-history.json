@@ -1,0 +1,27 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/OpenByteDev/dlopen2/commits/0b7eacb51249d4f9f0f3e46be375f85b584d5a42",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/commits/1425459affa5174a15dad114b1a390d1b1fd6165",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/commits/26922ccae661f9e9aae57ca001a7e16476adaed5",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/commits/d0304f3bcd2ceae6688277091ee7473aa7480e51",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/commits/d88e9b532941941e4385f0f0c665d455db556bba",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/commits/0b7eacb51249d4f9f0f3e46be375f85b584d5a42",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/commits/26922ccae661f9e9aae57ca001a7e16476adaed5",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/commits/d0304f3bcd2ceae6688277091ee7473aa7480e51",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/trees/a675c0eed1410415b38154d916fa53a1e8c12d5c",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/trees/e99892096a929cea5554fb6226a2038935fe4834",
+    "https://api.github.com/repos/OpenByteDev/dlopen2/git/trees/f77add8d583dde8972b453d6940118c69a9f43c3",
+    "https://api.github.com/users/OpenByteDev",
+    "https://api.github.com/users/ahmed-masud",
+    "https://api.github.com/users/szymonwieloch",
+    "https://github.com/OpenByteDev",
+    "https://github.com/OpenByteDev/dlopen2/commit/0b7eacb51249d4f9f0f3e46be375f85b584d5a42",
+    "https://github.com/OpenByteDev/dlopen2/commit/1425459affa5174a15dad114b1a390d1b1fd6165",
+    "https://github.com/OpenByteDev/dlopen2/commit/26922ccae661f9e9aae57ca001a7e16476adaed5",
+    "https://github.com/OpenByteDev/dlopen2/commit/d0304f3bcd2ceae6688277091ee7473aa7480e51",
+    "https://github.com/OpenByteDev/dlopen2/commit/d88e9b532941941e4385f0f0c665d455db556bba",
+    "https://github.com/ahmed-masud",
+    "https://github.com/szymonwieloch"
+  ]
+}

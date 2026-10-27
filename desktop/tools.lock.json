@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "tools": [
+    {
+      "name": "yt-dlp",
+      "version": "2026.08.19",
+      "format": "exe",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.exe",
+      "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "files": {
+        "yt-dlp.exe": "yt-dlp.exe"
+      },
+      "license": "GPL-3.0-or-later (bundled executable); Unlicense (project source)",
+      "sourceUrl": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.tar.gz",
+      "sourceSha256": "072aad4f2a7604e92155f61a275a4752dc64046c8f6d90df3710525d94cd37c1"
+    },
+    {
+      "name": "node",
+      "version": "24.22.1",
+      "format": "zip",
+      "url": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip",
+      "sha256": "d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5",
+      "files": {
+        "node-v24.22.1-win-x64/node.exe": "node.exe"
+      },
+      "noticeFiles": [
+        "node-v24.22.1-win-x64/LICENSE",
+        "node-v24.22.1-win-x64/README.md"
+      ],
+      "license": "MIT and bundled dependency notices (see official LICENSE)",
+      "sourceUrl": "https://nodejs.org/dist/v24.22.1/node-v24.22.1.tar.xz",
+      "sourceFilename": "node.tar.xz",
+      "sourceLicensePath": "node-v24.22.1/LICENSE",
+      "sourceSha256": "4f5379796280cdaeb0c2f358fd04b6a16cc4fb7dfa83b5a8c91a9d963b435231",
+      "redistributionStatus": "Official Node executable and full bundled notices; replaces the separately bundled Deno runtime."
+    },
+    {
+      "name": "ffmpeg",
+      "version": "8.1.3-ell-local1",
+      "format": "source-build",
+      "files": {
+        "bin/ffmpeg.exe": "ffmpeg.exe",
+        "bin/ffprobe.exe": "ffprobe.exe",
+        "bin/libmp3lame-0.dll": "libmp3lame-0.dll",
+        "bin/libwinpthread-1.dll": "libwinpthread-1.dll"
+      },
+      "license": "LGPL-2.1-or-later (FFmpeg), LGPL-2.0-or-later (shared LAME), MinGW runtime notices",
+      "sourceUrl": "https://github.com/FFmpeg/FFmpeg/archive/29e619e767.tar.gz",
+      "sourceSha256": "8e4699bcb6a311772e8f513cc72ce27328891b82a598b82e7cff3dfe580875a0",
+      "redistributionStatus": "Locally built from pinned FFmpeg/LAME inputs. See docs/release/ffmpeg-source-build.md; whole-app yt-dlp material review remains open.",
+      "buildLock": "desktop/ffmpeg-build.lock.json",
+      "additionalSources": [
+        {
+          "filename": "mingw-w64.tar.gz",
+          "url": "https://github.com/mingw-w64/mingw-w64/archive/63ebe6cdb3ec4d5c586b7f0f0c03dd502e44c296.tar.gz",
+          "sha256": "94469ea48f974f9a4f7d8b7050cb7eceaa92c1f941ed3b6b8137591ba19491de"
+        }
+      ]
+    }
+  ]
+}

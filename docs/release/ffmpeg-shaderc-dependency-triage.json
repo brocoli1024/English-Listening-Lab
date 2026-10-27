@@ -1,0 +1,82 @@
+{
+  "asOf": "2026-10-19",
+  "parent": {
+    "repository": "google/shaderc",
+    "commit": "a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab",
+    "sourceArchive": "desktop/.downloads/compliance/ffmpeg-enabled/50-shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab.tar.gz",
+    "sourceArchiveSha256": "4a2451e747e011695d25847e75316722df80120b3f141600c43c9f5cedd70578"
+  },
+  "buildConfiguration": {
+    "evidence": "docs/release/ffmpeg-build/scripts.d/47-vulkan/50-shaderc.sh",
+    "flags": [
+      "SHADERC_SKIP_TESTS=ON",
+      "SHADERC_SKIP_EXAMPLES=ON",
+      "ENABLE_GLSLANG_BINARIES=OFF",
+      "SPIRV_SKIP_EXECUTABLES=ON",
+      "SPIRV_TOOLS_BUILD_STATIC=ON",
+      "BUILD_SHARED_LIBS=OFF"
+    ],
+    "sourceChecks": [
+      "Pinned shaderc CMakeLists enables SHADERC_ENABLE_TESTS only when SHADERC_SKIP_TESTS is false.",
+      "Pinned third_party/CMakeLists adds googletest only when SHADERC_ENABLE_TESTS is true.",
+      "Pinned third_party/CMakeLists adds abseil, re2, and effcee only when SPIRV_SKIP_TESTS is false; SHADERC_SKIP_TESTS=true sets SPIRV_SKIP_TESTS=true."
+    ],
+    "limitation": "This is source-build target configuration evidence, not an independent link-map inspection of the distributed FFmpeg binary."
+  },
+  "runtimeBuildSources": [
+    "glslang",
+    "spirv_headers",
+    "spirv_tools"
+  ],
+  "testOnlyOrTestConditionalSources": [
+    {
+      "name": "googletest",
+      "condition": "SHADERC_ENABLE_TESTS"
+    },
+    {
+      "name": "abseil",
+      "condition": "SPIRV_SKIP_TESTS is false; used alongside re2 and effcee"
+    },
+    {
+      "name": "re2",
+      "condition": "SPIRV_SKIP_TESTS is false; used for SPIRV-Tools tests"
+    },
+    {
+      "name": "effcee",
+      "condition": "SPIRV_SKIP_TESTS is false; used for SPIRV-Tools tests"
+    }
+  ],
+  "sourceAndLicenseIntegrity": {
+    "candidateManifest": "docs/release/ffmpeg-shaderc-sources.json",
+    "fixedSourceArchives": 7,
+    "sourceArchiveHashesMatched": 7,
+    "licenseTextFiles": 9,
+    "licenseTextHashesMatched": 9,
+    "hashes": "Locally computed integrity checks; they do not establish an upstream-published digest."
+  },
+  "nestedDependencyChecks": [
+    {
+      "candidate": "protobuf",
+      "source": "SPIRV-Tools DEPS pins protocolbuffers/protobuf at 35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03.",
+      "condition": "SPIRV_BUILD_FUZZER",
+      "resolution": "The pinned SPIRV-Tools CMakeLists defaults SPIRV_BUILD_FUZZER to OFF; the protobuf external CMake path is inside that fuzzer-only branch."
+    },
+    {
+      "candidate": "mimalloc",
+      "source": "SPIRV-Tools DEPS pins microsoft/mimalloc at c9cc3394059edfb018ca2906753c4b0e857df00c.",
+      "condition": "MIMALLOC_DIR exists and a dependent mimalloc option is enabled.",
+      "resolution": "The pinned SPIRV-Tools source archive contains no external/mimalloc directory, and the BtbN shaderc DEPS does not recursively sync SPIRV-Tools DEPS. With no MIMALLOC_DIR, the dependent option is disabled; static-build mimalloc use also defaults OFF."
+    },
+    {
+      "candidate": "Chromium GN buildtools",
+      "source": "glslang and SPIRV-Tools DEPS list Chromium buildtools for standalone GN builds.",
+      "condition": "The GN build path is used.",
+      "resolution": "The BtbN recipe configures shaderc with CMake and Ninja and does not run GN."
+    }
+  ],
+  "result": "The seven pinned DEPS entries are now classified against the captured BtbN build flags: three are required source-build inputs for shaderc's static runtime libraries, while four are test-conditional and not enabled by the recorded build configuration.",
+  "remaining": [
+    "Audit nested third-party components inside the three runtime source archives.",
+    "Confirm the final distributed FFmpeg binary's linkage and complete source correspondence."
+  ]
+}

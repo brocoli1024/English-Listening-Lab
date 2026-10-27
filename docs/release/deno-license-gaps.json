@@ -1,0 +1,1284 @@
+[
+  {
+    "name": "Inflector-0.11.4",
+    "repository": "https://github.com/whatisinternet/inflector",
+    "license": "BSD-2-Clause",
+    "vcs": {
+      "git": {
+        "sha1": "a4a95eac75043f4bffb127c7c8ec886b5b106053"
+      }
+    }
+  },
+  {
+    "name": "aead-gcm-stream-0.4.0",
+    "repository": null,
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "2737345ddbccd5b3e1ae41060b136cfc3e0cb610"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "alloc-stdlib-0.2.2",
+    "repository": "https://github.com/dropbox/rust-alloc-no-stdlib",
+    "license": "BSD-3-Clause",
+    "vcs": {
+      "git": {
+        "sha1": "6032b6a9b20e03737135c55a0270ccffcc1438ef"
+      },
+      "path_in_vcs": "alloc-stdlib"
+    }
+  },
+  {
+    "name": "anes-0.1.6",
+    "repository": "https://github.com/zrzka/anes-rs",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "378ac7461ecac29fde9e10df7b08359d1315a9ad"
+      }
+    }
+  },
+  {
+    "name": "asn1-rs-derive-0.4.0",
+    "repository": "https://github.com/rusticata/asn1-rs.git",
+    "license": "MIT/Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "28257314e48d1ad4e62b8159c939518e17caf826"
+      },
+      "path_in_vcs": "derive"
+    }
+  },
+  {
+    "name": "asn1-rs-impl-0.1.0",
+    "repository": "https://github.com/rusticata/asn1-rs.git",
+    "license": "MIT/Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "78620ca0954d44ddc57d0280d0072dfbd8566de4"
+      },
+      "path_in_vcs": "impl"
+    }
+  },
+  {
+    "name": "ast_node-5.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+      },
+      "path_in_vcs": "crates/ast_node"
+    }
+  },
+  {
+    "name": "backhand-0.25.1",
+    "repository": "https://github.com/wcampbell0x2a/backhand",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "4ac463be1071219b46fc0184ce452704ea705ba0"
+      },
+      "path_in_vcs": "backhand"
+    }
+  },
+  {
+    "name": "base64-simd-0.8.0",
+    "repository": "https://github.com/Nugine/simd",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d74c030d9dc4f3cae02146d1f497ff62726ef09a"
+      },
+      "path_in_vcs": "crates/base64-simd"
+    }
+  },
+  {
+    "name": "better_scoped_tls-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/better_scoped_tls"
+    }
+  },
+  {
+    "name": "block2-0.6.2",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "b4167b582b2f75f9a1be75495c41b765344fd03c"
+      },
+      "path_in_vcs": "crates/block2"
+    }
+  },
+  {
+    "name": "bytes-str-0.2.7",
+    "repository": "https://github.com/dudykr/ddbase.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "9155da62e3b85a2d1c495167876754b98295bee6"
+      },
+      "path_in_vcs": "crates/bytes-str"
+    }
+  },
+  {
+    "name": "capacity_builder_macros-0.3.0",
+    "repository": "https://github.com/dsherret/capacity_builder",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "61370ade72f9ed5e3f40fb261f92057c3486ed83"
+      },
+      "path_in_vcs": "macros"
+    }
+  },
+  {
+    "name": "clipboard-win-5.3.0",
+    "repository": "https://github.com/DoumanAsh/clipboard-win",
+    "license": "BSL-1.0",
+    "vcs": {
+      "git": {
+        "sha1": "0af605873edf7f8064f54e73536f27dee5a56416"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "convert_case-0.4.0",
+    "repository": "https://github.com/rutrum/convert-case",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "300d9eef9e8c970e15f324afbc3df8b6a4ebbf71"
+      }
+    }
+  },
+  {
+    "name": "cranelift-assembler-x64-0.117.2",
+    "repository": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "vcs": {
+      "git": {
+        "sha1": "398694a59e24d37acde915086a9be308ec51f626"
+      },
+      "path_in_vcs": "cranelift/assembler-x64"
+    }
+  },
+  {
+    "name": "cranelift-assembler-x64-meta-0.117.2",
+    "repository": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "vcs": {
+      "git": {
+        "sha1": "398694a59e24d37acde915086a9be308ec51f626"
+      },
+      "path_in_vcs": "cranelift/assembler-x64/meta"
+    }
+  },
+  {
+    "name": "cranelift-bitset-0.117.2",
+    "repository": "https://github.com/bytecodealliance/wasmtime",
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "vcs": {
+      "git": {
+        "sha1": "398694a59e24d37acde915086a9be308ec51f626"
+      },
+      "path_in_vcs": "cranelift/bitset"
+    }
+  },
+  {
+    "name": "cranelift-isle-0.117.2",
+    "repository": "https://github.com/bytecodealliance/wasmtime/tree/main/cranelift/isle",
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "vcs": {
+      "git": {
+        "sha1": "398694a59e24d37acde915086a9be308ec51f626"
+      },
+      "path_in_vcs": "cranelift/isle/isle"
+    }
+  },
+  {
+    "name": "deno-tower-lsp-macros-0.12.0",
+    "repository": "https://github.com/ebkalderon/tower-lsp",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "812d56f0dcd9df6ff80e85a5e83e0cc0dcf6cc49"
+      },
+      "path_in_vcs": "tower-lsp-macros"
+    }
+  },
+  {
+    "name": "deno_core_icudata-0.77.0",
+    "repository": "https://github.com/denoland/deno_core_icudata",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "83537ba16a4bf1645fc8322e81f7aaf0149a8922"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "deno_error_macro-0.7.1",
+    "repository": "https://github.com/denoland/deno_error",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "e806d735069caacf511b9a781ef2990a3651256f"
+      },
+      "path_in_vcs": "macros"
+    }
+  },
+  {
+    "name": "deno_native_certs-0.3.0",
+    "repository": "https://github.com/denoland/deno_native_certs",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "700f235fe029ea839f5a64eea251abf8116ddb4c"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "deno_tunnel-0.8.1",
+    "repository": "https://github.com/denoland/deno_tunnel",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "c0572b46beac220e105e69317ff9e207babc7f09"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "denokv_proto-0.14.0",
+    "repository": "https://github.com/denoland/denokv",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "9fe65cc138ff56ca5bfe7a1bf8c53e832246f9d5"
+      },
+      "path_in_vcs": "proto"
+    }
+  },
+  {
+    "name": "denokv_remote-0.14.0",
+    "repository": "https://github.com/denoland/denokv",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "9fe65cc138ff56ca5bfe7a1bf8c53e832246f9d5"
+      },
+      "path_in_vcs": "remote"
+    }
+  },
+  {
+    "name": "denokv_sqlite-0.14.0",
+    "repository": "https://github.com/denoland/denokv",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "9fe65cc138ff56ca5bfe7a1bf8c53e832246f9d5"
+      },
+      "path_in_vcs": "sqlite"
+    }
+  },
+  {
+    "name": "derive-io-0.4.1",
+    "repository": "https://github.com/mmastrac/derive-io",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+      },
+      "path_in_vcs": "crates/derive-io"
+    }
+  },
+  {
+    "name": "derive-io-macros-0.4.1",
+    "repository": "https://github.com/mmastrac/derive-io",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+      },
+      "path_in_vcs": "crates/derive-io-macros"
+    }
+  },
+  {
+    "name": "dispatch2-0.3.1",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "8852b424193ca41602281b3d7540d7c8ed51e49a"
+      },
+      "path_in_vcs": "crates/dispatch2"
+    }
+  },
+  {
+    "name": "dlopen2-0.6.1",
+    "repository": "https://github.com/OpenByteDev/dlopen2",
+    "license": "MIT",
+    "vcs": null
+  },
+  {
+    "name": "dlopen2_derive-0.4.0",
+    "repository": null,
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "122b5b7d9f15718de9525b5968ea8888ddc3a89d"
+      },
+      "path_in_vcs": "dlopen2-derive"
+    }
+  },
+  {
+    "name": "dprint-swc-ext-0.26.0",
+    "repository": "https://github.com/dprint/dprint-swc-ext",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "c4c2cb80beb0e37f466f8e0b9f89d508bea719c2"
+      },
+      "path_in_vcs": "rs-lib"
+    }
+  },
+  {
+    "name": "error-code-3.2.0",
+    "repository": "https://github.com/DoumanAsh/error-code",
+    "license": "BSL-1.0",
+    "vcs": {
+      "git": {
+        "sha1": "d3d734587b06a1259fe8d2d7cafcd436e801975a"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "fqdn-0.5.2",
+    "repository": "https://github.com/Orange-OpenSource/fqdn",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "a23fef8570522a3b98a79afc45322d6487166cd9",
+        "dirty": true
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "from_variant-3.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+      },
+      "path_in_vcs": "crates/from_variant"
+    }
+  },
+  {
+    "name": "gl_generator-0.14.0",
+    "repository": "https://github.com/brendanzab/gl-rs/",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "ea503e8d5fb6d73c6030e6191ce738cd3bf3433e"
+      }
+    }
+  },
+  {
+    "name": "gpu-descriptor-0.3.2",
+    "repository": "https://github.com/zakarumych/gpu-descriptor",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a"
+      },
+      "path_in_vcs": "gpu-descriptor"
+    }
+  },
+  {
+    "name": "gpu-descriptor-types-0.2.0",
+    "repository": "https://github.com/zakarumych/gpu-descriptor",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "9f2fb9546591322e7b77ee1e79385e01effd85e4"
+      },
+      "path_in_vcs": "types"
+    }
+  },
+  {
+    "name": "hexf-parse-0.2.1",
+    "repository": "https://github.com/lifthrasiir/hexf",
+    "license": "CC0-1.0",
+    "vcs": {
+      "git": {
+        "sha1": "4225763d744183d720f575ae96d04161b4d08ea0"
+      }
+    }
+  },
+  {
+    "name": "http-body-1.0.0",
+    "repository": "https://github.com/hyperium/http-body",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "2474edda2035ea4c6bb22f79417d7964479b2a10"
+      },
+      "path_in_vcs": "http-body"
+    }
+  },
+  {
+    "name": "import_map-0.25.0",
+    "repository": "https://github.com/denoland/import_map",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "4696fcc03310ea0e7d3adf46810310fd9203403d"
+      },
+      "path_in_vcs": "rs-lib"
+    }
+  },
+  {
+    "name": "khronos_api-3.1.0",
+    "repository": "https://github.com/brendanzab/gl-rs/",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "f150967b1c44ae888e6676f93f639ebc82771bdc"
+      }
+    }
+  },
+  {
+    "name": "laufey-0.7.0",
+    "repository": "https://github.com/littledivy/laufey",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "1fe87874288e8359fa3de04d18cc14f56957b000"
+      },
+      "path_in_vcs": "capi"
+    }
+  },
+  {
+    "name": "lax-core-0.3.0",
+    "repository": "https://github.com/bartlomieju/lax",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "5d6edeaa63943b5c7bc08f1d1425dfa068f45e40"
+      },
+      "path_in_vcs": "crates/lax-core"
+    }
+  },
+  {
+    "name": "lazy-regex-proc_macros-3.1.0",
+    "repository": null,
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "cc1e0888ba501509b4d38ba4c30142625c651343"
+      },
+      "path_in_vcs": "src/proc_macros"
+    }
+  },
+  {
+    "name": "libffi-5.1.0",
+    "repository": "https://github.com/libffi-rs/libffi-rs",
+    "license": "MIT/Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "7b1471ad430dd899046280f79066fc2d9b0fac90"
+      },
+      "path_in_vcs": "libffi-rs"
+    }
+  },
+  {
+    "name": "ndk-sys-0.6.0+11769913",
+    "repository": "https://github.com/rust-mobile/ndk",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+      },
+      "path_in_vcs": "ndk-sys"
+    }
+  },
+  {
+    "name": "objc2-0.6.4",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "8852b424193ca41602281b3d7540d7c8ed51e49a"
+      },
+      "path_in_vcs": "crates/objc2"
+    }
+  },
+  {
+    "name": "objc2-core-foundation-0.3.2",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+      },
+      "path_in_vcs": "framework-crates/objc2-core-foundation"
+    }
+  },
+  {
+    "name": "objc2-encode-4.1.0",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "8d214f5477365ffcbcbb7de058c86ed9a518efb7"
+      },
+      "path_in_vcs": "crates/objc2-encode"
+    }
+  },
+  {
+    "name": "objc2-metal-0.3.2",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+      },
+      "path_in_vcs": "framework-crates/objc2-metal"
+    }
+  },
+  {
+    "name": "objc2-quartz-core-0.3.2",
+    "repository": "https://github.com/madsmtm/objc2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+      },
+      "path_in_vcs": "framework-crates/objc2-quartz-core"
+    }
+  },
+  {
+    "name": "opentelemetry-0.32.0",
+    "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "ec289cb3c6f8260951699c51df968560943c1451"
+      },
+      "path_in_vcs": "opentelemetry"
+    }
+  },
+  {
+    "name": "opentelemetry-http-0.32.0",
+    "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-http",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "ec289cb3c6f8260951699c51df968560943c1451"
+      },
+      "path_in_vcs": "opentelemetry-http"
+    }
+  },
+  {
+    "name": "opentelemetry-otlp-0.32.0",
+    "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-otlp",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "ec289cb3c6f8260951699c51df968560943c1451"
+      },
+      "path_in_vcs": "opentelemetry-otlp"
+    }
+  },
+  {
+    "name": "opentelemetry-semantic-conventions-0.32.1",
+    "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-semantic-conventions",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "74cb6f3a4129bf11fa3191f28d38c518c4ec4ae6"
+      },
+      "path_in_vcs": "opentelemetry-semantic-conventions"
+    }
+  },
+  {
+    "name": "opentelemetry_sdk-0.32.1",
+    "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-sdk",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "284a37d93b3856e1975c2807ba3af1421ebd9b52"
+      },
+      "path_in_vcs": "opentelemetry-sdk"
+    }
+  },
+  {
+    "name": "par-core-2.0.0",
+    "repository": "https://github.com/dudykr/ddbase.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "d46ef439d30d2b64eb87d4e197929548b51b21be"
+      },
+      "path_in_vcs": "crates/par-core"
+    }
+  },
+  {
+    "name": "phf_macros-0.11.2",
+    "repository": "https://github.com/rust-phf/rust-phf",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "c9c35fd8ba3f1bc228388b0cef6e3814a02a72c0"
+      },
+      "path_in_vcs": "phf_macros"
+    }
+  },
+  {
+    "name": "plist-1.9.0",
+    "repository": "https://github.com/ebarnard/rust-plist/",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "06a7be6505196c818fb489082886b689ccb0cb63"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "pretty_yaml-0.5.0",
+    "repository": "https://github.com/g-plane/pretty_yaml",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "5dfb6c22ba91a738b681d614202e264259e877f0"
+      },
+      "path_in_vcs": "pretty_yaml"
+    }
+  },
+  {
+    "name": "profiling-1.0.15",
+    "repository": "https://github.com/aclysma/profiling",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "2f000e192aa804e043021fd851ce1f077f73f76a"
+      },
+      "path_in_vcs": "profiling"
+    }
+  },
+  {
+    "name": "r-efi-5.3.0",
+    "repository": "https://github.com/r-efi/r-efi",
+    "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "vcs": {
+      "git": {
+        "sha1": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "relative-path-1.9.2",
+    "repository": "https://github.com/udoprog/relative-path",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "802227a5ffdbb1a2e87735602c91aa8d81eafe5d"
+      },
+      "path_in_vcs": "relative-path"
+    }
+  },
+  {
+    "name": "rsqlite-vfs-0.1.1",
+    "repository": null,
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "1bb309784f25c401ddf95131dcde4c4cdad7aee7"
+      },
+      "path_in_vcs": "crates/rsqlite-vfs"
+    }
+  },
+  {
+    "name": "rustls-tokio-stream-0.8.0",
+    "repository": "https://github.com/denoland/rustls-tokio-stream",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "c8a9239c987dbfa7b1eaed78d27935fe8272319c"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "rustyline-derive-0.11.1",
+    "repository": "https://github.com/kkawakam/rustyline",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "227d82c27c5c5fa1862fa3b9e3a619bf9bdeef9b"
+      },
+      "path_in_vcs": "rustyline-derive"
+    }
+  },
+  {
+    "name": "sacabase-2.0.0",
+    "repository": "https://github.com/fasterthanlime/stringsearch",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "acd5846b959884a1d24247038e9c52b5cf900f67"
+      }
+    }
+  },
+  {
+    "name": "smartstring-1.0.1",
+    "repository": "https://github.com/bodil/smartstring",
+    "license": "MPL-2.0+",
+    "vcs": {
+      "git": {
+        "sha1": "e407ca23c747257a812d2d2e70bf336412718c3a"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "spirv-0.4.0+sdk-1.4.341.0",
+    "repository": "https://github.com/gfx-rs/rspirv",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "8afc3d0ac8e158128cd1410bb2e4b4c26ab11bb4"
+      },
+      "path_in_vcs": "spirv"
+    }
+  },
+  {
+    "name": "sptr-0.3.2",
+    "repository": "https://github.com/Gankra/sptr",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "e59792814876b4948279ec3121921fbe827b1077"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "string_enum-1.0.2",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+      },
+      "path_in_vcs": "crates/string_enum"
+    }
+  },
+  {
+    "name": "swc_allocator-4.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+      },
+      "path_in_vcs": "crates/swc_allocator"
+    }
+  },
+  {
+    "name": "swc_atoms-9.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+      },
+      "path_in_vcs": "crates/swc_atoms"
+    }
+  },
+  {
+    "name": "swc_common-17.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "fc7d43ce157083059e2b83acf0a6af8d78c131c7"
+      },
+      "path_in_vcs": "crates/swc_common"
+    }
+  },
+  {
+    "name": "swc_config-3.1.2",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "c9b1b7fda64a7824f9a8265c30c3181f2def0fb8"
+      },
+      "path_in_vcs": "crates/swc_config"
+    }
+  },
+  {
+    "name": "swc_config_macro-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/swc_config_macro"
+    }
+  },
+  {
+    "name": "swc_ecma_ast-18.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+      },
+      "path_in_vcs": "crates/swc_ecma_ast"
+    }
+  },
+  {
+    "name": "swc_ecma_codegen-20.0.2",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "dc794548c75c63410b9f8f7ff32bb9b372f0668c"
+      },
+      "path_in_vcs": "crates/swc_ecma_codegen"
+    }
+  },
+  {
+    "name": "swc_ecma_codegen_macros-2.0.2",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+      },
+      "path_in_vcs": "crates/swc_ecma_codegen_macros"
+    }
+  },
+  {
+    "name": "swc_ecma_lexer-26.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "8d4313921fb2e639ee1d6bacdfb5b071a8d07d36"
+      },
+      "path_in_vcs": "crates/swc_ecma_lexer"
+    }
+  },
+  {
+    "name": "swc_ecma_loader-17.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+      },
+      "path_in_vcs": "crates/swc_ecma_loader"
+    }
+  },
+  {
+    "name": "swc_ecma_parser-27.0.7",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "b229ffef05bc3906a1badd9857bcd2b2298481af"
+      },
+      "path_in_vcs": "crates/swc_ecma_parser"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_base-30.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "51c62242fe6d95a0697be4cd6bdacc4f04679505"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_base"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_classes-30.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "b82dc67157b78e0deaaa2139d2d07902d8f61954"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_classes"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_macros-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_macros"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_proposal-30.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "b294d6f6a47934b3baa04229d232f9e1889db1a5"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_proposal"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_react-33.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "83fba28883be9092ca3e5cffbd9cf35bfc73eabe"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_react"
+    }
+  },
+  {
+    "name": "swc_ecma_transforms_typescript-33.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "83fba28883be9092ca3e5cffbd9cf35bfc73eabe"
+      },
+      "path_in_vcs": "crates/swc_ecma_transforms_typescript"
+    }
+  },
+  {
+    "name": "swc_ecma_utils-24.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "8d4313921fb2e639ee1d6bacdfb5b071a8d07d36"
+      },
+      "path_in_vcs": "crates/swc_ecma_utils"
+    }
+  },
+  {
+    "name": "swc_ecma_visit-18.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "fc7d43ce157083059e2b83acf0a6af8d78c131c7"
+      },
+      "path_in_vcs": "crates/swc_ecma_visit"
+    }
+  },
+  {
+    "name": "swc_eq_ignore_macros-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/swc_eq_ignore_macros"
+    }
+  },
+  {
+    "name": "swc_macros_common-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/swc_macros_common"
+    }
+  },
+  {
+    "name": "swc_ts_fast_strip-36.0.0",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "6f71ba0ceb4fc3de8b782a3b0afa4d5719024647"
+      },
+      "path_in_vcs": "crates/swc_ts_fast_strip"
+    }
+  },
+  {
+    "name": "swc_visit-2.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/swc_visit"
+    }
+  },
+  {
+    "name": "sys_traits-0.1.28",
+    "repository": "https://github.com/dsherret/sys_traits",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "709e02e198721f81b485c078ccdf1835fa3e6a40"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "sys_traits_macros-0.1.0",
+    "repository": "https://github.com/dsherret/sys_traits",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+        "dirty": true
+      },
+      "path_in_vcs": "macros"
+    }
+  },
+  {
+    "name": "testing_macros-1.0.1",
+    "repository": "https://github.com/swc-project/swc.git",
+    "license": "Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+      },
+      "path_in_vcs": "crates/testing_macros"
+    }
+  },
+  {
+    "name": "tonic-prost-0.14.6",
+    "repository": "https://github.com/hyperium/tonic",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "6cb6056b5a748bc5a29bd48f4602dbc4e552bb7d"
+      },
+      "path_in_vcs": "tonic-prost"
+    }
+  },
+  {
+    "name": "valuable-0.1.0",
+    "repository": "https://github.com/tokio-rs/valuable",
+    "license": "MIT",
+    "vcs": null
+  },
+  {
+    "name": "vsimd-0.8.0",
+    "repository": "https://github.com/Nugine/simd",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d74c030d9dc4f3cae02146d1f497ff62726ef09a"
+      },
+      "path_in_vcs": "crates/vsimd"
+    }
+  },
+  {
+    "name": "vte_generate_state_changes-0.1.1",
+    "repository": "https://github.com/jwilm/vte",
+    "license": "Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "1712405055f5d97f6dc7b6156885c940982ec20d"
+      }
+    }
+  },
+  {
+    "name": "wasip2-1.0.2+wasi-0.2.9",
+    "repository": "https://github.com/bytecodealliance/wasi-rs",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9"
+      },
+      "path_in_vcs": "crates/wasip2"
+    }
+  },
+  {
+    "name": "wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06",
+    "repository": "https://github.com/bytecodealliance/wasi-rs",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9"
+      },
+      "path_in_vcs": "crates/wasip3"
+    }
+  },
+  {
+    "name": "wasite-0.1.0",
+    "repository": "https://github.com/ardaku/wasite",
+    "license": "Apache-2.0 OR BSL-1.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "0c72934ad329ab4670eb017581640c2d6eceb289"
+      }
+    }
+  },
+  {
+    "name": "wasm-encoder-0.244.0",
+    "repository": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasm-encoder",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d4e317f22c3bace76cb3205003bcc34b4929037d"
+      },
+      "path_in_vcs": "crates/wasm-encoder"
+    }
+  },
+  {
+    "name": "wasmparser-0.244.0",
+    "repository": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasmparser",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d4e317f22c3bace76cb3205003bcc34b4929037d"
+      },
+      "path_in_vcs": "crates/wasmparser"
+    }
+  },
+  {
+    "name": "web-transport-proto-0.2.7",
+    "repository": "https://github.com/kixelated/web-transport",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "b5be3f7274ff9885e5361c229d05f515ed09af4e"
+      },
+      "path_in_vcs": "web-transport-proto"
+    }
+  },
+  {
+    "name": "win_uds-0.2.2",
+    "repository": "https://github.com/kouhe3/win_uds",
+    "license": "Unlicense",
+    "vcs": {
+      "git": {
+        "sha1": "3a3214bd7256c515d6add9496dd4fefe7d78e165"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "winapi-i686-pc-windows-gnu-0.4.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "license": "MIT/Apache-2.0",
+    "vcs": null
+  },
+  {
+    "name": "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "license": "MIT/Apache-2.0",
+    "vcs": null
+  },
+  {
+    "name": "wit-bindgen-rt-0.39.0",
+    "repository": "https://github.com/bytecodealliance/wit-bindgen",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "f2393e6e98fa5f9236cac580db8a3fc9de6a4b70"
+      },
+      "path_in_vcs": "crates/guest-rust/rt"
+    }
+  },
+  {
+    "name": "wit-component-0.244.0",
+    "repository": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wit-component",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d4e317f22c3bace76cb3205003bcc34b4929037d"
+      },
+      "path_in_vcs": "crates/wit-component"
+    }
+  },
+  {
+    "name": "wit-parser-0.244.0",
+    "repository": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wit-parser",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "vcs": {
+      "git": {
+        "sha1": "d4e317f22c3bace76cb3205003bcc34b4929037d"
+      },
+      "path_in_vcs": "crates/wit-parser"
+    }
+  },
+  {
+    "name": "yaml_parser-0.2.1",
+    "repository": "https://github.com/g-plane/pretty_yaml",
+    "license": "MIT",
+    "vcs": {
+      "git": {
+        "sha1": "3decc5c7ab2632c36f58c359fd9c4174140a6fec"
+      },
+      "path_in_vcs": "yaml_parser"
+    }
+  },
+  {
+    "name": "yasna-0.5.2",
+    "repository": "https://github.com/qnighy/yasna.rs",
+    "license": "MIT OR Apache-2.0",
+    "vcs": {
+      "git": {
+        "sha1": "b7e65f9a4c317494cce2d18ea02b3d6eaaea7985"
+      },
+      "path_in_vcs": ""
+    }
+  },
+  {
+    "name": "zune-core-0.4.12",
+    "repository": null,
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "vcs": {
+      "git": {
+        "sha1": "f8fbb123d5ed04441e8324a555bfcda0cb1bd28f"
+      },
+      "path_in_vcs": "crates/zune-core"
+    }
+  },
+  {
+    "name": "zune-jpeg-0.4.13",
+    "repository": "https://github.com/etemesi254/zune-image/tree/dev/crates/zune-jpeg",
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "vcs": {
+      "git": {
+        "sha1": "d45a0a0380530e164ac9a58d62ea330c95d74daf"
+      },
+      "path_in_vcs": "crates/zune-jpeg"
+    }
+  }
+]

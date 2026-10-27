@@ -1,0 +1,297 @@
+{
+  "completeDirectSourceAcquisition": true,
+  "completeCorrespondingSource": false,
+  "scope": "57 direct source candidates matched to binary enable flags. Excludes unresolved transitive sources, submodules, generated build files and exact source reconstruction. Archive hashes are locally computed.",
+  "sources": [
+    {
+      "script": "scripts.d/20-zlib.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/20-zlib-767c4c947852e143f582c85f14cf573411df1b35.tar.gz",
+      "sha256": "cafa75b907cd067b471fba32a2772c010a859086241ef70d3d57eda6aeea3a64"
+    },
+    {
+      "script": "scripts.d/25-fribidi.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-fribidi-4c914a92e94a9fe4f30ae83a1130099841566448.tar.gz",
+      "sha256": "2501e74cd7a630f3711da529e8c983582648bb8da0eceb52e000ce6a68bde463"
+    },
+    {
+      "script": "scripts.d/25-gmp.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-gmp-763b40df71c0f4d5f5d7b33dc55038c8c9377ecf.tar.gz",
+      "sha256": "08c6f0a2555213617f19d8807f6f22582060c9ae1e6cdf72087a6c6fdf6174ff"
+    },
+    {
+      "script": "scripts.d/25-libxml2.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-libxml2-91586dc6742ab335682235120363f6e126eea5e2.tar.gz",
+      "sha256": "f32d2f4eeff4c45f18ac3b76a0d24066a4bd2e7a46e5a5dd34344149293d824b"
+    },
+    {
+      "script": "scripts.d/25-xz.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe.tar.gz",
+      "sha256": "0d35404f5e2bf0042523945b9fc10ab1c653fc7d96905e2c3179961a4a128b5f"
+    },
+    {
+      "script": "scripts.d/45-fonts/35-fontconfig.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/35-fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3.tar.gz",
+      "sha256": "9430e47c9fc3b1ff1b6575c63f08c0beb2268d325a1d11831420894e48a055d3"
+    },
+    {
+      "script": "scripts.d/45-fonts/45-harfbuzz.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad.tar.gz",
+      "sha256": "7c24de123b8f3201a164816d27703662cebd1b416845e71165006cd70fb14a0f"
+    },
+    {
+      "script": "scripts.d/45-fonts/50-freetype.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-freetype-d333439633039de426f943f28a2926c7f97b5ae5.tar.gz",
+      "sha256": "e9d4680f9d751add3571e5407f2943a18ece9c02a78e1bb456aae305254d8bc9"
+    },
+    {
+      "script": "scripts.d/45-libvorbis.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-libvorbis-1b75110b5a2754ba1931d82dd83cb822b266a21d.tar.gz",
+      "sha256": "bd0f08c8a63debdce27dd71de7d953f9c92e410d1cfe263220bcb49fff2ab749"
+    },
+    {
+      "script": "scripts.d/45-opencl.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-opencl-e6060189f4ebe8b52d885c37af71b9a50c272154.tar.gz",
+      "sha256": "7425b23f33ed99fc1b39bc2f92db7db913d0a2f297e67a1e457594abd7b34ce8"
+    },
+    {
+      "script": "scripts.d/45-vmaf.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-vmaf-86da14d0306a138fd3f01319860b905169746516.tar.gz",
+      "sha256": "bd8f96d1fbc0aceaf0aa9d0a2f3d3f01f8f7ab8df95023f914d21d70dddb7dcb"
+    },
+    {
+      "script": "scripts.d/47-vulkan/45-vulkan-loader.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-vulkan-loader-65b3936528cd92eb4ea3de485d03f858a3850484.tar.gz",
+      "sha256": "1cea0208588bd9d30379e7b83800dd7a32ca68d43c118642693be57782f8633d"
+    },
+    {
+      "script": "scripts.d/47-vulkan/50-shaderc.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab.tar.gz",
+      "sha256": "4a2451e747e011695d25847e75316722df80120b3f141600c43c9f5cedd70578"
+    },
+    {
+      "script": "scripts.d/50-amf.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-amf-6277e353fd625121a8f627b1d0540323ef372a49.tar.gz",
+      "sha256": "b4c489025e1e0da9890ac7134252604a9b9c9f314a6048393d46826294e77d09"
+    },
+    {
+      "script": "scripts.d/50-aom.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-aom-b4ce2cd097b00921b0327bfb5f07b5f8361ade99.tar.gz",
+      "sha256": "4d20af19e138227e97c33a8a6568ca9bdf993ec1479ed72a707acbffc4c57708"
+    },
+    {
+      "script": "scripts.d/50-chromaprint.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72.tar.gz",
+      "sha256": "eba1536d49daa17ae3c56904ea004342c42135dfdaabd7e9c5decbdb473d95ca"
+    },
+    {
+      "script": "scripts.d/50-dav1d.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-dav1d-9711965b60bb692ae24004659acf61f5c7d9ed61.tar.gz",
+      "sha256": "d4956d2a926011e242659e0d0e21b0213d61e14e853fa5585a8b79b2a0f115ba"
+    },
+    {
+      "script": "scripts.d/50-ffnvcodec.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-ffnvcodec-eddcea9e27f6b772057c9b3f87de2cc1737faffc.tar.gz",
+      "sha256": "ea251ed884765b7523e0f4fa814dfd9acd7b5dcc43878cad744b77a46b429e48"
+    },
+    {
+      "script": "scripts.d/50-gme.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-gme-f68963b1de0633149b05732113d3c3113c6f63a1.tar.gz",
+      "sha256": "c4c47251e12b2b147eabb54499c94cf3b607b68f830e231a396f541f4897e74e"
+    },
+    {
+      "script": "scripts.d/50-kvazaar.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7.tar.gz",
+      "sha256": "c2a72f486941ef8f70d712c1e717b66d9272797d233611640d3283d2cafacf22"
+    },
+    {
+      "script": "scripts.d/50-lcevcdec.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-lcevcdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3.tar.gz",
+      "sha256": "0e84df3e1efa14340da53a91c938cd2d2f7b457fd1f26e7c6e05d8200bfd6d11"
+    },
+    {
+      "script": "scripts.d/50-libaribb24.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libaribb24-5e9be272f96e00f15a2f3c5f8ba7e124862aec38.tar.gz",
+      "sha256": "651e88af3c8189d4faed538bee3affde360eb4698a70505765fc7e5653f5eb23"
+    },
+    {
+      "script": "scripts.d/50-libaribcaption.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libaribcaption-c64c23b8905ba514b87c9789269e9f66f949ffe0.tar.gz",
+      "sha256": "9f91ac8f677fb8b1a9a27a792f3bf0b3b8b5348f13a0c07d372d496e6cde9e6a"
+    },
+    {
+      "script": "scripts.d/50-libass.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libass-f61db567e6593df3470e91594bcd4ad2d0473aff.tar.gz",
+      "sha256": "edb3e866ca9394152484bc9a83b68a395f5c9052ae0dc502e4100035c250330b"
+    },
+    {
+      "script": "scripts.d/50-libbluray.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libbluray-a24f4fad4d62893de647abc8671397747b2359dd.tar.gz",
+      "sha256": "f596c2ede4131fa4471bb292c28c327ea2115b1a3ea010d6ddfb75f0935600b7"
+    },
+    {
+      "script": "scripts.d/50-libjxl/50-libjxl.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8.tar.gz",
+      "sha256": "2c42e84002a3554f24777cef8fb0f995225fed9539c8b872b179125c9af1c24f"
+    },
+    {
+      "script": "scripts.d/50-libopus.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libopus-503d81b138d76621aae4b12786e90de48aa8db3a.tar.gz",
+      "sha256": "e34101b726c033be40e3f5a2695d086362d59069554ffd46800c38a13eade1f7"
+    },
+    {
+      "script": "scripts.d/50-libplacebo.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761.tar.gz",
+      "sha256": "2dc029b7686455054fb5e76dd8c084cbf4fa4159f33364c5b7f9afc8b3611811"
+    },
+    {
+      "script": "scripts.d/50-librist/50-librist.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-librist-4f45ef8f78983892d52ccd52d9f675435b23738f.tar.gz",
+      "sha256": "391c2fbb081445a3260cccf97a083bd95a4ece6d7241d219ec5aec80582f5b0a"
+    },
+    {
+      "script": "scripts.d/50-librsvg/99-librsvg.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/99-librsvg-7612431eb02dc009319094f8513d63c1faaecfb4.tar.gz",
+      "sha256": "3787f63f63d8725da97065a8809910d4c05189c8b22fd838deffa5f3579a65be"
+    },
+    {
+      "script": "scripts.d/50-libssh.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libssh-76e0a8639e61436c28d877586f65a7707edc6ee5.tar.gz",
+      "sha256": "5087991d61006e5732b3355d5f3ae8e0ece41d20c99f57b7b875e85389d5b56e"
+    },
+    {
+      "script": "scripts.d/50-libtheora.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libtheora-28fd5ec77f0ad0e07a371cef1047828116f6bd8a.tar.gz",
+      "sha256": "b92c94380b3c86db5797e8f248373eecfc6230c8a0b374e64b4041645b0d2152"
+    },
+    {
+      "script": "scripts.d/50-libvpx.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libvpx-5e680f30801d03c21078f8c4b772464752516211.tar.gz",
+      "sha256": "7ddb4a49d745b83dc7fb6940d027f9f0247ce0eb313403aa77cc04c009833a60"
+    },
+    {
+      "script": "scripts.d/50-libzmq.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.tar.gz",
+      "sha256": "a5219efcc1bd863f1e37c170ce05a04f0c11cce497ea52222dd8a1952a78c1b9"
+    },
+    {
+      "script": "scripts.d/50-lilv/99-lilv.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/99-lilv-4b8f30055fa5cb4134a2eb45fc1555bc04289314.tar.gz",
+      "sha256": "37c5df93860082273ab02104556b45625303a04a299d2914f5dd215f39a29409"
+    },
+    {
+      "script": "scripts.d/50-onevpl.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-onevpl-674d015bcb294bc39fa276e99a652ea045423e82.tar.gz",
+      "sha256": "9d5d3c221b9d41468e04add6855cf5eec6df06dae7be649f84e1f846c98e38fb"
+    },
+    {
+      "script": "scripts.d/50-openal.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openal-c89b8cf7bba4822f230c69f0a6696a52e5322dca.tar.gz",
+      "sha256": "82a81a2f824efa6a1398d0dd93c0557ad202587eac65f5b78957a89f583428a7"
+    },
+    {
+      "script": "scripts.d/50-openapv.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openapv-a58ce739be0dfb083643d929aee8f0e0ba9bdf63.tar.gz",
+      "sha256": "ccd87b3ea2aeecf7e867e361bb8729789de9da6d46e74b89bedbe37aa9236826"
+    },
+    {
+      "script": "scripts.d/50-openh264.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openh264-8b2d28faade10d74d99ac80e199aef664c9c5a3b.tar.gz",
+      "sha256": "ab798665ac2fb872e22c2a4b037a11ededa48f867c040fe478cdcc5994f69424"
+    },
+    {
+      "script": "scripts.d/50-openjpeg.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openjpeg-8314119b067c0fc77834731168daaebd379fdb12.tar.gz",
+      "sha256": "e723e8babb2188e8743308842bb1bfc9809f0375cd964cfeac2fb17285094321"
+    },
+    {
+      "script": "scripts.d/50-openmpt.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767.tar.gz",
+      "sha256": "222de6e3e8cb654f7eaae180ddfceed173d4b70797b8d1f902c56e8d4b68fb2f"
+    },
+    {
+      "script": "scripts.d/50-rav1e.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092.tar.gz",
+      "sha256": "ac56fef82e5f41b53d2c6088f4b0693380c389a55665a698ba768908ee17f073"
+    },
+    {
+      "script": "scripts.d/50-sdl.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-sdl-b90ac95029d801c5abc59472ba8e2200dff31e1e.tar.gz",
+      "sha256": "c750281ef7ed34deb2c36eb971e8acf65198372d6dde86cf590190312353c284"
+    },
+    {
+      "script": "scripts.d/50-snappy.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-snappy-9c28114a38866f6deeaa826db918293bc28ae410.tar.gz",
+      "sha256": "4371172392f382befcad0faccbf302ea9601b7a787db49f1c0744431feff3224"
+    },
+    {
+      "script": "scripts.d/50-srt.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-srt-ff8ab25c57aece5b7351defe36dacc94fc28527f.tar.gz",
+      "sha256": "86a337d0ea33e68434ac6cd23a59c834694527cb3be3d8d23fb75f41095dfc5c"
+    },
+    {
+      "script": "scripts.d/50-svtav1.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-svtav1-5ed9ffbcb5086da23f30fe9bc5b00145358462da.tar.gz",
+      "sha256": "30137902c7d3f30e04f8b0d8a37a459a9ee26fb8877797418a409897ed3cbe65"
+    },
+    {
+      "script": "scripts.d/50-twolame.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-twolame-6fced852d4d5cfad58cf9dbe3ea619b08e87d398.tar.gz",
+      "sha256": "6fd32a3d16a57ceacd5a64c4b6c54d6118b213fe8c63bc2900045200e2012000"
+    },
+    {
+      "script": "scripts.d/50-uavs3d.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-uavs3d-0e20d2c291853f196c68922a264bcd8471d75b68.tar.gz",
+      "sha256": "1c1eb778b6080bc01493180ea7ae671c6444ce3aa760b5d021ba882eb0f9e3a0"
+    },
+    {
+      "script": "scripts.d/50-vaapi/50-libva.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libva-6b07f7100512817f736967e899b8c26313c20623.tar.gz",
+      "sha256": "7f71fc0656b8a365ca4b5806ef03b1ef860e6b8bf462f1acb757c42e62c65159"
+    },
+    {
+      "script": "scripts.d/50-vvenc.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-vvenc-b1cfb2ad495af6ae4cc214b7a060e8b4166c4629.tar.gz",
+      "sha256": "ff85354992bec5aa5cba54f4816e892d682e5f7bc8e7a10c757bdb8d28d45405"
+    },
+    {
+      "script": "scripts.d/50-zimg.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-zimg-67e0603271c080e22c8429856dd4a8a56587e61e.tar.gz",
+      "sha256": "539495d51fcd8c7ef9b89a611454e0c1173d18e8d4e743efdef67c4aa7e40d4f"
+    },
+    {
+      "script": "scripts.d/50-zvbi.sh",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-zvbi-d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0.tar.gz",
+      "sha256": "e0b339e277eef4083ba24a1b1696b5a05cdcd34736b023c8daf0aa11134cfec4"
+    },
+    {
+      "component": "libiconv",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/libiconv-1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0-git.tar.gz",
+      "sha256": "0f3eb0bc82f47582cca14d691e9d659b6aba943c59465cc0b4dc44cdf50670e3",
+      "commit": "1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0"
+    },
+    {
+      "component": "opencore-amr",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/opencore-amr-7dba8c32238418ce0b316a852b2224df586ca896-git.tar.gz",
+      "sha256": "a81ce11c41542443152f3b68ca12f2338b8f542298797b572826d2abdf0343eb",
+      "commit": "7dba8c32238418ce0b316a852b2224df586ca896"
+    },
+    {
+      "component": "soxr",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/soxr-945b592b70470e29f917f4de89b4281fbbd540c0-git.tar.gz",
+      "sha256": "0140fa4533708e1a283b69ee1d387f5e153d495f4ea738b19434cb83c3765ce5",
+      "commit": "945b592b70470e29f917f4de89b4281fbbd540c0"
+    },
+    {
+      "component": "libwebp",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/libwebp-5c168cd23b1872969c38e34b01b04dcf29849288-git.tar.gz",
+      "sha256": "13e657b825a6f74c82d376720165a44545d46d67afca33a18eb96c8742dcc5cc",
+      "commit": "5c168cd23b1872969c38e34b01b04dcf29849288"
+    },
+    {
+      "component": "lame",
+      "revision": 6835,
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/lame-r6835.tar.gz",
+      "sha256": "3b7ca8a44434ae6eb2baba443ece8e3b41c1adb1064796403f812a61188e7a9c"
+    }
+  ]
+}

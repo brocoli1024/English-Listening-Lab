@@ -1,0 +1,96 @@
+[
+  {
+    "name": "aead-license-fixed",
+    "url": "https://api.github.com/repos/littledivy/aead-gcm-stream/contents/LICENSE.md?ref=34483de068985e32665292d736e9801ad7ec2502",
+    "sha256": "a5f05d03e9bb4311b2d246049d2a39e6a05976ea5229479d9c7e0222e7a3644c",
+    "result": {
+      "sha": "cde70dde444c0584fea2d112053c6a8d67e08249",
+      "path": "LICENSE.md"
+    }
+  },
+  {
+    "name": "convert-old-to-license",
+    "url": "https://api.github.com/repos/rutrum/convert-case/compare/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71...603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "sha256": "3b2233676526888aa770d8562ab8a841030717bf13e6aade5c266d3fb9512651",
+    "result": {
+      "status": "ahead",
+      "ahead": 3,
+      "files": [
+        {
+          "file": "LICENSE",
+          "status": "added"
+        },
+        {
+          "file": "README.md",
+          "status": "modified"
+        },
+        {
+          "file": "src/case.rs",
+          "status": "modified"
+        }
+      ]
+    }
+  },
+  {
+    "name": "sys-macros-source",
+    "url": "https://api.github.com/repos/dsherret/sys_traits/contents/macros/lib.rs?ref=4e60da07c2cb1828e359f4a3be21d5e4ae511404",
+    "sha256": "fea6644f136a0ad0662ddfa1645c93e2a1cdd73f4c0d64c8ef75719c493869bd",
+    "result": {
+      "sha": "5d54cf9662d1ceb653e3456e7b214b8c74c3c18a",
+      "path": "macros/lib.rs"
+    }
+  },
+  {
+    "name": "deno-current-tree",
+    "url": "https://api.github.com/repos/denoland/deno_native_certs/git/trees/main?recursive=1",
+    "sha256": "7b9fc256b1e63534959e3787d38f8463e88cf50014fa958da2d221821cc5bfeb",
+    "result": {
+      "sha": "af63bfbea7d761ab286fa357bc38350b39ad2df0",
+      "truncated": false,
+      "candidatePaths": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "name": "fqdn-current-tree",
+    "url": "https://api.github.com/repos/Orange-OpenSource/fqdn/git/trees/master?recursive=1",
+    "sha256": "c0d6cd058174174aec13526b6a3624853479475cc608eba52a1c1117197727cf",
+    "result": {
+      "sha": "a23fef8570522a3b98a79afc45322d6487166cd9",
+      "truncated": false,
+      "candidatePaths": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "name": "sacabase-current-tree",
+    "url": "https://api.github.com/repos/fasterthanlime/stringsearch/git/trees/master?recursive=1",
+    "sha256": "8efabae88055970e0b335e135545e7543a43ecf5f0f5df3cd3e771c847c03830",
+    "result": {
+      "sha": "d1678f30e867834af2c2057872994fc16229acf4",
+      "truncated": false,
+      "candidatePaths": [
+        "README.md",
+        "crates/cdivsufsort/LICENSE",
+        "crates/cdivsufsort/README.md",
+        "crates/cdivsufsort/c-sources/LICENSE",
+        "crates/dc3/README.md",
+        "crates/divsufsort/LICENSE",
+        "crates/divsufsort/README.md",
+        "crates/sacabase/README.md",
+        "crates/sacapart/README.md"
+      ]
+    }
+  },
+  {
+    "name": "deno-parent-license",
+    "url": "https://api.github.com/repos/denoland/deno/contents/LICENSE.md?ref=v2.9.7",
+    "sha256": "7b8e9589b17636e2c85e267682f413b1f6cab576dde21611ab8ad37f3934fcbd",
+    "result": {
+      "sha": "b641c75c0b04ccfddcb1145d2554ab49b6ca9411",
+      "path": "LICENSE.md"
+    }
+  }
+]

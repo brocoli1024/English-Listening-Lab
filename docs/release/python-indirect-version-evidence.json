@@ -1,0 +1,50 @@
+[
+  {
+    "module": "cffi",
+    "assignments": [
+      {
+        "field": "__version__",
+        "value": "2.1.1"
+      },
+      {
+        "field": "__version_info__",
+        "value": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "field": "__version_verifier_modules__",
+        "value": "0.8.6"
+      }
+    ]
+  },
+  {
+    "module": "pycparser",
+    "assignments": [
+      {
+        "field": "__version__",
+        "value": "3.00"
+      }
+    ]
+  },
+  {
+    "module": "charset_normalizer.version",
+    "assignments": [
+      {
+        "field": "__version__",
+        "value": "3.5.0"
+      }
+    ]
+  },
+  {
+    "module": "idna.package_data",
+    "assignments": [
+      {
+        "field": "__version__",
+        "value": "3.18"
+      }
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "version": "6.22.0",
+  "buildRelease": "2026.08.19.215425",
+  "upstreamCommit": "70fc17210920bce17f4ab09bbf8104b0dbd45338",
+  "ytDlpSha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+  "files": [
+    {
+      "file": "pyinstaller-source.tar.gz",
+      "sha256": "587eb41e1087aeaf2a879b04db35b68bbe44b85f9227e263c873396806103540",
+      "hashEvidence": "locally computed; not an independently published digest"
+    },
+    {
+      "file": "pyinstaller-build-source.tar.gz",
+      "sha256": "861253d22a53cf73539ed5e48005a38e90df3fc5a2a1d073f79c4b5fcd6a6150",
+      "hashEvidence": "locally computed; not an independently published digest"
+    },
+    {
+      "file": "pyinstaller-6.22.0-win_amd64.whl",
+      "sha256": "294099ecb5fdd2a13ae4c29006d4e335b697a63b6a16cf052b90ec2b40bef05a",
+      "hashEvidence": "official locked requirements"
+    }
+  ],
+  "loaderComparison": "Python code objects compared recursively, only co_filename normalized; no extracted code executed",
+  "modules": [
+    {
+      "module": "pyimod01_archive",
+      "source": "PyInstaller/loader/pyimod01_archive.py",
+      "matchingOptimizationLevels": [
+        0,
+        1
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyimod02_importers",
+      "source": "PyInstaller/loader/pyimod02_importers.py",
+      "matchingOptimizationLevels": [
+        0
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyimod03_ctypes",
+      "source": "PyInstaller/loader/pyimod03_ctypes.py",
+      "matchingOptimizationLevels": [
+        0,
+        1
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyimod04_pywin32",
+      "source": "PyInstaller/loader/pyimod04_pywin32.py",
+      "matchingOptimizationLevels": [
+        0,
+        1
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyiboot01_bootstrap",
+      "source": "PyInstaller/loader/pyiboot01_bootstrap.py",
+      "matchingOptimizationLevels": [
+        0,
+        1,
+        2
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyi_rth_inspect",
+      "source": "PyInstaller/hooks/rthooks/pyi_rth_inspect.py",
+      "matchingOptimizationLevels": [
+        0,
+        1,
+        2
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyi_rth_pkgutil",
+      "source": "PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py",
+      "matchingOptimizationLevels": [
+        0,
+        1,
+        2
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    },
+    {
+      "module": "pyi_rth_multiprocessing",
+      "source": "PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py",
+      "matchingOptimizationLevels": [
+        0,
+        1,
+        2
+      ],
+      "matches": true,
+      "wheelSourceMatchesPinnedCommitIgnoringLineEndings": true
+    }
+  ],
+  "bootloaderSections": [
+    {
+      "section": ".text",
+      "exeSha256": "82bbd6f8606fad6aade5d750f9498ef48338604c9939abeb8bf1cc4a4a01e673",
+      "wheelSha256": "82bbd6f8606fad6aade5d750f9498ef48338604c9939abeb8bf1cc4a4a01e673",
+      "matches": true
+    },
+    {
+      "section": ".data",
+      "exeSha256": "9acce33f09afec80e45bb667233378d7a2828673117e7c4fb61ffce3d9bc2592",
+      "wheelSha256": "9acce33f09afec80e45bb667233378d7a2828673117e7c4fb61ffce3d9bc2592",
+      "matches": true
+    },
+    {
+      "section": ".rdata",
+      "exeSha256": "dba6373ad8983d8a72ac02f801b89081bc20f94fd451315fd2bcc91037c3d085",
+      "wheelSha256": "dba6373ad8983d8a72ac02f801b89081bc20f94fd451315fd2bcc91037c3d085",
+      "matches": true
+    },
+    {
+      "section": ".pdata",
+      "exeSha256": "be54e969e5df18a2f6b3afa0a4b695488d698fe45601bbb453af68c10492e4ee",
+      "wheelSha256": "be54e969e5df18a2f6b3afa0a4b695488d698fe45601bbb453af68c10492e4ee",
+      "matches": true
+    },
+    {
+      "section": ".xdata",
+      "exeSha256": "67546bc4e3145b0f21b1afa3bcc2eda0de58aa9c57c5155d57800103ee334e2e",
+      "wheelSha256": "67546bc4e3145b0f21b1afa3bcc2eda0de58aa9c57c5155d57800103ee334e2e",
+      "matches": true
+    },
+    {
+      "section": ".bss",
+      "exeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "wheelSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "section": ".idata",
+      "exeSha256": "a9c1fd84ffe00c5f4f82c6139d35ebc25e70783774a7c90917bf9302d81c70e2",
+      "wheelSha256": "a9c1fd84ffe00c5f4f82c6139d35ebc25e70783774a7c90917bf9302d81c70e2",
+      "matches": true
+    },
+    {
+      "section": ".rsrc",
+      "exeSha256": "00d28552e21859ca1723c39cc6004d1428fd0b1b40bad9f45ffa6052a5515075",
+      "wheelSha256": "94c3acdee68891482564921e3f8938657caad986426c79e9f063b4418a7f54e9",
+      "matches": false
+    },
+    {
+      "section": ".reloc",
+      "exeSha256": "94f66fe699999b034c3066666e4f8ab8d5c2b72504d5d01c50a181d4bee19e3f",
+      "wheelSha256": "94f66fe699999b034c3066666e4f8ab8d5c2b72504d5d01c50a181d4bee19e3f",
+      "matches": true
+    }
+  ],
+  "scope": "Section equality is not whole-executable equality or source rebuild proof."
+}

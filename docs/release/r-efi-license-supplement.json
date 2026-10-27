@@ -1,0 +1,16 @@
+[
+  {
+    "package": "r-efi-5.3.0",
+    "sourceMember": "r-efi-5.3.0/AUTHORS",
+    "path": "docs/release/licenses/ffmpeg-librsvg-upstream/r-efi-5.3.0/AUTHORS",
+    "sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7",
+    "basis": "Original AUTHORS includes MIT permission text and copyright holders; preserved in full."
+  },
+  {
+    "package": "r-efi-6.0.0",
+    "sourceMember": "r-efi-6.0.0/AUTHORS",
+    "path": "docs/release/licenses/ffmpeg-librsvg-upstream/r-efi-6.0.0/AUTHORS",
+    "sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+    "basis": "Original AUTHORS includes MIT permission text and copyright holders; preserved in full."
+  }
+]

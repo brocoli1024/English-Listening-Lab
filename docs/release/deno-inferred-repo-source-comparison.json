@@ -1,0 +1,76 @@
+[
+  {
+    "package": "cranelift-assembler-x64-0.117.2",
+    "source": "desktop/.downloads/compliance/wasmtime-398694a59e24d37acde915086a9be308ec51f626.tar.gz",
+    "sourceSha256": "3d8793a1f0aeaf4d46b833d7d1f7feaa8c3d35216762461b84e37386c2cb724c",
+    "commit": "398694a59e24d37acde915086a9be308ec51f626",
+    "matched": [
+      "Cargo.toml.orig",
+      "README.md",
+      "build.rs",
+      "src/api.rs",
+      "src/arbitrary_impls.rs",
+      "src/imm.rs",
+      "src/inst.rs",
+      "src/isle.rs",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/mem.rs",
+      "src/reg.rs",
+      "src/rex.rs"
+    ],
+    "missing": [],
+    "different": []
+  },
+  {
+    "package": "cranelift-assembler-x64-meta-0.117.2",
+    "source": "desktop/.downloads/compliance/wasmtime-398694a59e24d37acde915086a9be308ec51f626.tar.gz",
+    "sourceSha256": "3d8793a1f0aeaf4d46b833d7d1f7feaa8c3d35216762461b84e37386c2cb724c",
+    "commit": "398694a59e24d37acde915086a9be308ec51f626",
+    "matched": [
+      ".rustfmt.toml",
+      "Cargo.toml.orig",
+      "README.md",
+      "src/dsl/encoding.rs",
+      "src/dsl/features.rs",
+      "src/dsl/format.rs",
+      "src/dsl.rs",
+      "src/generate/features.rs",
+      "src/generate/format.rs",
+      "src/generate/formatter.rs",
+      "src/generate/inst.rs",
+      "src/generate/operand.rs",
+      "src/generate.rs",
+      "src/instructions/and.rs",
+      "src/instructions.rs",
+      "src/lib.rs",
+      "src/main.rs"
+    ],
+    "missing": [],
+    "different": []
+  },
+  {
+    "package": "dlopen2_derive-0.4.0",
+    "source": "desktop/.downloads/compliance/dlopen2-122b5b7d9f15718de9525b5968ea8888ddc3a89d.tar.gz",
+    "sourceSha256": "959f394a0234cd7633a25c1e4d7e08657e08f547db26275fb4b8c60e3cf390b1",
+    "commit": "122b5b7d9f15718de9525b5968ea8888ddc3a89d",
+    "matched": [],
+    "missing": [],
+    "different": [
+      "Cargo.toml.orig",
+      "src/api.rs",
+      "src/common.rs",
+      "src/lib.rs",
+      "src/multi_api.rs",
+      "src/wrapper.rs"
+    ],
+    "identicalAfterLineEndingNormalization": [
+      "Cargo.toml.orig",
+      "src/api.rs",
+      "src/common.rs",
+      "src/lib.rs",
+      "src/multi_api.rs",
+      "src/wrapper.rs"
+    ]
+  }
+]

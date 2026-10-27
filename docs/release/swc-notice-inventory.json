@@ -1,0 +1,225 @@
+{
+  "scope": "Text search of all archive files up to 2 MB, excluding binary data. Candidate notice inventory, not a legal or complete embedded-code audit.",
+  "records": [
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/diagnostic.rs",
+      "sha256": "613735aac2274b73b08837c6ef0c9f9f0a351903c23ac9214d66d51232045e53",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/diagnostic_builder.rs",
+      "sha256": "8c250e4316532c690ce2f653e8612289ea41f59566a3dda6743b3268cf757c33",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/emitter.rs",
+      "sha256": "f50636a993562080af1a9294a881538401e77c536dd46d63c460a45146d66565",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/lock.rs",
+      "sha256": "7c586f265fcebbe03c9e7e79cbb903ce854d0e97ab799487a14e2d602d72aff2",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2016 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/mod.rs",
+      "sha256": "b0652c6563e8647e652aabc5729b2d68120b78a82508f1daaa7e6aacc0ef4111",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/snippet.rs",
+      "sha256": "f910562f3bfdc26564aa266f2e8ded2d4b663a4203ba1abf9bfb9bcf419d497e",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/errors/styled_buffer.rs",
+      "sha256": "1c4e3269b84b938a910b80d3ccb0943953b662816c08f8d89e937ec4ba2f3ff4",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2015 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/source_map.rs",
+      "sha256": "756f62b453df7a20814708c7cadce7a05dcf8435470370d5464facb8fff732f7",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/sync.rs",
+      "sha256": "16f8178d95970fd3255c098f864aa4d93cb6d4888eb84591e4ad73b70f422ca2",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2017 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/syntax_pos/analyze_source_file.rs",
+      "sha256": "2344e0812c740e25eaa962a18d35d9cc8e21bde130ff32693e03de8f322d7bfc",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2018 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "member": "swc_common-17.0.1/src/syntax_pos/hygiene.rs",
+      "sha256": "bca3de659a3f53eb7ecac7ba33e6a17cebb2ffbe2ae64949c159da5655461225",
+      "hits": [
+        {
+          "line": 1,
+          "text": "// Copyright 2012-2014 The Rust Project Developers. See the COPYRIGHT"
+        },
+        {
+          "line": 3,
+          "text": "// http://rust-lang.org/COPYRIGHT."
+        },
+        {
+          "line": 5,
+          "text": "// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or"
+        }
+      ]
+    },
+    {
+      "package": "swc_ecma_transforms_base-30.0.1",
+      "member": "swc_ecma_transforms_base-30.0.1/src/fixer.rs",
+      "sha256": "218d8ba379c9bcd03457513d5276a192f70d79e952487b21dcf51dfc501a4589",
+      "hits": [
+        {
+          "line": 1414,
+          "text": "  copyright: '\u00a9 2018 Denis Pushkarev (zloirock.ru)'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "package": "plist-1.9.0",
+    "sourceMember": "plist-1.9.0/LICENCE",
+    "path": "docs/release/licenses/deno-embedded/plist-1.9.0/LICENCE",
+    "sha256": "5b0ae40d1a35f7ae6591a28e44771240e6a88cb03a66c9189a45b9681639b466"
+  },
+  {
+    "package": "r-efi-5.3.0",
+    "sourceMember": "r-efi-5.3.0/AUTHORS",
+    "path": "docs/release/licenses/deno-embedded/r-efi-5.3.0/AUTHORS",
+    "sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7"
+  },
+  {
+    "package": "win_uds-0.2.2",
+    "sourceMember": "win_uds-0.2.2/UNLICENSE",
+    "path": "docs/release/licenses/deno-embedded/win_uds-0.2.2/UNLICENSE",
+    "sha256": "b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c"
+  },
+  {
+    "package": "smartstring-1.0.1",
+    "sourceMember": "smartstring-1.0.1/LICENCE.md",
+    "sourceCrateSha256": "3fb72c633efbaa2dd666986505016c32c3044395ceaf881518399d2f4127ee29",
+    "path": "docs/release/licenses/deno-embedded/smartstring-1.0.1/LICENCE.md",
+    "sha256": "e6b6566f085df5746515c6d7e2edcaec0d2b77d527ac40d91409d783fb6c8508",
+    "basis": "Exact LICENCE.md from the registry archive verified against the Deno Cargo.lock checksum; the package declares MPL-2.0+ and the file supplies the complete MPL-2.0 text. Cargo.toml.orig identifies Bodil Stokke as the author."
+  }
+]

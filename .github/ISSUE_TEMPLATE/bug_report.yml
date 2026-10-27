@@ -1,0 +1,36 @@
+name: 問題回報
+description: 回報安裝、匯入或練習問題
+title: "[問題] "
+body:
+  - type: markdown
+    attributes:
+      value: "請勿附上私人音檔、完整曲庫、未遮蔽的個人資料或帳號憑證。送出後其他人可能看到內容。"
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      description: 可在「說明與支援」查看。
+      placeholder: 例如 1.0.4
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: 例如 Windows 11 x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何重現
+      description: 依序描述按了哪些按鈕。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期與實際結果
+      description: 請附錯誤文字；截圖前遮蔽私人資訊。
+    validations:
+      required: true

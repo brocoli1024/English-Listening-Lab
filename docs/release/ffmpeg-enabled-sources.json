@@ -1,0 +1,1728 @@
+{
+  "scope": "Direct build-script enable flags matched to actual binary configuration; transitive dependencies, patches and submodules must still be audited",
+  "complete": false,
+  "entries": [
+    {
+      "script": "scripts.d/20-libiconv.sh",
+      "sha256": "b473cb6160679b422e6fa79e43f61ea09692e0926208a463bdd52babea2561e9",
+      "references": {
+        "REPO": "https://git.savannah.gnu.org/git/libiconv.git",
+        "COMMIT": "1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0"
+      },
+      "configureFlags": [
+        "--enable-iconv"
+      ],
+      "collected": false,
+      "licenses": [],
+      "error": "Source host requires Git acquisition"
+    },
+    {
+      "script": "scripts.d/20-zlib.sh",
+      "sha256": "cafa75b907cd067b471fba32a2772c010a859086241ef70d3d57eda6aeea3a64",
+      "references": {
+        "REPO": "https://github.com/madler/zlib.git",
+        "COMMIT": "767c4c947852e143f582c85f14cf573411df1b35"
+      },
+      "configureFlags": [
+        "--enable-zlib"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/20-zlib/zlib-767c4c947852e143f582c85f14cf573411df1b35/LICENSE",
+          "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/20-zlib/zlib-767c4c947852e143f582c85f14cf573411df1b35/contrib/dotzlib/LICENSE_1_0.txt",
+          "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/20-zlib/zlib-767c4c947852e143f582c85f14cf573411df1b35/contrib/minizip/LICENSE.Info-Zip",
+          "sha256": "fc686023047ce5ce3a18a9b8a777156f0e475929d3de06bac279f3c025d2b2ca"
+        }
+      ],
+      "url": "https://codeload.github.com/madler/zlib/tar.gz/767c4c947852e143f582c85f14cf573411df1b35",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/20-zlib-767c4c947852e143f582c85f14cf573411df1b35.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/25-fribidi.sh",
+      "sha256": "2501e74cd7a630f3711da529e8c983582648bb8da0eceb52e000ce6a68bde463",
+      "references": {
+        "REPO": "https://github.com/fribidi/fribidi.git",
+        "COMMIT": "4c914a92e94a9fe4f30ae83a1130099841566448"
+      },
+      "configureFlags": [
+        "--enable-libfribidi"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-fribidi/fribidi-4c914a92e94a9fe4f30ae83a1130099841566448/COPYING",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        }
+      ],
+      "url": "https://codeload.github.com/fribidi/fribidi/tar.gz/4c914a92e94a9fe4f30ae83a1130099841566448",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-fribidi-4c914a92e94a9fe4f30ae83a1130099841566448.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/25-gmp.sh",
+      "sha256": "08c6f0a2555213617f19d8807f6f22582060c9ae1e6cdf72087a6c6fdf6174ff",
+      "references": {
+        "REPO": "https://github.com/BtbN/gmplib.git",
+        "COMMIT": "763b40df71c0f4d5f5d7b33dc55038c8c9377ecf"
+      },
+      "configureFlags": [
+        "--enable-gmp"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-gmp/gmplib-763b40df71c0f4d5f5d7b33dc55038c8c9377ecf/COPYING.LESSERv3",
+          "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-gmp/gmplib-763b40df71c0f4d5f5d7b33dc55038c8c9377ecf/COPYINGv2",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-gmp/gmplib-763b40df71c0f4d5f5d7b33dc55038c8c9377ecf/COPYINGv3",
+          "sha256": "e6037104443f9a7829b2aa7c5370d0789a7bda3ca65a0b904cdc0c2e285d9195"
+        }
+      ],
+      "url": "https://codeload.github.com/BtbN/gmplib/tar.gz/763b40df71c0f4d5f5d7b33dc55038c8c9377ecf",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-gmp-763b40df71c0f4d5f5d7b33dc55038c8c9377ecf.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/25-libxml2.sh",
+      "sha256": "f32d2f4eeff4c45f18ac3b76a0d24066a4bd2e7a46e5a5dd34344149293d824b",
+      "references": {
+        "REPO": "https://github.com/GNOME/libxml2.git",
+        "COMMIT": "91586dc6742ab335682235120363f6e126eea5e2"
+      },
+      "configureFlags": [
+        "--enable-libxml2"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-libxml2/libxml2-91586dc6742ab335682235120363f6e126eea5e2/Copyright",
+          "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-libxml2/libxml2-91586dc6742ab335682235120363f6e126eea5e2/result/html-tokenizer/NOTICE",
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-libxml2/libxml2-91586dc6742ab335682235120363f6e126eea5e2/test/html-tokenizer/NOTICE",
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        }
+      ],
+      "url": "https://codeload.github.com/GNOME/libxml2/tar.gz/91586dc6742ab335682235120363f6e126eea5e2",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-libxml2-91586dc6742ab335682235120363f6e126eea5e2.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/25-xz.sh",
+      "sha256": "0d35404f5e2bf0042523945b9fc10ab1c653fc7d96905e2c3179961a4a128b5f",
+      "references": {
+        "REPO": "https://github.com/tukaani-project/xz.git",
+        "COMMIT": "3b1efb04d17c3a9ef7f473d73af13f1531428ffe"
+      },
+      "configureFlags": [
+        "--enable-lzma"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/COPYING",
+          "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/COPYING.0BSD",
+          "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/COPYING.GPLv2",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/COPYING.GPLv3",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/COPYING.LGPLv2.1",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/25-xz/xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe/build-aux/license-check.sh",
+          "sha256": "2b3fa1d23cb2ab084f3d919908159473cc0e1eed059d106e2a2857c0ec8af98a"
+        }
+      ],
+      "url": "https://codeload.github.com/tukaani-project/xz/tar.gz/3b1efb04d17c3a9ef7f473d73af13f1531428ffe",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/25-xz-3b1efb04d17c3a9ef7f473d73af13f1531428ffe.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-fonts/35-fontconfig.sh",
+      "sha256": "9430e47c9fc3b1ff1b6575c63f08c0beb2268d325a1d11831420894e48a055d3",
+      "references": {
+        "REPO": "https://gitlab.freedesktop.org/fontconfig/fontconfig.git",
+        "COMMIT": "bd8f7b597de96761750d0365abb49b19d2f8d5c3"
+      },
+      "configureFlags": [
+        "--enable-fontconfig"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/35-fontconfig/fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3/COPYING",
+          "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067"
+        }
+      ],
+      "url": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/bd8f7b597de96761750d0365abb49b19d2f8d5c3/fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/35-fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-fonts/45-harfbuzz.sh",
+      "sha256": "7c24de123b8f3201a164816d27703662cebd1b416845e71165006cd70fb14a0f",
+      "references": {
+        "REPO": "https://github.com/harfbuzz/harfbuzz.git",
+        "COMMIT": "b3bab62307017934dd7f532c52a696fefb12b3ad"
+      },
+      "configureFlags": [
+        "--enable-libharfbuzz"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/COPYING",
+          "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/perf/texts/COPYING",
+          "sha256": "cf977e70247d5fa9d44955e4d8ed23b503c31f78570f62136756278c2cfcb3c3"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/src/ms-use/COPYING",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/test/COPYING",
+          "sha256": "9b35b8485f69cd298fccbb3c40a827dc06cf1185553bef827903497d2944a8d7"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/test/shape/data/aots/COPYING",
+          "sha256": "f55f74bf740db07bb032a90aa74af4307adea3d489c1ccba12453cf0c0a764cb"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-harfbuzz/harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad/test/shape/data/text-rendering-tests/COPYING",
+          "sha256": "d24039e4d22c9bc72096f6174374539d92a3d6e1163938546ec59179fe095e6f"
+        }
+      ],
+      "url": "https://codeload.github.com/harfbuzz/harfbuzz/tar.gz/b3bab62307017934dd7f532c52a696fefb12b3ad",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-harfbuzz-b3bab62307017934dd7f532c52a696fefb12b3ad.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-fonts/50-freetype.sh",
+      "sha256": "e9d4680f9d751add3571e5407f2943a18ece9c02a78e1bb456aae305254d8bc9",
+      "references": {
+        "REPO": "https://gitlab.freedesktop.org/freetype/freetype.git",
+        "COMMIT": "d333439633039de426f943f28a2926c7f97b5ae5"
+      },
+      "configureFlags": [
+        "--enable-libfreetype"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-freetype/freetype-d333439633039de426f943f28a2926c7f97b5ae5/LICENSE.TXT",
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+        }
+      ],
+      "url": "https://gitlab.freedesktop.org/freetype/freetype/-/archive/d333439633039de426f943f28a2926c7f97b5ae5/freetype-d333439633039de426f943f28a2926c7f97b5ae5.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-freetype-d333439633039de426f943f28a2926c7f97b5ae5.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-libvorbis.sh",
+      "sha256": "bd0f08c8a63debdce27dd71de7d953f9c92e410d1cfe263220bcb49fff2ab749",
+      "references": {
+        "REPO": "https://github.com/xiph/vorbis.git",
+        "COMMIT": "1b75110b5a2754ba1931d82dd83cb822b266a21d"
+      },
+      "configureFlags": [
+        "--enable-libvorbis"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-libvorbis/vorbis-1b75110b5a2754ba1931d82dd83cb822b266a21d/COPYING",
+          "sha256": "ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-libvorbis/vorbis-1b75110b5a2754ba1931d82dd83cb822b266a21d/debian/copyright",
+          "sha256": "1f6c6b6397d86d20968d7856d6945591b89e4cb64e5fc1ec8b992811f6a65ed8"
+        }
+      ],
+      "url": "https://codeload.github.com/xiph/vorbis/tar.gz/1b75110b5a2754ba1931d82dd83cb822b266a21d",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-libvorbis-1b75110b5a2754ba1931d82dd83cb822b266a21d.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-opencl.sh",
+      "sha256": "7425b23f33ed99fc1b39bc2f92db7db913d0a2f297e67a1e457594abd7b34ce8",
+      "references": {
+        "REPO": "https://github.com/KhronosGroup/OpenCL-Headers.git",
+        "COMMIT": "e6060189f4ebe8b52d885c37af71b9a50c272154"
+      },
+      "configureFlags": [
+        "--enable-opencl"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-opencl/OpenCL-Headers-e6060189f4ebe8b52d885c37af71b9a50c272154/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "url": "https://codeload.github.com/KhronosGroup/OpenCL-Headers/tar.gz/e6060189f4ebe8b52d885c37af71b9a50c272154",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-opencl-e6060189f4ebe8b52d885c37af71b9a50c272154.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/45-vmaf.sh",
+      "sha256": "bd8f96d1fbc0aceaf0aa9d0a2f3d3f01f8f7ab8df95023f914d21d70dddb7dcb",
+      "references": {
+        "REPO": "https://github.com/Netflix/vmaf.git",
+        "COMMIT": "86da14d0306a138fd3f01319860b905169746516"
+      },
+      "configureFlags": [
+        "--enable-libvmaf"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-vmaf/vmaf-86da14d0306a138fd3f01319860b905169746516/LICENSE",
+          "sha256": "a6fdb51d02b9dfe198e55534bb8047fe6d756eda117f4ff83de98f92c1952710"
+        }
+      ],
+      "url": "https://codeload.github.com/Netflix/vmaf/tar.gz/86da14d0306a138fd3f01319860b905169746516",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-vmaf-86da14d0306a138fd3f01319860b905169746516.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/47-vulkan/45-vulkan-loader.sh",
+      "sha256": "1cea0208588bd9d30379e7b83800dd7a32ca68d43c118642693be57782f8633d",
+      "references": {
+        "REPO": "https://github.com/BtbN/Vulkan-Shim-Loader.git",
+        "COMMIT": "65b3936528cd92eb4ea3de485d03f858a3850484"
+      },
+      "configureFlags": [
+        "--enable-vulkan"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/45-vulkan-loader/Vulkan-Shim-Loader-65b3936528cd92eb4ea3de485d03f858a3850484/LICENSE",
+          "sha256": "8d4d279343d72e5b9e06bbe38c1ad8660fa8eabc217164a5b482ddf4ab0dba9d"
+        }
+      ],
+      "url": "https://codeload.github.com/BtbN/Vulkan-Shim-Loader/tar.gz/65b3936528cd92eb4ea3de485d03f858a3850484",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/45-vulkan-loader-65b3936528cd92eb4ea3de485d03f858a3850484.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/47-vulkan/50-shaderc.sh",
+      "sha256": "4a2451e747e011695d25847e75316722df80120b3f141600c43c9f5cedd70578",
+      "references": {
+        "REPO": "https://github.com/google/shaderc.git",
+        "COMMIT": "a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab"
+      },
+      "configureFlags": [
+        "--enable-libshaderc"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-shaderc/shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-shaderc/shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab/license-checker.cfg",
+          "sha256": "ff39f110e4b17c6a2e24eacc14a32674c2c1f2385828bdc23a0399d3475fffc8"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-shaderc/shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab/third_party/LICENSE.glslang",
+          "sha256": "b5a00e94f058edc87e05978329b55730d8689abe61205d9018443d03de4f07da"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-shaderc/shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab/third_party/LICENSE.spirv-tools",
+          "sha256": "47e20ce182bc68fab1a0cfb129b03c326aaf4f2b6b7905aa9d376d31018bd29f"
+        }
+      ],
+      "url": "https://codeload.github.com/google/shaderc/tar.gz/a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-amf.sh",
+      "sha256": "b4c489025e1e0da9890ac7134252604a9b9c9f314a6048393d46826294e77d09",
+      "references": {
+        "REPO": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git",
+        "COMMIT": "6277e353fd625121a8f627b1d0540323ef372a49"
+      },
+      "configureFlags": [
+        "--enable-amf"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-amf/AMF-6277e353fd625121a8f627b1d0540323ef372a49/LICENSE.txt",
+          "sha256": "eb297397aaa455b5668ab67d216b83828466152dab123fa92384c6ec16b74170"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-amf/AMF-6277e353fd625121a8f627b1d0540323ef372a49/Thirdparty/amd/AmdDxExt/LICENSE.txt",
+          "sha256": "d8b1b7b1757e8b44ac9cd55cc41736523dd355523900af5f7c0187b485ac62c7"
+        }
+      ],
+      "url": "https://codeload.github.com/GPUOpen-LibrariesAndSDKs/AMF/tar.gz/6277e353fd625121a8f627b1d0540323ef372a49",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-amf-6277e353fd625121a8f627b1d0540323ef372a49.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-aom.sh",
+      "sha256": "4d20af19e138227e97c33a8a6568ca9bdf993ec1479ed72a707acbffc4c57708",
+      "references": {
+        "REPO": "https://aomedia.googlesource.com/aom",
+        "COMMIT": "b4ce2cd097b00921b0327bfb5f07b5f8361ade99"
+      },
+      "configureFlags": [
+        "--enable-libaom"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/LICENSE",
+          "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/fastfeat/LICENSE",
+          "sha256": "499041ddee5227b6f29ca06c17803e5fe24d60f243c69635cd76b7ba08d0ddd5"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/googletest/src/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/highway/LICENSE-BSD3",
+          "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/libwebm/LICENSE.TXT",
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/libyuv/LICENSE",
+          "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/vector/LICENSE",
+          "sha256": "ff6c857ce2708e87701323078aef115c1872a1f80a9649f86dc899b48083bc60"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-aom/third_party/x86inc/LICENSE",
+          "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+        }
+      ],
+      "url": "https://aomedia.googlesource.com/aom/+archive/b4ce2cd097b00921b0327bfb5f07b5f8361ade99.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-aom-b4ce2cd097b00921b0327bfb5f07b5f8361ade99.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-chromaprint.sh",
+      "sha256": "eba1536d49daa17ae3c56904ea004342c42135dfdaabd7e9c5decbdb473d95ca",
+      "references": {
+        "REPO": "https://github.com/acoustid/chromaprint.git",
+        "COMMIT": "aed8eba2202dd9d7b3b0a56c77904cc805490d72"
+      },
+      "configureFlags": [
+        "--enable-chromaprint"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-chromaprint/chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72/LICENSE.md",
+          "sha256": "562cfe59627e0c4e8e3b066f3ff2e9736f83811ffe4c6c2c7796595aa7595ebd"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-chromaprint/chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72/src/3rdparty/googletest/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-chromaprint/chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72/src/3rdparty/kissfft/COPYING",
+          "sha256": "a2840585f8411be8e6826a31ef15ae65c950bd74a2437a73b013398a934ad0c6"
+        }
+      ],
+      "url": "https://codeload.github.com/acoustid/chromaprint/tar.gz/aed8eba2202dd9d7b3b0a56c77904cc805490d72",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-dav1d.sh",
+      "sha256": "d4956d2a926011e242659e0d0e21b0213d61e14e853fa5585a8b79b2a0f115ba",
+      "references": {
+        "REPO": "https://code.videolan.org/videolan/dav1d.git",
+        "COMMIT": "9711965b60bb692ae24004659acf61f5c7d9ed61"
+      },
+      "configureFlags": [
+        "--enable-libdav1d"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-dav1d/dav1d-9711965b60bb692ae24004659acf61f5c7d9ed61/COPYING",
+          "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5"
+        }
+      ],
+      "url": "https://code.videolan.org/videolan/dav1d/-/archive/9711965b60bb692ae24004659acf61f5c7d9ed61/dav1d-9711965b60bb692ae24004659acf61f5c7d9ed61.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-dav1d-9711965b60bb692ae24004659acf61f5c7d9ed61.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-ffnvcodec.sh",
+      "sha256": "ea251ed884765b7523e0f4fa814dfd9acd7b5dcc43878cad744b77a46b429e48",
+      "references": {
+        "REPO": "https://github.com/FFmpeg/nv-codec-headers.git",
+        "COMMIT": "eddcea9e27f6b772057c9b3f87de2cc1737faffc"
+      },
+      "configureFlags": [
+        "--enable-ffnvcodec"
+      ],
+      "collected": true,
+      "licenses": [],
+      "url": "https://codeload.github.com/FFmpeg/nv-codec-headers/tar.gz/eddcea9e27f6b772057c9b3f87de2cc1737faffc",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-ffnvcodec-eddcea9e27f6b772057c9b3f87de2cc1737faffc.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-gme.sh",
+      "sha256": "c4c47251e12b2b147eabb54499c94cf3b607b68f830e231a396f541f4897e74e",
+      "references": {
+        "REPO": "https://github.com/libgme/game-music-emu.git",
+        "COMMIT": "f68963b1de0633149b05732113d3c3113c6f63a1"
+      },
+      "configureFlags": [
+        "--enable-libgme"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-gme/game-music-emu-f68963b1de0633149b05732113d3c3113c6f63a1/gme/ext/LICENSE",
+          "sha256": "8fb093f26ed0d78c8ca033bbec7063ac5b34c5d2475e6bd121d03ccfaaf2355f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-gme/game-music-emu-f68963b1de0633149b05732113d3c3113c6f63a1/license.gpl2.txt",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-gme/game-music-emu-f68963b1de0633149b05732113d3c3113c6f63a1/license.txt",
+          "sha256": "d2efc89fbb7533572a472d34e07964951810a3a4f8d3159ecc2dcaa1452c5c26"
+        }
+      ],
+      "url": "https://codeload.github.com/libgme/game-music-emu/tar.gz/f68963b1de0633149b05732113d3c3113c6f63a1",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-gme-f68963b1de0633149b05732113d3c3113c6f63a1.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-kvazaar.sh",
+      "sha256": "c2a72f486941ef8f70d712c1e717b66d9272797d233611640d3283d2cafacf22",
+      "references": {
+        "REPO": "https://github.com/ultravideo/kvazaar.git",
+        "COMMIT": "2b06691bb5844404c0e703f12a5d7b0fee914ec7"
+      },
+      "configureFlags": [
+        "--enable-libkvazaar"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-kvazaar/kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7/LICENSE",
+          "sha256": "3c1dc3d7f8a3d08c14f4fbe9942f45764d8a21a3296e8d83446f33fd65f21c38"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-kvazaar/kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7/LICENSE.EXT.greatest",
+          "sha256": "16f569c87d5ec20b7474b55ee0a8877b8f8b4dc13f9567ebe0b8fe8afdeb34d2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-kvazaar/kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7/src/threadwrapper/LICENSE",
+          "sha256": "e4c9f82e9970cded92135cdc88f8a2f8e35b6d2fdb5fd879ea713cadfd6fbac3"
+        }
+      ],
+      "url": "https://codeload.github.com/ultravideo/kvazaar/tar.gz/2b06691bb5844404c0e703f12a5d7b0fee914ec7",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-lcevcdec.sh",
+      "sha256": "0e84df3e1efa14340da53a91c938cd2d2f7b457fd1f26e7c6e05d8200bfd6d11",
+      "references": {
+        "REPO": "https://github.com/v-novaltd/LCEVCdec.git",
+        "COMMIT": "17804ac54db8fbb42717f3275b1e73f3c0b067d3"
+      },
+      "configureFlags": [
+        "--enable-liblcevc-dec"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/COPYING",
+          "sha256": "3afa5369b4fb44e18280b6e0e275971f78bc6eaf5f53553f41f2483fd8b1267e"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/LICENSE.md",
+          "sha256": "14358b0ecf6e7036c211c10f0f25563c94483dee7b8c7c954e09e10f3771d0af"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/FFmpeg/LICENSE.md",
+          "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/conan-center-index/LICENSE.txt",
+          "sha256": "b35b9e39a7900cbd38190afff863f5a4eb2f04c8f9ceaff7afdb0523185f57c9"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/fmt/LICENSE",
+          "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/gradle/LICENSE",
+          "sha256": "cf234c4188d773406f640bf89be680d9288f40ff96901c70d643fcea96ad46df"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/ios-cmake/license.md",
+          "sha256": "0b85f7cda17eeba9d545455874ede53b54efb3ec8a9ae381250d1183c98efea0"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/nlohmann_json/LICENSE.MIT",
+          "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-lcevcdec/LCEVCdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3/licenses/vma/LICENSE.txt",
+          "sha256": "52df2c03d6cfc9ffec13c9d3626c530fc9ce0cbe41d5ea3d10cd46edeb1aeb38"
+        }
+      ],
+      "url": "https://codeload.github.com/v-novaltd/LCEVCdec/tar.gz/17804ac54db8fbb42717f3275b1e73f3c0b067d3",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-lcevcdec-17804ac54db8fbb42717f3275b1e73f3c0b067d3.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libaribb24.sh",
+      "sha256": "651e88af3c8189d4faed538bee3affde360eb4698a70505765fc7e5653f5eb23",
+      "references": {
+        "REPO": "https://github.com/nkoriyama/aribb24.git",
+        "COMMIT": "5e9be272f96e00f15a2f3c5f8ba7e124862aec38"
+      },
+      "configureFlags": [
+        "--enable-libaribb24"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libaribb24/aribb24-5e9be272f96e00f15a2f3c5f8ba7e124862aec38/COPYING",
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        }
+      ],
+      "url": "https://codeload.github.com/nkoriyama/aribb24/tar.gz/5e9be272f96e00f15a2f3c5f8ba7e124862aec38",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libaribb24-5e9be272f96e00f15a2f3c5f8ba7e124862aec38.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libaribcaption.sh",
+      "sha256": "9f91ac8f677fb8b1a9a27a792f3bf0b3b8b5348f13a0c07d372d496e6cde9e6a",
+      "references": {
+        "REPO": "https://github.com/xqq/libaribcaption.git",
+        "COMMIT": "c64c23b8905ba514b87c9789269e9f66f949ffe0"
+      },
+      "configureFlags": [
+        "--enable-libaribcaption"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libaribcaption/libaribcaption-c64c23b8905ba514b87c9789269e9f66f949ffe0/LICENSE",
+          "sha256": "5149f1ce4fe89190d86bfb440456701a3a7406fc2b19ef0d8b57661f62b32c04"
+        }
+      ],
+      "url": "https://codeload.github.com/xqq/libaribcaption/tar.gz/c64c23b8905ba514b87c9789269e9f66f949ffe0",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libaribcaption-c64c23b8905ba514b87c9789269e9f66f949ffe0.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libass.sh",
+      "sha256": "edb3e866ca9394152484bc9a83b68a395f5c9052ae0dc502e4100035c250330b",
+      "references": {
+        "REPO": "https://github.com/libass/libass.git",
+        "COMMIT": "f61db567e6593df3470e91594bcd4ad2d0473aff"
+      },
+      "configureFlags": [
+        "--enable-libass"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libass/libass-f61db567e6593df3470e91594bcd4ad2d0473aff/COPYING",
+          "sha256": "f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c"
+        }
+      ],
+      "url": "https://codeload.github.com/libass/libass/tar.gz/f61db567e6593df3470e91594bcd4ad2d0473aff",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libass-f61db567e6593df3470e91594bcd4ad2d0473aff.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libbluray.sh",
+      "sha256": "f596c2ede4131fa4471bb292c28c327ea2115b1a3ea010d6ddfb75f0935600b7",
+      "references": {
+        "REPO": "https://code.videolan.org/videolan/libbluray.git",
+        "COMMIT": "a24f4fad4d62893de647abc8671397747b2359dd"
+      },
+      "configureFlags": [
+        "--enable-libbluray"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libbluray/libbluray-a24f4fad4d62893de647abc8671397747b2359dd/COPYING",
+          "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libbluray/libbluray-a24f4fad4d62893de647abc8671397747b2359dd/contrib/asm/LICENSE.txt",
+          "sha256": "293b6af371eee28b0ff16f0334ea19e20a3d5522143faa4b95b346855507879a"
+        }
+      ],
+      "url": "https://code.videolan.org/videolan/libbluray/-/archive/a24f4fad4d62893de647abc8671397747b2359dd/libbluray-a24f4fad4d62893de647abc8671397747b2359dd.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libbluray-a24f4fad4d62893de647abc8671397747b2359dd.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libjxl/50-libjxl.sh",
+      "sha256": "2c42e84002a3554f24777cef8fb0f995225fed9539c8b872b179125c9af1c24f",
+      "references": {
+        "REPO": "https://github.com/libjxl/libjxl.git",
+        "COMMIT": "b87738951c1254cd8cccaa6d47712ba735da56d8"
+      },
+      "configureFlags": [
+        "--enable-libjxl"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libjxl/libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8/LICENSE",
+          "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libjxl/libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8/debian/copyright",
+          "sha256": "ec6f5bc1043fba8ffa648157b5beee8915865a54f25c5f3201b0e910cd09ebde"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libjxl/libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8/lib/extras/LICENSE.apngdis",
+          "sha256": "4319c422c3bf10168877a83cd9ff848684b9e53dce9a68de0a3f454a825933f6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libjxl/libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8/third_party/HEVCSoftware/cfg/LICENSE",
+          "sha256": "44a2c5f2ce34d00a30554a44d3e51377852f84bc183dc1b9fb2b48ece976ebef"
+        }
+      ],
+      "url": "https://codeload.github.com/libjxl/libjxl/tar.gz/b87738951c1254cd8cccaa6d47712ba735da56d8",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libmp3lame.sh",
+      "sha256": "a524cd3b9a40444fb554164f5a5dd466ca616ad2cf6756c28164787e012d982f",
+      "references": {
+        "REPO": "https://svn.code.sf.net/p/lame/svn/trunk/lame",
+        "REV": "6835"
+      },
+      "configureFlags": [
+        "--enable-libmp3lame"
+      ],
+      "collected": false,
+      "licenses": [],
+      "error": "Non-Git source requires revision-aware acquisition"
+    },
+    {
+      "script": "scripts.d/50-libopus.sh",
+      "sha256": "e34101b726c033be40e3f5a2695d086362d59069554ffd46800c38a13eade1f7",
+      "references": {
+        "REPO": "https://github.com/xiph/opus.git",
+        "COMMIT": "503d81b138d76621aae4b12786e90de48aa8db3a"
+      },
+      "configureFlags": [
+        "--enable-libopus"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libopus/opus-503d81b138d76621aae4b12786e90de48aa8db3a/COPYING",
+          "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libopus/opus-503d81b138d76621aae4b12786e90de48aa8db3a/LICENSE_PLEASE_READ.txt",
+          "sha256": "7efb4989e0cd1b256229bdf2f09300c5d14e35db0e7476bfb87fac243498273d"
+        }
+      ],
+      "url": "https://codeload.github.com/xiph/opus/tar.gz/503d81b138d76621aae4b12786e90de48aa8db3a",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libopus-503d81b138d76621aae4b12786e90de48aa8db3a.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libplacebo.sh",
+      "sha256": "2dc029b7686455054fb5e76dd8c084cbf4fa4159f33364c5b7f9afc8b3611811",
+      "references": {
+        "REPO": "https://code.videolan.org/videolan/libplacebo.git",
+        "COMMIT": "e2972fdd09adacd383656738d7d280f0cd84a761"
+      },
+      "configureFlags": [
+        "--enable-libplacebo"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libplacebo/libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761/LICENSE",
+          "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libplacebo/libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761/demos/LICENSE",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+        }
+      ],
+      "url": "https://code.videolan.org/videolan/libplacebo/-/archive/e2972fdd09adacd383656738d7d280f0cd84a761/libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-librist/50-librist.sh",
+      "sha256": "391c2fbb081445a3260cccf97a083bd95a4ece6d7241d219ec5aec80582f5b0a",
+      "references": {
+        "REPO": "https://code.videolan.org/rist/librist.git",
+        "COMMIT": "4f45ef8f78983892d52ccd52d9f675435b23738f"
+      },
+      "configureFlags": [
+        "--enable-librist"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-librist/librist-4f45ef8f78983892d52ccd52d9f675435b23738f/COPYING",
+          "sha256": "b9841591a3452ee30033d8e3586c7b1244a0b2fc1dc6cb04576957c313cb2792"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-librist/librist-4f45ef8f78983892d52ccd52d9f675435b23738f/contrib/mbedtls/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "url": "https://code.videolan.org/rist/librist/-/archive/4f45ef8f78983892d52ccd52d9f675435b23738f/librist-4f45ef8f78983892d52ccd52d9f675435b23738f.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-librist-4f45ef8f78983892d52ccd52d9f675435b23738f.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-librsvg/99-librsvg.sh",
+      "sha256": "3787f63f63d8725da97065a8809910d4c05189c8b22fd838deffa5f3579a65be",
+      "references": {
+        "REPO": "https://github.com/GNOME/librsvg.git",
+        "COMMIT": "7612431eb02dc009319094f8513d63c1faaecfb4"
+      },
+      "configureFlags": [
+        "--enable-librsvg"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/99-librsvg/librsvg-7612431eb02dc009319094f8513d63c1faaecfb4/COPYING.LIB",
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/99-librsvg/librsvg-7612431eb02dc009319094f8513d63c1faaecfb4/librsvg-rebind/LICENSE",
+          "sha256": "f9c4c77baa3828004ee54b8a4f2db2e88ed44a6237a493965bf551fac0fcb62d"
+        }
+      ],
+      "url": "https://codeload.github.com/GNOME/librsvg/tar.gz/7612431eb02dc009319094f8513d63c1faaecfb4",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/99-librsvg-7612431eb02dc009319094f8513d63c1faaecfb4.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libssh.sh",
+      "sha256": "5087991d61006e5732b3355d5f3ae8e0ece41d20c99f57b7b875e85389d5b56e",
+      "references": {
+        "REPO": "https://gitlab.com/libssh/libssh-mirror.git",
+        "COMMIT": "76e0a8639e61436c28d877586f65a7707edc6ee5"
+      },
+      "configureFlags": [
+        "--enable-libssh"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libssh/libssh-mirror-76e0a8639e61436c28d877586f65a7707edc6ee5/COPYING",
+          "sha256": "1656186e951db1c010a8485481fa94587f7e53a26d24976bef97945ad0c4df5a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libssh/libssh-mirror-76e0a8639e61436c28d877586f65a7707edc6ee5/cmake/Modules/COPYING-CMAKE-SCRIPTS",
+          "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b"
+        }
+      ],
+      "url": "https://gitlab.com/libssh/libssh-mirror/-/archive/76e0a8639e61436c28d877586f65a7707edc6ee5/libssh-mirror-76e0a8639e61436c28d877586f65a7707edc6ee5.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libssh-76e0a8639e61436c28d877586f65a7707edc6ee5.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libtheora.sh",
+      "sha256": "b92c94380b3c86db5797e8f248373eecfc6230c8a0b374e64b4041645b0d2152",
+      "references": {
+        "REPO": "https://github.com/xiph/theora.git",
+        "COMMIT": "28fd5ec77f0ad0e07a371cef1047828116f6bd8a"
+      },
+      "configureFlags": [
+        "--enable-libtheora"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libtheora/theora-28fd5ec77f0ad0e07a371cef1047828116f6bd8a/COPYING",
+          "sha256": "8417fad7da775735564e209484a2e011e0fa201e94f01fdbee6e4977e478e6fc"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libtheora/theora-28fd5ec77f0ad0e07a371cef1047828116f6bd8a/LICENSE",
+          "sha256": "2c902950c73a63cd285dc0c36573de9c5fefe66d49312949c51d941f33e92932"
+        }
+      ],
+      "url": "https://codeload.github.com/xiph/theora/tar.gz/28fd5ec77f0ad0e07a371cef1047828116f6bd8a",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libtheora-28fd5ec77f0ad0e07a371cef1047828116f6bd8a.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libvpx.sh",
+      "sha256": "7ddb4a49d745b83dc7fb6940d027f9f0247ce0eb313403aa77cc04c009833a60",
+      "references": {
+        "REPO": "https://chromium.googlesource.com/webm/libvpx",
+        "COMMIT": "5e680f30801d03c21078f8c4b772464752516211"
+      },
+      "configureFlags": [
+        "--enable-libvpx"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/LICENSE",
+          "sha256": "8267348d5af1262c11d1a08de2f5afc77457755f1ac658627dd9acf71011d615"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/third_party/googletest/src/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/third_party/libwebm/LICENSE.TXT",
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/third_party/libyuv/LICENSE",
+          "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/third_party/nalloc/LICENSE",
+          "sha256": "d7dd0396ec46975e1bf9093680068ef301bc0ed204603e623a6f7073ab922ab1"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libvpx/third_party/x86inc/LICENSE",
+          "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+        }
+      ],
+      "url": "https://chromium.googlesource.com/webm/libvpx/+archive/5e680f30801d03c21078f8c4b772464752516211.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libvpx-5e680f30801d03c21078f8c4b772464752516211.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-libwebp.sh",
+      "sha256": "98f5850fc66c7ea510991cd7b088a314163cf3faa58ab0880b5ed93a065865d3",
+      "references": {
+        "REPO": "https://chromium.googlesource.com/webm/libwebp",
+        "COMMIT": "5c168cd23b1872969c38e34b01b04dcf29849288"
+      },
+      "configureFlags": [
+        "--enable-libwebp"
+      ],
+      "collected": false,
+      "licenses": [],
+      "url": "https://chromium.googlesource.com/webm/libwebp/+archive/5c168cd23b1872969c38e34b01b04dcf29849288.tar.gz",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "script": "scripts.d/50-libzmq.sh",
+      "sha256": "a5219efcc1bd863f1e37c170ce05a04f0c11cce497ea52222dd8a1952a78c1b9",
+      "references": {
+        "REPO": "https://github.com/zeromq/libzmq.git",
+        "COMMIT": "46493370217ac135246617fa2f6ac819d8b61bfc"
+      },
+      "configureFlags": [
+        "--enable-libzmq"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libzmq/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc/LICENSE",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libzmq/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc/external/sha1/license.txt",
+          "sha256": "cb1a4e594fc67ecde3e6d704b94d6ac4385a6027d0605702c675d182f186eeb6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libzmq/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc/external/unity/license.txt",
+          "sha256": "3ed9b51da86f52c729c96cc99fdde6444b2297c788a9cf4ad1d3649dc34c4985"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libzmq/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc/external/wepoll/license.txt",
+          "sha256": "3e56262d2c0e9492f113089916ed624e98f88b31dfd6acae24ede59cdfda5a69"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libzmq/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc/packaging/debian/copyright",
+          "sha256": "0a9b32db52765d7d0dd53eac99c373ef830ced0e859d1e6e62acc2fb590dbc9e"
+        }
+      ],
+      "url": "https://codeload.github.com/zeromq/libzmq/tar.gz/46493370217ac135246617fa2f6ac819d8b61bfc",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-lilv/99-lilv.sh",
+      "sha256": "37c5df93860082273ab02104556b45625303a04a299d2914f5dd215f39a29409",
+      "references": {
+        "REPO": "https://github.com/lv2/lilv.git",
+        "COMMIT": "4b8f30055fa5cb4134a2eb45fc1555bc04289314"
+      },
+      "configureFlags": [
+        "--enable-lv2"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/99-lilv/lilv-4b8f30055fa5cb4134a2eb45fc1555bc04289314/COPYING",
+          "sha256": "ae223adebe7cc1ee0716e0f926d1ecc8e42c6e4da7e1d7418c9c07fae244bbde"
+        }
+      ],
+      "url": "https://codeload.github.com/lv2/lilv/tar.gz/4b8f30055fa5cb4134a2eb45fc1555bc04289314",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/99-lilv-4b8f30055fa5cb4134a2eb45fc1555bc04289314.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-onevpl.sh",
+      "sha256": "9d5d3c221b9d41468e04add6855cf5eec6df06dae7be649f84e1f846c98e38fb",
+      "references": {
+        "REPO": "https://github.com/intel/libvpl.git",
+        "COMMIT": "674d015bcb294bc39fa276e99a652ea045423e82"
+      },
+      "configureFlags": [
+        "--enable-libvpl"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/LICENSE",
+          "sha256": "bf1cfac2e2792b6e1e995ce103d70796aecaf2ec7e4c5fe5474f7acec7b4a677"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api1x_core/legacy-decode/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api1x_core/legacy-encode/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api1x_core/legacy-vpp/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-decode/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-decvpp/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-encode-jpeg/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-encode/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-sharing-dx11/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-sharing-ocl/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-sharing-vaapi/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-transcode/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/api2x/hello-vpp/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/interop/vpl-infer/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/examples/tutorials/01_transition/License.txt",
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-onevpl/libvpl-674d015bcb294bc39fa276e99a652ea045423e82/libvpl/test/ext/googletest/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        }
+      ],
+      "url": "https://codeload.github.com/intel/libvpl/tar.gz/674d015bcb294bc39fa276e99a652ea045423e82",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-onevpl-674d015bcb294bc39fa276e99a652ea045423e82.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-openal.sh",
+      "sha256": "82a81a2f824efa6a1398d0dd93c0557ad202587eac65f5b78957a89f583428a7",
+      "references": {
+        "REPO": "https://github.com/kcat/openal-soft.git",
+        "COMMIT": "c89b8cf7bba4822f230c69f0a6696a52e5322dca"
+      },
+      "configureFlags": [
+        "--enable-openal"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/COPYING",
+          "sha256": "d808ce217e5b611854da622b57ec29fe545584c48bc5352fae72a4b6e5074a15"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/LICENSE-pffft",
+          "sha256": "64056328b3e7bc104e24ef96accc1a7abead156f0c02d1b87c97e3f3a28030de"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/LICENSE.Apache-2.0.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/LICENSE.BSD-3-Clause.txt",
+          "sha256": "b5a08cf98996dd83aa906a72c163600f6cb17a65ce546a553815a1267abd43ff"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/fmt-11.2.0/LICENSE",
+          "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openal/openal-soft-c89b8cf7bba4822f230c69f0a6696a52e5322dca/gsl/LICENSE",
+          "sha256": "4c21dc82a1c7186ea754fd59d504c00947953a3401fe8e24eaa44109ef8e2555"
+        }
+      ],
+      "url": "https://codeload.github.com/kcat/openal-soft/tar.gz/c89b8cf7bba4822f230c69f0a6696a52e5322dca",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openal-c89b8cf7bba4822f230c69f0a6696a52e5322dca.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-openapv.sh",
+      "sha256": "ccd87b3ea2aeecf7e867e361bb8729789de9da6d46e74b89bedbe37aa9236826",
+      "references": {
+        "REPO": "https://github.com/AcademySoftwareFoundation/openapv.git",
+        "COMMIT": "a58ce739be0dfb083643d929aee8f0e0ba9bdf63"
+      },
+      "configureFlags": [
+        "--enable-liboapv"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openapv/openapv-a58ce739be0dfb083643d929aee8f0e0ba9bdf63/LICENSE",
+          "sha256": "7ad8e53c0c3e24e7ba64dbcad5e7706108f3dc67cf6515ef761adac0a39dab25"
+        }
+      ],
+      "url": "https://codeload.github.com/AcademySoftwareFoundation/openapv/tar.gz/a58ce739be0dfb083643d929aee8f0e0ba9bdf63",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openapv-a58ce739be0dfb083643d929aee8f0e0ba9bdf63.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-opencore-amr.sh",
+      "sha256": "574666d18051057ca5bb5064e034332dfd0fc9d9575a41a17d7b079ff3154d00",
+      "references": {
+        "REPO": "https://git.code.sf.net/p/opencore-amr/code",
+        "COMMIT": "7dba8c32238418ce0b316a852b2224df586ca896"
+      },
+      "configureFlags": [
+        "--enable-libopencore-amrnb"
+      ],
+      "collected": false,
+      "licenses": [],
+      "error": "Source host requires Git acquisition"
+    },
+    {
+      "script": "scripts.d/50-openh264.sh",
+      "sha256": "ab798665ac2fb872e22c2a4b037a11ededa48f867c040fe478cdcc5994f69424",
+      "references": {
+        "REPO": "https://github.com/cisco/openh264.git",
+        "COMMIT": "8b2d28faade10d74d99ac80e199aef664c9c5a3b"
+      },
+      "configureFlags": [
+        "--enable-libopenh264"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openh264/openh264-8b2d28faade10d74d99ac80e199aef664c9c5a3b/LICENSE",
+          "sha256": "dd5c1c9668512530fa5a96e4c29ac4033d70a7eeb0eed7a42fddb6dd794ebdbb"
+        }
+      ],
+      "url": "https://codeload.github.com/cisco/openh264/tar.gz/8b2d28faade10d74d99ac80e199aef664c9c5a3b",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openh264-8b2d28faade10d74d99ac80e199aef664c9c5a3b.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-openjpeg.sh",
+      "sha256": "e723e8babb2188e8743308842bb1bfc9809f0375cd964cfeac2fb17285094321",
+      "references": {
+        "REPO": "https://github.com/uclouvain/openjpeg.git",
+        "COMMIT": "8314119b067c0fc77834731168daaebd379fdb12"
+      },
+      "configureFlags": [
+        "--enable-libopenjpeg"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openjpeg/openjpeg-8314119b067c0fc77834731168daaebd379fdb12/LICENSE",
+          "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openjpeg/openjpeg-8314119b067c0fc77834731168daaebd379fdb12/src/bin/wx/OPJViewer/source/license.txt",
+          "sha256": "8081c33f6953950dcf424aa844714658b73ada0fcaea16e4487f5fa07ef0960d"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openjpeg/openjpeg-8314119b067c0fc77834731168daaebd379fdb12/thirdparty/astyle/LICENSE.md",
+          "sha256": "2e8480e753b7a1d100c80920f4250b1bc9f93a18c6a5953c42b11445218cd0fb"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openjpeg/openjpeg-8314119b067c0fc77834731168daaebd379fdb12/thirdparty/liblcms2/COPYING",
+          "sha256": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openjpeg/openjpeg-8314119b067c0fc77834731168daaebd379fdb12/thirdparty/libpng/LICENSE",
+          "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+        }
+      ],
+      "url": "https://codeload.github.com/uclouvain/openjpeg/tar.gz/8314119b067c0fc77834731168daaebd379fdb12",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openjpeg-8314119b067c0fc77834731168daaebd379fdb12.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-openmpt.sh",
+      "sha256": "222de6e3e8cb654f7eaae180ddfceed173d4b70797b8d1f902c56e8d4b68fb2f",
+      "references": {
+        "REPO": "https://github.com/OpenMPT/openmpt.git",
+        "COMMIT": "f83cedb0cd5446e4dfaa83ac97e3087107e26767"
+      },
+      "configureFlags": [
+        "--enable-libopenmpt"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/LICENSE",
+          "sha256": "2c999e99533c10a347916a72e075bacf10fcedeff793bd90d41d812b46161da2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/contrib/libmodplug-0.8.8.5/LICENSE",
+          "sha256": "2c999e99533c10a347916a72e075bacf10fcedeff793bd90d41d812b46161da2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/contrib/libmodplug-0.8.9.0/LICENSE",
+          "sha256": "2c999e99533c10a347916a72e075bacf10fcedeff793bd90d41d812b46161da2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/SignalsmithStretch/SignalsmithStretch/LICENSE.txt",
+          "sha256": "ee2ef82481ffb445ecdd4b3a4c1f82c0cddb2da8fe39d8e8dc384fffb3e7f06f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/SignalsmithStretch/signalsmith-linear/LICENSE.txt",
+          "sha256": "072b5e9eb5b22880bdf6256324654cf3ce53dba828edb911921121e1be09d9c3"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/ancient/LICENSE",
+          "sha256": "92b1bae3691d85f84908a3f3eaf3a46ddadd603b2bf90f9e787177adceb9cc77"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/ancient/LICENSE.bzip2",
+          "sha256": "eeaa743b773d4fd56f5955fbf7da0ee2fb2082cd4efa7e9d4af95204907a23a4"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/cryptopp/License.txt",
+          "sha256": "9f3af322ff503edfa605f8559a704b6e2f0ea78227841917a3729ec0fbeb42f4"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/flac/COPYING.Xiph",
+          "sha256": "7866ee98760fc1f0156b4fe6bf530257e02be487ab3fd94e2b63799dd32d6b2c"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/lame/COPYING",
+          "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/lhasa/COPYING.md",
+          "sha256": "bf7b055c63205cfc1fea175ea7638f7e7f237bab3eabf2a9fd2bb5c8872edefb"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/minimp3/LICENSE",
+          "sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/miniz/LICENSE",
+          "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/mpg123/COPYING",
+          "sha256": "c22482728a634a8dfdb4ff72a96d4c1ed64cd8f3e79335c401751ac591609366"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/nlohmann-json/LICENSE.MIT",
+          "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/ogg/COPYING",
+          "sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/opus/COPYING",
+          "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/opusenc/COPYING",
+          "sha256": "93b17ab56b8230127fea532be0dcb4e6d71e66ab5e8ce5d6ae8785d7288b164f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/opusfile/COPYING",
+          "sha256": "0267ae795ab744c4e0f9c45e249440fdf2e75dac8c804f36066b28649bf74aaf"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/portaudio/LICENSE.txt",
+          "sha256": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/portaudio/bindings/cpp/COPYING",
+          "sha256": "3ec8d97acf149e39aa440f39eb1126a6ec5089e2864cbecdf2d2952bc0a5ed83"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/LICENSE.txt",
+          "sha256": "6c052cc899de4d00ac03d4ab590f6c0107f9dbd52e72154293cdd2c341743faf"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/binmodules/luasocket/LICENSE",
+          "sha256": "8e8c6314d9e78fe452ee355167f2c40cfbee8207e14dcb5ddd4a2655cb5c6aad"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/contrib/mbedtls/LICENSE",
+          "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/contrib/zlib/LICENSE",
+          "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/modules/xcode/LICENSE.TXT",
+          "sha256": "0ba7252324e5aa82440f966ba7adafae7a1ce09a54667569f7c090cfd6f964e4"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/premake/packages/debian/copyright",
+          "sha256": "22bb324973ed458997c09bb6f69fd297cc114e2e687b88b7cf38fb5dbe1a6867"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/pthread-win32/docs/COPYING.FSF.md",
+          "sha256": "a190dc9c8043755d90f8b0a75fa66b9e42d4af4c980bf5ddc633f0124db3cee7"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/pthread-win32/docs/COPYING.md",
+          "sha256": "1cf9a1551401d708d96d869aa0a20bbb7d4fdb93c22da835b0366c27a4c4c4d8"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/pugixml/LICENSE.md",
+          "sha256": "90974fbb120e966b452654eaae3ba6ee55f3647db3b28918a7649733ee99da97"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/r8brain/LICENSE",
+          "sha256": "7c5a4a097ede04a72f3fd444cfe9c788433f46c2b539b152de8921521eeac877"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/rtaudio/LICENSE",
+          "sha256": "73eb32613a621c134b33fbe3c661562dcf5f81f0558af13d483fc241eb21be7b"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/rtmidi/LICENSE",
+          "sha256": "7fa091d9c1aa492ebfcafa9f919d27bbce61e4f048ece2dfc3b7f93181e9e364"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/unrar/license.txt",
+          "sha256": "6ecc1687808b7d66b24f874755abfed7464d9751ed0001cd4e8e5d9bf397ff8a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/vorbis/COPYING",
+          "sha256": "ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/zlib/LICENSE",
+          "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/include/zlib/contrib/minizip/LICENSE.Info-Zip",
+          "sha256": "fc686023047ce5ce3a18a9b8a777156f0e475929d3de06bac279f3c025d2b2ca"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/src/mpt/LICENSE.BSD-3-Clause.txt",
+          "sha256": "ceabc562c8cfb3af0d51e94182947c23bde6c18274e2b21585bdde22d2031e9d"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-openmpt/openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767/src/mpt/LICENSE.BSL-1.0.txt",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "url": "https://codeload.github.com/OpenMPT/openmpt/tar.gz/f83cedb0cd5446e4dfaa83ac97e3087107e26767",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-openmpt-f83cedb0cd5446e4dfaa83ac97e3087107e26767.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-rav1e.sh",
+      "sha256": "ac56fef82e5f41b53d2c6088f4b0693380c389a55665a698ba768908ee17f073",
+      "references": {
+        "REPO": "https://github.com/xiph/rav1e.git",
+        "COMMIT": "31435de9d76fddd38f6dcc31d4014574cebb2092"
+      },
+      "configureFlags": [
+        "--enable-librav1e"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-rav1e/rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092/LICENSE",
+          "sha256": "2dd0a109751e939dec3f80ddcfbc1ba91553f18c574399e85c159632182a2c0a"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-rav1e/rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092/ivf/LICENSE",
+          "sha256": "5d3c397a3aeeecbc417962e4df8e8432af8219fda8a56ebe601a638a1e76c522"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-rav1e/rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092/license_template.txt",
+          "sha256": "5097df781d1759aabea7eeaa308a591e9b6e0e4389eff515fdab458c4b4389ac"
+        }
+      ],
+      "url": "https://codeload.github.com/xiph/rav1e/tar.gz/31435de9d76fddd38f6dcc31d4014574cebb2092",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-sdl.sh",
+      "sha256": "c750281ef7ed34deb2c36eb971e8acf65198372d6dde86cf590190312353c284",
+      "references": {
+        "REPO": "https://github.com/libsdl-org/SDL.git",
+        "COMMIT": "b90ac95029d801c5abc59472ba8e2200dff31e1e"
+      },
+      "configureFlags": [
+        "--enable-sdl2"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/LICENSE.txt",
+          "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/Xcode-iOS/Demos/data/bitmapfont/license.txt",
+          "sha256": "5059bc9c2f37b7e7a557685ae9330ecfd798537bdfde94de63a9c721c92a8856"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/Xcode/SDL/pkg-support/resources/License.txt",
+          "sha256": "30e349158ffdcb06b9bb2ec406df66758161ad1efa75a368243a6d0b50b43784"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/src/hidapi/LICENSE-bsd.txt",
+          "sha256": "30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/src/hidapi/LICENSE-gpl3.txt",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/src/hidapi/LICENSE-orig.txt",
+          "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/src/hidapi/LICENSE.txt",
+          "sha256": "7d3b087c34f35d4d538e3bcddd1ff8f66e92f9ef336881999482800ddf840913"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/src/video/yuv2rgb/LICENSE",
+          "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/test/COPYING",
+          "sha256": "d5a549e4a7b88cb696d0db15b21830061131ed361257ab399a33ca08ce0b33d5"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-sdl/SDL-b90ac95029d801c5abc59472ba8e2200dff31e1e/visualtest/COPYING.txt",
+          "sha256": "dae65ccf728227eff8e10194437078a5628047b9f55d796039688e7ca8e3aa4e"
+        }
+      ],
+      "url": "https://codeload.github.com/libsdl-org/SDL/tar.gz/b90ac95029d801c5abc59472ba8e2200dff31e1e",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-sdl-b90ac95029d801c5abc59472ba8e2200dff31e1e.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-snappy.sh",
+      "sha256": "4371172392f382befcad0faccbf302ea9601b7a787db49f1c0744431feff3224",
+      "references": {
+        "REPO": "https://github.com/google/snappy.git",
+        "COMMIT": "9c28114a38866f6deeaa826db918293bc28ae410"
+      },
+      "configureFlags": [
+        "--enable-libsnappy"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-snappy/snappy-9c28114a38866f6deeaa826db918293bc28ae410/COPYING",
+          "sha256": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-snappy/snappy-9c28114a38866f6deeaa826db918293bc28ae410/COPYING.notestdata",
+          "sha256": "5221a36a801b981fbdfda7b87db64cff231a3b88223a066c325411b539df796f"
+        }
+      ],
+      "url": "https://codeload.github.com/google/snappy/tar.gz/9c28114a38866f6deeaa826db918293bc28ae410",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-snappy-9c28114a38866f6deeaa826db918293bc28ae410.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-soxr.sh",
+      "sha256": "333ca3a3331c67fc9468ca81affdbae90385b138a9e91f5b3ad2122f42a8f0f9",
+      "references": {
+        "REPO": "https://git.code.sf.net/p/soxr/code",
+        "COMMIT": "945b592b70470e29f917f4de89b4281fbbd540c0"
+      },
+      "configureFlags": [
+        "--enable-libsoxr"
+      ],
+      "collected": false,
+      "licenses": [],
+      "error": "Source host requires Git acquisition"
+    },
+    {
+      "script": "scripts.d/50-srt.sh",
+      "sha256": "86a337d0ea33e68434ac6cd23a59c834694527cb3be3d8d23fb75f41095dfc5c",
+      "references": {
+        "REPO": "https://github.com/Haivision/srt.git",
+        "COMMIT": "ff8ab25c57aece5b7351defe36dacc94fc28527f"
+      },
+      "configureFlags": [
+        "--enable-libsrt"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-srt/srt-ff8ab25c57aece5b7351defe36dacc94fc28527f/LICENSE",
+          "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+        }
+      ],
+      "url": "https://codeload.github.com/Haivision/srt/tar.gz/ff8ab25c57aece5b7351defe36dacc94fc28527f",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-srt-ff8ab25c57aece5b7351defe36dacc94fc28527f.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-svtav1.sh",
+      "sha256": "30137902c7d3f30e04f8b0d8a37a459a9ee26fb8877797418a409897ed3cbe65",
+      "references": {
+        "REPO": "https://gitlab.com/AOMediaCodec/SVT-AV1.git",
+        "COMMIT": "5ed9ffbcb5086da23f30fe9bc5b00145358462da"
+      },
+      "configureFlags": [
+        "--enable-libsvtav1"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-svtav1/SVT-AV1-5ed9ffbcb5086da23f30fe9bc5b00145358462da/LICENSE-BSD2.md",
+          "sha256": "c582fcbeb9cf972a60d298bfaf41dc5adff2dd14208946edcb9bb56a281e8438"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-svtav1/SVT-AV1-5ed9ffbcb5086da23f30fe9bc5b00145358462da/LICENSE.md",
+          "sha256": "0acc2fcb27472bdc9aaf8b71f37055bbdac4f54671b7d922f241bd7fcd0dd3e6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-svtav1/SVT-AV1-5ed9ffbcb5086da23f30fe9bc5b00145358462da/third_party/fastfeat/LICENSE",
+          "sha256": "043dcfd059386f9facd376351b2bd79325778744aa442177390cdfcca54babed"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-svtav1/SVT-AV1-5ed9ffbcb5086da23f30fe9bc5b00145358462da/third_party/safestringlib/LICENSE",
+          "sha256": "c0f99a208799ca20c9ccf31a30533d49334eb458dca5a3d14f9afe3e884e5d7d"
+        }
+      ],
+      "url": "https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/5ed9ffbcb5086da23f30fe9bc5b00145358462da/SVT-AV1-5ed9ffbcb5086da23f30fe9bc5b00145358462da.tar.gz",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-svtav1-5ed9ffbcb5086da23f30fe9bc5b00145358462da.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-twolame.sh",
+      "sha256": "6fd32a3d16a57ceacd5a64c4b6c54d6118b213fe8c63bc2900045200e2012000",
+      "references": {
+        "REPO": "https://github.com/njh/twolame.git",
+        "COMMIT": "6fced852d4d5cfad58cf9dbe3ea619b08e87d398"
+      },
+      "configureFlags": [
+        "--enable-libtwolame"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-twolame/twolame-6fced852d4d5cfad58cf9dbe3ea619b08e87d398/COPYING",
+          "sha256": "257a842724705950b07da76ce0e22ffa80ec77b3e9dfc6702522ac342409da0f"
+        }
+      ],
+      "url": "https://codeload.github.com/njh/twolame/tar.gz/6fced852d4d5cfad58cf9dbe3ea619b08e87d398",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-twolame-6fced852d4d5cfad58cf9dbe3ea619b08e87d398.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-uavs3d.sh",
+      "sha256": "1c1eb778b6080bc01493180ea7ae671c6444ce3aa760b5d021ba882eb0f9e3a0",
+      "references": {
+        "REPO": "https://github.com/uavs3/uavs3d.git",
+        "COMMIT": "0e20d2c291853f196c68922a264bcd8471d75b68"
+      },
+      "configureFlags": [
+        "--enable-libuavs3d"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-uavs3d/uavs3d-0e20d2c291853f196c68922a264bcd8471d75b68/COPYING",
+          "sha256": "5a8dcb7da222df8a81b6e334000f859248196335e2d28e1db9f3c552827d7cdf"
+        }
+      ],
+      "url": "https://codeload.github.com/uavs3/uavs3d/tar.gz/0e20d2c291853f196c68922a264bcd8471d75b68",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-uavs3d-0e20d2c291853f196c68922a264bcd8471d75b68.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-vaapi/50-libva.sh",
+      "sha256": "7f71fc0656b8a365ca4b5806ef03b1ef860e6b8bf462f1acb757c42e62c65159",
+      "references": {
+        "REPO": "https://github.com/intel/libva.git",
+        "COMMIT": "6b07f7100512817f736967e899b8c26313c20623"
+      },
+      "configureFlags": [
+        "--enable-vaapi"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-libva/libva-6b07f7100512817f736967e899b8c26313c20623/COPYING",
+          "sha256": "c86a782ee845b52472dae9b9d79fb915d333628ac0efe49cdce63644814931de"
+        }
+      ],
+      "url": "https://codeload.github.com/intel/libva/tar.gz/6b07f7100512817f736967e899b8c26313c20623",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-libva-6b07f7100512817f736967e899b8c26313c20623.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-vvenc.sh",
+      "sha256": "ff85354992bec5aa5cba54f4816e892d682e5f7bc8e7a10c757bdb8d28d45405",
+      "references": {
+        "REPO": "https://github.com/fraunhoferhhi/vvenc.git",
+        "COMMIT": "b1cfb2ad495af6ae4cc214b7a060e8b4166c4629"
+      },
+      "configureFlags": [
+        "--enable-libvvenc"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-vvenc/vvenc-b1cfb2ad495af6ae4cc214b7a060e8b4166c4629/LICENSE.txt",
+          "sha256": "88330a2cc59b9dd90674f8759900bc9c06e9efc8799dadda067609addefb49d1"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-vvenc/vvenc-b1cfb2ad495af6ae4cc214b7a060e8b4166c4629/thirdparty/nlohmann_json/LICENSE.MIT",
+          "sha256": "86b998c792894ccb911a1cb7994f7a9652894e7a094c0b5e45be2f553f45cf14"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-vvenc/vvenc-b1cfb2ad495af6ae4cc214b7a060e8b4166c4629/thirdparty/simde/COPYING",
+          "sha256": "75ce0a8c5a7bff42fbd6f8f3b469b518132132c4f4948fb8d02b1ccb5d0df9d8"
+        }
+      ],
+      "url": "https://codeload.github.com/fraunhoferhhi/vvenc/tar.gz/b1cfb2ad495af6ae4cc214b7a060e8b4166c4629",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-vvenc-b1cfb2ad495af6ae4cc214b7a060e8b4166c4629.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-zimg.sh",
+      "sha256": "539495d51fcd8c7ef9b89a611454e0c1173d18e8d4e743efdef67c4aa7e40d4f",
+      "references": {
+        "REPO": "https://github.com/sekrit-twc/zimg.git",
+        "COMMIT": "67e0603271c080e22c8429856dd4a8a56587e61e"
+      },
+      "configureFlags": [
+        "--enable-libzimg"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-zimg/zimg-67e0603271c080e22c8429856dd4a8a56587e61e/COPYING",
+          "sha256": "7637386b5f81e8a719ca336233149005e5fa28b5e6054ea7b67de49355b0ad40"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-zimg/zimg-67e0603271c080e22c8429856dd4a8a56587e61e/test/extra/musl-libm/COPYRIGHT",
+          "sha256": "15d9afbf84041872b4d840ed7d165d3eee786ff3f97e703b10467c259ff4e7d9"
+        }
+      ],
+      "url": "https://codeload.github.com/sekrit-twc/zimg/tar.gz/67e0603271c080e22c8429856dd4a8a56587e61e",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-zimg-67e0603271c080e22c8429856dd4a8a56587e61e.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    },
+    {
+      "script": "scripts.d/50-zvbi.sh",
+      "sha256": "e0b339e277eef4083ba24a1b1696b5a05cdcd34736b023c8daf0aa11134cfec4",
+      "references": {
+        "REPO": "https://github.com/zapping-vbi/zvbi",
+        "COMMIT": "d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0"
+      },
+      "configureFlags": [
+        "--enable-libzvbi"
+      ],
+      "collected": true,
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-enabled/50-zvbi/zvbi-d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0/COPYING.md",
+          "sha256": "6d679539253897582d38fcd1eabfa670c01c0ece73d8cd3dc97869fcf723f106"
+        }
+      ],
+      "url": "https://codeload.github.com/zapping-vbi/zvbi/tar.gz/d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0",
+      "file": "desktop/.downloads/compliance/ffmpeg-enabled/50-zvbi-d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0.tar.gz",
+      "hashEvidence": "locally computed; source URL pinned by official build recipe, no independent archive digest"
+    }
+  ]
+}

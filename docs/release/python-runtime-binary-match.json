@@ -1,0 +1,150 @@
+{
+  "officialUrl": "https://www.python.org/ftp/python/3.10.11/python-3.10.11-embed-amd64.zip",
+  "archiveSha256": "608619f8619075629c9c69f361352a0da6ed7e62f83a0e19c63e0ea32eb7629d",
+  "entries": [
+    {
+      "name": "VCRUNTIME140.dll",
+      "bundledSha256": "9d2b40f0395cc5d1b4d5ea17b84970c29971d448c37104676db577586d4ad1b1",
+      "officialSha256": "9d2b40f0395cc5d1b4d5ea17b84970c29971d448c37104676db577586d4ad1b1",
+      "match": true
+    },
+    {
+      "name": "_asyncio.pyd",
+      "bundledSha256": "a9a99a2b847e46c0efce7fcfefd27f4bce58baf9207277c17bffd09ef4d274e5",
+      "officialSha256": "a9a99a2b847e46c0efce7fcfefd27f4bce58baf9207277c17bffd09ef4d274e5",
+      "match": true
+    },
+    {
+      "name": "_bz2.pyd",
+      "bundledSha256": "62173a8fadd4bf4dd71ab89ea718754aa31620244372f0c5bbbae102e641a60e",
+      "officialSha256": "62173a8fadd4bf4dd71ab89ea718754aa31620244372f0c5bbbae102e641a60e",
+      "match": true
+    },
+    {
+      "name": "_ctypes.pyd",
+      "bundledSha256": "1ea3dd3df393fa9b27bf6595be4ac859064cd8ef9908a12378a6021bba1cb177",
+      "officialSha256": "1ea3dd3df393fa9b27bf6595be4ac859064cd8ef9908a12378a6021bba1cb177",
+      "match": true
+    },
+    {
+      "name": "_decimal.pyd",
+      "bundledSha256": "9aac010a424c757c434c460c3c0a6515d7720966ab64bad667539282a17b4133",
+      "officialSha256": "9aac010a424c757c434c460c3c0a6515d7720966ab64bad667539282a17b4133",
+      "match": true
+    },
+    {
+      "name": "_elementtree.pyd",
+      "bundledSha256": "262d771de19a071c2d086717c29dc9a704b33f95f6aa06ec2092f3e8f54495ae",
+      "officialSha256": "262d771de19a071c2d086717c29dc9a704b33f95f6aa06ec2092f3e8f54495ae",
+      "match": true
+    },
+    {
+      "name": "_hashlib.pyd",
+      "bundledSha256": "caa4d2f8795e9a55e128409cc016e2cc5c694cb026d7058fc561e4dd131ed1c9",
+      "officialSha256": "caa4d2f8795e9a55e128409cc016e2cc5c694cb026d7058fc561e4dd131ed1c9",
+      "match": true
+    },
+    {
+      "name": "_lzma.pyd",
+      "bundledSha256": "60793c8592193cfbd00fd3e5263be4315d650ba4f9e4fda9c45a10642fd998be",
+      "officialSha256": "60793c8592193cfbd00fd3e5263be4315d650ba4f9e4fda9c45a10642fd998be",
+      "match": true
+    },
+    {
+      "name": "_multiprocessing.pyd",
+      "bundledSha256": "7581edea33c1db0a49b8361e51e6291688601640e57d75909fb2007b2104fa4c",
+      "officialSha256": "7581edea33c1db0a49b8361e51e6291688601640e57d75909fb2007b2104fa4c",
+      "match": true
+    },
+    {
+      "name": "_overlapped.pyd",
+      "bundledSha256": "2ebbb0583259528a5178dd37439a64affcb1ab28cf323c6dc36a8c30362aa992",
+      "officialSha256": "2ebbb0583259528a5178dd37439a64affcb1ab28cf323c6dc36a8c30362aa992",
+      "match": true
+    },
+    {
+      "name": "_queue.pyd",
+      "bundledSha256": "925f05255f4aae0997dc4ec94d900fd15950fd840685d5b8aa755427c7422b14",
+      "officialSha256": "925f05255f4aae0997dc4ec94d900fd15950fd840685d5b8aa755427c7422b14",
+      "match": true
+    },
+    {
+      "name": "_socket.pyd",
+      "bundledSha256": "e6deb751039cd5424a139708475ce83f9c042d43e650765a716cb4a924b07e4f",
+      "officialSha256": "e6deb751039cd5424a139708475ce83f9c042d43e650765a716cb4a924b07e4f",
+      "match": true
+    },
+    {
+      "name": "_sqlite3.pyd",
+      "bundledSha256": "b298a44af162be7107fd187f04b63fb3827f1374594e22910ec38829da7a12dc",
+      "officialSha256": "b298a44af162be7107fd187f04b63fb3827f1374594e22910ec38829da7a12dc",
+      "match": true
+    },
+    {
+      "name": "_ssl.pyd",
+      "bundledSha256": "d2a7999e234e33828888ad455baa6ab101d90323579abc1095b8c42f0f723b6f",
+      "officialSha256": "d2a7999e234e33828888ad455baa6ab101d90323579abc1095b8c42f0f723b6f",
+      "match": true
+    },
+    {
+      "name": "_uuid.pyd",
+      "bundledSha256": "990586f2a2ba00d48b59bdd03d3c223b8e9fb7d7fab6d414bac2833eb1241ca2",
+      "officialSha256": "990586f2a2ba00d48b59bdd03d3c223b8e9fb7d7fab6d414bac2833eb1241ca2",
+      "match": true
+    },
+    {
+      "name": "libcrypto-1_1.dll",
+      "bundledSha256": "9b7b4a0ad212095a8c2e35c71694d8a1764cd72a829e8e17c8afe3a55f147939",
+      "officialSha256": "9b7b4a0ad212095a8c2e35c71694d8a1764cd72a829e8e17c8afe3a55f147939",
+      "match": true
+    },
+    {
+      "name": "libffi-7.dll",
+      "bundledSha256": "f60dd9f2fcbd495674dfc1555effb710eb081fc7d4cae5fa58c438ab50405081",
+      "officialSha256": "f60dd9f2fcbd495674dfc1555effb710eb081fc7d4cae5fa58c438ab50405081",
+      "match": true
+    },
+    {
+      "name": "libssl-1_1.dll",
+      "bundledSha256": "d74ce01319ae6f54483a19375524aa39d9f5fd91f06cf7df238ca25e043130fd",
+      "officialSha256": "d74ce01319ae6f54483a19375524aa39d9f5fd91f06cf7df238ca25e043130fd",
+      "match": true
+    },
+    {
+      "name": "pyexpat.pyd",
+      "bundledSha256": "4a2d59993bce76790c6d923af81bf404f8e2cb73552e320113663b14cf78748c",
+      "officialSha256": "4a2d59993bce76790c6d923af81bf404f8e2cb73552e320113663b14cf78748c",
+      "match": true
+    },
+    {
+      "name": "python3.dll",
+      "bundledSha256": "dc909eb798a23ba8ee9f8e3f307d97755bc0d2dc0cb342cedae81fbbad32a8a9",
+      "officialSha256": "dc909eb798a23ba8ee9f8e3f307d97755bc0d2dc0cb342cedae81fbbad32a8a9",
+      "match": true
+    },
+    {
+      "name": "python310.dll",
+      "bundledSha256": "14b06796f288bc6599e458fb23a944ab0c843e9868058f02a91d4606533505ed",
+      "officialSha256": "14b06796f288bc6599e458fb23a944ab0c843e9868058f02a91d4606533505ed",
+      "match": true
+    },
+    {
+      "name": "select.pyd",
+      "bundledSha256": "db85f2f94d4994283e1055057372594538ae11020389d966e45607413851d9e9",
+      "officialSha256": "db85f2f94d4994283e1055057372594538ae11020389d966e45607413851d9e9",
+      "match": true
+    },
+    {
+      "name": "sqlite3.dll",
+      "bundledSha256": "fbd8832b5bc7e5c9adcf7320c051a67ee1c33fd198105283058533d132785ab4",
+      "officialSha256": "fbd8832b5bc7e5c9adcf7320c051a67ee1c33fd198105283058533d132785ab4",
+      "match": true
+    },
+    {
+      "name": "unicodedata.pyd",
+      "bundledSha256": "1fb2d66c056f69e8bbdd8c6c910e72697874dae680264f8fb4b4df19af98aa2e",
+      "officialSha256": "1fb2d66c056f69e8bbdd8c6c910e72697874dae680264f8fb4b4df19af98aa2e",
+      "match": true
+    }
+  ]
+}

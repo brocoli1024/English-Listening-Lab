@@ -1,0 +1,13 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/373374519",
+    "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/assets/521388639",
+    "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/assets/521388640",
+    "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/assets/521388641",
+    "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/assets/521388643",
+    "https://api.github.com/users/github-actions%5Bbot%5D",
+    "https://github.com/apps/github-actions",
+    "https://github.com/yt-dlp/Pyinstaller-Builds/releases/tag/2026.08.19.215425"
+  ]
+}

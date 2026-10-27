@@ -1,0 +1,121 @@
+{
+  "scope": "All seven shaderc DEPS entries including test dependencies. SHA-256 values are local integrity records, not upstream published checksums. Nested dependency closure and actual linkage remain unverified.",
+  "completeCorrespondingSource": false,
+  "parentSource": "desktop/.downloads/compliance/ffmpeg-enabled/50-shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab.tar.gz",
+  "parentSha256": "4a2451e747e011695d25847e75316722df80120b3f141600c43c9f5cedd70578",
+  "packages": [
+    {
+      "name": "abseil",
+      "repository": "abseil/abseil-cpp",
+      "commit": "dbf88f932096c7f7714356e919f04749eb87c3e9",
+      "url": "https://codeload.github.com/abseil/abseil-cpp/tar.gz/dbf88f932096c7f7714356e919f04749eb87c3e9",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/abseil/LICENSE",
+          "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/abseil-dbf88f932096c7f7714356e919f04749eb87c3e9.tar.gz",
+      "sha256": "e82365b76d28bdb105593f5ffdc8efe8b00625951d168e00d12df35b0f3ce98c",
+      "downloaded": true
+    },
+    {
+      "name": "effcee",
+      "repository": "google/effcee",
+      "commit": "f8e8a164822d4f65e757bff66bc00e1567959aa0",
+      "url": "https://codeload.github.com/google/effcee/tar.gz/f8e8a164822d4f65e757bff66bc00e1567959aa0",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/effcee/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/effcee-f8e8a164822d4f65e757bff66bc00e1567959aa0.tar.gz",
+      "sha256": "7c3f76f36d591578db29f0fa9abf16826a091b6da654a2797a84b88bf264cf52",
+      "downloaded": true
+    },
+    {
+      "name": "glslang",
+      "repository": "KhronosGroup/glslang",
+      "commit": "e1b562a8bed273a02f30b59b66a5d499793cede5",
+      "url": "https://codeload.github.com/KhronosGroup/glslang/tar.gz/e1b562a8bed273a02f30b59b66a5d499793cede5",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/glslang/LICENSE.txt",
+          "sha256": "17e70c676e1521ff3e4686f04a2053d93a7e28a33be8de7ec37ab0ff72feb677"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/glslang/license-checker.cfg",
+          "sha256": "0b7c936ff1270fb5089750e326f732ce2f08b18e804dc8847aa44561d0a7a277"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/glslang-e1b562a8bed273a02f30b59b66a5d499793cede5.tar.gz",
+      "sha256": "907174a24713c6202c146f164bf81783f1fbc79c8cb821a30f18f159eb980312",
+      "downloaded": true
+    },
+    {
+      "name": "googletest",
+      "repository": "google/googletest",
+      "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+      "url": "https://codeload.github.com/google/googletest/tar.gz/52eb8108c5bdec04579160ae17225d66034bd723",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/googletest/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/googletest-52eb8108c5bdec04579160ae17225d66034bd723.tar.gz",
+      "sha256": "745c55415660044610f7fcd3af7a6420d5de16a7dbb9ebfe2e131275676232be",
+      "downloaded": true
+    },
+    {
+      "name": "re2",
+      "repository": "google/re2",
+      "commit": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
+      "url": "https://codeload.github.com/google/re2/tar.gz/972a15cedd008d846f1a39b2e88ce48d7f166cbd",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/re2/LICENSE",
+          "sha256": "6040cda75d90b1738292a631d89934c411ef7ffd543c4d6a1b7edfc8edf29449"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/re2-972a15cedd008d846f1a39b2e88ce48d7f166cbd.tar.gz",
+      "sha256": "cd4a75bdc0ec2e2506026ea4ccc9f0c429aceab8b6305b2cd30a1f4cc67644bc",
+      "downloaded": true
+    },
+    {
+      "name": "spirv_headers",
+      "repository": "KhronosGroup/SPIRV-Headers",
+      "commit": "04fd3caa1e8267e4d95c806cad901181728e1006",
+      "url": "https://codeload.github.com/KhronosGroup/SPIRV-Headers/tar.gz/04fd3caa1e8267e4d95c806cad901181728e1006",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/spirv_headers/LICENSE",
+          "sha256": "ea43b1de38a6f90c488800d66dec1ed671e68cda530266bc96951fb5b6307613"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/spirv_headers-04fd3caa1e8267e4d95c806cad901181728e1006.tar.gz",
+      "sha256": "392f4801409aad9c4f1b77745f179952fd6264e4c8bd0fc1bc45dfa6807bf6d0",
+      "downloaded": true
+    },
+    {
+      "name": "spirv_tools",
+      "repository": "KhronosGroup/SPIRV-Tools",
+      "commit": "ef96ed763b43b59b33b31b362f09a02b729fa1c9",
+      "url": "https://codeload.github.com/KhronosGroup/SPIRV-Tools/tar.gz/ef96ed763b43b59b33b31b362f09a02b729fa1c9",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/spirv_tools/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-shaderc/spirv_tools/utils/vscode/src/lsp/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "path": "desktop/.downloads/compliance/ffmpeg-shaderc/spirv_tools-ef96ed763b43b59b33b31b362f09a02b729fa1c9.tar.gz",
+      "sha256": "82c62146083fd558735a3171cf97cfc47903ca7d368482e87f94bd44883c0f00",
+      "downloaded": true
+    }
+  ]
+}

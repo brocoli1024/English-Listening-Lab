@@ -1,0 +1,30 @@
+{
+  "asOf": "2026-10-22",
+  "commit": "63ebe6cdb3ec4d5c586b7f0f0c03dd502e44c296",
+  "archiveSha256": "94469ea48f974f9a4f7d8b7050cb7eceaa92c1f941ed3b6b8137591ba19491de",
+  "hashProvenance": "Locally computed on fixed official repository archive; not independently published digest",
+  "versionEvidence": "Pinned CRT/headers 14.0.0.r495.g63ebe6cdb-1 and libwinpthread 14.0.0.r495.g63ebe6cdb-2 package inventory",
+  "headerByteComparisons": [
+    {
+      "path": "winerror.h",
+      "match": true
+    },
+    {
+      "path": "windows.h",
+      "match": true
+    },
+    {
+      "path": "sspi.h",
+      "match": true
+    },
+    {
+      "path": "wincrypt.h",
+      "match": true
+    },
+    {
+      "path": "winbase.h",
+      "match": true
+    }
+  ],
+  "scope": "Full source tree collected; five installed headers matched byte for byte. Not a rebuild of the toolchain or runtime library."
+}

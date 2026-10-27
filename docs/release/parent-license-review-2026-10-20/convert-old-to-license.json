@@ -1,0 +1,28 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/rutrum/convert-case/commits/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71",
+    "https://api.github.com/repos/rutrum/convert-case/commits/603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "https://api.github.com/repos/rutrum/convert-case/commits/90446a1d8715e0d8ea501ca4b23f3b3a312277c8",
+    "https://api.github.com/repos/rutrum/convert-case/commits/f72ca63c9d579fbab22e361c76e39d31d1e86a2e",
+    "https://api.github.com/repos/rutrum/convert-case/commits/f994d6f871312f6c246740a8dcf421e5580b6dbf",
+    "https://api.github.com/repos/rutrum/convert-case/compare/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71...603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "https://api.github.com/repos/rutrum/convert-case/git/commits/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71",
+    "https://api.github.com/repos/rutrum/convert-case/git/commits/603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "https://api.github.com/repos/rutrum/convert-case/git/commits/f72ca63c9d579fbab22e361c76e39d31d1e86a2e",
+    "https://api.github.com/repos/rutrum/convert-case/git/commits/f994d6f871312f6c246740a8dcf421e5580b6dbf",
+    "https://api.github.com/repos/rutrum/convert-case/git/trees/a2bbf02e55433362a289ac1883dc5672bbfeed17",
+    "https://api.github.com/repos/rutrum/convert-case/git/trees/dcfe8adfc84d7e678828ade205010928668f4353",
+    "https://api.github.com/repos/rutrum/convert-case/git/trees/df54f814aeed8c47e1e88c0976c4e9be414518e8",
+    "https://api.github.com/users/r3v2d0g",
+    "https://api.github.com/users/web-flow",
+    "https://github.com/r3v2d0g",
+    "https://github.com/rutrum/convert-case/commit/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71",
+    "https://github.com/rutrum/convert-case/commit/603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "https://github.com/rutrum/convert-case/commit/90446a1d8715e0d8ea501ca4b23f3b3a312277c8",
+    "https://github.com/rutrum/convert-case/commit/f72ca63c9d579fbab22e361c76e39d31d1e86a2e",
+    "https://github.com/rutrum/convert-case/commit/f994d6f871312f6c246740a8dcf421e5580b6dbf",
+    "https://github.com/rutrum/convert-case/compare/300d9eef9e8c970e15f324afbc3df8b6a4ebbf71...603143ab2b6fb6067fe6788ce3d2935fd5bc18ff",
+    "https://github.com/web-flow"
+  ]
+}

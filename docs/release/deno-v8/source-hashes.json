@@ -1,0 +1,12 @@
+[
+  {
+    "file": "deno-v8-source.tar.gz",
+    "sha256": "208fc32bb41a5758bdb0e130a0019c908e68599ff5d9a40ef029a8e793b9039e",
+    "hashEvidence": "locally computed, not independent published checksum"
+  },
+  {
+    "file": "rusty-v8-source.tar.gz",
+    "sha256": "96ee509f4a771846d3aa6ebd0e30a0ef4c99c62a073021df67d760b4f9a22fc8",
+    "hashEvidence": "locally computed, not independent published checksum"
+  }
+]

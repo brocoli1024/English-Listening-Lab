@@ -1,0 +1,33 @@
+[
+  {
+    "name": "swc",
+    "repo": "swc-project/swc",
+    "commit": "832d537695a07e539660096883fab52bb7f10ecf",
+    "error": "HTTP Error 422: Unprocessable Entity"
+  },
+  {
+    "name": "zune",
+    "repo": "etemesi254/zune-image",
+    "commit": "f8fbb123d5ed04441e8324a555bfcda0cb1bd28f",
+    "truncated": false,
+    "candidates": [
+      "LICENSE-ZLIB",
+      "LICENSE.md",
+      "crates/zune-png/tests/png_suite/PngSuite.LICENSE"
+    ]
+  },
+  {
+    "name": "derive-io",
+    "repo": "mmastrac/derive-io",
+    "commit": "69a023098378b66e8f8852173b65ca5762b201e2",
+    "truncated": false,
+    "candidates": []
+  },
+  {
+    "name": "sys_traits",
+    "repo": "dsherret/sys_traits",
+    "commit": "709e02e198721f81b485c078ccdf1835fa3e6a40",
+    "truncated": false,
+    "candidates": []
+  }
+]

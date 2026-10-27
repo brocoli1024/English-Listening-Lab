@@ -1,0 +1,52 @@
+{
+  "asOf": "2026-10-19",
+  "source": "desktop/.downloads/compliance/deno-windows-metadata.json",
+  "root": "deno@2.9.7",
+  "method": "Breadth-first traversal of Cargo resolve nodes from deno 2.9.7, following normal dependency edges (kind=null) whose target is universal or mentions Windows; build-only edges excluded.",
+  "scope": "Cargo resolved dependency reachability only; this includes proc-macro crates that execute during compilation and does not prove final executable linkage.",
+  "packages": [
+    {
+      "package": "deno_native_certs-0.3.0",
+      "normalWindowsDependencyReachable": true,
+      "targetKinds": [
+        "bin",
+        "lib"
+      ],
+      "shortestPathFromDeno": [
+        "deno@2.9.7",
+        "deno_lib@0.77.0",
+        "deno_node@0.197.0",
+        "deno_native_certs@0.3.0"
+      ]
+    },
+    {
+      "package": "fqdn-0.5.2",
+      "normalWindowsDependencyReachable": true,
+      "targetKinds": [
+        "example",
+        "lib"
+      ],
+      "shortestPathFromDeno": [
+        "deno@2.9.7",
+        "deno_bundle_runtime@0.46.0",
+        "deno_permissions@0.118.0",
+        "fqdn@0.5.2"
+      ]
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "normalWindowsDependencyReachable": true,
+      "targetKinds": [
+        "lib"
+      ],
+      "shortestPathFromDeno": [
+        "deno@2.9.7",
+        "deno_runtime@0.267.0",
+        "qbsdiff@1.4.4",
+        "suffix_array@0.5.0",
+        "cdivsufsort@2.0.0",
+        "sacabase@2.0.0"
+      ]
+    }
+  ]
+}

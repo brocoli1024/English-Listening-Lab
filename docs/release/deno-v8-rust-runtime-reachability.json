@@ -1,0 +1,2548 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Exact checked-in source target closure for the V8 Temporal dependency path. It includes ordinary and build dependencies described by pinned GN cargo_crate targets. It does not prove exact prebuilt library linkage for the downloaded Deno executable.",
+  "sourceArchives": [
+    {
+      "component": "deno",
+      "path": "desktop/vendor/sources/deno.tar.gz",
+      "sha256": "21069d2f4dd65b6832e3f5c373c24a43a8d35cb3d68d3841e15d0582bed39ea8"
+    },
+    {
+      "component": "rustyV8",
+      "path": "desktop/.downloads/compliance/rusty-v8-source.tar.gz",
+      "sha256": "96ee509f4a771846d3aa6ebd0e30a0ef4c99c62a073021df67d760b4f9a22fc8"
+    },
+    {
+      "component": "v8",
+      "path": "desktop/.downloads/compliance/deno-v8-source.tar.gz",
+      "sha256": "208fc32bb41a5758bdb0e130a0019c908e68599ff5d9a40ef029a8e793b9039e"
+    },
+    {
+      "component": "thirdPartyRust",
+      "path": "desktop/.downloads/compliance/deno-v8-rust-26e8ff47f18a8d28d6187a04b6a16cb7332356f8.tar.gz",
+      "sha256": "7a440ae4e137ed7e2b71ecf5be8ac1fa4d55c915bb3145a7cc53de26ad3936c1"
+    }
+  ],
+  "denoCargoLockPath": "deno/Cargo.lock in desktop/vendor/sources/deno.tar.gz",
+  "denoCargoLockPackages": [
+    {
+      "name": "deno",
+      "version": "2.9.7",
+      "dependencies": [
+        "anstream",
+        "async-trait",
+        "aws-lc-rs",
+        "backhand",
+        "base64",
+        "bincode",
+        "boxed_error",
+        "bsdiff",
+        "bytes",
+        "cab",
+        "capacity_builder",
+        "cfb",
+        "chrono",
+        "color-print",
+        "console_static_text",
+        "criterion",
+        "crossterm",
+        "dashmap",
+        "deno_ast",
+        "deno_bundle_runtime",
+        "deno_cache_dir",
+        "deno_cli_parser",
+        "deno_config",
+        "deno_core",
+        "deno_doc",
+        "deno_dotenv",
+        "deno_error",
+        "deno_graph",
+        "deno_lib",
+        "deno_lint",
+        "deno_lockfile",
+        "deno_media_type",
+        "deno_npm",
+        "deno_npm_cache",
+        "deno_npm_installer",
+        "deno_npmrc",
+        "deno_os",
+        "deno_package_json",
+        "deno_panic",
+        "deno_path_util",
+        "deno_print",
+        "deno_resolver",
+        "deno_runtime",
+        "deno_semver",
+        "deno_signals",
+        "deno_snapshots",
+        "deno_subprocess_windows",
+        "deno_task_shell",
+        "deno_telemetry",
+        "deno_terminal",
+        "deno_tower_lsp",
+        "deno_v8",
+        "dhat",
+        "dprint-core",
+        "dprint-plugin-json",
+        "dprint-plugin-jupyter",
+        "dprint-plugin-markdown",
+        "dprint-plugin-typescript",
+        "esbuild_client",
+        "eszip",
+        "faster-hex",
+        "fastwebsockets",
+        "flate2",
+        "fluent-uri",
+        "glob",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "imara-diff",
+        "import_map",
+        "indexmap",
+        "jsonc-parser",
+        "keyring",
+        "lax-css",
+        "lax-markup",
+        "lax-sql",
+        "lazy-regex",
+        "libc",
+        "liblzma",
+        "libsui",
+        "libz-sys",
+        "locked-tripwire",
+        "log",
+        "ls-types",
+        "memchr",
+        "msi",
+        "nix",
+        "node_resolver",
+        "node_shim",
+        "notify",
+        "once_cell",
+        "open",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "p256",
+        "pathdiff",
+        "percent-encoding",
+        "phf",
+        "plist",
+        "pretty_assertions",
+        "pretty_yaml",
+        "rand",
+        "regex",
+        "rpm",
+        "rustc-hash",
+        "rustls",
+        "rustyline",
+        "rustyline-derive",
+        "same-file",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "sha2",
+        "shlex",
+        "spki",
+        "strsim",
+        "sys_traits",
+        "tar",
+        "tempfile",
+        "test_util",
+        "text-size",
+        "text_lines",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tokio-vsock",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "twox-hash",
+        "typed-arena",
+        "unicode-general-category",
+        "unicode-width",
+        "uuid",
+        "walkdir",
+        "wasm_dep_analyzer",
+        "wasmparser",
+        "which",
+        "windows-sys",
+        "winres",
+        "yaml_parser",
+        "zip",
+        "zstd"
+      ]
+    },
+    {
+      "name": "deno_core",
+      "version": "0.412.0",
+      "dependencies": [
+        "anyhow",
+        "base64",
+        "bencher",
+        "bit-set",
+        "bit-vec",
+        "boxed_error",
+        "bytes",
+        "cooked-waker",
+        "criterion",
+        "deno_ast",
+        "deno_core_icudata",
+        "deno_error",
+        "deno_ops",
+        "deno_path_util",
+        "deno_unsync",
+        "deno_v8",
+        "futures",
+        "indexmap",
+        "inventory",
+        "libc",
+        "num-bigint",
+        "parking_lot",
+        "paste",
+        "percent-encoding",
+        "pin-project",
+        "pretty_assertions",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_v8",
+        "smallvec",
+        "sourcemap",
+        "static_assertions",
+        "sys_traits",
+        "thiserror",
+        "tokio",
+        "twox-hash",
+        "unicycle",
+        "url",
+        "uuid",
+        "wasm_dep_analyzer",
+        "windows-sys"
+      ]
+    },
+    {
+      "name": "deno_v8",
+      "version": "0.4.0",
+      "dependencies": [
+        "v8",
+        "v8x"
+      ]
+    },
+    {
+      "name": "temporal_capi",
+      "version": "0.2.3",
+      "dependencies": [
+        "diplomat",
+        "diplomat-runtime",
+        "icu_calendar",
+        "icu_locale_core",
+        "num-traits",
+        "temporal_rs",
+        "timezone_provider",
+        "writeable",
+        "zoneinfo64"
+      ]
+    },
+    {
+      "name": "temporal_rs",
+      "version": "0.2.3",
+      "dependencies": [
+        "calendrical_calculations",
+        "core_maths",
+        "icu_calendar",
+        "icu_locale_core",
+        "ixdtf",
+        "num-traits",
+        "timezone_provider",
+        "tinystr",
+        "writeable"
+      ]
+    },
+    {
+      "name": "v8",
+      "version": "150.4.0",
+      "dependencies": [
+        "bindgen",
+        "bitflags",
+        "fslock",
+        "gzip-header",
+        "home",
+        "miniz_oxide",
+        "paste",
+        "temporal_capi",
+        "which"
+      ]
+    }
+  ],
+  "denoCargoLockEdges": [
+    {
+      "from": "deno",
+      "to": "deno_core"
+    },
+    {
+      "from": "deno",
+      "to": "deno_v8"
+    },
+    {
+      "from": "deno_core",
+      "to": "deno_v8"
+    },
+    {
+      "from": "deno_v8",
+      "to": "v8"
+    },
+    {
+      "from": "temporal_capi",
+      "to": "temporal_rs"
+    },
+    {
+      "from": "v8",
+      "to": "temporal_capi"
+    }
+  ],
+  "supportedDenoDependencyPath": [
+    "deno@2.9.7",
+    "deno_v8@0.4.0",
+    "v8@150.4.0",
+    "temporal_capi@0.2.3"
+  ],
+  "configurationEvidence": [
+    {
+      "source": "rusty_v8/.gn",
+      "line": 88,
+      "text": "enable_rust = true"
+    },
+    {
+      "source": "rusty_v8/.gn",
+      "line": 89,
+      "text": "enable_rust_cxx = true"
+    },
+    {
+      "source": "rusty_v8/.gn",
+      "line": 90,
+      "text": "v8_enable_temporal_support = true"
+    },
+    {
+      "source": "rusty_v8/BUILD.gn",
+      "lines": [
+        8,
+        16
+      ],
+      "text": "static_library(\"rusty_v8\") depends on //v8:v8"
+    },
+    {
+      "source": "v8/DEPS",
+      "lines": [
+        537,
+        538
+      ],
+      "text": "third_party/rust pinned to 26e8ff47f18a8d28d6187a04b6a16cb7332356f8"
+    },
+    {
+      "source": "v8/BUILD.gn",
+      "lines": [
+        2536,
+        2538
+      ],
+      "text": "v8_maybe_temporal conditionally depends on //third_party/rust/temporal_capi"
+    },
+    {
+      "source": "v8/BUILD.gn",
+      "lines": [
+        5838,
+        6843
+      ],
+      "text": "v8_base_without_compiler depends on :v8_maybe_temporal"
+    }
+  ],
+  "rootTarget": "//third_party/rust/temporal_capi/v0_2:lib",
+  "method": "Traverse deps and build_deps labels in pinned cargo_crate BUILD.gn blocks, starting at temporal_capi/v0_2:lib; crate metadata and full license-text paths come from exact README.chromium files and vendor paths in the same fixed archive.",
+  "reachableTargetCount": 46,
+  "dependencyEdgeCount": 120,
+  "targets": [
+    {
+      "gnTarget": "autocfg/v1:buildrs_support",
+      "crateName": "autocfg",
+      "version": "1.5.1",
+      "crateType": "rlib",
+      "authors": "Josh Stone <cuviper@gmail.com>",
+      "vendorDirectory": "autocfg-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/autocfg-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/autocfg-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/autocfg-v1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/autocfg-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/autocfg-v1/LICENSE-MIT",
+          "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac"
+        }
+      ]
+    },
+    {
+      "gnTarget": "calendrical_calculations/v0_2:lib",
+      "crateName": "calendrical_calculations",
+      "version": "0.2.4",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "calendrical_calculations-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/calendrical_calculations-v0_2/LICENSE",
+      "dependencies": [
+        {
+          "path": "core_maths/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/calendrical_calculations-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/calendrical_calculations-v0_2/LICENSE",
+          "sha256": "192ea857d1bff2b87c174de36cbae5c173234726c6b8eceab9790a535d7dbc95"
+        }
+      ]
+    },
+    {
+      "gnTarget": "core_maths/v0_1:lib",
+      "crateName": "core_maths",
+      "version": "0.1.1",
+      "crateType": "rlib",
+      "authors": "Robert Bastian <me@robertbastian.dev",
+      "vendorDirectory": "core_maths-v0_1",
+      "readmeChromiumLicense": "MIT",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/core_maths-v0_1/LICENSE",
+      "dependencies": [
+        {
+          "path": "libm/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/core_maths-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/core_maths-v0_1/LICENSE",
+          "sha256": "9ebf8c4cc0b735ca13a766451f7b8097db3185975ceb2ba94b5abf439156a91f"
+        }
+      ]
+    },
+    {
+      "gnTarget": "diplomat/v0_15:lib",
+      "crateName": "diplomat",
+      "version": "0.15.0",
+      "crateType": "proc-macro",
+      "authors": "Shadaj Laddad <shadaj@users.noreply.github.com>, Manish Goregaokar <manishsmail@gmail.com>, Quinn Okabayashi <QnnOkabayashi@users.noreply.github.com>",
+      "vendorDirectory": "diplomat-v0_15",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/diplomat-v0_15/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "diplomat_core/v0_15",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-v0_15/LICENSE-APACHE",
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-v0_15/LICENSE-MIT",
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        }
+      ]
+    },
+    {
+      "gnTarget": "diplomat_core/v0_15:lib",
+      "crateName": "diplomat_core",
+      "version": "0.15.0",
+      "crateType": "rlib",
+      "authors": "Shadaj Laddad <shadaj@users.noreply.github.com>, Manish Goregaokar <manishsmail@gmail.com>, Quinn Okabayashi <QnnOkabayashi@users.noreply.github.com>",
+      "vendorDirectory": "diplomat_core-v0_15",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "serde/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "smallvec/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "strck/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-APACHE",
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-MIT",
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        }
+      ]
+    },
+    {
+      "gnTarget": "diplomat_runtime/v0_15:lib",
+      "crateName": "diplomat_runtime",
+      "version": "0.15.1",
+      "crateType": "rlib",
+      "authors": "Shadaj Laddad <shadaj@users.noreply.github.com>, Manish Goregaokar <manishsmail@gmail.com>, Quinn Okabayashi <QnnOkabayashi@users.noreply.github.com>",
+      "vendorDirectory": "diplomat-runtime-v0_15",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-APACHE",
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-MIT",
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        }
+      ]
+    },
+    {
+      "gnTarget": "displaydoc/v0_2:lib",
+      "crateName": "displaydoc",
+      "version": "0.2.5",
+      "crateType": "proc-macro",
+      "authors": "Jane Lusby <jlusby@yaah.dev>",
+      "vendorDirectory": "displaydoc-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "either/v1:lib",
+      "crateName": "either",
+      "version": "1.16.0",
+      "crateType": "rlib",
+      "authors": null,
+      "vendorDirectory": "either-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/either-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/either-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/either-v1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/either-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/either-v1/LICENSE-MIT",
+          "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_calendar/v2:lib",
+      "crateName": "icu_calendar",
+      "version": "2.2.1",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_calendar-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_calendar-v2/LICENSE",
+      "dependencies": [
+        {
+          "path": "calendrical_calculations/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_calendar_data/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_provider/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "tinystr/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_calendar-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_calendar-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_calendar_data/v2:lib",
+      "crateName": "icu_calendar_data",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_calendar_data-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_calendar_data-v2/LICENSE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_calendar_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_calendar_data-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_collections/v2:lib",
+      "crateName": "icu_collections",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_collections-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_collections-v2/LICENSE",
+      "dependencies": [
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "potential_utf/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "utf8_iter/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "yoke/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerofrom/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_collections-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_collections-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_locale/v2:lib",
+      "crateName": "icu_locale",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_locale-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_locale-v2/LICENSE",
+      "dependencies": [
+        {
+          "path": "icu_collections/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_data/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_provider/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "potential_utf/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "tinystr/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_locale_core/v2:lib",
+      "crateName": "icu_locale_core",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_locale_core-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_locale_core-v2/LICENSE",
+      "dependencies": [
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "litemap/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "tinystr/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "writeable/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale_core-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale_core-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_locale_data/v2:lib",
+      "crateName": "icu_locale_data",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_locale_data-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_locale_data-v2/LICENSE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale_data-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "icu_provider/v2:lib",
+      "crateName": "icu_provider",
+      "version": "2.2.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "icu_provider-v2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/icu_provider-v2/LICENSE",
+      "dependencies": [
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "stable_deref_trait/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "writeable/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "yoke/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerofrom/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerotrie/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_provider-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_provider-v2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "ixdtf/v0_6:lib",
+      "crateName": "ixdtf",
+      "version": "0.6.5",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "ixdtf-v0_6",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/ixdtf-v0_6/LICENSE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ixdtf-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ixdtf-v0_6/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "libm/v0_2:lib",
+      "crateName": "libm",
+      "version": "0.2.16",
+      "crateType": "rlib",
+      "authors": "Alex Crichton <alex@alexcrichton.com>, Amanieu d'Antras <amanieu@gmail.com>, Jorge Aparicio <japaricious@gmail.com>, Trevor Gross <tg@trevorgross.com>",
+      "vendorDirectory": "libm-v0_2",
+      "readmeChromiumLicense": "MIT",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/libm-v0_2/LICENSE.txt",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libm-v0_2/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libm-v0_2/LICENSE.txt",
+          "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7"
+        }
+      ]
+    },
+    {
+      "gnTarget": "litemap/v0_8:lib",
+      "crateName": "litemap",
+      "version": "0.8.2",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "litemap-v0_8",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/litemap-v0_8/LICENSE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/litemap-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/litemap-v0_8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "num_traits/v0_2:lib",
+      "crateName": "num_traits",
+      "version": "0.2.19",
+      "crateType": "rlib",
+      "authors": "The Rust Project Developers",
+      "vendorDirectory": "num-traits-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/num-traits-v0_2/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "autocfg/v1",
+          "target": "buildrs_support",
+          "kind": "build_deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-traits-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-traits-v0_2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-traits-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-traits-v0_2/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ]
+    },
+    {
+      "gnTarget": "potential_utf/v0_1:lib",
+      "crateName": "potential_utf",
+      "version": "0.1.5",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "potential_utf-v0_1",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/potential_utf-v0_1/LICENSE",
+      "dependencies": [
+        {
+          "path": "writeable/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/potential_utf-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/potential_utf-v0_1/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "proc_macro2/v1:lib",
+      "crateName": "proc_macro2",
+      "version": "1.0.106",
+      "crateType": "rlib",
+      "authors": "David Tolnay <dtolnay@gmail.com>, Alex Crichton <alex@alexcrichton.com>",
+      "vendorDirectory": "proc-macro2-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/proc-macro2-v1/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "unicode_ident/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro2-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro2-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro2-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro2-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "quote/v1:lib",
+      "crateName": "quote",
+      "version": "1.0.45",
+      "crateType": "rlib",
+      "authors": "David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "quote-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/quote-v1/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/quote-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/quote-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/quote-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/quote-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "resb/v0_1:lib",
+      "crateName": "resb",
+      "version": "0.1.2",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "resb-v0_1",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/resb-v0_1/LICENSE",
+      "dependencies": [
+        {
+          "path": "potential_utf/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "serde_core/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/resb-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/resb-v0_1/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "serde/v1:lib",
+      "crateName": "serde",
+      "version": "1.0.228",
+      "crateType": "rlib",
+      "authors": "Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "serde-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/serde-v1/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "serde_core/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "serde_derive/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "serde_core/v1:lib",
+      "crateName": "serde_core",
+      "version": "1.0.228",
+      "crateType": "rlib",
+      "authors": "Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "serde_core-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/serde_core-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_core-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_core-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_core-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_core-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "serde_derive/v1:lib",
+      "crateName": "serde_derive",
+      "version": "1.0.228",
+      "crateType": "proc-macro",
+      "authors": "Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "serde_derive-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/serde_derive-v1/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_derive-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_derive-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_derive-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_derive-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "smallvec/v1:lib",
+      "crateName": "smallvec",
+      "version": "1.15.1",
+      "crateType": "rlib",
+      "authors": "The Servo Project Developers",
+      "vendorDirectory": "smallvec-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/smallvec-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/smallvec-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/smallvec-v1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/smallvec-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/smallvec-v1/LICENSE-MIT",
+          "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9"
+        }
+      ]
+    },
+    {
+      "gnTarget": "stable_deref_trait/v1:lib",
+      "crateName": "stable_deref_trait",
+      "version": "1.2.1",
+      "crateType": "rlib",
+      "authors": "Robert Grosse <n210241048576@gmail.com>",
+      "vendorDirectory": "stable_deref_trait-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-MIT",
+          "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7"
+        }
+      ]
+    },
+    {
+      "gnTarget": "strck/v1:lib",
+      "crateName": "strck",
+      "version": "1.0.0",
+      "crateType": "rlib",
+      "authors": "Quinn Okabayashi <quinnokabayashi@gmail.com>",
+      "vendorDirectory": "strck-v1",
+      "readmeChromiumLicense": "MIT",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/strck-v1/LICENSE",
+      "dependencies": [
+        {
+          "path": "unicode_ident/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strck-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strck-v1/LICENSE",
+          "sha256": "7e24648e3d082d4f8026cdedb21d084d91ef13223bff6b76cb8bf19a744b7d28"
+        }
+      ]
+    },
+    {
+      "gnTarget": "syn/v2:lib",
+      "crateName": "syn",
+      "version": "2.0.117",
+      "crateType": "rlib",
+      "authors": "David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "syn-v2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/syn-v2/LICENSE-APACHE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "unicode_ident/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/syn-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/syn-v2/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/syn-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/syn-v2/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "gnTarget": "synstructure/v0_13:lib",
+      "crateName": "synstructure",
+      "version": "0.13.2",
+      "crateType": "rlib",
+      "authors": "Nika Layzell <nika@thelayzells.com>",
+      "vendorDirectory": "synstructure-v0_13",
+      "readmeChromiumLicense": "MIT",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/synstructure-v0_13/LICENSE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/synstructure-v0_13/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/synstructure-v0_13/LICENSE",
+          "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59"
+        }
+      ]
+    },
+    {
+      "gnTarget": "temporal_capi/v0_2:lib",
+      "crateName": "temporal_capi",
+      "version": "0.2.3",
+      "crateType": "rlib",
+      "authors": "boa-dev",
+      "vendorDirectory": "temporal_capi-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-Apache",
+      "dependencies": [
+        {
+          "path": "diplomat/v0_15",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "diplomat_runtime/v0_15",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_calendar/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "num_traits/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "temporal_rs/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "timezone_provider/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "writeable/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zoneinfo64/v0_3",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-Apache",
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-MIT",
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        }
+      ]
+    },
+    {
+      "gnTarget": "temporal_rs/v0_2:lib",
+      "crateName": "temporal_rs",
+      "version": "0.2.3",
+      "crateType": "rlib",
+      "authors": "boa-dev",
+      "vendorDirectory": "temporal_rs-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-Apache",
+      "dependencies": [
+        {
+          "path": "calendrical_calculations/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "core_maths/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_calendar/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "ixdtf/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "num_traits/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "timezone_provider/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "tinystr/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "writeable/v0_6",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-Apache",
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-MIT",
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        }
+      ]
+    },
+    {
+      "gnTarget": "timezone_provider/v0_2:lib",
+      "crateName": "timezone_provider",
+      "version": "0.2.3",
+      "crateType": "rlib",
+      "authors": "boa-dev",
+      "vendorDirectory": "timezone_provider-v0_2",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-Apache",
+      "dependencies": [
+        {
+          "path": "tinystr/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerotrie/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zoneinfo64/v0_3",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-Apache",
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-MIT",
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        }
+      ]
+    },
+    {
+      "gnTarget": "tinystr/v0_8:lib",
+      "crateName": "tinystr",
+      "version": "0.8.3",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "tinystr-v0_8",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/tinystr-v0_8/LICENSE",
+      "dependencies": [
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/tinystr-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/tinystr-v0_8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "unicode_ident/v1:lib",
+      "crateName": "unicode_ident",
+      "version": "1.0.24",
+      "crateType": "rlib",
+      "authors": "David Tolnay <dtolnay@gmail.com>",
+      "vendorDirectory": "unicode-ident-v1",
+      "readmeChromiumLicense": "Apache-2.0, Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-APACHE,//third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-UNICODE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-UNICODE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-UNICODE",
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+        }
+      ]
+    },
+    {
+      "gnTarget": "utf8_iter/v1:lib",
+      "crateName": "utf8_iter",
+      "version": "1.0.4",
+      "crateType": "rlib",
+      "authors": "Henri Sivonen <hsivonen@hsivonen.fi>",
+      "vendorDirectory": "utf8_iter-v1",
+      "readmeChromiumLicense": "Apache-2.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/LICENSE-APACHE",
+      "dependencies": [],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/COPYRIGHT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/COPYRIGHT",
+          "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/LICENSE-MIT",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+        }
+      ]
+    },
+    {
+      "gnTarget": "writeable/v0_6:lib",
+      "crateName": "writeable",
+      "version": "0.6.3",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "writeable-v0_6",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/writeable-v0_6/LICENSE",
+      "dependencies": [
+        {
+          "path": "either/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/writeable-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/writeable-v0_6/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "yoke/v0_8:lib",
+      "crateName": "yoke",
+      "version": "0.8.2",
+      "crateType": "rlib",
+      "authors": "Manish Goregaokar <manishsmail@gmail.com>",
+      "vendorDirectory": "yoke-v0_8",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/yoke-v0_8/LICENSE",
+      "dependencies": [
+        {
+          "path": "stable_deref_trait/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "yoke_derive/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerofrom/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/yoke-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/yoke-v0_8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "yoke_derive/v0_8:lib",
+      "crateName": "yoke_derive",
+      "version": "0.8.2",
+      "crateType": "proc-macro",
+      "authors": "Manish Goregaokar <manishsmail@gmail.com>",
+      "vendorDirectory": "yoke-derive-v0_8",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/yoke-derive-v0_8/LICENSE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "synstructure/v0_13",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/yoke-derive-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/yoke-derive-v0_8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zerofrom/v0_1:lib",
+      "crateName": "zerofrom",
+      "version": "0.1.8",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "zerofrom-v0_1",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zerofrom-v0_1/LICENSE",
+      "dependencies": [
+        {
+          "path": "zerofrom_derive/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerofrom-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerofrom-v0_1/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zerofrom_derive/v0_1:lib",
+      "crateName": "zerofrom_derive",
+      "version": "0.1.7",
+      "crateType": "proc-macro",
+      "authors": "Manish Goregaokar <manishsmail@gmail.com>",
+      "vendorDirectory": "zerofrom-derive-v0_1",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zerofrom-derive-v0_1/LICENSE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "synstructure/v0_13",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerofrom-derive-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerofrom-derive-v0_1/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zerotrie/v0_2:lib",
+      "crateName": "zerotrie",
+      "version": "0.2.4",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "zerotrie-v0_2",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zerotrie-v0_2/LICENSE",
+      "dependencies": [
+        {
+          "path": "displaydoc/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "yoke/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerofrom/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerotrie-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerotrie-v0_2/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zerovec/v0_11:lib",
+      "crateName": "zerovec",
+      "version": "0.11.6",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "zerovec-v0_11",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zerovec-v0_11/LICENSE",
+      "dependencies": [
+        {
+          "path": "yoke/v0_8",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerofrom/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "zerovec_derive/v0_11",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerovec-v0_11/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerovec-v0_11/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zerovec_derive/v0_11:lib",
+      "crateName": "zerovec_derive",
+      "version": "0.11.3",
+      "crateType": "proc-macro",
+      "authors": "Manish Goregaokar <manishsmail@gmail.com>",
+      "vendorDirectory": "zerovec-derive-v0_11",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zerovec-derive-v0_11/LICENSE",
+      "dependencies": [
+        {
+          "path": "proc_macro2/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "quote/v1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "syn/v2",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerovec-derive-v0_11/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerovec-derive-v0_11/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "gnTarget": "zoneinfo64/v0_3:lib",
+      "crateName": "zoneinfo64",
+      "version": "0.3.0",
+      "crateType": "rlib",
+      "authors": "The ICU4X Project Developers",
+      "vendorDirectory": "zoneinfo64-v0_3",
+      "readmeChromiumLicense": "Unicode-3.0",
+      "readmeChromiumLicenseFile": "//third_party/rust/chromium_crates_io/vendor/zoneinfo64-v0_3/LICENSE",
+      "dependencies": [
+        {
+          "path": "calendrical_calculations/v0_2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "icu_locale_core/v2",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "potential_utf/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "resb/v0_1",
+          "target": "lib",
+          "kind": "deps"
+        },
+        {
+          "path": "serde/v1",
+          "target": "lib",
+          "kind": "deps"
+        }
+      ],
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zoneinfo64-v0_3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zoneinfo64-v0_3/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "diplomat/v0_15:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "diplomat_runtime/v0_15:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "icu_calendar/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "num_traits/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "temporal_rs/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "timezone_provider/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "writeable/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_capi/v0_2:lib",
+      "to": "zoneinfo64/v0_3:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat/v0_15:lib",
+      "to": "diplomat_core/v0_15:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat/v0_15:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat/v0_15:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat/v0_15:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "calendrical_calculations/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "icu_calendar_data/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "icu_locale/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "icu_provider/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "tinystr/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_calendar/v2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale_core/v2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale_core/v2:lib",
+      "to": "litemap/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale_core/v2:lib",
+      "to": "tinystr/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale_core/v2:lib",
+      "to": "writeable/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale_core/v2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "num_traits/v0_2:lib",
+      "to": "autocfg/v1:buildrs_support",
+      "kind": "build_deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "calendrical_calculations/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "core_maths/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "icu_calendar/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "ixdtf/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "num_traits/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "timezone_provider/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "tinystr/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "temporal_rs/v0_2:lib",
+      "to": "writeable/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "timezone_provider/v0_2:lib",
+      "to": "tinystr/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "timezone_provider/v0_2:lib",
+      "to": "zerotrie/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "timezone_provider/v0_2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "timezone_provider/v0_2:lib",
+      "to": "zoneinfo64/v0_3:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "writeable/v0_6:lib",
+      "to": "either/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zoneinfo64/v0_3:lib",
+      "to": "calendrical_calculations/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zoneinfo64/v0_3:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zoneinfo64/v0_3:lib",
+      "to": "potential_utf/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zoneinfo64/v0_3:lib",
+      "to": "resb/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zoneinfo64/v0_3:lib",
+      "to": "serde/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "serde/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "smallvec/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "strck/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "diplomat_core/v0_15:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "proc_macro2/v1:lib",
+      "to": "unicode_ident/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "quote/v1:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "syn/v2:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "syn/v2:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "syn/v2:lib",
+      "to": "unicode_ident/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "calendrical_calculations/v0_2:lib",
+      "to": "core_maths/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "calendrical_calculations/v0_2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "displaydoc/v0_2:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "displaydoc/v0_2:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "displaydoc/v0_2:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "icu_collections/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "icu_locale_data/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "icu_provider/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "potential_utf/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "tinystr/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_locale/v2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "icu_locale_core/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "stable_deref_trait/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "writeable/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "yoke/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "zerofrom/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "zerotrie/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_provider/v2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "tinystr/v0_8:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "tinystr/v0_8:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec/v0_11:lib",
+      "to": "yoke/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec/v0_11:lib",
+      "to": "zerofrom/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec/v0_11:lib",
+      "to": "zerovec_derive/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "core_maths/v0_1:lib",
+      "to": "libm/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerotrie/v0_2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerotrie/v0_2:lib",
+      "to": "yoke/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerotrie/v0_2:lib",
+      "to": "zerofrom/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "potential_utf/v0_1:lib",
+      "to": "writeable/v0_6:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "potential_utf/v0_1:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "resb/v0_1:lib",
+      "to": "potential_utf/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "resb/v0_1:lib",
+      "to": "serde_core/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "serde/v1:lib",
+      "to": "serde_core/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "serde/v1:lib",
+      "to": "serde_derive/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "strck/v1:lib",
+      "to": "unicode_ident/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "displaydoc/v0_2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "potential_utf/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "utf8_iter/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "yoke/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "zerofrom/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "icu_collections/v2:lib",
+      "to": "zerovec/v0_11:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke/v0_8:lib",
+      "to": "stable_deref_trait/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke/v0_8:lib",
+      "to": "yoke_derive/v0_8:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke/v0_8:lib",
+      "to": "zerofrom/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerofrom/v0_1:lib",
+      "to": "zerofrom_derive/v0_1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec_derive/v0_11:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec_derive/v0_11:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerovec_derive/v0_11:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "serde_derive/v1:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "serde_derive/v1:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "serde_derive/v1:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke_derive/v0_8:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke_derive/v0_8:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke_derive/v0_8:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "yoke_derive/v0_8:lib",
+      "to": "synstructure/v0_13:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerofrom_derive/v0_1:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerofrom_derive/v0_1:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerofrom_derive/v0_1:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "zerofrom_derive/v0_1:lib",
+      "to": "synstructure/v0_13:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "synstructure/v0_13:lib",
+      "to": "proc_macro2/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "synstructure/v0_13:lib",
+      "to": "quote/v1:lib",
+      "kind": "deps"
+    },
+    {
+      "from": "synstructure/v0_13:lib",
+      "to": "syn/v2:lib",
+      "kind": "deps"
+    }
+  ],
+  "unresolvedTargets": [],
+  "fullLicenseTextFileCount": 68,
+  "allTargetsHaveLicenseTexts": true,
+  "buildModeCaveat": "rusty_v8 build.rs can either invoke the checked-in GN source build when V8_FROM_SOURCE is set or download prebuilt libraries; GN_ARGS and EXTRA_GN_ARGS can override flags. The exact environment and generated GN graph used for the packaged deno.exe are not recorded. Therefore this is the supported source-build dependency set, not a final binary SBOM.",
+  "noticeCaveat": "All referenced license texts are preserved from the pinned third_party/rust subtree, and electron-builder packages docs/release/licenses under resources/licenses. A broad dependency closure and exact public binary notices still require review."
+}

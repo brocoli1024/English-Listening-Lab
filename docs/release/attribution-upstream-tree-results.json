@@ -1,0 +1,81 @@
+[
+  {
+    "repo": "denoland/deno_native_certs",
+    "commit": "700f235fe029ea839f5a64eea251abf8116ddb4c",
+    "url": "https://api.github.com/repos/denoland/deno_native_certs/git/trees/700f235fe029ea839f5a64eea251abf8116ddb4c?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/denoland-deno_native_certs-700f235fe029ea839f5a64eea251abf8116ddb4c.json",
+    "sha256": "ad13c62f402e846109c7b5afe0bcddb8e2dbae274fe268d43adeda3edaab7799",
+    "truncated": false,
+    "candidates": []
+  },
+  {
+    "repo": "littledivy/aead-stream",
+    "commit": "2737345ddbccd5b3e1ae41060b136cfc3e0cb610",
+    "url": "https://api.github.com/repos/littledivy/aead-stream/git/trees/2737345ddbccd5b3e1ae41060b136cfc3e0cb610?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/littledivy-aead-stream-2737345ddbccd5b3e1ae41060b136cfc3e0cb610.json",
+    "sha256": "cc5a9a34f9ee4b02fa8b29659a8fd548ce3d146f57171862155754bf41c94fd7",
+    "truncated": false,
+    "candidates": []
+  },
+  {
+    "repo": "Orange-OpenSource/fqdn",
+    "commit": "a23fef8570522a3b98a79afc45322d6487166cd9",
+    "url": "https://api.github.com/repos/Orange-OpenSource/fqdn/git/trees/a23fef8570522a3b98a79afc45322d6487166cd9?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/Orange-OpenSource-fqdn-a23fef8570522a3b98a79afc45322d6487166cd9.json",
+    "sha256": "c0d6cd058174174aec13526b6a3624853479475cc608eba52a1c1117197727cf",
+    "truncated": false,
+    "candidates": []
+  },
+  {
+    "repo": "fasterthanlime/stringsearch",
+    "commit": "acd5846b959884a1d24247038e9c52b5cf900f67",
+    "url": "https://api.github.com/repos/fasterthanlime/stringsearch/git/trees/acd5846b959884a1d24247038e9c52b5cf900f67?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/fasterthanlime-stringsearch-acd5846b959884a1d24247038e9c52b5cf900f67.json",
+    "sha256": "9f149c01c0722f2de17ffc2e36778639b54d32a08e410e6e6b8ba061af0b7bcf",
+    "truncated": false,
+    "candidates": [
+      {
+        "path": "crates/cdivsufsort/LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b12ecc973ab66b132d6d2813099bd13bb7a0aef",
+        "size": 1099,
+        "url": "https://api.github.com/repos/fasterthanlime/stringsearch/git/blobs/2b12ecc973ab66b132d6d2813099bd13bb7a0aef"
+      },
+      {
+        "path": "crates/cdivsufsort/c-sources/LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "249efa49a479d86542f53022a445f4d7b8ed6190",
+        "size": 1097,
+        "url": "https://api.github.com/repos/fasterthanlime/stringsearch/git/blobs/249efa49a479d86542f53022a445f4d7b8ed6190"
+      },
+      {
+        "path": "crates/divsufsort/LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b12ecc973ab66b132d6d2813099bd13bb7a0aef",
+        "size": 1099,
+        "url": "https://api.github.com/repos/fasterthanlime/stringsearch/git/blobs/2b12ecc973ab66b132d6d2813099bd13bb7a0aef"
+      }
+    ]
+  },
+  {
+    "repo": "dsherret/sys_traits",
+    "commit": "709e02e198721f81b485c078ccdf1835fa3e6a40",
+    "url": "https://api.github.com/repos/dsherret/sys_traits/git/trees/709e02e198721f81b485c078ccdf1835fa3e6a40?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/dsherret-sys_traits-709e02e198721f81b485c078ccdf1835fa3e6a40.json",
+    "sha256": "73d49fbeca23bdc8c92ef193cff64dcab22dfd3ba927dd387882a6d77d0f8604",
+    "truncated": false,
+    "candidates": []
+  },
+  {
+    "repo": "dsherret/sys_traits",
+    "commit": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+    "url": "https://api.github.com/repos/dsherret/sys_traits/git/trees/75cbf3ea478624cc78275b0264e78e9ae13ce3f5?recursive=1",
+    "path": "docs/release/attribution-upstream-trees/dsherret-sys_traits-75cbf3ea478624cc78275b0264e78e9ae13ce3f5.json",
+    "sha256": "8405908cd48099605fea6d5f284fa851011f69d3cdb7fe188c2c137c7b7c5ef8",
+    "truncated": false,
+    "candidates": []
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Standard Apache-2.0 option for dual-licensed Deno dependencies; preserves declared option and avoids inventing package copyright lines.",
+  "canonicalLicenseSource": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt",
+  "packages": [
+    {
+      "package": "derive-io-0.4.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "selectedLicenseOption": "Apache-2.0",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/derive-io-0.4.1.crate",
+      "registryArchiveSha256": "58cc7f4740088458993d183a200fe56e62378736f94bf0e2dd45807407e7bb94",
+      "vcsEvidence": null,
+      "licenseTextPath": "docs/release/licenses/deno-embedded/derive-io-0.4.1/LICENSE-APACHE",
+      "licenseTextSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseTextBasis": "Complete Apache-2.0 text copied from the preserved canonical Apache text; selected because the checksum-verified package declares MIT OR Apache-2.0.",
+      "attributionCaveat": "The crate and fixed source tree contain no package-specific LICENSE/NOTICE file in the recorded scan. This adds the chosen standard license text but does not infer a copyright owner or prove final binary linkage."
+    },
+    {
+      "package": "derive-io-macros-0.4.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "selectedLicenseOption": "Apache-2.0",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/derive-io-macros-0.4.1.crate",
+      "registryArchiveSha256": "8d0a1bd7eeab72097740967d03d53db5fbaf8e3c0dd471ebdefa43ce445a20a6",
+      "vcsEvidence": null,
+      "licenseTextPath": "docs/release/licenses/deno-embedded/derive-io-macros-0.4.1/LICENSE-APACHE",
+      "licenseTextSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseTextBasis": "Complete Apache-2.0 text copied from the preserved canonical Apache text; selected because the checksum-verified package declares MIT OR Apache-2.0.",
+      "attributionCaveat": "The crate and fixed source tree contain no package-specific LICENSE/NOTICE file in the recorded scan. This adds the chosen standard license text but does not infer a copyright owner or prove final binary linkage."
+    },
+    {
+      "package": "sptr-0.3.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "selectedLicenseOption": "Apache-2.0",
+      "registryArchive": "desktop/.downloads/compliance/deno-crates/sptr-0.3.2.crate",
+      "registryArchiveSha256": "3b9b39299b249ad65f3b7e96443bad61c02ca5cd3589f46cb6d610a0fd6c0d6a",
+      "vcsEvidence": null,
+      "licenseTextPath": "docs/release/licenses/deno-embedded/sptr-0.3.2/LICENSE-APACHE",
+      "licenseTextSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseTextBasis": "Complete Apache-2.0 text copied from the preserved canonical Apache text; selected because the checksum-verified package declares MIT OR Apache-2.0.",
+      "attributionCaveat": "The crate and fixed source tree contain no package-specific LICENSE/NOTICE file in the recorded scan. This adds the chosen standard license text but does not infer a copyright owner or prove final binary linkage."
+    }
+  ]
+}

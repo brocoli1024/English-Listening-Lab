@@ -1,0 +1,225 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Official crates.io version metadata for the remaining Windows license-text candidates; archive checksums are separately verified in deno-registry-sources.json.",
+  "packages": [
+    {
+      "name": "aead-gcm-stream",
+      "version": "0.4.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "e70c8dec860340effb00f6945c49c0daaa6dac963602750db862eabb74bf7886",
+      "publishedAt": "2024-12-27T05:48:58.600106Z",
+      "vcs": {
+        "git": {
+          "sha1": "2737345ddbccd5b3e1ae41060b136cfc3e0cb610"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "convert_case",
+      "version": "0.4.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "6245d59a3e82a7fc217c5828a6692dbc6dfb63a0c8c90495621f7b9d79704a0e",
+      "publishedAt": "2020-05-18T02:16:35.479262Z",
+      "vcs": {
+        "git": {
+          "sha1": "300d9eef9e8c970e15f324afbc3df8b6a4ebbf71"
+        }
+      }
+    },
+    {
+      "name": "deno_native_certs",
+      "version": "0.3.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "c867603d2a5dfea31f55cecebb572554caa395437786d058faa9a2814c8d6eb9",
+      "publishedAt": "2024-06-04T15:16:07.538153Z",
+      "vcs": {
+        "git": {
+          "sha1": "700f235fe029ea839f5a64eea251abf8116ddb4c"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "deno_tunnel",
+      "version": "0.8.1",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "e432929e0c167f2a003b963ee406c714fcd947a87d4f9edc7b3255e87be9881d",
+      "publishedAt": "2026-02-03T15:04:30.73027Z",
+      "vcs": {
+        "git": {
+          "sha1": "c0572b46beac220e105e69317ff9e207babc7f09"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "derive-io",
+      "version": "0.4.1",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT OR Apache-2.0",
+      "checksum": "58cc7f4740088458993d183a200fe56e62378736f94bf0e2dd45807407e7bb94",
+      "publishedAt": "2025-06-22T18:19:17.374222Z",
+      "vcs": {
+        "git": {
+          "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+        },
+        "path_in_vcs": "crates/derive-io"
+      }
+    },
+    {
+      "name": "derive-io-macros",
+      "version": "0.4.1",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT OR Apache-2.0",
+      "checksum": "8d0a1bd7eeab72097740967d03d53db5fbaf8e3c0dd471ebdefa43ce445a20a6",
+      "publishedAt": "2025-06-22T18:18:40.714763Z",
+      "vcs": {
+        "git": {
+          "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+        },
+        "path_in_vcs": "crates/derive-io-macros"
+      }
+    },
+    {
+      "name": "dlopen2",
+      "version": "0.6.1",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "6bc2c7ed06fd72a8513ded8d0d2f6fd2655a85d6885c48cae8625d80faf28c03",
+      "publishedAt": "2023-07-30T02:38:00.519664Z",
+      "vcs": null
+    },
+    {
+      "name": "fqdn",
+      "version": "0.5.2",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "886ac788f62d16d6b0f26b2fa762b34ef16ebfb4b624c2c15fbcadc9173c0f72",
+      "publishedAt": "2026-01-12T14:49:10.640864Z",
+      "vcs": {
+        "git": {
+          "sha1": "a23fef8570522a3b98a79afc45322d6487166cd9",
+          "dirty": true
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "hexf-parse",
+      "version": "0.2.1",
+      "repository": null,
+      "homepage": null,
+      "license": "CC0-1.0",
+      "checksum": "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df",
+      "publishedAt": "2021-03-29T22:13:42.594502Z",
+      "vcs": {
+        "git": {
+          "sha1": "4225763d744183d720f575ae96d04161b4d08ea0"
+        }
+      }
+    },
+    {
+      "name": "lazy-regex-proc_macros",
+      "version": "3.1.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "44bcd58e6c97a7fcbaffcdc95728b393b8d98933bfadad49ed4097845b57ef0b",
+      "publishedAt": "2023-11-09T17:21:37.287208Z",
+      "vcs": {
+        "git": {
+          "sha1": "cc1e0888ba501509b4d38ba4c30142625c651343"
+        },
+        "path_in_vcs": "src/proc_macros"
+      }
+    },
+    {
+      "name": "rustls-tokio-stream",
+      "version": "0.8.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "0560d12c0d8c672f849197de91b9ee61f5bf9aa024c97aaeeb112ec2f6c347fd",
+      "publishedAt": "2025-07-19T15:29:27.080252Z",
+      "vcs": {
+        "git": {
+          "sha1": "c8a9239c987dbfa7b1eaed78d27935fe8272319c"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "sacabase",
+      "version": "2.0.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "9883fc3d6ce3d78bb54d908602f8bc1f7b5f983afe601dabe083009d86267a84",
+      "publishedAt": "2019-11-23T19:56:10.062644Z",
+      "vcs": {
+        "git": {
+          "sha1": "acd5846b959884a1d24247038e9c52b5cf900f67"
+        }
+      }
+    },
+    {
+      "name": "sptr",
+      "version": "0.3.2",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT OR Apache-2.0",
+      "checksum": "3b9b39299b249ad65f3b7e96443bad61c02ca5cd3589f46cb6d610a0fd6c0d6a",
+      "publishedAt": "2022-06-27T00:31:20.475047Z",
+      "vcs": {
+        "git": {
+          "sha1": "e59792814876b4948279ec3121921fbe827b1077"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "sys_traits",
+      "version": "0.1.28",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "88826d6169418c98e8bc52a43f79d50907dfa3e87ba5161930d42c6f980b35ee",
+      "publishedAt": "2026-05-16T19:53:07.519539Z",
+      "vcs": {
+        "git": {
+          "sha1": "709e02e198721f81b485c078ccdf1835fa3e6a40"
+        },
+        "path_in_vcs": ""
+      }
+    },
+    {
+      "name": "sys_traits_macros",
+      "version": "0.1.0",
+      "repository": null,
+      "homepage": null,
+      "license": "MIT",
+      "checksum": "181f22127402abcf8ee5c83ccd5b408933fec36a6095cf82cda545634692657e",
+      "publishedAt": "2025-05-15T15:11:21.17877Z",
+      "vcs": {
+        "git": {
+          "sha1": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+          "dirty": true
+        },
+        "path_in_vcs": "macros"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "name": "anes-0.1.6",
+    "version": "0.1.6",
+    "declaredLicense": "MIT OR Apache-2.0",
+    "repository": "https://github.com/zrzka/anes-rs",
+    "vcs": {
+      "git": {
+        "sha1": "378ac7461ecac29fde9e10df7b08359d1315a9ad"
+      }
+    },
+    "packageName": "anes"
+  },
+  {
+    "name": "block-0.1.6",
+    "version": "0.1.6",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-block",
+    "vcs": null,
+    "packageName": "block"
+  },
+  {
+    "name": "defmt-parser-1.0.0",
+    "version": "1.0.0",
+    "declaredLicense": "MIT OR Apache-2.0",
+    "repository": "https://github.com/knurling-rs/defmt",
+    "vcs": {
+      "git": {
+        "sha1": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f"
+      },
+      "path_in_vcs": "parser"
+    },
+    "packageName": "defmt-parser"
+  },
+  {
+    "name": "difflib-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/DimaKudosh/difflib",
+    "vcs": null,
+    "packageName": "difflib"
+  },
+  {
+    "name": "malloc_buf-0.0.6",
+    "version": "0.0.6",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/SSheldon/malloc_buf",
+    "vcs": null,
+    "packageName": "malloc_buf"
+  },
+  {
+    "name": "mutants-0.0.4",
+    "version": "0.0.4",
+    "declaredLicense": "MIT",
+    "repository": "https://github.com/sourcefrog/cargo-mutants",
+    "vcs": {
+      "git": {
+        "sha1": "14011d08c42a7cd368698fe28f77eb4cd0b65bf0"
+      },
+      "path_in_vcs": "mutants_attrs"
+    },
+    "packageName": "mutants"
+  },
+  {
+    "name": "objc-foundation-0.1.1",
+    "version": "0.1.1",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-objc-foundation",
+    "vcs": null,
+    "packageName": "objc-foundation"
+  },
+  {
+    "name": "objc_id-0.1.1",
+    "version": "0.1.1",
+    "declaredLicense": "MIT",
+    "repository": "http://github.com/SSheldon/rust-objc-id",
+    "vcs": null,
+    "packageName": "objc_id"
+  },
+  {
+    "name": "r-efi-5.3.0",
+    "version": "5.3.0",
+    "declaredLicense": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "vcs": {
+      "git": {
+        "sha1": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+      },
+      "path_in_vcs": ""
+    },
+    "packageName": "r-efi"
+  },
+  {
+    "name": "r-efi-6.0.0",
+    "version": "6.0.0",
+    "declaredLicense": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "vcs": {
+      "git": {
+        "sha1": "7e1b0322d31d625f81a5656096330934f9cd835d"
+      },
+      "path_in_vcs": ""
+    },
+    "packageName": "r-efi"
+  },
+  {
+    "name": "selectors-0.40.0",
+    "version": "0.40.0",
+    "declaredLicense": "MPL-2.0",
+    "repository": "https://github.com/servo/stylo",
+    "vcs": {
+      "git": {
+        "sha1": "67faaab3ff7aa66780ec1d0f51ca47e177b812d3"
+      },
+      "path_in_vcs": "selectors"
+    },
+    "packageName": "selectors"
+  },
+  {
+    "name": "winapi-i686-pc-windows-gnu-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT/Apache-2.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "vcs": null,
+    "packageName": "winapi-i686-pc-windows-gnu"
+  },
+  {
+    "name": "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "version": "0.4.0",
+    "declaredLicense": "MIT/Apache-2.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "vcs": null,
+    "packageName": "winapi-x86_64-pc-windows-gnu"
+  }
+]

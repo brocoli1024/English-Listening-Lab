@@ -1,0 +1,22 @@
+{
+  "asOf": "2026-10-19",
+  "component": "rusty_v8 third_party/partition_alloc submodule",
+  "commit": "ff3b8b885b8374cbd3902642d94dc737bda93d5d",
+  "repository": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator",
+  "archiveUrl": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator/+archive/ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz",
+  "archive": "desktop/.downloads/compliance/deno-v8-partition-alloc-ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz",
+  "archiveBytes": 878078,
+  "sha256": "4c215f998d4d1c4d9793fa3b17dc41b030ea2730e1358fa9ec8cbfb91b17e910",
+  "archiveHashProvenance": "Locally computed SHA-256 of bytes fetched from the exact official Gitiles archive URL.",
+  "scannedFileCount": 411,
+  "licenseFiles": [
+    {
+      "upstreamPath": "src/partition_alloc/third_party/apple_apsl/LICENSE",
+      "localPath": "docs/release/licenses/deno-v8-submodules/third_party/partition_alloc/src/partition_alloc/third_party/apple_apsl/LICENSE",
+      "sha256": "b23e682fda7310afe43505ed6041919ccff8f9e0c6799ebd7542cbcef11102e3",
+      "license": "Apple Public Source License 2.0",
+      "scope": "Platform-specific candidate; presence in this source tree does not prove Windows binary linkage."
+    }
+  ],
+  "completeCorrespondingSource": false
+}

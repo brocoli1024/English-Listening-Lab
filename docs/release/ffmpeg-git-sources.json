@@ -1,0 +1,46 @@
+[
+  {
+    "name": "libiconv",
+    "commit": "1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0",
+    "file": "desktop/.downloads/compliance/ffmpeg-enabled/libiconv-1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0-git.tar.gz",
+    "sha256": "0f3eb0bc82f47582cca14d691e9d659b6aba943c59465cc0b4dc44cdf50670e3",
+    "licenses": [
+      "docs/release/licenses/ffmpeg-git/libiconv/COPYING",
+      "docs/release/licenses/ffmpeg-git/libiconv/COPYING.LIB",
+      "docs/release/licenses/ffmpeg-git/libiconv/libcharset/COPYING.LIB"
+    ],
+    "scope": "git archive of exact fetched commit; excludes submodules"
+  },
+  {
+    "name": "opencore-amr",
+    "commit": "7dba8c32238418ce0b316a852b2224df586ca896",
+    "file": "desktop/.downloads/compliance/ffmpeg-enabled/opencore-amr-7dba8c32238418ce0b316a852b2224df586ca896-git.tar.gz",
+    "sha256": "a81ce11c41542443152f3b68ca12f2338b8f542298797b572826d2abdf0343eb",
+    "licenses": [
+      "docs/release/licenses/ffmpeg-git/opencore-amr/LICENSE",
+      "docs/release/licenses/ffmpeg-git/opencore-amr/opencore/NOTICE"
+    ],
+    "scope": "git archive of exact fetched commit; excludes submodules"
+  },
+  {
+    "name": "soxr",
+    "commit": "945b592b70470e29f917f4de89b4281fbbd540c0",
+    "file": "desktop/.downloads/compliance/ffmpeg-enabled/soxr-945b592b70470e29f917f4de89b4281fbbd540c0-git.tar.gz",
+    "sha256": "0140fa4533708e1a283b69ee1d387f5e153d495f4ea738b19434cb83c3765ce5",
+    "licenses": [
+      "docs/release/licenses/ffmpeg-git/soxr/COPYING.LGPL",
+      "docs/release/licenses/ffmpeg-git/soxr/lsr-tests/COPYING"
+    ],
+    "scope": "git archive of exact fetched commit; excludes submodules"
+  },
+  {
+    "name": "libwebp",
+    "commit": "5c168cd23b1872969c38e34b01b04dcf29849288",
+    "file": "desktop/.downloads/compliance/ffmpeg-enabled/libwebp-5c168cd23b1872969c38e34b01b04dcf29849288-git.tar.gz",
+    "sha256": "13e657b825a6f74c82d376720165a44545d46d67afca33a18eb96c8742dcc5cc",
+    "licenses": [
+      "docs/release/licenses/ffmpeg-git/libwebp/COPYING"
+    ],
+    "scope": "git archive of exact fetched commit; excludes submodules"
+  }
+]

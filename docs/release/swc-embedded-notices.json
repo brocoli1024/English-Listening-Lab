@@ -1,0 +1,201 @@
+{
+  "scope": "Leading Rust comment blocks carrying copyright/license notices from verified crate archives. Not a full embedded third-party code audit.",
+  "packages": [
+    {
+      "package": "ast_node-5.0.0",
+      "crateSha256": "2eb025ef00a6da925cf40870b9c8d008526b6004ece399cb0974209720f0b194",
+      "notices": []
+    },
+    {
+      "package": "better_scoped_tls-1.0.1",
+      "crateSha256": "7cd228125315b132eed175bf47619ac79b945b26e56b848ba203ae4ea8603609",
+      "notices": []
+    },
+    {
+      "package": "from_variant-3.0.0",
+      "crateSha256": "e5ff35a391aef949120a0340d690269b3d9f63460a6106e99bd07b961f345ea9",
+      "notices": []
+    },
+    {
+      "package": "string_enum-1.0.2",
+      "crateSha256": "ae36a4951ca7bd1cfd991c241584a9824a70f6aff1e7d4f693fb3f2465e4030e",
+      "notices": []
+    },
+    {
+      "package": "swc_allocator-4.0.1",
+      "crateSha256": "9d7eefd2c8b228a8c73056482b2ae4b3a1071fbe07638e3b55ceca8570cc48bb",
+      "notices": []
+    },
+    {
+      "package": "swc_atoms-9.0.0",
+      "crateSha256": "d4ccbe2ecad10ad7432100f878a107b1d972a8aee83ca53184d00c23a078bb8a",
+      "notices": []
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "crateSha256": "259b675d633a26d24efe3802a9d88858c918e6e8f062d3222d3aa02d56a2cf4c",
+      "notices": [
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/diagnostic.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/diagnostic.notice.txt",
+          "sha256": "4caf6a76db5636b5e6e6c166440d3ffad45840d4feb1192bdc2fbb9d2e63d58f"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/diagnostic_builder.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/diagnostic_builder.notice.txt",
+          "sha256": "4caf6a76db5636b5e6e6c166440d3ffad45840d4feb1192bdc2fbb9d2e63d58f"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/emitter.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/emitter.notice.txt",
+          "sha256": "4caf6a76db5636b5e6e6c166440d3ffad45840d4feb1192bdc2fbb9d2e63d58f"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/lock.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/lock.notice.txt",
+          "sha256": "fd37a335f0bcc6216ba4412c135b1614eb530e6ff2d3114ae447c24596995740"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/mod.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/mod.notice.txt",
+          "sha256": "4caf6a76db5636b5e6e6c166440d3ffad45840d4feb1192bdc2fbb9d2e63d58f"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/snippet.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/snippet.notice.txt",
+          "sha256": "2fa2b8f872dabcff5a7f7db34c05540704c914f30978fb5eb465899a26f85fda"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/errors/styled_buffer.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/errors/styled_buffer.notice.txt",
+          "sha256": "5c52e32a9cd5c3681aa14dee0310229f4d43615724b96265d5ef994eaef4fd91"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/source_map.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/source_map.notice.txt",
+          "sha256": "1dbfb2e4bd3a190bed6be505b227a7901b17352434c2e77ce45263291a17a3fd"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/sync.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/sync.notice.txt",
+          "sha256": "6c2311ad9586897ea18ccfbbf4e76940e3b91e2bf49e77afe5b26e04f4eaa9f6"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/syntax_pos/analyze_source_file.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/syntax_pos/analyze_source_file.notice.txt",
+          "sha256": "18ba75f5c70257272443db4518841bed4b1929eee3ac6a6a629d63e2d7dfa992"
+        },
+        {
+          "sourceMember": "swc_common-17.0.1/src/syntax_pos/hygiene.rs",
+          "path": "docs/release/licenses/deno-swc-headers/swc_common-17.0.1/src/syntax_pos/hygiene.notice.txt",
+          "sha256": "8d6bf76c53295fdd754d70978d294d89e64acd0c57dbd68c0f3455e930f09de8"
+        }
+      ]
+    },
+    {
+      "package": "swc_config-3.1.2",
+      "crateSha256": "72e90b52ee734ded867104612218101722ad87ff4cf74fe30383bd244a533f97",
+      "notices": []
+    },
+    {
+      "package": "swc_config_macro-1.0.1",
+      "crateSha256": "7b416e8ce6de17dc5ea496e10c7012b35bbc0e3fef38d2e065eed936490db0b3",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_ast-18.0.0",
+      "crateSha256": "a573a0c72850dec8d4d8085f152d5778af35a2520c3093b242d2d1d50776da7c",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_codegen-20.0.2",
+      "crateSha256": "ff2a6ee1ec49dda8dedeac54e4147b4e8b3f278d9bb34ab28983257a393d34ed",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_codegen_macros-2.0.2",
+      "crateSha256": "e276dc62c0a2625a560397827989c82a93fd545fcf6f7faec0935a82cc4ddbb8",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_lexer-26.0.0",
+      "crateSha256": "5e82f7747e052c6ff6e111fa4adeb14e33b46ee6e94fe5ef717601f651db48fc",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_loader-17.0.0",
+      "crateSha256": "fbcababb48f0d46587a0a854b2c577eb3a56fa99687de558338021e93cd2c8f5",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_parser-27.0.7",
+      "crateSha256": "7f1a51af1a92cd4904c073b293e491bbc0918400a45d58227b34c961dd6f52d7",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_base-30.0.1",
+      "crateSha256": "250f6f165578ca4fee47bd57585c1b9597c94bf4ea6591df47f2b5fa5b1883fe",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_classes-30.0.0",
+      "crateSha256": "3d3ab35eff4a980e02d708798ae4c35bc017612292adbffe7b7b554df772fdf5",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_macros-1.0.1",
+      "crateSha256": "bc777288799bf6786e5200325a56e4fbabba590264a4a48a0c70b16ad0cf5cd8",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_proposal-30.0.0",
+      "crateSha256": "c2d7748d4112c87ce1885260035e4a43cebfe7661a40174b7d77a0a04760a257",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_react-33.0.0",
+      "crateSha256": "03de12e38e47ac1c96ac576f793ad37a9d7b16fbf4f2203881f89152f2498682",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_transforms_typescript-33.0.0",
+      "crateSha256": "4408800fdeb541fabf3659db622189a0aeb386f57b6103f9294ff19dfde4f7b0",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_utils-24.0.0",
+      "crateSha256": "0fb99e179988cabd473779a4452ab942bcb777176983ca3cbaf22a8f056a65b0",
+      "notices": []
+    },
+    {
+      "package": "swc_ecma_visit-18.0.1",
+      "crateSha256": "a9611a72a4008d62608547a394e5d72a5245413104db096d95a52368a8cc1d63",
+      "notices": []
+    },
+    {
+      "package": "swc_eq_ignore_macros-1.0.1",
+      "crateSha256": "c16ce73424a6316e95e09065ba6a207eba7765496fed113702278b7711d4b632",
+      "notices": []
+    },
+    {
+      "package": "swc_macros_common-1.0.1",
+      "crateSha256": "aae1efbaa74943dc5ad2a2fb16cbd78b77d7e4d63188f3c5b4df2b4dcd2faaae",
+      "notices": []
+    },
+    {
+      "package": "swc_ts_fast_strip-36.0.0",
+      "crateSha256": "af7939f2933c4e0fbfedc30fcedd8530c557dee7ea7c73bc4bed854c751c476e",
+      "notices": []
+    },
+    {
+      "package": "swc_visit-2.0.1",
+      "crateSha256": "62fb71484b486c185e34d2172f0eabe7f4722742aad700f426a494bb2de232a2",
+      "notices": []
+    },
+    {
+      "package": "testing_macros-1.0.1",
+      "crateSha256": "b7442bd3ca09f38d4788dc5ebafbc1967c3717726b4b074db011d470b353548b",
+      "notices": []
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "scope": "Local Windows x64 Deno 2.9.7 artifacts, not all platforms or a newly extracted NSIS installer",
+  "archive": {
+    "name": "deno",
+    "version": "2.9.7",
+    "format": "zip",
+    "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-pc-windows-msvc.zip",
+    "sha256": "a0c3101b4158d1dfb7d6a78a7bf0f3de80c96bb423c152beec8beb22786f2238",
+    "files": {
+      "deno.exe": "deno.exe"
+    },
+    "license": "MIT and bundled dependency licenses",
+    "sourceUrl": "https://github.com/denoland/deno/releases/download/v2.9.7/deno_src.tar.gz",
+    "sourceSha256": "21069d2f4dd65b6832e3f5c373c24a43a8d35cb3d68d3841e15d0582bed39ea8"
+  },
+  "binaries": [
+    {
+      "path": "desktop/vendor/deno.exe",
+      "bytes": 97462048,
+      "sha256": "e020f3e232bd16e33768dee528e5983349c962952051ced0a5d58ad42f5d9b33",
+      "matchesOfficialArchive": true
+    },
+    {
+      "path": "release/win-unpacked/resources/tools/deno.exe",
+      "bytes": 97462048,
+      "sha256": "e020f3e232bd16e33768dee528e5983349c962952051ced0a5d58ad42f5d9b33",
+      "matchesOfficialArchive": true
+    },
+    {
+      "path": "desktop/.test-data/release-check-v8-retry/win-unpacked/resources/tools/deno.exe",
+      "bytes": 97462048,
+      "sha256": "e020f3e232bd16e33768dee528e5983349c962952051ced0a5d58ad42f5d9b33",
+      "matchesOfficialArchive": true
+    }
+  ],
+  "stringEvidence": {
+    "fqdn-0.5.2": [
+      {
+        "fileOffset": 77639346,
+        "section": ".rdata"
+      }
+    ],
+    "empty label found in FQDN": [
+      {
+        "fileOffset": 77639735,
+        "section": ".rdata"
+      }
+    ],
+    "deno_native_certs": [],
+    "sacabase": [],
+    "qbsdiff-1.4.4": [
+      {
+        "fileOffset": 78471936,
+        "section": ".rdata"
+      }
+    ],
+    "suffix_array": []
+  },
+  "sourceArchiveVerified": true,
+  "sourceFiles": [
+    {
+      "path": "deno/ext/node/ops/tls.rs",
+      "sha256": "96850fd3b3e3612789e2189e5baad66dbc05d04fe3aaf4ed53e79ac0b434cfe5",
+      "workspaceMatchesArchive": true
+    },
+    {
+      "path": "deno/ext/node/polyfills/tls.ts",
+      "sha256": "f50b6153f4a0ac099d1eb0237a9229e001d3332f3f87106ccb2b0887f61af9ee",
+      "workspaceMatchesArchive": true
+    },
+    {
+      "path": "deno/ext/tls/lib.rs",
+      "sha256": "9782a9d89ac6054238f012edecf78f0a0552018039efe6bb2ee89eadbe400987",
+      "workspaceMatchesArchive": true
+    },
+    {
+      "path": "deno/runtime/permissions/lib.rs",
+      "sha256": "55ad3c2ca869f271613306f5afbac6e601904ff6278318c81cc644285206ca0c",
+      "workspaceMatchesArchive": true
+    },
+    {
+      "path": "deno/runtime/ops/desktop.rs",
+      "sha256": "2c31ce4fbca048ed87c9ee4ce4c9de2656cde604e60c4df79153e1750787fa8a",
+      "workspaceMatchesArchive": true
+    },
+    {
+      "path": "deno/cli/lib/args.rs",
+      "sha256": "00d381ac954922522467dac02447fb3e62e53c7ae5a250c34e6d07ec0eb17ba2",
+      "workspaceMatchesArchive": true
+    }
+  ],
+  "workspaceQbsdiffReferences": [
+    {
+      "path": "deno/runtime/ops/desktop.rs",
+      "lines": [
+        "  let patcher = qbsdiff::Bspatch::new(patch_bytes).map_err(|e| {"
+      ]
+    }
+  ],
+  "crateArchives": [
+    {
+      "package": "deno_native_certs-0.3.0",
+      "sha256": "c867603d2a5dfea31f55cecebb572554caa395437786d058faa9a2814c8d6eb9",
+      "matchesRegistryIndex": true
+    },
+    {
+      "package": "fqdn-0.5.2",
+      "sha256": "886ac788f62d16d6b0f26b2fa762b34ef16ebfb4b624c2c15fbcadc9173c0f72",
+      "matchesRegistryIndex": true
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "sha256": "9883fc3d6ce3d78bb54d908602f8bc1f7b5f983afe601dabe083009d86267a84",
+      "matchesRegistryIndex": true
+    },
+    {
+      "package": "qbsdiff-1.4.4",
+      "sha256": "fdc7f24528be166f08f2c7becaca5618865499b6ded2565d5afcd795cc0d7596",
+      "matchesRegistryIndex": true
+    },
+    {
+      "package": "suffix_array-0.5.0",
+      "sha256": "907d9ca9637a22e3a7d7c7818f6105a7898857359e187ad3325d986684b9ec3f",
+      "matchesRegistryIndex": true
+    },
+    {
+      "package": "cdivsufsort-2.0.0",
+      "sha256": "edefce019197609da416762da75bb000bbd2224b2d89a7e722c2296cbff79b8c",
+      "matchesRegistryIndex": true
+    }
+  ],
+  "runtimeProbes": [
+    {
+      "arguments": [
+        "eval",
+        "import { getCACertificates } from \"node:tls\"; console.log(JSON.stringify({systemCertificateCount:getCACertificates(\"system\").length}));"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"systemCertificateCount\":53}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "run",
+        "--allow-net=bad..host",
+        "data:text/javascript,console.log(1)"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "error: invalid host 'bad..host': empty label found in FQDN\n\nCaused by:\n    0: invalid host 'bad..host': empty label found in FQDN\n    1: invalid host 'bad..host': empty label found in FQDN\n    2: empty label found in FQDN\n"
+    }
+  ],
+  "officialReleaseDebugAssets": [],
+  "conclusions": {
+    "fqdn-0.5.2": "Confirmed crate-specific binary data and exercised parser behavior.",
+    "deno_native_certs-0.3.0": "Strong functional inclusion evidence from live Windows system certificate call and matching official source path; no symbol-level attribution.",
+    "sacabase-2.0.0": "No binary inclusion evidence found; two source-level unused branches support lower priority. Absence is not proven without matching link map/symbols or equivalent machine-code analysis."
+  }
+}

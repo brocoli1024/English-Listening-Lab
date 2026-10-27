@@ -1,0 +1,267 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Reconciliation of the earlier 905-package Windows Deno candidate graph. It includes build dependencies and workspace feature-unification over-approximation; it is not a binary linkage SBOM.",
+  "graphCandidateCount": 905,
+  "rawWindowsGapsWithoutUpstreamFile": 47,
+  "upstreamFilesPreviouslyRetrievedForWindowsGraph": 45,
+  "supplementalLicenseTextArtifactCount": 47,
+  "remainingWithoutPreservedFullLicenseText": 0,
+  "unverifiedMITCopyrightAttributionCount": 3,
+  "remainingWithUnverifiedCopyrightAttribution": 3,
+  "supplementalEvidence": [
+    {
+      "package": "aead-gcm-stream-0.4.0",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-embedded/aead-gcm-stream-0.4.0/LICENSE-MIT"
+    },
+    {
+      "package": "ast_node-5.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "better_scoped_tls-1.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "convert_case-0.4.0",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-embedded/convert_case-0.4.0/LICENSE-MIT"
+    },
+    {
+      "package": "cranelift-assembler-x64-0.117.2",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-inferred-repo/cranelift-assembler-x64-0.117.2/LICENSE"
+    },
+    {
+      "package": "cranelift-assembler-x64-meta-0.117.2",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-inferred-repo/cranelift-assembler-x64-meta-0.117.2/LICENSE"
+    },
+    {
+      "package": "deno_native_certs-0.3.0",
+      "status": "canonical-MIT-full-text; copyright attribution unresolved; contributor metadata is not asserted as ownership",
+      "evidence": "docs/release/licenses/deno-embedded/deno_native_certs-0.3.0/LICENSE-MIT"
+    },
+    {
+      "package": "deno_tunnel-0.8.1",
+      "status": "canonical-MIT-full-text; copyright notice copied from checksum-verified crate source header",
+      "evidence": "docs/release/licenses/deno-embedded/deno_tunnel-0.8.1/LICENSE-MIT"
+    },
+    {
+      "package": "derive-io-0.4.1",
+      "status": "canonical-Apache-2.0-full-text; package declares MIT OR Apache-2.0; Apache option selected",
+      "evidence": "docs/release/licenses/deno-embedded/derive-io-0.4.1/LICENSE-APACHE"
+    },
+    {
+      "package": "derive-io-macros-0.4.1",
+      "status": "canonical-Apache-2.0-full-text; package declares MIT OR Apache-2.0; Apache option selected",
+      "evidence": "docs/release/licenses/deno-embedded/derive-io-macros-0.4.1/LICENSE-APACHE"
+    },
+    {
+      "package": "dlopen2-0.6.1",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-embedded/dlopen2-0.6.1/LICENSE-MIT"
+    },
+    {
+      "package": "dlopen2_derive-0.4.0",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-inferred-repo/dlopen2_derive-0.4.0/LICENSE"
+    },
+    {
+      "package": "fqdn-0.5.2",
+      "status": "canonical-MIT-full-text; copyright attribution unresolved; contributor metadata is not asserted as ownership",
+      "evidence": "docs/release/licenses/deno-embedded/fqdn-0.5.2/LICENSE-MIT"
+    },
+    {
+      "package": "from_variant-3.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "hexf-parse-0.2.1",
+      "status": "canonical-CC0-1.0-legal-code; registry checksum and declared license verified",
+      "evidence": "docs/release/licenses/spdx-canonical/CC0-1.0.txt"
+    },
+    {
+      "package": "lazy-regex-proc_macros-3.1.0",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-upstream/lazy-regex-proc_macros-3.1.0/LICENSE"
+    },
+    {
+      "package": "plist-1.9.0",
+      "status": "full-license-text-preserved",
+      "evidence": "docs/release/licenses/deno-embedded/plist-1.9.0/LICENCE"
+    },
+    {
+      "package": "rustls-tokio-stream-0.8.0",
+      "status": "canonical-MIT-full-text; copyright notice copied from checksum-verified crate source header",
+      "evidence": "docs/release/licenses/deno-embedded/rustls-tokio-stream-0.8.0/LICENSE-MIT"
+    },
+    {
+      "package": "sacabase-2.0.0",
+      "status": "canonical-MIT-full-text; copyright attribution unresolved; contributor metadata is not asserted as ownership",
+      "evidence": "docs/release/licenses/deno-embedded/sacabase-2.0.0/LICENSE-MIT"
+    },
+    {
+      "package": "smartstring-1.0.1",
+      "status": "complete-MPL-2.0-text from verified registry source; author attribution in crate README",
+      "evidence": "docs/release/licenses/deno-embedded/smartstring-1.0.1/LICENCE.md"
+    },
+    {
+      "package": "sptr-0.3.2",
+      "status": "canonical-Apache-2.0-full-text; package declares MIT OR Apache-2.0; Apache option selected",
+      "evidence": "docs/release/licenses/deno-embedded/sptr-0.3.2/LICENSE-APACHE"
+    },
+    {
+      "package": "string_enum-1.0.2",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_allocator-4.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_atoms-9.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_config-3.1.2",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_config_macro-1.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_ast-18.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_codegen-20.0.2",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_codegen_macros-2.0.2",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_lexer-26.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_loader-17.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_parser-27.0.7",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_base-30.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_classes-30.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_macros-1.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_proposal-30.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_react-33.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_transforms_typescript-33.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_utils-24.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ecma_visit-18.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_eq_ignore_macros-1.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_macros_common-1.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_ts_fast_strip-36.0.0",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "swc_visit-2.0.1",
+      "status": "canonical-Apache-2.0-text; crate checksum and manifest verified; embedded notices separately inventoried",
+      "evidence": "docs/release/licenses/deno-swc-headers/APACHE-2.0.txt"
+    },
+    {
+      "package": "sys_traits-0.1.28",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-embedded/sys_traits-0.1.28/LICENSE-MIT"
+    },
+    {
+      "package": "sys_traits_macros-0.1.0",
+      "status": "fixed-commit-license-text; repository identity inferred from package family",
+      "evidence": "docs/release/licenses/deno-embedded/sys_traits_macros-0.1.0/LICENSE-MIT"
+    },
+    {
+      "package": "zune-core-0.4.12",
+      "status": "fixed-commit-license-text; crate-to-repository source identity reviewed",
+      "evidence": "docs/release/licenses/deno-inferred-repo/zune-core-0.4.12/LICENSE-ZLIB"
+    }
+  ],
+  "remainingPackages": [],
+  "swcNoticeCheck": {
+    "commitCountChecked": 13,
+    "noticeFilesFound": 0,
+    "noticeFilesNotPresent": 13,
+    "requestFailures": [],
+    "scope": "Root NOTICE was checked at each distinct fixed SWC commit represented in the Windows gap set. The crate archives were separately checksum-verified against Deno Cargo.lock. This is not a full embedded-code notice audit."
+  },
+  "limitations": [
+    "A standard license text does not prove the exact binary linkage or complete embedded third-party notice inventory.",
+    "Unresolved MIT texts preserve the SPDX copyright placeholder because package authors or Git commit authors are contributor metadata, not proof of copyright ownership.",
+    "SWC packages use checksum-verified registry archives; the standard Apache-2.0 text is supplied separately, with detected source headers preserved. Root NOTICE was absent at the 13 fixed SWC commits checked.",
+    "Unresolved packages may be build-only or workspace-unified candidates, but require dependency-graph evidence before exclusion."
+  ]
+}

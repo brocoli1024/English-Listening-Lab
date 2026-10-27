@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-20",
+  "installer": "release/English-Listening-Lab-1.0.0-Setup.exe",
+  "installerBytes": 249317297,
+  "installerSha256": "3345582f76165d81d8767389a84c2227851b43d3543f3bea516a5554eec21725",
+  "identicalExtractedFiles": 3372,
+  "denoSha256": "e020f3e232bd16e33768dee528e5983349c962952051ced0a5d58ad42f5d9b33",
+  "noticesSha256": "d39dd89a23efa51e6fc1bd62aefc7679fd590425e768fba5945d558228e1faaf",
+  "appAsarSha256": "03fbe51a7baeafb6e1e53f7d699a61419536925ab2403ab4ef8662d143531af2",
+  "signature": "NotSigned",
+  "typecheck": "passed",
+  "jestTests": 45,
+  "desktopTests": 18,
+  "nsisInstallWizardTested": false
+}

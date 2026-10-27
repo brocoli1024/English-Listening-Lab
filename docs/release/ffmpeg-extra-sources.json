@@ -1,0 +1,273 @@
+{
+  "scope": "Additional recipe-pinned sources; local integrity hashes, not complete corresponding source closure",
+  "packages": [
+    {
+      "name": "Vulkan-Headers",
+      "url": "https://codeload.github.com/KhronosGroup/Vulkan-Headers/tar.gz/v1.4.363",
+      "revision": "v1.4.363",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/Vulkan-Headers/LICENSE.md",
+          "sha256": "95ad366d23fadf701d355bc45fb8b82ae2d700239471d35d41286ac3b08ff903"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/Vulkan-Headers-v1.4.363.tar.gz",
+      "sha256": "cbaf687d3c59b9666fe080e7f8396b6b4f4d344a768ee6b337c59852f4526b68"
+    },
+    {
+      "name": "libudfread",
+      "url": "https://code.videolan.org/videolan/libudfread/-/archive/b0bc6957e7e07d5f35391f210596d9eb71cffdd9/libudfread-b0bc6957e7e07d5f35391f210596d9eb71cffdd9.tar.gz",
+      "revision": "b0bc6957e7e07d5f35391f210596d9eb71cffdd9",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libudfread/COPYING",
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libudfread-b0bc6957e7e07d5f35391f210596d9eb71cffdd9.tar.gz",
+      "sha256": "c04bb96b72dd0760030d880ad6c9ea2ae80abbdd648de127adb1b2e8555186aa"
+    },
+    {
+      "name": "gnulib",
+      "url": "https://codeload.github.com/coreutils/gnulib/tar.gz/eb72eb6f75f5621c5d648acd11467fd124584617",
+      "revision": "eb72eb6f75f5621c5d648acd11467fd124584617",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/COPYING",
+          "sha256": "438610ba3d10f492dff9e17f7d53a5316e3f4b4adc5f79a33ac7110d5a5ee210"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/doc/COPYING.LESSERv2",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/doc/COPYING.LESSERv3",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/doc/COPYINGv2",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/doc/COPYINGv3",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/doc/licenses-texi.texi",
+          "sha256": "e2978abebf7cbcae3ee0c8794e660dd7b8a1508b1b347357fd235e5c83347436"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/gnulib/modules/COPYING",
+          "sha256": "f530fec34a348cd8ad9cab66d0672f40406b07c3a4b995a2a5f31c483a9221d7"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/gnulib-eb72eb6f75f5621c5d648acd11467fd124584617.tar.gz",
+      "sha256": "b97aaa8c6d2178387802ea9a7b3d53eb307a930a72d050c699f19867160caa6c"
+    },
+    {
+      "name": "opencl-loader",
+      "url": "https://codeload.github.com/KhronosGroup/OpenCL-ICD-Loader/tar.gz/5192c84f8059e5f703e5452929b613f9487f6e4c",
+      "revision": "5192c84f8059e5f703e5452929b613f9487f6e4c",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/opencl-loader/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/opencl-loader-5192c84f8059e5f703e5452929b613f9487f6e4c.tar.gz",
+      "sha256": "c4ac098692a8b23827050cc10169aaae7b5d7578c4da6e2a9cd532964ef25583"
+    },
+    {
+      "name": "nv-codec-sdk13",
+      "url": "https://codeload.github.com/FFmpeg/nv-codec-headers/tar.gz/ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+      "revision": "ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+      "licenses": [],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/nv-codec-sdk13-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b.tar.gz",
+      "sha256": "625ddd8f2a603699fdba101bebcde0e7a97bcc7b8a82ec7f45a7d06d61336597",
+      "embeddedHeaderNotices": [
+        {
+          "sourceMember": "nv-codec-headers-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b/include/ffnvcodec/dynlink_cuda.h",
+          "path": "docs/release/licenses/ffmpeg-extra/nv-codec-sdk13/dynlink_cuda.h.notice.txt",
+          "sha256": "6f0d5ad2609c6fda3e0fb07fa286e7b46c2ea7b87ab12d926ab7a82c69ffe09d"
+        },
+        {
+          "sourceMember": "nv-codec-headers-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b/include/ffnvcodec/dynlink_cuviddec.h",
+          "path": "docs/release/licenses/ffmpeg-extra/nv-codec-sdk13/dynlink_cuviddec.h.notice.txt",
+          "sha256": "72b60be67644d841bfd54a042875b5846294d357040dd7ac8e38bde20d9e8f97"
+        },
+        {
+          "sourceMember": "nv-codec-headers-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b/include/ffnvcodec/dynlink_loader.h",
+          "path": "docs/release/licenses/ffmpeg-extra/nv-codec-sdk13/dynlink_loader.h.notice.txt",
+          "sha256": "6f0d5ad2609c6fda3e0fb07fa286e7b46c2ea7b87ab12d926ab7a82c69ffe09d"
+        },
+        {
+          "sourceMember": "nv-codec-headers-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b/include/ffnvcodec/dynlink_nvcuvid.h",
+          "path": "docs/release/licenses/ffmpeg-extra/nv-codec-sdk13/dynlink_nvcuvid.h.notice.txt",
+          "sha256": "72b60be67644d841bfd54a042875b5846294d357040dd7ac8e38bde20d9e8f97"
+        },
+        {
+          "sourceMember": "nv-codec-headers-ced4f8eba3ba5dd431932cba17928f0dffdaeb2b/include/ffnvcodec/nvEncodeAPI.h",
+          "path": "docs/release/licenses/ffmpeg-extra/nv-codec-sdk13/nvEncodeAPI.h.notice.txt",
+          "sha256": "72b60be67644d841bfd54a042875b5846294d357040dd7ac8e38bde20d9e8f97"
+        }
+      ]
+    },
+    {
+      "name": "publicsuffix",
+      "url": "https://codeload.github.com/publicsuffix/list/tar.gz/a179a48c465e818cfd8d626691cb317985da87fb",
+      "revision": "a179a48c465e818cfd8d626691cb317985da87fb",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/publicsuffix/LICENSE",
+          "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/publicsuffix-a179a48c465e818cfd8d626691cb317985da87fb.tar.gz",
+      "sha256": "82eb3b2bcbf5de2fc600c996aa4f2339baf255b6c16e8b523bdbf808be598335"
+    },
+    {
+      "name": "graphengine",
+      "url": "https://codeload.github.com/sekrit-twc/graphengine/tar.gz/cb5b2ce13384ec2491f0c37256ea210034799f69",
+      "revision": "cb5b2ce13384ec2491f0c37256ea210034799f69",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/graphengine/COPYING",
+          "sha256": "7637386b5f81e8a719ca336233149005e5fa28b5e6054ea7b67de49355b0ad40"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/graphengine-cb5b2ce13384ec2491f0c37256ea210034799f69.tar.gz",
+      "sha256": "663bc958094280e3dabfa76a408296a51f5222f56115fd7782eae737edeaa179"
+    },
+    {
+      "name": "zimg-googletest",
+      "url": "https://codeload.github.com/google/googletest/tar.gz/6910c9d9165801d8827d628cb72eb7ea9dd538c5",
+      "revision": "6910c9d9165801d8827d628cb72eb7ea9dd538c5",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/zimg-googletest/LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/zimg-googletest-6910c9d9165801d8827d628cb72eb7ea9dd538c5.tar.gz",
+      "sha256": "bde221be7f3841fcbc3971665d77d717116394a42155d988ee6407dfc39f1f09"
+    },
+    {
+      "name": "libplacebo-Vulkan-Headers",
+      "url": "https://codeload.github.com/KhronosGroup/Vulkan-Headers/tar.gz/74d8a6cb930c68ef617b202c3ff3c59d919e086b",
+      "revision": "74d8a6cb930c68ef617b202c3ff3c59d919e086b",
+      "gitlinkPath": "3rdparty/Vulkan-Headers",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-Vulkan-Headers/LICENSE.md",
+          "sha256": "ac24e5ea920e4318e4d02c4086ae51f53cfb03feed06c18df1019e7ada1ec7bc"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-Vulkan-Headers-74d8a6cb930c68ef617b202c3ff3c59d919e086b.tar.gz",
+      "sha256": "75967a8288ff16044a86d1af462b96d2e75c435937efb75f2bb4102ab0382f29"
+    },
+    {
+      "name": "libplacebo-fast_float",
+      "url": "https://codeload.github.com/fastfloat/fast_float/tar.gz/97b54ca9e75f5303507699d27c6b4f4efe4641a1",
+      "revision": "97b54ca9e75f5303507699d27c6b4f4efe4641a1",
+      "gitlinkPath": "3rdparty/fast_float",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-fast_float/LICENSE-APACHE",
+          "sha256": "097a889aa954d04e088b790b10a4014d6189561d0a6013935a73ce3d4ddaaf06"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-fast_float/LICENSE-BOOST",
+          "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-fast_float/LICENSE-MIT",
+          "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-fast_float-97b54ca9e75f5303507699d27c6b4f4efe4641a1.tar.gz",
+      "sha256": "2b132274539286e41f37857cac22aa8441d21bd86d55de825a3342b149f66801"
+    },
+    {
+      "name": "libplacebo-glad",
+      "url": "https://codeload.github.com/Dav1dde/glad/tar.gz/73db193f853e2ee079bf3ca8a64aa2eaf6459043",
+      "revision": "73db193f853e2ee079bf3ca8a64aa2eaf6459043",
+      "gitlinkPath": "3rdparty/glad",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-glad/LICENSE",
+          "sha256": "cbb325cd4ac5bd06717ffa34a322b984f9d285e4c67c8ca1b7380d6ef08c2a77"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-glad-73db193f853e2ee079bf3ca8a64aa2eaf6459043.tar.gz",
+      "sha256": "33dbeae44d8315ece57e14eba4b1b4a02ac5406d1c4f49cd20048c91522a6b9a"
+    },
+    {
+      "name": "libplacebo-jinja",
+      "url": "https://codeload.github.com/pallets/jinja/tar.gz/15206881c006c79667fe5154fe80c01c65410679",
+      "revision": "15206881c006c79667fe5154fe80c01c65410679",
+      "gitlinkPath": "3rdparty/jinja",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-jinja/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-jinja/docs/license.rst",
+          "sha256": "1e07e9c25f2618a040560b70e63f42259eab24e558d0f3532e6163d751cb4eea"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-jinja-15206881c006c79667fe5154fe80c01c65410679.tar.gz",
+      "sha256": "b88a20dcc2e34072fcf4159325bc6c34cd4b29a81a8b83d15d2f28ba561da296"
+    },
+    {
+      "name": "libplacebo-markupsafe",
+      "url": "https://codeload.github.com/pallets/markupsafe/tar.gz/297fc8e356e6836a62087949245d09a28e9f1b13",
+      "revision": "297fc8e356e6836a62087949245d09a28e9f1b13",
+      "gitlinkPath": "3rdparty/markupsafe",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-markupsafe/LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-markupsafe/docs/license.rst",
+          "sha256": "6fc7e80b75b5999783a328d90976a2585e0956c4a348c3c888453938ceca742d"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-markupsafe-297fc8e356e6836a62087949245d09a28e9f1b13.tar.gz",
+      "sha256": "da7c010c9c81a66ac73036558c1fcb6212b50482f43211cd1254035b94f82414"
+    },
+    {
+      "name": "libplacebo-nuklear",
+      "url": "https://codeload.github.com/Immediate-Mode-UI/Nuklear/tar.gz/242f35efa067a46c595645eeda7b1771ea1f83b1",
+      "revision": "242f35efa067a46c595645eeda7b1771ea1f83b1",
+      "gitlinkPath": "demos/3rdparty/nuklear",
+      "licenses": [
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-nuklear/LICENSE",
+          "sha256": "e7315972a81b1883b33877e7c90b78e0e93ad67d1e5f9b723fd13c9ad3e2ec94"
+        },
+        {
+          "path": "docs/release/licenses/ffmpeg-extra/libplacebo-nuklear/src/LICENSE",
+          "sha256": "7575b17b315ac28d4aafda3189c0f22cf11292979e032a2a0c49ede985520e22"
+        }
+      ],
+      "downloaded": true,
+      "path": "desktop/.downloads/compliance/ffmpeg-extra/libplacebo-nuklear-242f35efa067a46c595645eeda7b1771ea1f83b1.tar.gz",
+      "sha256": "ac567995f917c10a722409e0141d226e737d06488b0a31166f6e4925da8e58f0"
+    }
+  ]
+}

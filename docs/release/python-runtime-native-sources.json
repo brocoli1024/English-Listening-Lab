@@ -1,0 +1,79 @@
+{
+  "evidence": "CPython 3.10.11 PCbuild/get_externals.bat",
+  "entries": [
+    {
+      "tag": "bzip2-1.0.8",
+      "commit": "05301997b2f9590f49c672cf3dfd3d3dfa7ad521",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/05301997b2f9590f49c672cf3dfd3d3dfa7ad521",
+      "file": "desktop/.downloads/compliance/bzip2-1.0.8-cpython-source.tar.gz",
+      "sha256": "e09697066106f0cb83326e53867868d2d045a28d1f107fddf1fb692ccc19b5a1",
+      "licenseFiles": [
+        "docs/release/licenses/python-runtime-bzip2-1.0.8-LICENSE"
+      ],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    },
+    {
+      "tag": "libffi-3.3.0",
+      "commit": "35a5081d073058159e8db96c43029f88c1da501a",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/35a5081d073058159e8db96c43029f88c1da501a",
+      "file": "desktop/.downloads/compliance/libffi-3.3.0-cpython-source.tar.gz",
+      "sha256": "99dc867784bcb1521094016e6c654e3eea1fbb1c94697f8163aa61b4c73ff64d",
+      "licenseFiles": [
+        "docs/release/licenses/python-runtime-libffi-3.3.0-LICENSE",
+        "docs/release/licenses/python-runtime-libffi-3.3.0-LICENSE-BUILDTOOLS"
+      ],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    },
+    {
+      "tag": "openssl-1.1.1t",
+      "commit": "82bfdc9e019e4892c5bd8f90b71c42fbf79f29d0",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/82bfdc9e019e4892c5bd8f90b71c42fbf79f29d0",
+      "file": "desktop/.downloads/compliance/openssl-1.1.1t-cpython-source.tar.gz",
+      "sha256": "f21521efbd79cf5701b976aa1e643bc5aa2b97909b36baf08b5ab8002a0b418f",
+      "licenseFiles": [
+        "docs/release/licenses/python-runtime-openssl-1.1.1t-LICENSE"
+      ],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    },
+    {
+      "tag": "sqlite-3.40.1.0",
+      "commit": "db4ca556b25787c263ee72a4b764c4be474c322f",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/db4ca556b25787c263ee72a4b764c4be474c322f",
+      "file": "desktop/.downloads/compliance/sqlite-3.40.1.0-cpython-source.tar.gz",
+      "sha256": "41d074642f87b5c0a6c4f28b8369a8151107c472dc38218cd90874a1ca7a06cb",
+      "licenseFiles": [],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    },
+    {
+      "tag": "xz-5.2.5",
+      "commit": "c6bc0c612605622aaef101a33a751f9de2ecc193",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/c6bc0c612605622aaef101a33a751f9de2ecc193",
+      "file": "desktop/.downloads/compliance/xz-5.2.5-cpython-source.tar.gz",
+      "sha256": "1793abe3b34c9d7ce969ef569b69325d52a9ef02d194969f2053ac181e2e5e88",
+      "licenseFiles": [
+        "docs/release/licenses/python-runtime-xz-5.2.5-COPYING",
+        "docs/release/licenses/python-runtime-xz-5.2.5-COPYING.GPLv2",
+        "docs/release/licenses/python-runtime-xz-5.2.5-COPYING.GPLv3",
+        "docs/release/licenses/python-runtime-xz-5.2.5-COPYING.LGPLv2.1"
+      ],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    },
+    {
+      "tag": "zlib-1.2.13",
+      "commit": "9071e5ae1bd90c30518404b95ec0be0d4cf6cf84",
+      "url": "https://api.github.com/repos/python/cpython-source-deps/tarball/9071e5ae1bd90c30518404b95ec0be0d4cf6cf84",
+      "file": "desktop/.downloads/compliance/zlib-1.2.13-cpython-source.tar.gz",
+      "sha256": "2f42a782e55c8f73260c4f2a51560b9cf5a2a8cc4a73296a2a1ee2781dd6a732",
+      "licenseFiles": [
+        "docs/release/licenses/python-runtime-zlib-1.2.13-LICENSE"
+      ],
+      "status": "downloaded-at-official-source-ref",
+      "hashProvenance": "Locally computed, not independently published digest"
+    }
+  ]
+}

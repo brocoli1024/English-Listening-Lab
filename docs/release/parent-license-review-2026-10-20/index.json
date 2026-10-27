@@ -1,0 +1,27 @@
+{
+  "publicationNote": "Source-link summary for the public source repository. The original API response is retained privately. Discussion bodies and personal author metadata are omitted. This file is not the original response and must not be used to verify its former digest. Third-party license texts are preserved separately and unchanged.",
+  "sources": [
+    "https://api.github.com/repos/Orange-OpenSource/fqdn",
+    "https://api.github.com/repos/Orange-OpenSource/fqdn/license",
+    "https://api.github.com/repos/denoland/deno_native_certs",
+    "https://api.github.com/repos/denoland/deno_native_certs/license",
+    "https://api.github.com/repos/dsherret/sys_traits",
+    "https://api.github.com/repos/dsherret/sys_traits/license",
+    "https://api.github.com/repos/fasterthanlime/stringsearch",
+    "https://api.github.com/repos/fasterthanlime/stringsearch/license",
+    "https://api.github.com/repos/littledivy/aead-stream",
+    "https://api.github.com/repos/littledivy/aead-stream/license",
+    "https://api.github.com/repos/rutrum/convert-case",
+    "https://api.github.com/repos/rutrum/convert-case/license",
+    "https://api.github.com/search/issues?q=repo%3AOrange-OpenSource/fqdn%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://api.github.com/search/issues?q=repo%3Adenoland/deno_native_certs%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://api.github.com/search/issues?q=repo%3Adsherret/sys_traits%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://api.github.com/search/issues?q=repo%3Afasterthanlime/stringsearch%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://api.github.com/search/issues?q=repo%3Alittledivy/aead-stream%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://api.github.com/search/issues?q=repo%3Arutrum/convert-case%20license%20in%3Atitle%2Cbody&per_page=100",
+    "https://github.com/dsherret/sys_traits/pull/89",
+    "https://github.com/fasterthanlime/stringsearch/issues/3",
+    "https://github.com/rutrum/convert-case/issues/7",
+    "https://github.com/rutrum/convert-case/pull/1"
+  ]
+}

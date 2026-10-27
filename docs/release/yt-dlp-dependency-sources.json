@@ -1,0 +1,116 @@
+{
+  "tool": "yt-dlp 2026.08.19 win_exe",
+  "versionEvidence": "Actual executable verbose output; Python 3.10.11, OpenSSL 1.1.1t, SQLite 3.40.1",
+  "complete": false,
+  "packages": [
+    {
+      "name": "pycryptodomex",
+      "version": "3.23.0",
+      "url": "https://files.pythonhosted.org/packages/c9/85/e24bf90972a30b0fcd16c73009add1d7d7cd9140c2498a68252028899e41/pycryptodomex-3.23.0.tar.gz",
+      "sha256": "71909758f010c82bc99b0abf4ea12012c98962fbf0583c2164f8b84533c2e4da",
+      "file": "desktop\\.downloads\\compliance\\pycryptodomex-3.23.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/pycryptodomex-3.23.0-LICENSE.rst"
+      ]
+    },
+    {
+      "name": "brotli",
+      "version": "1.2.0",
+      "url": "https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353f0a6490d7f6e06210f8554c8f874e454285/brotli-1.2.0.tar.gz",
+      "sha256": "e310f77e41941c13340a95976fe66a8a95b01e783d430eeaf7a2f87e0a57dd0a",
+      "file": "desktop\\.downloads\\compliance\\brotli-1.2.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/brotli-1.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.07.22",
+      "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+      "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+      "file": "desktop\\.downloads\\compliance\\certifi-2026.7.22.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/certifi-2026.07.22-LICENSE"
+      ]
+    },
+    {
+      "name": "curl_cffi",
+      "version": "0.16.0",
+      "url": "https://files.pythonhosted.org/packages/b4/23/d32e113b16dbfb458bea408871ed98dd12f306a366a04215e84537e0af7e/curl_cffi-0.16.0.tar.gz",
+      "sha256": "b00b423da8028eb6221e3b63bcd63d681150c07cee8b16000d1f7ea292731895",
+      "file": "desktop\\.downloads\\compliance\\curl_cffi-0.16.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/curl_cffi-0.16.0-LICENSE"
+      ]
+    },
+    {
+      "name": "mutagen",
+      "version": "1.48.1",
+      "url": "https://files.pythonhosted.org/packages/df/70/1675da133ea92227da41bf5b24e1c66be597ff736a1533ade41da986852f/mutagen-1.48.1.tar.gz",
+      "sha256": "8f95637ab9f6f305cec6bd1294e197debe207998e3e068596563c74f86b0a173",
+      "file": "desktop\\.downloads\\compliance\\mutagen-1.48.1.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/mutagen-1.48.1-COPYING"
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+      "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+      "file": "desktop\\.downloads\\compliance\\requests-2.34.2.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/requests-2.34.2-LICENSE",
+        "docs/release/licenses/requests-2.34.2-NOTICE"
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "url": "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz",
+      "sha256": "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c",
+      "file": "desktop\\.downloads\\compliance\\urllib3-2.7.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/urllib3-2.7.0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "websockets",
+      "version": "16.1.1",
+      "url": "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz",
+      "sha256": "db234eda965dcce15df96bb9709f587cd87d4d52aaf0e80e2f34ec04c7670c57",
+      "file": "desktop\\.downloads\\compliance\\websockets-16.1.1.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/websockets-16.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "yt_dlp_ejs",
+      "version": "0.8.0",
+      "url": "https://files.pythonhosted.org/packages/d3/e6/cceb9530e8f4e5940f6f7822d90e9d94f1b85343329a16baaf47bbbb3de1/yt_dlp_ejs-0.8.0.tar.gz",
+      "sha256": "d5fa1639f63b5c4af8d932495f60689d5370f1a095782c944f7f62a303eb104e",
+      "file": "desktop\\.downloads\\compliance\\yt_dlp_ejs-0.8.0.tar.gz",
+      "status": "source-downloaded-hash-verified",
+      "review": "Transitive native dependencies and binary correspondence still require review",
+      "licenseFiles": [
+        "docs/release/licenses/yt_dlp_ejs-0.8.0-LICENSE"
+      ]
+    }
+  ]
+}

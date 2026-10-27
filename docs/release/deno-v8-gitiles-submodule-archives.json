@@ -1,0 +1,2576 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Exact fixed-commit source archives scanned for filenames containing license, copying, notice or copyright. Candidate names may include patches or metadata and do not establish binary linkage or complete copyright notices.",
+  "completeCorrespondingSource": false,
+  "submodules": [
+    {
+      "path": "third_party/rust",
+      "commit": "26e8ff47f18a8d28d6187a04b6a16cb7332356f8",
+      "repository": "https://chromium.googlesource.com/chromium/src/third_party/rust",
+      "archiveUrl": "https://chromium.googlesource.com/chromium/src/third_party/rust/+archive/26e8ff47f18a8d28d6187a04b6a16cb7332356f8.tar.gz",
+      "archive": "desktop/.downloads/compliance/deno-v8-rust-26e8ff47f18a8d28d6187a04b6a16cb7332356f8.tar.gz",
+      "archiveBytes": 33688068,
+      "sha256": "7a440ae4e137ed7e2b71ecf5be8ac1fa4d55c915bb3145a7cc53de26ad3936c1",
+      "archiveHashProvenance": "Locally computed SHA-256 of bytes fetched from the exact official Gitiles archive URL.",
+      "scannedFileCount": 11275,
+      "licenseNoticeFilenameCandidateCount": 421,
+      "licenseNoticeCandidateBytes": 2089892,
+      "licenseFiles": [
+        {
+          "upstreamPath": "chromium_crates_io/patches/siphasher-v1/0001-Readd-License-for-patch-generation.patch",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/patches/siphasher-v1/0001-Readd-License-for-patch-generation.patch",
+          "bytes": 12360,
+          "sha256": "3e47c78df404786c327510931905b726655078e4fd63a7e5942ada2698f1be1a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/addr2line-v0_25/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/addr2line-v0_25/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/addr2line-v0_25/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/addr2line-v0_25/LICENSE-MIT",
+          "bytes": 1069,
+          "sha256": "e99d88d232bf57d70f0fb87f6b496d44b6653f99f8a63d250a54c61ea4bcde40"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/adler2-v2/LICENSE-0BSD",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/adler2-v2/LICENSE-0BSD",
+          "bytes": 665,
+          "sha256": "861399f8c21c042b110517e76dc6b63a2b334276c8cf17412fc3c8908ca8dc17"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/adler2-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/adler2-v2/LICENSE-APACHE",
+          "bytes": 10860,
+          "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/adler2-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/adler2-v2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ahash-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ahash-v0_8/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ahash-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ahash-v0_8/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "0444c6991eead6822f7b9102e654448d51624431119546492e8b231db42c48bb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/aho-corasick-v1/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/aho-corasick-v1/COPYING",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/aho-corasick-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/aho-corasick-v1/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/aho-corasick-v1/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/aho-corasick-v1/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/android_system_properties-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/android_system_properties-v0_1/LICENSE-APACHE",
+          "bytes": 554,
+          "sha256": "216486f29671a4262efe32af6d84a75bef398127f8c5f369b5c8305983887a06"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/android_system_properties-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/android_system_properties-v0_1/LICENSE-MIT",
+          "bytes": 1080,
+          "sha256": "80f275e90d799911ed3830a7f242a2ef5a4ade2092fe0aa07bfb2d2cf2f2b95e"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/anstyle-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/anstyle-v1/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/anstyle-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/anstyle-v1/LICENSE-MIT",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/antlr4rust-v0_5/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/antlr4rust-v0_5/LICENSE.txt",
+          "bytes": 1504,
+          "sha256": "3e1f197b6b221b918470078665608303aeebb27c1f54cd8241873b35f3affa62"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/anyhow-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/anyhow-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/anyhow-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/anyhow-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/arbitrary-int-v1/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/arbitrary-int-v1/LICENSE.txt",
+          "bytes": 1070,
+          "sha256": "6982f0cd109b04512cbb5f0e0f0ef82154f33a57d2127afe058ecc72039ab88c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/arbitrary-int-v2/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/arbitrary-int-v2/LICENSE.txt",
+          "bytes": 1070,
+          "sha256": "6982f0cd109b04512cbb5f0e0f0ef82154f33a57d2127afe058ecc72039ab88c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/array-init-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/array-init-v2/LICENSE-APACHE",
+          "bytes": 10850,
+          "sha256": "c8d9a0d15dd76ca3bf277b6bf6da56799e266eac60bdc321a97ebc6d76d5153c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/array-init-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/array-init-v2/LICENSE-MIT",
+          "bytes": 1074,
+          "sha256": "e27fb2953c088c71285a4f2f54a0ac53323460ee7c2b1b838d563bd2687a38af"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/autocfg-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/autocfg-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/autocfg-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/autocfg-v1/LICENSE-MIT",
+          "bytes": 1054,
+          "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/backtrace-v0_3/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/backtrace-v0_3/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/backtrace-v0_3/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/backtrace-v0_3/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/base64-v0_22/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/base64-v0_22/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/base64-v0_22/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/base64-v0_22/LICENSE-MIT",
+          "bytes": 1076,
+          "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bincode-v2/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bincode-v2/LICENSE.md",
+          "bytes": 1076,
+          "sha256": "90d7e062634054e6866d3c81e6a2b3058a840e6af733e98e80bdfe1a7dec6912"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bincode_derive-v2/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bincode_derive-v2/LICENSE.md",
+          "bytes": 1076,
+          "sha256": "90d7e062634054e6866d3c81e6a2b3058a840e6af733e98e80bdfe1a7dec6912"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bit-set-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bit-set-v0_8/LICENSE-APACHE",
+          "bytes": 10850,
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bit-set-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bit-set-v0_8/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bit-vec-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bit-vec-v0_8/LICENSE-APACHE",
+          "bytes": 10850,
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bit-vec-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bit-vec-v0_8/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bitbybit-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bitbybit-v1/LICENSE",
+          "bytes": 1071,
+          "sha256": "0a73de6c78c0743aef49c275563c9486fd3e55d61611044cecc5620f4dfe772d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bitflags-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bitflags-v2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bitflags-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bitflags-v2/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck-v1/LICENSE-APACHE",
+          "bytes": 10398,
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck-v1/LICENSE-MIT",
+          "bytes": 1110,
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck-v1/LICENSE-ZLIB",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck-v1/LICENSE-ZLIB",
+          "bytes": 851,
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-APACHE",
+          "bytes": 10398,
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-MIT",
+          "bytes": 1110,
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-ZLIB",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytemuck_derive-v1/LICENSE-ZLIB",
+          "bytes": 851,
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/byteorder-lite-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/byteorder-lite-v0_1/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/byteorder-lite-v0_1/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/byteorder-lite-v0_1/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/byteorder-v1/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/byteorder-v1/COPYING",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/byteorder-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/byteorder-v1/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/byteorder-v1/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/byteorder-v1/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/bytes-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/bytes-v1/LICENSE",
+          "bytes": 1055,
+          "sha256": "45f522cacecb1023856e46df79ca625dfc550c94910078bd8aec6e02880b3d42"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/calendrical_calculations-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/calendrical_calculations-v0_2/LICENSE",
+          "bytes": 11351,
+          "sha256": "192ea857d1bff2b87c174de36cbae5c173234726c6b8eceab9790a535d7dbc95"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cfg-if-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cfg-if-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cfg-if-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cfg-if-v1/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cfg_aliases-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cfg_aliases-v0_2/LICENSE",
+          "bytes": 1076,
+          "sha256": "31b94860253d8ec7b4529f51901044d3b459d6292d996504a36b1bae3a36a812"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cfg_aliases-v0_2/NOTICES.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cfg_aliases-v0_2/NOTICES.md",
+          "bytes": 1472,
+          "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/chrono-v0_4/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/chrono-v0_4/LICENSE.txt",
+          "bytes": 12307,
+          "sha256": "946c9835d8034d24404f8cfec5f4654cee5dad17e944afc3d06d742cf2882831"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap-v4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap-v4/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap-v4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap-v4/LICENSE-MIT",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap_builder-v4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap_builder-v4/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap_builder-v4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap_builder-v4/LICENSE-MIT",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap_lex-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap_lex-v1/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/clap_lex-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/clap_lex-v1/LICENSE-MIT",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cobs-v0_3/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cobs-v0_3/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cobs-v0_3/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cobs-v0_3/LICENSE-MIT",
+          "bytes": 1066,
+          "sha256": "e0cfa1006a64520633de6bfbf563f5b1bea04ef0c5b73f049681931fa297dda3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/codespan-reporting-v0_13/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/codespan-reporting-v0_13/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/const_format-v0_2/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/const_format-v0_2/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "c1e018d60dd011b335b5280b919bd3a75dbba81c6fbe24e2fc90cb235bdb6883"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/const_format_proc_macros-v0_2/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/const_format_proc_macros-v0_2/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "c1e018d60dd011b335b5280b919bd3a75dbba81c6fbe24e2fc90cb235bdb6883"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/const_panic-v0_2/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/const_panic-v0_2/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "573e362dc50a6d9eb444cea38ef61587e16a0645cb8098ba13a2c42fdde72acd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/core-foundation-sys-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/core-foundation-sys-v0_8/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/core-foundation-sys-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/core-foundation-sys-v0_8/LICENSE-MIT",
+          "bytes": 1067,
+          "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/core_maths-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/core_maths-v0_1/LICENSE",
+          "bytes": 1070,
+          "sha256": "9ebf8c4cc0b735ca13a766451f7b8097db3185975ceb2ba94b5abf439156a91f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/crc32fast-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/crc32fast-v1/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/crc32fast-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/crc32fast-v1/LICENSE-MIT",
+          "bytes": 1097,
+          "sha256": "61d383b05b87d78f94d2937e2580cce47226d17823c0430fbcad09596537efcf"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ctor-proc-macro-v0_0_7/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ctor-proc-macro-v0_0_7/LICENSE-APACHE",
+          "bytes": 11324,
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ctor-proc-macro-v0_0_7/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ctor-proc-macro-v0_0_7/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "bccaa8b6c09f94e81f06696e179dbe058464bbdfbc823b6d49cada1d71e84ac3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ctor-v0_6/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ctor-v0_6/LICENSE-APACHE",
+          "bytes": 11324,
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ctor-v0_6/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ctor-v0_6/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "bccaa8b6c09f94e81f06696e179dbe058464bbdfbc823b6d49cada1d71e84ac3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxx-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxx-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxx-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxx-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-cmd-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-cmd-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-cmd-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-cmd-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-flags-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-flags-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-flags-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-flags-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-macro-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-macro-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/cxxbridge-macro-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/cxxbridge-macro-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/derivre-v0_3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/derivre-v0_3/LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-APACHE",
+          "bytes": 10843,
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-runtime-v0_15/LICENSE-MIT",
+          "bytes": 1080,
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-v0_15/LICENSE-APACHE",
+          "bytes": 10843,
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat-v0_15/LICENSE-MIT",
+          "bytes": 1080,
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-APACHE",
+          "bytes": 10843,
+          "sha256": "639c20c7f14fb122750d5ad1a6cfb116d9bf8d103e709ee40949e5a12a731666"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/diplomat_core-v0_15/LICENSE-MIT",
+          "bytes": 1080,
+          "sha256": "3337fe6e4a3830ad87c23cb9d6d750f9a1e5c45efc08de9c76c1a207fc6966c4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/displaydoc-v0_2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/dtor-proc-macro-v0_0_6/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/dtor-proc-macro-v0_0_6/LICENSE-APACHE",
+          "bytes": 11324,
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/dtor-proc-macro-v0_0_6/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/dtor-proc-macro-v0_0_6/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "bccaa8b6c09f94e81f06696e179dbe058464bbdfbc823b6d49cada1d71e84ac3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/dtor-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/dtor-v0_1/LICENSE-APACHE",
+          "bytes": 11324,
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/dtor-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/dtor-v0_1/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "bccaa8b6c09f94e81f06696e179dbe058464bbdfbc823b6d49cada1d71e84ac3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/either-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/either-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/either-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/either-v1/LICENSE-MIT",
+          "bytes": 1043,
+          "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/equivalent-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/equivalent-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/equivalent-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/equivalent-v1/LICENSE-MIT",
+          "bytes": 1049,
+          "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/erased-serde-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/erased-serde-v0_4/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/erased-serde-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/erased-serde-v0_4/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fastbloom-v0_14/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fastbloom-v0_14/LICENSE-APACHE",
+          "bytes": 9897,
+          "sha256": "7cde763ba32b3ec2a84eddd8beb0dcb895fd6436aeb18491ab9572a7eb8de996"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fastbloom-v0_14/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fastbloom-v0_14/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "7c86aec715e38bf01c316a69de917c1245bf9945a5dc0329eecc774cdb4f26c2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fdeflate-v0_3/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fdeflate-v0_3/LICENSE-APACHE",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fdeflate-v0_3/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fdeflate-v0_3/LICENSE-MIT",
+          "bytes": 1036,
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fend-core-v1/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fend-core-v1/LICENSE.md",
+          "bytes": 1061,
+          "sha256": "d39a21ed70fb553856f6d7e74fee4332261069502ae32ab9ac13b49d147696f7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fixed_decimal-v0_7/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fixed_decimal-v0_7/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/flate2-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/flate2-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/flate2-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/flate2-v1/LICENSE-MIT",
+          "bytes": 1062,
+          "sha256": "025436edff4cfcdde17a5811fdea78892d8482efd1abdec5a17872d07a4f2112"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/foldhash-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/foldhash-v0_2/LICENSE",
+          "bytes": 856,
+          "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/font-types-v0_11/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/font-types-v0_11/LICENSE-APACHE",
+          "bytes": 9695,
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/font-types-v0_11/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/font-types-v0_11/LICENSE-MIT",
+          "bytes": 1058,
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fs2-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fs2-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/fs2-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/fs2-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/getrandom-v0_3/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/getrandom-v0_3/LICENSE-APACHE",
+          "bytes": 10849,
+          "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/getrandom-v0_3/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/getrandom-v0_3/LICENSE-MIT",
+          "bytes": 1130,
+          "sha256": "29e9fe5074bd27e0e5d5d110394fbbcd841baee2651a3c4b4560a632702cede4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/getrandom-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/getrandom-v0_4/LICENSE-APACHE",
+          "bytes": 10849,
+          "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/getrandom-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/getrandom-v0_4/LICENSE-MIT",
+          "bytes": 1130,
+          "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/gimli-v0_32/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/gimli-v0_32/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/gimli-v0_32/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/gimli-v0_32/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/harfrust-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/harfrust-v0_8/LICENSE",
+          "bytes": 1117,
+          "sha256": "3a7c3f0b887abb7c638faf022d29257418458614c6724b120ceeffb279f9c7d2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_15/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_15/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_16/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_16/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_16/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_16/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_17/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_17/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hashbrown-v0_17/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hashbrown-v0_17/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/heck-v0_5/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/heck-v0_5/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/heck-v0_5/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/heck-v0_5/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hex-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hex-v0_4/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hex-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hex-v0_4/LICENSE-MIT",
+          "bytes": 1125,
+          "sha256": "f7bdb3426d045cd50efd4953026e3eb5a83d0199f458a075602611b9344da5b9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hmac-sha256-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hmac-sha256-v1/LICENSE",
+          "bytes": 749,
+          "sha256": "6f4e2de03c87fde1f0d4481b5a6358f9d2ba1f4bf8ed331d8f2d2fc4579b4747"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/hostname-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/hostname-v0_4/LICENSE",
+          "bytes": 1092,
+          "sha256": "2e4213e573312c8c75e6e7e2c55a45283427e759432b56014afaf3c7d950a568"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/iana-time-zone-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/iana-time-zone-v0_1/LICENSE-APACHE",
+          "bytes": 10832,
+          "sha256": "696759d65dfe558ff7d9f031c76db19ec5c0767470fb67c4e8d990820d1e99c9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/iana-time-zone-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/iana-time-zone-v0_1/LICENSE-MIT",
+          "bytes": 1059,
+          "sha256": "da28ccc6b158fc2d8cccc74e99794b1cff1d29bd7bbeb019442fcf0c04c6cad9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_calendar-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_calendar-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_calendar_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_calendar_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_casemap-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_casemap-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_casemap_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_casemap_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_collections-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_collections-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_decimal-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_decimal-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_decimal_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_decimal_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_experimental-v0_5/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_experimental-v0_5/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_experimental_data-v0_5/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_experimental_data-v0_5/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_list-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_list-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_list_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_list_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale_core-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale_core-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_locale_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_locale_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_normalizer-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_normalizer-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_normalizer_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_normalizer_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_pattern-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_pattern-v0_4/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_plurals-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_plurals-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_plurals_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_plurals_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_properties-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_properties-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_properties_data-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_properties_data-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/icu_provider-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/icu_provider-v2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/image-v0_25/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/image-v0_25/LICENSE-APACHE",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/image-v0_25/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/image-v0_25/LICENSE-MIT",
+          "bytes": 1036,
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/indexmap-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/indexmap-v2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/indexmap-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/indexmap-v2/LICENSE-MIT",
+          "bytes": 1049,
+          "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/itertools-v0_14/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/itertools-v0_14/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/itertools-v0_14/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/itertools-v0_14/LICENSE-MIT",
+          "bytes": 1043,
+          "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/itoa-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/itoa-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/itoa-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/itoa-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ixdtf-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ixdtf-v0_6/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/jxl-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/jxl-v0_4/LICENSE",
+          "bytes": 1508,
+          "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/jxl_macros-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/jxl_macros-v0_4/LICENSE",
+          "bytes": 1508,
+          "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/jxl_simd-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/jxl_simd-v0_4/LICENSE",
+          "bytes": 1508,
+          "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/jxl_transforms-v0_4/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/jxl_transforms-v0_4/LICENSE",
+          "bytes": 1508,
+          "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/konst-v0_2/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/konst-v0_2/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "573e362dc50a6d9eb444cea38ef61587e16a0645cb8098ba13a2c42fdde72acd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/konst_macro_rules-v0_2/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/konst_macro_rules-v0_2/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "573e362dc50a6d9eb444cea38ef61587e16a0645cb8098ba13a2c42fdde72acd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/lazy_static-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/lazy_static-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/lazy_static-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/lazy_static-v1/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl-v0_15/LICENSE-APACHE",
+          "bytes": 11356,
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl-v0_15/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl_bolts-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl_bolts-v0_15/LICENSE-APACHE",
+          "bytes": 11356,
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl_bolts-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl_bolts-v0_15/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl_derive-v0_15/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl_derive-v0_15/LICENSE-APACHE",
+          "bytes": 11356,
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libafl_derive-v0_15/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libafl_derive-v0_15/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libc-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libc-v0_2/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libc-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libc-v0_2/LICENSE-MIT",
+          "bytes": 1066,
+          "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/libm-v0_2/LICENSE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/libm-v0_2/LICENSE.txt",
+          "bytes": 14088,
+          "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/litemap-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/litemap-v0_8/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/llguidance-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/llguidance-v1/LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/lock_api-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/lock_api-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/lock_api-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/lock_api-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/log-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/log-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/log-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/log-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/mach2-v0_5/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/mach2-v0_5/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/mach2-v0_5/LICENSE-BSD",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/mach2-v0_5/LICENSE-BSD",
+          "bytes": 1320,
+          "sha256": "044983df14c97f2f9570766aaf977b3cdfc4a06cf1f36b776331c5ff89b4fb89"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/mach2-v0_5/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/mach2-v0_5/LICENSE-MIT",
+          "bytes": 1077,
+          "sha256": "3f9f0f7e5a5911a8042e32c83ff5d061ce1ffd02e8a207ec2135a44ad73b4191"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/memchr-v2/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/memchr-v2/COPYING",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/memchr-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/memchr-v2/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/memchr-v2/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/memchr-v2/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/meminterval-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/meminterval-v0_4/LICENSE-APACHE",
+          "bytes": 11356,
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/meminterval-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/meminterval-v0_4/LICENSE-MIT",
+          "bytes": 1022,
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/memo-map-v0_3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/memo-map-v0_3/LICENSE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/memoffset-v0_9/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/memoffset-v0_9/LICENSE",
+          "bytes": 1055,
+          "sha256": "3234ac55816264ee7b6c7ee27efd61cf0a1fe775806870e3d9b4c41ea73c5cb1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/minijinja-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/minijinja-v2/LICENSE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/minijinja-v2/src/vendor/self_cell/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/minijinja-v2/src/vendor/self_cell/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE",
+          "bytes": 1213,
+          "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-APACHE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-APACHE.md",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-MIT.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-MIT.md",
+          "bytes": 1212,
+          "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/miniz_oxide-v0_8/LICENSE-ZLIB.md",
+          "bytes": 984,
+          "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/moxcms-v0_8/LICENSE-APACHE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/moxcms-v0_8/LICENSE-APACHE.md",
+          "bytes": 11348,
+          "sha256": "90bf2d659c43045111b65c733ab2a6d4cbcb422a098368c8c58a9ba3db4ed0c5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/moxcms-v0_8/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/moxcms-v0_8/LICENSE.md",
+          "bytes": 1506,
+          "sha256": "2aa92cada6431e75615e3fe6cb1a9082c98f777d48ae1c087c0da0e37f7b8bff"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/murmur3-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/murmur3-v0_4/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/murmur3-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/murmur3-v0_4/LICENSE-MIT",
+          "bytes": 1054,
+          "sha256": "d24a2b82b5d96fd64c84cdae1b1f6250d76c16f0660a593d4ac8127177054b5f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/nix-v0_30/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/nix-v0_30/LICENSE",
+          "bytes": 1097,
+          "sha256": "66e3ee1fa7f909ad3c612d556f2a0cdabcd809ad6e66f3b0605015ac64841b70"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-bigint-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-bigint-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-bigint-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-bigint-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-complex-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-complex-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-complex-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-complex-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-derive-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-derive-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-derive-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-derive-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-integer-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-integer-v0_1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-integer-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-integer-v0_1/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-rational-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-rational-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-rational-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-rational-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-traits-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-traits-v0_2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num-traits-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num-traits-v0_2/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum-v0_7/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum-v0_7/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum-v0_7/LICENSE-BSD",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum-v0_7/LICENSE-BSD",
+          "bytes": 1484,
+          "sha256": "0be96d891d00e0ae0df75d7f3289b12871c000a1f5ac744f3b570768d4bb277c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum-v0_7/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum-v0_7/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-BSD",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-BSD",
+          "bytes": 1484,
+          "sha256": "0be96d891d00e0ae0df75d7f3289b12871c000a1f5ac744f3b570768d4bb277c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/num_enum_derive-v0_7/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/object-v0_37/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/object-v0_37/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/object-v0_37/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/object-v0_37/LICENSE-MIT",
+          "bytes": 1064,
+          "sha256": "0b74dfa0bcee5c420c6b7f67b4b2658f9ab8388c97b8e733975f2cecbdd668a6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/once_cell-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/once_cell-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/once_cell-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/once_cell-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ordered-float-v5/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ordered-float-v5/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "f7715d38a3fa1b4ac97c5729740752505a39cb92ee83ab5b102aeb5eaa7cdea4"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/parking_lot-v0_12/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/parking_lot-v0_12/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/parking_lot-v0_12/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/parking_lot-v0_12/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/parking_lot_core-v0_9/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/parking_lot_core-v0_9/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/parking_lot_core-v0_9/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/parking_lot_core-v0_9/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/png-v0_18/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/png-v0_18/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/png-v0_18/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/png-v0_18/LICENSE-MIT",
+          "bytes": 1048,
+          "sha256": "eaf40297c75da471f7cda1f3458e8d91b4b2ec866e609527a13acfa93b638652"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/postcard-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/postcard-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/postcard-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/postcard-v1/LICENSE-MIT",
+          "bytes": 1063,
+          "sha256": "177540cad091a40e8071db310bc3b6115c4e329a92a234609b60c154b008a888"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/potential_utf-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/potential_utf-v0_1/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/primal-check-v0_3/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/primal-check-v0_3/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/primal-check-v0_3/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/primal-check-v0_3/LICENSE-MIT",
+          "bytes": 1054,
+          "sha256": "6d3a9431e65e69c73a8923e6517b889d17549b23db406b9ec027710d16af701f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro-error-attr2-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro-error-attr2-v2/LICENSE-APACHE",
+          "bytes": 10870,
+          "sha256": "6fd0f3522047150ca7c1939f02bc4a15662a4741a89bc03ae784eefa18caa299"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro-error-attr2-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro-error-attr2-v2/LICENSE-MIT",
+          "bytes": 1076,
+          "sha256": "544b3aed1fd723d0cadea567affdcfe0431e43e18d997a718f9d67256b814fde"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro-error2-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro-error2-v2/LICENSE-APACHE",
+          "bytes": 11071,
+          "sha256": "4665f973ccb9393807a7fb1264add6b3513d19abc6b357e4cb52c6fe59cc6a3b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro-error2-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro-error2-v2/LICENSE-MIT",
+          "bytes": 1076,
+          "sha256": "544b3aed1fd723d0cadea567affdcfe0431e43e18d997a718f9d67256b814fde"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro2-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro2-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/proc-macro2-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/proc-macro2-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/prost-derive-v0_14/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/prost-derive-v0_14/LICENSE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/prost-v0_14/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/prost-v0_14/LICENSE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/pxfm-v0_1/LICENSE-APACHE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/pxfm-v0_1/LICENSE-APACHE.md",
+          "bytes": 11348,
+          "sha256": "90bf2d659c43045111b65c733ab2a6d4cbcb422a098368c8c58a9ba3db4ed0c5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/pxfm-v0_1/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/pxfm-v0_1/LICENSE.md",
+          "bytes": 1506,
+          "sha256": "2aa92cada6431e75615e3fe6cb1a9082c98f777d48ae1c087c0da0e37f7b8bff"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/qr_code-v2/LICENSE-APACHE.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/qr_code-v2/LICENSE-APACHE.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/qr_code-v2/LICENSE-MIT.txt",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/qr_code-v2/LICENSE-MIT.txt",
+          "bytes": 1052,
+          "sha256": "7f865e72ab3644ea5887aa1f352aa435b36d139c35a964f47091e7dc02722e9a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/quote-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/quote-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/quote-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/quote-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rand_core-v0_9/COPYRIGHT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rand_core-v0_9/COPYRIGHT",
+          "bytes": 569,
+          "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rand_core-v0_9/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rand_core-v0_9/LICENSE-APACHE",
+          "bytes": 10282,
+          "sha256": "6df43f6f4b5d4587f3d8d71e45532c688fd168afa5fe89d571cb32fa09c4ef51"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rand_core-v0_9/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rand_core-v0_9/LICENSE-MIT",
+          "bytes": 1117,
+          "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/read-fonts-v0_39/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/read-fonts-v0_39/LICENSE-APACHE",
+          "bytes": 9695,
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/read-fonts-v0_39/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/read-fonts-v0_39/LICENSE-MIT",
+          "bytes": 1058,
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-automata-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-automata-v0_4/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-automata-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-automata-v0_4/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-lite-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-lite-v0_1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-lite-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-lite-v0_1/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-syntax-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-syntax-v0_8/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-syntax-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-syntax-v0_8/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-syntax-v0_8/src/unicode_tables/LICENSE-UNICODE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-syntax-v0_8/src/unicode_tables/LICENSE-UNICODE",
+          "bytes": 2847,
+          "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/regex-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/regex-v1/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/resb-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/resb-v0_1/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustc-demangle-capi-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustc-demangle-capi-v0_1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustc-demangle-capi-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustc-demangle-capi-v0_1/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustc-demangle-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustc-demangle-v0_1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustc-demangle-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustc-demangle-v0_1/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustfft-v6/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustfft-v6/LICENSE-APACHE",
+          "bytes": 11560,
+          "sha256": "2e54cd84a645bea25943c75dd8ae67cb291e66a47a11578333c9b4b3b6b86c85"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustfft-v6/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustfft-v6/LICENSE-MIT",
+          "bytes": 1085,
+          "sha256": "8f5442dfa8e9169045697e386bc91d19f393c939635741fa2a665ec36ca6f0ad"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustversion-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustversion-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/rustversion-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/rustversion-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ryu-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ryu-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/ryu-v1/LICENSE-BOOST",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/ryu-v1/LICENSE-BOOST",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-APACHE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-APACHE.md",
+          "bytes": 10398,
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-MIT.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-MIT.md",
+          "bytes": 1110,
+          "sha256": "e57011537d230b14e790f6666dc00816f7b371ebbd7da8a12491e51086fec278"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/safe_arch-v0_7/LICENSE-ZLIB.md",
+          "bytes": 851,
+          "sha256": "c43b9a9b1387ed53d2c49263838261129a010e280e3a174a792242c3e2c98db9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/scc-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/scc-v2/LICENSE",
+          "bytes": 10764,
+          "sha256": "2479a3f48a7fa33d7980a5338b2b54850779959d480d99371ef6f5aa5618124c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/scopeguard-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/scopeguard-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/scopeguard-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/scopeguard-v1/LICENSE-MIT",
+          "bytes": 1097,
+          "sha256": "fb77f0a9c53e473abe5103c8632ef9f0f2874d4fb3f17cb2d8c661aab9cee9d7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/sdd-v3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/sdd-v3/LICENSE",
+          "bytes": 10765,
+          "sha256": "c7bdf7bd0ff59d138daa47a1218ffdbdb5707ae4a5a5af8fba582c8620b13732"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_core-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_core-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_core-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_core-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_derive-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_derive-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_derive-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_derive-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_json-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_json-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_json-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_json-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_json_lenient-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_json_lenient-v0_2/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serde_json_lenient-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serde_json_lenient-v0_2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serial_test-v3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serial_test-v3/LICENSE",
+          "bytes": 1061,
+          "sha256": "ac7e05bd11cc1cfc3f9452c1b9986a9b1d54e180fa88e44e69caf955f95dc8a6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/serial_test_derive-v3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/serial_test_derive-v3/LICENSE",
+          "bytes": 1061,
+          "sha256": "ac7e05bd11cc1cfc3f9452c1b9986a9b1d54e180fa88e44e69caf955f95dc8a6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/shared-brotli-patch-decoder-v0_1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/shared-brotli-patch-decoder-v0_1/LICENSE-APACHE",
+          "bytes": 9694,
+          "sha256": "021661359aa1fada5966f8f5270c9fb124c53874781a285eccff4e49045f2600"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/shared-brotli-patch-decoder-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/shared-brotli-patch-decoder-v0_1/LICENSE-MIT",
+          "bytes": 1058,
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/simd-adler32-v0_3/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/simd-adler32-v0_3/LICENSE.md",
+          "bytes": 1078,
+          "sha256": "42a35170233e83e18856792e748de4c1ce4a63b2afce9a370c89ef3fe23f9f2d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/siphasher-v1/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/siphasher-v1/COPYING",
+          "bytes": 281,
+          "sha256": "c962ee4d1d05ddc138b202b2540219ebc57893fcf97b364852094a9a94ce1365"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/siphasher-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/siphasher-v1/LICENSE-APACHE",
+          "bytes": 11357,
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/skrifa-v0_42/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/skrifa-v0_42/LICENSE-APACHE",
+          "bytes": 9695,
+          "sha256": "a14f7d685a79c0f4fb64aee305527a6d5fa55f2401f4e6d688d7b1301868e6c0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/skrifa-v0_42/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/skrifa-v0_42/LICENSE-MIT",
+          "bytes": 1058,
+          "sha256": "8a62fa27ffdccc3df19dce90f8bb3d572e27aecffc1a383d0c2601834dcec434"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/small_ctor-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/small_ctor-v0_1/LICENSE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/smallvec-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/smallvec-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/smallvec-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/smallvec-v1/LICENSE-MIT",
+          "bytes": 1072,
+          "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/stable_deref_trait-v1/LICENSE-MIT",
+          "bytes": 1056,
+          "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/static_assertions-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/static_assertions-v1/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/static_assertions-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/static_assertions-v1/LICENSE-MIT",
+          "bytes": 1072,
+          "sha256": "ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strck-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strck-v1/LICENSE",
+          "bytes": 1057,
+          "sha256": "7e24648e3d082d4f8026cdedb21d084d91ef13223bff6b76cb8bf19a744b7d28"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strength_reduce-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strength_reduce-v0_2/LICENSE-APACHE",
+          "bytes": 11560,
+          "sha256": "2e54cd84a645bea25943c75dd8ae67cb291e66a47a11578333c9b4b3b6b86c85"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strength_reduce-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strength_reduce-v0_2/LICENSE-MIT",
+          "bytes": 1085,
+          "sha256": "8f5442dfa8e9169045697e386bc91d19f393c939635741fa2a665ec36ca6f0ad"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strsim-v0_11/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strsim-v0_11/LICENSE",
+          "bytes": 1166,
+          "sha256": "1e697ce8d21401fbf1bddd9b5c3fd4c4c79ae1e3bdf51f81761c85e11d5a89cd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strum-v0_27/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strum-v0_27/LICENSE",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strum-v0_28/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strum-v0_28/LICENSE",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strum_macros-v0_27/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strum_macros-v0_27/LICENSE",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/strum_macros-v0_28/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/strum_macros-v0_28/LICENSE",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/subtle-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/subtle-v2/LICENSE",
+          "bytes": 1582,
+          "sha256": "d1fc1bc0d155df60b2e7705b6b2ae02a05c96f948e1cec6e2fb86360b09f346b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-bundle-flac-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-bundle-flac-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-bundle-mp3-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-bundle-mp3-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-codec-pcm-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-codec-pcm-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-codec-vorbis-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-codec-vorbis-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-common-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-common-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-core-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-core-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-metadata-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-metadata-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/symphonia-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/symphonia-v0_6/LICENSE",
+          "bytes": 16725,
+          "sha256": "c76f740d1521b9bed9ca7a04ad526c310493c62621b1341d623b431736533b30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/syn-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/syn-v2/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/syn-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/syn-v2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/synstructure-v0_13/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/synstructure-v0_13/LICENSE",
+          "bytes": 1052,
+          "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-Apache",
+          "bytes": 11333,
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_capi-v0_2/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-Apache",
+          "bytes": 11333,
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/temporal_rs-v0_2/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/termcolor-v1/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/termcolor-v1/COPYING",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/termcolor-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/termcolor-v1/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/termcolor-v1/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/termcolor-v1/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/thiserror-impl-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/thiserror-impl-v2/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/thiserror-impl-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/thiserror-impl-v2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/thiserror-v2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/thiserror-v2/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/thiserror-v2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/thiserror-v2/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-Apache",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-Apache",
+          "bytes": 11333,
+          "sha256": "4e6bdc19db64d455dbddc0ee2f53ecba556f0226d4558954b5f02673c7358e59"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/timezone_provider-v0_2/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "073d3574ac6389e263360572b331e045dda7ac5cdba239ce5bdb02f299ef47bb"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/tinystr-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/tinystr-v0_8/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/toktrie-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/toktrie-v1/LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/transpose-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/transpose-v0_2/LICENSE-APACHE",
+          "bytes": 11045,
+          "sha256": "8797ef61538ec5ee9222ebef7ca4e0f3ec5761b145ca9943d358c450efb644dd"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/transpose-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/transpose-v0_2/LICENSE-MIT",
+          "bytes": 1093,
+          "sha256": "5080149357fd0be590bdc10cf92165412bb4d61ce496284d56f2d12874ae3121"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/tuple_list-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/tuple_list-v0_1/LICENSE",
+          "bytes": 1095,
+          "sha256": "fdd3b4e30f42d35402ee9c33a6b72ad202f9658374b61b97becde4603551b95d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-arena-v2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-arena-v2/LICENSE",
+          "bytes": 1083,
+          "sha256": "9ed5e982274d54d0cf94f0e9f9fd889182b6f1f50a012f0be41ce7c884347ab6"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-builder-macro-v0_22/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-builder-macro-v0_22/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-builder-macro-v0_22/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-builder-macro-v0_22/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-builder-v0_22/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-builder-v0_22/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-builder-v0_22/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-builder-v0_22/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-path-v0_12/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-path-v0_12/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typed-path-v0_12/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typed-path-v0_12/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typeid-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typeid-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typeid-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typeid-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/typewit-v1/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/typewit-v1/LICENSE-ZLIB.md",
+          "bytes": 855,
+          "sha256": "6db6d36c8aae8c2f6ebec32965bab9b4769128caed09a55b8696afce4301838a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/uds-v0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/uds-v0_4/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/uds-v0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/uds-v0_4/LICENSE-MIT",
+          "bytes": 1146,
+          "sha256": "f234d44d4afa9dad03246705dcedb1a70a7562bf595fdbfafa93aa73c8839d57"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-APACHE",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-ident-v1/LICENSE-UNICODE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-ident-v1/LICENSE-UNICODE",
+          "bytes": 1995,
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-width-v0_2/COPYRIGHT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-width-v0_2/COPYRIGHT",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-width-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-width-v0_2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-width-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-width-v0_2/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-xid-v0_2/COPYRIGHT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-xid-v0_2/COPYRIGHT",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-xid-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-xid-v0_2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unicode-xid-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unicode-xid-v0_2/LICENSE-MIT",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unty-v0_0_4/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unty-v0_0_4/LICENSE-APACHE",
+          "bytes": 11541,
+          "sha256": "fa84f04c495f2533ba036606acc8644b50077752f17bc2e943235459dda1c12c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/unty-v0_0_4/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/unty-v0_0_4/LICENSE-MIT",
+          "bytes": 1085,
+          "sha256": "ac1e6e437cd571f6b450abd33dc055cf26dfb0fe2a72952c3ef6ae3844549c12"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/COPYRIGHT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/COPYRIGHT",
+          "bytes": 1742,
+          "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/utf8_iter-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/utf8_iter-v1/LICENSE-MIT",
+          "bytes": 1053,
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/uuid-v1/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/uuid-v1/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/uuid-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/uuid-v1/LICENSE-MIT",
+          "bytes": 1157,
+          "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/version_check-v0_9/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/version_check-v0_9/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/version_check-v0_9/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/version_check-v0_9/LICENSE-MIT",
+          "bytes": 1085,
+          "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/virtue-v0_0_18/LICENSE.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/virtue-v0_0_18/LICENSE.md",
+          "bytes": 1103,
+          "sha256": "ddcbb6914b62d5bebc3cb58ebe8d2738ffa9a48555469bbcbe65159979b878cf"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/wait-timeout-v0_2/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/wait-timeout-v0_2/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/wait-timeout-v0_2/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/wait-timeout-v0_2/LICENSE-MIT",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/wide-v0_7/LICENSE-ZLIB.md",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/wide-v0_7/LICENSE-ZLIB.md",
+          "bytes": 851,
+          "sha256": "c43b9a9b1387ed53d2c49263838261129a010e280e3a174a792242c3e2c98db9"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/winapi-util-v0_1/COPYING",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/winapi-util-v0_1/COPYING",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/winapi-util-v0_1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/winapi-util-v0_1/LICENSE-MIT",
+          "bytes": 1081,
+          "sha256": "cb3c929a05e6cbc9de9ab06a4c57eeb60ca8c724bef6c138c87d3a577e27aa14"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/winapi-util-v0_1/UNLICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/winapi-util-v0_1/UNLICENSE",
+          "bytes": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-link-v0_2/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-link-v0_2/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-link-v0_2/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-link-v0_2/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-sys-v0_52/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-sys-v0_52/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-sys-v0_52/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-sys-v0_52/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-targets-v0_52/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-targets-v0_52/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows-targets-v0_52/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows-targets-v0_52/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_aarch64_msvc-v0_52/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_aarch64_msvc-v0_52/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_aarch64_msvc-v0_52/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_aarch64_msvc-v0_52/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_i686_msvc-v0_52/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_i686_msvc-v0_52/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_i686_msvc-v0_52/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_i686_msvc-v0_52/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_x86_64_msvc-v0_52/license-apache-2.0",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_x86_64_msvc-v0_52/license-apache-2.0",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/windows_x86_64_msvc-v0_52/license-mit",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/windows_x86_64_msvc-v0_52/license-mit",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/writeable-v0_6/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/writeable-v0_6/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/xml-v1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/xml-v1/LICENSE",
+          "bytes": 1083,
+          "sha256": "0dc18d924dc0a5f41172a393012843a5eaaef338e795b3645da9cc3b6068220b"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/xxhash-rust-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/xxhash-rust-v0_8/LICENSE",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/yoke-derive-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/yoke-derive-v0_8/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/yoke-v0_8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/yoke-v0_8/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-APACHE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-APACHE",
+          "bytes": 11350,
+          "sha256": "9d185ac6703c4b0453974c0d85e9eee43e6941009296bb1f5eb0b54e2329e9f3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-BSD",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-BSD",
+          "bytes": 1275,
+          "sha256": "83c1763356e822adde0a2cae748d938a73fdc263849ccff6b27776dff213bd32"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerocopy-v0_8/LICENSE-MIT",
+          "bytes": 1060,
+          "sha256": "1a2f5c12ddc934d58956aa5dbdd3255fe55fd957633ab7d0d39e4f0daa73f7df"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerofrom-derive-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerofrom-derive-v0_1/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerofrom-v0_1/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerofrom-v0_1/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerotrie-v0_2/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerotrie-v0_2/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerovec-derive-v0_11/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerovec-derive-v0_11/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zerovec-v0_11/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zerovec-v0_11/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zip-v8/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zip-v8/LICENSE",
+          "bytes": 1085,
+          "sha256": "58545fed1565e42d687aecec6897d35c6d37ccb71479a137c0deb2203e125c79"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zmij-v1/LICENSE-MIT",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zmij-v1/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "upstreamPath": "chromium_crates_io/vendor/zoneinfo64-v0_3/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/rust/chromium_crates_io/vendor/zoneinfo64-v0_3/LICENSE",
+          "bytes": 2195,
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
+        }
+      ]
+    },
+    {
+      "path": "tools/clang",
+      "commit": "45f4b9e25124809497a27a8ae0e63d603b0f9f1b",
+      "repository": "https://chromium.googlesource.com/chromium/src/tools/clang",
+      "archiveUrl": "https://chromium.googlesource.com/chromium/src/tools/clang/+archive/45f4b9e25124809497a27a8ae0e63d603b0f9f1b.tar.gz",
+      "archive": "desktop/.downloads/compliance/deno-v8-clang-45f4b9e25124809497a27a8ae0e63d603b0f9f1b.tar.gz",
+      "archiveBytes": 656727,
+      "sha256": "556fc72e4ca1d899653216aecfcc6b9f9c53e6a92c958e8f13e587221831adc7",
+      "archiveHashProvenance": "Locally computed SHA-256 of bytes fetched from the exact official Gitiles archive URL.",
+      "scannedFileCount": 1045,
+      "licenseNoticeFilenameCandidateCount": 0,
+      "licenseNoticeCandidateBytes": 0,
+      "licenseFiles": []
+    },
+    {
+      "path": "tools/win",
+      "commit": "faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0",
+      "repository": "https://chromium.googlesource.com/chromium/src/tools/win",
+      "archiveUrl": "https://chromium.googlesource.com/chromium/src/tools/win/+archive/faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0.tar.gz",
+      "archive": "desktop/.downloads/compliance/deno-v8-win-faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0.tar.gz",
+      "archiveBytes": 180918,
+      "sha256": "3ed644b845e40a7c8f205febaa9959c5d7907ce650817f432500bc4a0d3fdb9f",
+      "archiveHashProvenance": "Locally computed SHA-256 of bytes fetched from the exact official Gitiles archive URL.",
+      "scannedFileCount": 93,
+      "licenseNoticeFilenameCandidateCount": 0,
+      "licenseNoticeCandidateBytes": 0,
+      "licenseFiles": []
+    }
+  ]
+}

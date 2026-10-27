@@ -1,0 +1,3473 @@
+{
+  "sha": "67faaab3ff7aa66780ec1d0f51ca47e177b812d3",
+  "url": "https://api.github.com/repos/servo/stylo/git/trees/67faaab3ff7aa66780ec1d0f51ca47e177b812d3",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43a3674f808917b4d0b485b2c64e454a81c3d77f",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/43a3674f808917b4d0b485b2c64e454a81c3d77f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca762e0434dcb2eeebae07a9e83736759c1a5fb7",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/ca762e0434dcb2eeebae07a9e83736759c1a5fb7"
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647f6326c381082777c863c9e1a6fa2f7bb16e41",
+      "size": 1895,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/647f6326c381082777c863c9e1a6fa2f7bb16e41"
+    },
+    {
+      "path": ".github/workflows/mirror-to-release-branch.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fd4c31241f0b038cd0d971eda9760e70623aaa",
+      "size": 733,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/44fd4c31241f0b038cd0d971eda9760e70623aaa"
+    },
+    {
+      "path": ".github/workflows/sync-upstream.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7df440da8479bbcfd4ae808358985f67aedd8eb1",
+      "size": 500,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7df440da8479bbcfd4ae808358985f67aedd8eb1"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc3c2f9b3c0721c63537eb12aa108fe1a699b60b",
+      "size": 72,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fc3c2f9b3c0721c63537eb12aa108fe1a699b60b"
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08edf7776f86fa160f745a2351e6edb33e7197e2",
+      "size": 1371,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/08edf7776f86fa160f745a2351e6edb33e7197e2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc3eb5b287379f0b74affd71d945ba432b3b232",
+      "size": 7396,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/bfc3eb5b287379f0b74affd71d945ba432b3b232"
+    },
+    {
+      "path": "SYNCING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a0a53d1d2e867d5c44ab0bd7321cb447513d20",
+      "size": 1850,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/72a0a53d1d2e867d5c44ab0bd7321cb447513d20"
+    },
+    {
+      "path": "commit-from-merge.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "94aa606f02b894bec186ccbbcb60cf3d9de1a84e",
+      "size": 652,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/94aa606f02b894bec186ccbbcb60cf3d9de1a84e"
+    },
+    {
+      "path": "commit-from-squashed.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "004e0f7840db9097fd990e5ce7dc4c819f9f043f",
+      "size": 608,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/004e0f7840db9097fd990e5ce7dc4c819f9f043f"
+    },
+    {
+      "path": "malloc_size_of",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "684215f501d7bb7a7791bb7d31a7c5547bdfd4c6",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/684215f501d7bb7a7791bb7d31a7c5547bdfd4c6"
+    },
+    {
+      "path": "malloc_size_of/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf6102158754f9d94b271df95e25436230f0a22",
+      "size": 651,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6bf6102158754f9d94b271df95e25436230f0a22"
+    },
+    {
+      "path": "malloc_size_of/LICENSE-APACHE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+      "size": 10847,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "malloc_size_of/LICENSE-MIT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31aa79387f27e730e33d871925e152e35e428031",
+      "size": 1023,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "malloc_size_of/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a80bf3ea0b4b0e509292c4c105e5d782ad8f2c1",
+      "size": 28750,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8a80bf3ea0b4b0e509292c4c105e5d782ad8f2c1"
+    },
+    {
+      "path": "rustfmt.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd1b1465d0efef9beb027ff0fdd4524bcfb6fa7",
+      "size": 57,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ecd1b1465d0efef9beb027ff0fdd4524bcfb6fa7"
+    },
+    {
+      "path": "selectors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "096c222a748a984da2b16817fa5411e42244676e",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/096c222a748a984da2b16817fa5411e42244676e"
+    },
+    {
+      "path": "selectors/CHANGES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e9511dca30bb598319b957d45f4ff29a10b33f",
+      "size": 184,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b1e9511dca30bb598319b957d45f4ff29a10b33f"
+    },
+    {
+      "path": "selectors/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c536b5f8f3a8d60c543504613c243e40651c1e55",
+      "size": 868,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c536b5f8f3a8d60c543504613c243e40651c1e55"
+    },
+    {
+      "path": "selectors/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6f5689e6ff69af87cd75d4f46f7205a22774c3b",
+      "size": 1171,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e6f5689e6ff69af87cd75d4f46f7205a22774c3b"
+    },
+    {
+      "path": "selectors/attr.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4ff8f5c3d27a4e82f7b01282700e57c242f023",
+      "size": 6686,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7d4ff8f5c3d27a4e82f7b01282700e57c242f023"
+    },
+    {
+      "path": "selectors/bloom.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be02622e7b80b4f3204e8e11fac001152986652b",
+      "size": 11810,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/be02622e7b80b4f3204e8e11fac001152986652b"
+    },
+    {
+      "path": "selectors/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c3803991effa9617057b7f551a44d9a505500a",
+      "size": 1446,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c5c3803991effa9617057b7f551a44d9a505500a"
+    },
+    {
+      "path": "selectors/builder.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f204ecfb1a23c3847877c0457af80bdc60bdc4d5",
+      "size": 16711,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f204ecfb1a23c3847877c0457af80bdc60bdc4d5"
+    },
+    {
+      "path": "selectors/context.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d000b730e117063425936318d3772dc57c18b03",
+      "size": 17280,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3d000b730e117063425936318d3772dc57c18b03"
+    },
+    {
+      "path": "selectors/kleene_value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9cf2ee3191c9dd57d4abe6f163774c431bdf727",
+      "size": 3577,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e9cf2ee3191c9dd57d4abe6f163774c431bdf727"
+    },
+    {
+      "path": "selectors/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60fe5be257f03091569b56a149e7c95ab186bfb",
+      "size": 643,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e60fe5be257f03091569b56a149e7c95ab186bfb"
+    },
+    {
+      "path": "selectors/matching.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515ab562597e9770daabc60223285d7d65cbf4e5",
+      "size": 57248,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/515ab562597e9770daabc60223285d7d65cbf4e5"
+    },
+    {
+      "path": "selectors/nth_index_cache.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd593ac50b1f48729f3efdc693ac5b076498f2a4",
+      "size": 3176,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/bd593ac50b1f48729f3efdc693ac5b076498f2a4"
+    },
+    {
+      "path": "selectors/parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b44ed1ae4b94b05c94a0dbb6275b63b9815e92cd",
+      "size": 179434,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b44ed1ae4b94b05c94a0dbb6275b63b9815e92cd"
+    },
+    {
+      "path": "selectors/relative_selector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c4b3b4b617681ec8a6f516c2f173c92bbd8186f",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/2c4b3b4b617681ec8a6f516c2f173c92bbd8186f"
+    },
+    {
+      "path": "selectors/relative_selector/cache.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "207ce888e4d2268cca5417af6a1461ad94c6f133",
+      "size": 2743,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/207ce888e4d2268cca5417af6a1461ad94c6f133"
+    },
+    {
+      "path": "selectors/relative_selector/filter.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4940742ccc058086dd3afbd6a8c335cfca419925",
+      "size": 6078,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4940742ccc058086dd3afbd6a8c335cfca419925"
+    },
+    {
+      "path": "selectors/relative_selector/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd39f7327e6b6e4a0b2eb6e9383bb9ee5d2ab95",
+      "size": 238,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6dd39f7327e6b6e4a0b2eb6e9383bb9ee5d2ab95"
+    },
+    {
+      "path": "selectors/sink.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcdd7ff259dd5d6dc435a671a66ec97d11d09e1f",
+      "size": 950,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dcdd7ff259dd5d6dc435a671a66ec97d11d09e1f"
+    },
+    {
+      "path": "selectors/tree.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09e7ebdfc1b43d501392ddd2d3fb228f12d38176",
+      "size": 6347,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/09e7ebdfc1b43d501392ddd2d3fb228f12d38176"
+    },
+    {
+      "path": "selectors/visitor.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4286c55532cae89bc7bf8c0a9575e225106aa4a",
+      "size": 4884,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e4286c55532cae89bc7bf8c0a9575e225106aa4a"
+    },
+    {
+      "path": "servo_arc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1882b2456d1e0e38f732b0455335d00659a12aa6",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/1882b2456d1e0e38f732b0455335d00659a12aa6"
+    },
+    {
+      "path": "servo_arc/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ae244a5064460bac1d82a47665fc3d1dd3ca1d",
+      "size": 569,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f5ae244a5064460bac1d82a47665fc3d1dd3ca1d"
+    },
+    {
+      "path": "servo_arc/LICENSE-APACHE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+      "size": 10847,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "servo_arc/LICENSE-MIT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31aa79387f27e730e33d871925e152e35e428031",
+      "size": 1023,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "servo_arc/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1967f44e7e5660669a7797b07c78ff4748a3795b",
+      "size": 39440,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1967f44e7e5660669a7797b07c78ff4748a3795b"
+    },
+    {
+      "path": "shell.nix",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c96e200aa384bff692344eef84e0d95b51a76f5",
+      "size": 201,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2c96e200aa384bff692344eef84e0d95b51a76f5"
+    },
+    {
+      "path": "start-rebase.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fe417f7f08113e83a62ce3d3b5b50f506d9468c7",
+      "size": 333,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fe417f7f08113e83a62ce3d3b5b50f506d9468c7"
+    },
+    {
+      "path": "style.paths",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d2d026383d51a649f47bf4a4e6b2af46c77b00",
+      "size": 312,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d1d2d026383d51a649f47bf4a4e6b2af46c77b00"
+    },
+    {
+      "path": "style",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fdd3078d5cee470f7e9d83fda3a98579b337dd1",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/1fdd3078d5cee470f7e9d83fda3a98579b337dd1"
+    },
+    {
+      "path": "style/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6176a9a3550e3eaabfd1394b94fd35284de109f5",
+      "size": 2846,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6176a9a3550e3eaabfd1394b94fd35284de109f5"
+    },
+    {
+      "path": "style/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e631e77d4796ca364c02155d78a9027a89f117aa",
+      "size": 195,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e631e77d4796ca364c02155d78a9027a89f117aa"
+    },
+    {
+      "path": "style/applicable_declarations.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "371d53eb370099066015cb408f686da813a960cf",
+      "size": 10944,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/371d53eb370099066015cb408f686da813a960cf"
+    },
+    {
+      "path": "style/author_styles.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4179e26b039e62c8bfb7fa30e70ffbc2261654d0",
+      "size": 2272,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4179e26b039e62c8bfb7fa30e70ffbc2261654d0"
+    },
+    {
+      "path": "style/bezier.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd520ac0ed5a7b511eeafd4bf47f44a7553d5818",
+      "size": 4876,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dd520ac0ed5a7b511eeafd4bf47f44a7553d5818"
+    },
+    {
+      "path": "style/bloom.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f47d8b41875b3268eb410923c0bda5d09b9ee0",
+      "size": 14443,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a5f47d8b41875b3268eb410923c0bda5d09b9ee0"
+    },
+    {
+      "path": "style/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26176df9ad79788b53463edc584b546f0513f7ed",
+      "size": 2759,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/26176df9ad79788b53463edc584b546f0513f7ed"
+    },
+    {
+      "path": "style/build_gecko.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4d2c867c183f9ea77e8d4fc110a890b8f433894",
+      "size": 13159,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a4d2c867c183f9ea77e8d4fc110a890b8f433894"
+    },
+    {
+      "path": "style/color",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e376e7dc7e67a24c6b0deb8be92e2bacf99b559",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/0e376e7dc7e67a24c6b0deb8be92e2bacf99b559"
+    },
+    {
+      "path": "style/color/color_function.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0dea1fa0654aefe8813beeec6770e0fd3ec977d",
+      "size": 25312,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a0dea1fa0654aefe8813beeec6770e0fd3ec977d"
+    },
+    {
+      "path": "style/color/component.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "188e1fcfe301716523e44199d8f31751af954679",
+      "size": 8630,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/188e1fcfe301716523e44199d8f31751af954679"
+    },
+    {
+      "path": "style/color/convert.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e314cc5ea419424a71c6a36f8f7bc0ed3d489e8a",
+      "size": 29743,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e314cc5ea419424a71c6a36f8f7bc0ed3d489e8a"
+    },
+    {
+      "path": "style/color/gamut.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "745db96e780bb3b42a8742a328acad3ada529a29",
+      "size": 8914,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/745db96e780bb3b42a8742a328acad3ada529a29"
+    },
+    {
+      "path": "style/color/gamut",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01b26d909d3da0f037662beaf796b936f49d7617",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/01b26d909d3da0f037662beaf796b936f49d7617"
+    },
+    {
+      "path": "style/color/gamut/raytrace.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb1dccb20a9a71f31fb23da5f0f8c11c0d62c1b3",
+      "size": 11609,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/eb1dccb20a9a71f31fb23da5f0f8c11c0d62c1b3"
+    },
+    {
+      "path": "style/color/mix.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a0a23638f8bff4292ad493f494f73a491748f1",
+      "size": 20546,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/84a0a23638f8bff4292ad493f494f73a491748f1"
+    },
+    {
+      "path": "style/color/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17932ead7ba419bff6159371171e2adb1e757961",
+      "size": 27544,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/17932ead7ba419bff6159371171e2adb1e757961"
+    },
+    {
+      "path": "style/color/parsing.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae81aef8c6a8e2757c69bdf7ce7dc7ffafe4bc3",
+      "size": 25650,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1ae81aef8c6a8e2757c69bdf7ce7dc7ffafe4bc3"
+    },
+    {
+      "path": "style/color/to_css.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f0f5c30bf7a14dee5a42ce383bae7b95c11616",
+      "size": 10626,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/91f0f5c30bf7a14dee5a42ce383bae7b95c11616"
+    },
+    {
+      "path": "style/context.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82812c7486d816964d489e5ec6ca22a78353dd70",
+      "size": 26728,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/82812c7486d816964d489e5ec6ca22a78353dd70"
+    },
+    {
+      "path": "style/counter_style",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40adc849a4a8e2c12ca1e54e325af5060fb4c267",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/40adc849a4a8e2c12ca1e54e325af5060fb4c267"
+    },
+    {
+      "path": "style/counter_style/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a43d6c5f7e8f6e72257182bb3dd5710d26731f",
+      "size": 26747,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f4a43d6c5f7e8f6e72257182bb3dd5710d26731f"
+    },
+    {
+      "path": "style/counter_style/predefined.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7243e3b3f32e7300ad283a633c1893322659fa55",
+      "size": 1286,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7243e3b3f32e7300ad283a633c1893322659fa55"
+    },
+    {
+      "path": "style/counter_style/update_predefined.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9226c555dbd8ecd2f0d86066239914aaa42b4e9a",
+      "size": 1094,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9226c555dbd8ecd2f0d86066239914aaa42b4e9a"
+    },
+    {
+      "path": "style/custom_properties.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2614245b00f7fbf0ec8c05ca6cb715cc315b1cea",
+      "size": 74320,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2614245b00f7fbf0ec8c05ca6cb715cc315b1cea"
+    },
+    {
+      "path": "style/custom_properties_map.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d9be62b514f889558a1276114d6d71ef6a94f9",
+      "size": 7234,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e9d9be62b514f889558a1276114d6d71ef6a94f9"
+    },
+    {
+      "path": "style/data.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c1af9500f6707730b19e5ecc082bbca20dab6d",
+      "size": 24610,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/53c1af9500f6707730b19e5ecc082bbca20dab6d"
+    },
+    {
+      "path": "style/device",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb3545507943c2dd0ec61003ce7e8cd5698299ca",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/fb3545507943c2dd0ec61003ce7e8cd5698299ca"
+    },
+    {
+      "path": "style/device/gecko.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7de42b5f60688630a8b3b200ab2e355358c2f0ad",
+      "size": 18132,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7de42b5f60688630a8b3b200ab2e355358c2f0ad"
+    },
+    {
+      "path": "style/device/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeef8c4dc8487daee6f365e47d1d70afb6e1f40f",
+      "size": 12344,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/aeef8c4dc8487daee6f365e47d1d70afb6e1f40f"
+    },
+    {
+      "path": "style/device/servo.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a24d83aad952f7666d063f65b359e0989450920",
+      "size": 20430,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1a24d83aad952f7666d063f65b359e0989450920"
+    },
+    {
+      "path": "style/dom.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573963b249365316fc1ab8ba8f49bafae5c6a099",
+      "size": 40826,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/573963b249365316fc1ab8ba8f49bafae5c6a099"
+    },
+    {
+      "path": "style/dom_apis.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aefc36bbdd2c7a6fb8cb17d0de71d8d0502b3ba",
+      "size": 31716,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3aefc36bbdd2c7a6fb8cb17d0de71d8d0502b3ba"
+    },
+    {
+      "path": "style/driver.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d46e414d489a6ed573573f3bb0e3d532cbc0b764",
+      "size": 6484,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d46e414d489a6ed573573f3bb0e3d532cbc0b764"
+    },
+    {
+      "path": "style/error_reporting.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959d612ae54230c947fa3ea0ce15e2ce741f0154",
+      "size": 21166,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/959d612ae54230c947fa3ea0ce15e2ce741f0154"
+    },
+    {
+      "path": "style/font_face.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9a2adcfcd4783ea8e5c437e7e6f5795aac9164b",
+      "size": 19591,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a9a2adcfcd4783ea8e5c437e7e6f5795aac9164b"
+    },
+    {
+      "path": "style/font_metrics.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14b216ae972f48dbf32cc2dfba4e6b955a371c8",
+      "size": 4728,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c14b216ae972f48dbf32cc2dfba4e6b955a371c8"
+    },
+    {
+      "path": "style/gecko",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8da9c1e0b0162995ecd8b802ca66a2f73dec15c",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/d8da9c1e0b0162995ecd8b802ca66a2f73dec15c"
+    },
+    {
+      "path": "style/gecko/anon_boxes.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693213f082333223ad77c3f48f289128c906e755",
+      "size": 2954,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/693213f082333223ad77c3f48f289128c906e755"
+    },
+    {
+      "path": "style/gecko/arc_types.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe8b26e6a03deae3b4cda46634c7e04de13dfee4",
+      "size": 5543,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fe8b26e6a03deae3b4cda46634c7e04de13dfee4"
+    },
+    {
+      "path": "style/gecko/conversions.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea3700a3235d7542b74340432d70a627c559d83b",
+      "size": 1979,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ea3700a3235d7542b74340432d70a627c559d83b"
+    },
+    {
+      "path": "style/gecko/data.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d7c8e0afe8c1d7d3e159b23f81208424311756",
+      "size": 7639,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c5d7c8e0afe8c1d7d3e159b23f81208424311756"
+    },
+    {
+      "path": "style/gecko/media_features.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4524fd263d791ccf4da1cd0476f3ecc7a02253aa",
+      "size": 31449,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4524fd263d791ccf4da1cd0476f3ecc7a02253aa"
+    },
+    {
+      "path": "style/gecko/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac071df12d13ebce479cd8fbdbb2eed53531faf6",
+      "size": 521,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ac071df12d13ebce479cd8fbdbb2eed53531faf6"
+    },
+    {
+      "path": "style/gecko/non_ts_pseudo_class_list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d98e5c1f0cc6f6e72f233b30ec2a9803827b9d8",
+      "size": 6619,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0d98e5c1f0cc6f6e72f233b30ec2a9803827b9d8"
+    },
+    {
+      "path": "style/gecko/pseudo_element.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc2ef5205d4252451eb6ba3461ff7e7545683a7d",
+      "size": 23537,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fc2ef5205d4252451eb6ba3461ff7e7545683a7d"
+    },
+    {
+      "path": "style/gecko/pseudo_element_definition.mako.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae397bf8b0d2c50560381fb0a7a7e007afe75a2",
+      "size": 11408,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6ae397bf8b0d2c50560381fb0a7a7e007afe75a2"
+    },
+    {
+      "path": "style/gecko/pseudo_elements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37572a00756c3f038dd6a51d3882f921dfd85873",
+      "size": 4613,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/37572a00756c3f038dd6a51d3882f921dfd85873"
+    },
+    {
+      "path": "style/gecko/pseudo_elements.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8573500501a512fd4a8d8fb7e5dc03b55ea84f",
+      "size": 6388,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0f8573500501a512fd4a8d8fb7e5dc03b55ea84f"
+    },
+    {
+      "path": "style/gecko/regen_atoms.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "971d022296c4c4b22268e268b566e6ae99c33eeb",
+      "size": 4107,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/971d022296c4c4b22268e268b566e6ae99c33eeb"
+    },
+    {
+      "path": "style/gecko/restyle_damage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50fd27c758a4b90afeacaa9107aace3615408959",
+      "size": 4029,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/50fd27c758a4b90afeacaa9107aace3615408959"
+    },
+    {
+      "path": "style/gecko/selector_parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da229fc335d5e3af2fb6aea2e524486431eec3ea",
+      "size": 25091,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/da229fc335d5e3af2fb6aea2e524486431eec3ea"
+    },
+    {
+      "path": "style/gecko/snapshot.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86566cc3e16092e95f671522e285d1313f3d331a",
+      "size": 6327,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/86566cc3e16092e95f671522e285d1313f3d331a"
+    },
+    {
+      "path": "style/gecko/snapshot_helpers.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4203094df980ba6ebb8ffcf5576166545f795d08",
+      "size": 10386,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4203094df980ba6ebb8ffcf5576166545f795d08"
+    },
+    {
+      "path": "style/gecko/traversal.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89b4c51366fc0ecd60f56722092c7764009496a3",
+      "size": 1749,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/89b4c51366fc0ecd60f56722092c7764009496a3"
+    },
+    {
+      "path": "style/gecko/wrapper.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95dbcd8aa9f9ca37c6e3a7c00fb5e59692ca15d3",
+      "size": 78960,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/95dbcd8aa9f9ca37c6e3a7c00fb5e59692ca15d3"
+    },
+    {
+      "path": "style/gecko_bindings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e19a462a54b8afe74c44d86b637b26e2f6abe3e2",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/e19a462a54b8afe74c44d86b637b26e2f6abe3e2"
+    },
+    {
+      "path": "style/gecko_bindings/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef286f2632d73182e923c4f761aed31ceb5fe34",
+      "size": 929,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3ef286f2632d73182e923c4f761aed31ceb5fe34"
+    },
+    {
+      "path": "style/gecko_bindings/sugar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23c747f1dff0a16289c766d85510e47d6cbfb515",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/23c747f1dff0a16289c766d85510e47d6cbfb515"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e639abeda09ad31dea0918eb159ec6a41a476b01",
+      "size": 384,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e639abeda09ad31dea0918eb159ec6a41a476b01"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/ns_com_ptr.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c54541bd8055cb683d4945bc3c1ad87d251806d",
+      "size": 432,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1c54541bd8055cb683d4945bc3c1ad87d251806d"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/ns_compatibility.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b81e9f7909ffc203f443d988200770be5b9683",
+      "size": 733,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f4b81e9f7909ffc203f443d988200770be5b9683"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/ns_style_auto_array.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce8b1df79e0a1811102da8a3a185e56c9169a2d",
+      "size": 3698,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1ce8b1df79e0a1811102da8a3a185e56c9169a2d"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/origin_flags.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27060405a43d14959543b1cdb85dc063f1d652e",
+      "size": 985,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b27060405a43d14959543b1cdb85dc063f1d652e"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/ownership.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b383da4bb652d6ab6334e987419616bb187876d",
+      "size": 1632,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8b383da4bb652d6ab6334e987419616bb187876d"
+    },
+    {
+      "path": "style/gecko_bindings/sugar/refptr.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4a0479a077d58601f2f324cde7726f250124e6d",
+      "size": 7903,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c4a0479a077d58601f2f324cde7726f250124e6d"
+    },
+    {
+      "path": "style/gecko_string_cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94fa91c3790e0fdba9da36ef56d2eaecbcf7e3a8",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/94fa91c3790e0fdba9da36ef56d2eaecbcf7e3a8"
+    },
+    {
+      "path": "style/gecko_string_cache/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8dc4a1b55ae2be7146e027860235caccee61c92",
+      "size": 15084,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e8dc4a1b55ae2be7146e027860235caccee61c92"
+    },
+    {
+      "path": "style/gecko_string_cache/namespace.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "094163bbbf3192f0b25bdfe493e77aea7f57149f",
+      "size": 2460,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/094163bbbf3192f0b25bdfe493e77aea7f57149f"
+    },
+    {
+      "path": "style/global_style_data.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3775f69ed5bffc0ea6aa1ca68ae9697988f4b186",
+      "size": 7939,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3775f69ed5bffc0ea6aa1ca68ae9697988f4b186"
+    },
+    {
+      "path": "style/invalidation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92d62a4ef338dd13edaae5043f5d854d1541e0d3",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/92d62a4ef338dd13edaae5043f5d854d1541e0d3"
+    },
+    {
+      "path": "style/invalidation/element",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56266c3a0c9d881fa526a4e692589150ec0fb45a",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/56266c3a0c9d881fa526a4e692589150ec0fb45a"
+    },
+    {
+      "path": "style/invalidation/element/document_state.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0a34804e50e8f542cc70fb8ca4bd24d8e81fe5",
+      "size": 5314,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3a0a34804e50e8f542cc70fb8ca4bd24d8e81fe5"
+    },
+    {
+      "path": "style/invalidation/element/element_wrapper.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43511f595b9b9a4e95480a8ef48d226873bdf87",
+      "size": 15075,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b43511f595b9b9a4e95480a8ef48d226873bdf87"
+    },
+    {
+      "path": "style/invalidation/element/invalidation_map.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb97c426796194674b31ce3ded57dcdd076b1b1",
+      "size": 60232,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ceb97c426796194674b31ce3ded57dcdd076b1b1"
+    },
+    {
+      "path": "style/invalidation/element/invalidator.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "582b1b6ed7da072ed1d81c7f4977af3cdbe285ca",
+      "size": 54334,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/582b1b6ed7da072ed1d81c7f4977af3cdbe285ca"
+    },
+    {
+      "path": "style/invalidation/element/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ddb9f1863def8641911770b9d61cae13bb5adc8",
+      "size": 454,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0ddb9f1863def8641911770b9d61cae13bb5adc8"
+    },
+    {
+      "path": "style/invalidation/element/relative_selector.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a426ec2d37c1ced17d03d2808dffe84a031b39",
+      "size": 55753,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b7a426ec2d37c1ced17d03d2808dffe84a031b39"
+    },
+    {
+      "path": "style/invalidation/element/restyle_hints.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0a4fdd18219266f23984ae1dc1212fab2c5c21a",
+      "size": 8425,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a0a4fdd18219266f23984ae1dc1212fab2c5c21a"
+    },
+    {
+      "path": "style/invalidation/element/state_and_attributes.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ced344c4ce19a264eb1d8e7f87c340cbd340bad",
+      "size": 27200,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2ced344c4ce19a264eb1d8e7f87c340cbd340bad"
+    },
+    {
+      "path": "style/invalidation/media_queries.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f9a61a88651933e27b483a664e25a8739742b51",
+      "size": 4414,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1f9a61a88651933e27b483a664e25a8739742b51"
+    },
+    {
+      "path": "style/invalidation/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b0d06853bba2130971e777910f37932e332689",
+      "size": 351,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/12b0d06853bba2130971e777910f37932e332689"
+    },
+    {
+      "path": "style/invalidation/stylesheets.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db3137a6b0ae554e5dea4b5f433c8ba645ba3b7d",
+      "size": 26176,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/db3137a6b0ae554e5dea4b5f433c8ba645ba3b7d"
+    },
+    {
+      "path": "style/invalidation/viewport_units.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06faeb14c468e9e053757c31f633a958770491ab",
+      "size": 2105,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/06faeb14c468e9e053757c31f633a958770491ab"
+    },
+    {
+      "path": "style/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1041acae8428112422e510811a1a3c951f2812d3",
+      "size": 9243,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1041acae8428112422e510811a1a3c951f2812d3"
+    },
+    {
+      "path": "style/logical_geometry.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02387950087d29cf36235a0ba5493e4a4f911859",
+      "size": 52988,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/02387950087d29cf36235a0ba5493e4a4f911859"
+    },
+    {
+      "path": "style/macros.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e09dd0ab596dbed87d94899239a037bbfb8ebef",
+      "size": 2052,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5e09dd0ab596dbed87d94899239a037bbfb8ebef"
+    },
+    {
+      "path": "style/matching.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd75063cfaba0179e7a40e65446916d67e1b5be5",
+      "size": 45411,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/cd75063cfaba0179e7a40e65446916d67e1b5be5"
+    },
+    {
+      "path": "style/media_queries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19a30f570321d3be6469fac086b5bdde17548b35",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/19a30f570321d3be6469fac086b5bdde17548b35"
+    },
+    {
+      "path": "style/media_queries/media_list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7fec85d5c5ce577a6a4bd44c6edb06a2b150fb",
+      "size": 6187,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0c7fec85d5c5ce577a6a4bd44c6edb06a2b150fb"
+    },
+    {
+      "path": "style/media_queries/media_query.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9370c0a2a18476a7f1fa2634d3b1d7bdcb2d8971",
+      "size": 6424,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9370c0a2a18476a7f1fa2634d3b1d7bdcb2d8971"
+    },
+    {
+      "path": "style/media_queries/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823ceca175e775e57a7a06fe5d7ffdd5cf5301b4",
+      "size": 436,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/823ceca175e775e57a7a06fe5d7ffdd5cf5301b4"
+    },
+    {
+      "path": "style/parallel.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40946a8cbed5d22aa79517abf8af5433c9e5250e",
+      "size": 8009,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/40946a8cbed5d22aa79517abf8af5433c9e5250e"
+    },
+    {
+      "path": "style/parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6189feb1d723e697ff3358baebfb4b82412d17ab",
+      "size": 9423,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6189feb1d723e697ff3358baebfb4b82412d17ab"
+    },
+    {
+      "path": "style/piecewise_linear.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac7c1bf30bbb097e171aac19bce2c01de559422",
+      "size": 10178,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0ac7c1bf30bbb097e171aac19bce2c01de559422"
+    },
+    {
+      "path": "style/properties",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aebcc7f0a6242fa1b8ed0c54a5eaa70895eec6e2",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/aebcc7f0a6242fa1b8ed0c54a5eaa70895eec6e2"
+    },
+    {
+      "path": "style/properties/build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad2bc0666ba69d9423ded2920e3de28dbefea23",
+      "size": 3720,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5ad2bc0666ba69d9423ded2920e3de28dbefea23"
+    },
+    {
+      "path": "style/properties/cascade.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e331699b86b36bf36bf989ba68393ef24e6a913f",
+      "size": 108793,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e331699b86b36bf36bf989ba68393ef24e6a913f"
+    },
+    {
+      "path": "style/properties/computed_value_flags.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5778eafd3191543c33bf601fc2a35c78ce2f1979",
+      "size": 8301,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5778eafd3191543c33bf601fc2a35c78ce2f1979"
+    },
+    {
+      "path": "style/properties/counted_unknown_properties.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5c8a801d5c1487f4b7012c9627429fb2978868",
+      "size": 3261,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7b5c8a801d5c1487f4b7012c9627429fb2978868"
+    },
+    {
+      "path": "style/properties/counter_style_descriptors.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4de74261f3be440afac6cb73a7f0db97e95c33",
+      "size": 1249,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3e4de74261f3be440afac6cb73a7f0db97e95c33"
+    },
+    {
+      "path": "style/properties/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c05799d9407f9e222c34beb7f89bfa166337d2d",
+      "size": 49571,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5c05799d9407f9e222c34beb7f89bfa166337d2d"
+    },
+    {
+      "path": "style/properties/declaration_block.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506b6d80b45118ee8e72d14ce0e6a2a7dcd80888",
+      "size": 64198,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/506b6d80b45118ee8e72d14ce0e6a2a7dcd80888"
+    },
+    {
+      "path": "style/properties/font_face_descriptors.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e3e8973d0e4c318a0af58c6c041337dd81cda1",
+      "size": 1000,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/65e3e8973d0e4c318a0af58c6c041337dd81cda1"
+    },
+    {
+      "path": "style/properties/gecko.mako.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82a06fa49428a1767675063326d2ca69fcdaddb9",
+      "size": 59209,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/82a06fa49428a1767675063326d2ca69fcdaddb9"
+    },
+    {
+      "path": "style/properties/helpers.mako.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ded0a346139765ceae0991f0a50060a4f578fe3",
+      "size": 29957,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4ded0a346139765ceae0991f0a50060a4f578fe3"
+    },
+    {
+      "path": "style/properties/helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c358fc97bf54d728f63b180518b40cc58f992d06",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/c358fc97bf54d728f63b180518b40cc58f992d06"
+    },
+    {
+      "path": "style/properties/helpers/animated_properties.mako.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf2149f8a2d6470d38d857f9179ef5742eb0a51",
+      "size": 29835,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7cf2149f8a2d6470d38d857f9179ef5742eb0a51"
+    },
+    {
+      "path": "style/properties/longhands.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d96b253299dd07a52a692af04689c2ebea3db7",
+      "size": 126238,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/27d96b253299dd07a52a692af04689c2ebea3db7"
+    },
+    {
+      "path": "style/properties/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ebb7660f723ea58a4804db80a1761ce7204ddc9",
+      "size": 63151,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8ebb7660f723ea58a4804db80a1761ce7204ddc9"
+    },
+    {
+      "path": "style/properties/properties.html.mako",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c5159351758476bf0ff98b3f0c139c4ff2f9bbc",
+      "size": 1006,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5c5159351758476bf0ff98b3f0c139c4ff2f9bbc"
+    },
+    {
+      "path": "style/properties/properties.mako.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5864c5caf47fe19cf2e6577e109e4d32ceabf720",
+      "size": 117686,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5864c5caf47fe19cf2e6577e109e4d32ceabf720"
+    },
+    {
+      "path": "style/properties/property_descriptors.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb9e666d24a33aa61424803bf6869d669cbe3ae",
+      "size": 629,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5eb9e666d24a33aa61424803bf6869d669cbe3ae"
+    },
+    {
+      "path": "style/properties/shorthands.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d178a9c9b065f631a581f5c77dd5a597cac75c",
+      "size": 158218,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/48d178a9c9b065f631a581f5c77dd5a597cac75c"
+    },
+    {
+      "path": "style/properties/shorthands.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35180dd135caedd3a03b81c78733294b94497847",
+      "size": 20752,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/35180dd135caedd3a03b81c78733294b94497847"
+    },
+    {
+      "path": "style/properties/vendored_python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "692ecc13b3649c22507344de3b321f02caaa293e",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/692ecc13b3649c22507344de3b321f02caaa293e"
+    },
+    {
+      "path": "style/properties/vendored_python/mako-1.3.10-py3-none-any.whl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f85cd7b576bf7998b55999cfe2f5519e3b75be3",
+      "size": 78509,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2f85cd7b576bf7998b55999cfe2f5519e3b75be3"
+    },
+    {
+      "path": "style/properties/vendored_python/markupsafe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d14f597e3276e5636321f914e68a6a43b71a4b9",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/6d14f597e3276e5636321f914e68a6a43b71a4b9"
+    },
+    {
+      "path": "style/properties/vendored_python/markupsafe/LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e270514adb33ed964d04d67cb0f2e594f375cc3a",
+      "size": 1474,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e270514adb33ed964d04d67cb0f2e594f375cc3a"
+    },
+    {
+      "path": "style/properties/vendored_python/markupsafe/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf187d55ea7de223bc4550894d6c98770a3e54c",
+      "size": 13098,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8bf187d55ea7de223bc4550894d6c98770a3e54c"
+    },
+    {
+      "path": "style/properties/vendored_python/toml-0.10.2-py2.py3-none-any.whl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb8dcbd80a84a5a7f046c25922fa06d5b3763e8",
+      "size": 16588,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2cb8dcbd80a84a5a7f046c25922fa06d5b3763e8"
+    },
+    {
+      "path": "style/properties/view_transition_descriptors.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106d9c7db37164c22bac5bdcfa92781d055b7c0f",
+      "size": 320,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/106d9c7db37164c22bac5bdcfa92781d055b7c0f"
+    },
+    {
+      "path": "style/properties_and_values",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b341fe7288862f9c1e25e757b1d5c3174db3e401",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/b341fe7288862f9c1e25e757b1d5c3174db3e401"
+    },
+    {
+      "path": "style/properties_and_values/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b5e219d595f000f3a73a698a61e18f7e255eb05",
+      "size": 365,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5b5e219d595f000f3a73a698a61e18f7e255eb05"
+    },
+    {
+      "path": "style/properties_and_values/registry.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46fbcecd833fff7dc743a6bd2d2ba0d8c558a9b9",
+      "size": 2549,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/46fbcecd833fff7dc743a6bd2d2ba0d8c558a9b9"
+    },
+    {
+      "path": "style/properties_and_values/rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62531774908a028f674f6cfa7c580e0c3b3ccafe",
+      "size": 12340,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/62531774908a028f674f6cfa7c580e0c3b3ccafe"
+    },
+    {
+      "path": "style/properties_and_values/syntax",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e81a9338e1a26785b51a4e6d9ce9b3399d89599",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/5e81a9338e1a26785b51a4e6d9ce9b3399d89599"
+    },
+    {
+      "path": "style/properties_and_values/syntax/ascii.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a1b08535b1c47402e2fe7cdc32d2adddbb4e21",
+      "size": 1527,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e1a1b08535b1c47402e2fe7cdc32d2adddbb4e21"
+    },
+    {
+      "path": "style/properties_and_values/syntax/data_type.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a68a328296f419b6589c0c2a8e6a5cd67bc70c53",
+      "size": 5242,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a68a328296f419b6589c0c2a8e6a5cd67bc70c53"
+    },
+    {
+      "path": "style/properties_and_values/syntax/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c104757145daeab6687af0a18605de5747be5510",
+      "size": 14033,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c104757145daeab6687af0a18605de5747be5510"
+    },
+    {
+      "path": "style/properties_and_values/value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33c558e0fdf9d8e941f161c51ba627189da195e",
+      "size": 27185,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b33c558e0fdf9d8e941f161c51ba627189da195e"
+    },
+    {
+      "path": "style/queries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e193f58b1a2d3f3bb0bd155af318a73fdf4aeb58",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/e193f58b1a2d3f3bb0bd155af318a73fdf4aeb58"
+    },
+    {
+      "path": "style/queries/condition.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0fdd4ee019905c5cf18fa29890cf0a46852140",
+      "size": 35675,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ac0fdd4ee019905c5cf18fa29890cf0a46852140"
+    },
+    {
+      "path": "style/queries/feature.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb8656bc51044343c8ce42892d03178edd2dff1",
+      "size": 7376,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/beb8656bc51044343c8ce42892d03178edd2dff1"
+    },
+    {
+      "path": "style/queries/feature_expression.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1519c1993d3f3c689aac423f430a53efe92aa009",
+      "size": 42868,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1519c1993d3f3c689aac423f430a53efe92aa009"
+    },
+    {
+      "path": "style/queries/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b608ba485262c82cc5e6fa81675dfeba4b9b955",
+      "size": 662,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5b608ba485262c82cc5e6fa81675dfeba4b9b955"
+    },
+    {
+      "path": "style/queries/values.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b16d76f35eabb6a39739d4b163a2b90ec18fdd",
+      "size": 1400,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/98b16d76f35eabb6a39739d4b163a2b90ec18fdd"
+    },
+    {
+      "path": "style/rule_cache.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fb01f02fd418b6cb13fb42a2bb5378e01b3234",
+      "size": 9048,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/44fb01f02fd418b6cb13fb42a2bb5378e01b3234"
+    },
+    {
+      "path": "style/rule_collector.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe11570eb041d96b3012d62bf04c07c1010dbe91",
+      "size": 19860,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fe11570eb041d96b3012d62bf04c07c1010dbe91"
+    },
+    {
+      "path": "style/rule_tree",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "337c6de9fab9d7acf1e442b974cf57ddf3f049f2",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/337c6de9fab9d7acf1e442b974cf57ddf3f049f2"
+    },
+    {
+      "path": "style/rule_tree/core.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590108313959b2f811f2fff4fe635aa2ecea80c0",
+      "size": 28132,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/590108313959b2f811f2fff4fe635aa2ecea80c0"
+    },
+    {
+      "path": "style/rule_tree/level.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adbebd717b45c27a4a643b7bfef4ee8e36376b94",
+      "size": 12187,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/adbebd717b45c27a4a643b7bfef4ee8e36376b94"
+    },
+    {
+      "path": "style/rule_tree/map.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aeb3bd3bfd2ca4e65849728afd8cdb42e96c620",
+      "size": 6120,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7aeb3bd3bfd2ca4e65849728afd8cdb42e96c620"
+    },
+    {
+      "path": "style/rule_tree/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f615dd9d4a7fbfe5d3a91a60f26904d4732dd530",
+      "size": 17065,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f615dd9d4a7fbfe5d3a91a60f26904d4732dd530"
+    },
+    {
+      "path": "style/rule_tree/source.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084939fbc65004661ed9f1694e1ff09202c5988d",
+      "size": 2757,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/084939fbc65004661ed9f1694e1ff09202c5988d"
+    },
+    {
+      "path": "style/rule_tree/unsafe_box.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa441d7b25395604bf658846a7a39c48cc911c5",
+      "size": 1970,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/eaa441d7b25395604bf658846a7a39c48cc911c5"
+    },
+    {
+      "path": "style/scoped_tls.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6931a2bed8b72d3659576f244394e7f845b81191",
+      "size": 2973,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6931a2bed8b72d3659576f244394e7f845b81191"
+    },
+    {
+      "path": "style/selector_map.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba1804f4bdae9ca6eb84badcdb2b211c4d797ac0",
+      "size": 29476,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ba1804f4bdae9ca6eb84badcdb2b211c4d797ac0"
+    },
+    {
+      "path": "style/selector_parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e7d34323adbe953b33ff9de2d512ba0391be96",
+      "size": 10056,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d0e7d34323adbe953b33ff9de2d512ba0391be96"
+    },
+    {
+      "path": "style/servo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f70ebcf9ae2514a0a260bd1427c81f2e7883d5d1",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/f70ebcf9ae2514a0a260bd1427c81f2e7883d5d1"
+    },
+    {
+      "path": "style/servo/animation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f3d0066e935fad6d15f67b67023827a517acf3",
+      "size": 76413,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/55f3d0066e935fad6d15f67b67023827a517acf3"
+    },
+    {
+      "path": "style/servo/attr.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6322b42ae2641a5c0f47d2de5d9822bb04849285",
+      "size": 22262,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6322b42ae2641a5c0f47d2de5d9822bb04849285"
+    },
+    {
+      "path": "style/servo/encoding_support.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0429f4cd06cda8210939fdc4ff4cd3e4d9a4825",
+      "size": 2662,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c0429f4cd06cda8210939fdc4ff4cd3e4d9a4825"
+    },
+    {
+      "path": "style/servo/media_features.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5a77e82a6f877bbf225bb93b6531885c323a27",
+      "size": 8150,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9e5a77e82a6f877bbf225bb93b6531885c323a27"
+    },
+    {
+      "path": "style/servo/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173cad72f32234831436d8d19f6370593915975a",
+      "size": 480,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/173cad72f32234831436d8d19f6370593915975a"
+    },
+    {
+      "path": "style/servo/restyle_damage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4aaec6426e00aac1ad90e2a72ba6deeb8a0766",
+      "size": 8440,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dc4aaec6426e00aac1ad90e2a72ba6deeb8a0766"
+    },
+    {
+      "path": "style/servo/selector_parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d60ca1c2f0b0aedab8a1a609826defa9480230",
+      "size": 35080,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e2d60ca1c2f0b0aedab8a1a609826defa9480230"
+    },
+    {
+      "path": "style/servo/shadow_parts.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ab185f8c77682c366ac89e72dc1e8a381000bb",
+      "size": 7500,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/13ab185f8c77682c366ac89e72dc1e8a381000bb"
+    },
+    {
+      "path": "style/shared_lock.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af9998431522014f015d6191df9e04ce81a8830",
+      "size": 8741,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1af9998431522014f015d6191df9e04ce81a8830"
+    },
+    {
+      "path": "style/sharing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf732e86c54bbbffcf94a6276acd67c96a623cc7",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/cf732e86c54bbbffcf94a6276acd67c96a623cc7"
+    },
+    {
+      "path": "style/sharing/checks.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9546fe713aa693b0cec47627d5d015528bbd4b67",
+      "size": 8688,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9546fe713aa693b0cec47627d5d015528bbd4b67"
+    },
+    {
+      "path": "style/sharing/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5e3d664c0c860918bb65911e7ee552cabf8d64c",
+      "size": 36927,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e5e3d664c0c860918bb65911e7ee552cabf8d64c"
+    },
+    {
+      "path": "style/simple_buckets_map.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07fbbfaf41ea9b82752d58eeaa959c19953f625a",
+      "size": 1759,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/07fbbfaf41ea9b82752d58eeaa959c19953f625a"
+    },
+    {
+      "path": "style/str.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a31662b75e979bed4ffb19aeaeb5abbd44ddf51",
+      "size": 4716,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8a31662b75e979bed4ffb19aeaeb5abbd44ddf51"
+    },
+    {
+      "path": "style/style_adjuster.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71d6b14fe81b18a56c371962ce77113c1d4770fc",
+      "size": 42204,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/71d6b14fe81b18a56c371962ce77113c1d4770fc"
+    },
+    {
+      "path": "style/style_resolver.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3306b2b19926626e49769dfc20351949331eb918",
+      "size": 21268,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3306b2b19926626e49769dfc20351949331eb918"
+    },
+    {
+      "path": "style/stylesheet_set.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9714c7da1027a111af6fdd4c97d6cefa649ef151",
+      "size": 21502,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9714c7da1027a111af6fdd4c97d6cefa649ef151"
+    },
+    {
+      "path": "style/stylesheets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3600feb9e02ba073dbf19937db35a8e773580af8",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/3600feb9e02ba073dbf19937db35a8e773580af8"
+    },
+    {
+      "path": "style/stylesheets/appearance_base_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b4359f76080c86450053bf0ddc171d4a4518dc",
+      "size": 1922,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/93b4359f76080c86450053bf0ddc171d4a4518dc"
+    },
+    {
+      "path": "style/stylesheets/container_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ade00b4afeca43e6b917c4d228eb62f2f16e4b",
+      "size": 24168,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e7ade00b4afeca43e6b917c4d228eb62f2f16e4b"
+    },
+    {
+      "path": "style/stylesheets/counter_style_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab31822e5ef5b75171afd0d7147694ae136b738",
+      "size": 280,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/bab31822e5ef5b75171afd0d7147694ae136b738"
+    },
+    {
+      "path": "style/stylesheets/document_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64cfdd9af75af816615630c4c844a821f2c840e",
+      "size": 11149,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a64cfdd9af75af816615630c4c844a821f2c840e"
+    },
+    {
+      "path": "style/stylesheets/font_face_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8bfdc81af9255e7504d7b484cdfd7c34bc4b82f",
+      "size": 272,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c8bfdc81af9255e7504d7b484cdfd7c34bc4b82f"
+    },
+    {
+      "path": "style/stylesheets/font_feature_values_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50ba6d978bd5b29230bb1b8c926c49a1b060af4",
+      "size": 18328,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b50ba6d978bd5b29230bb1b8c926c49a1b060af4"
+    },
+    {
+      "path": "style/stylesheets/font_palette_values_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e8468a41801242f13604d41d85498f31681d650",
+      "size": 11232,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3e8468a41801242f13604d41d85498f31681d650"
+    },
+    {
+      "path": "style/stylesheets/import_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed29a48da8db8c0e88dad4bead1d9b80e73b251",
+      "size": 8531,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6ed29a48da8db8c0e88dad4bead1d9b80e73b251"
+    },
+    {
+      "path": "style/stylesheets/keyframes_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66e08b8e849697b6bfb7476b1b9176948852bc2",
+      "size": 24368,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f66e08b8e849697b6bfb7476b1b9176948852bc2"
+    },
+    {
+      "path": "style/stylesheets/layer_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d89baf10b58decdc16429e43a4cf874170fcd52",
+      "size": 7033,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5d89baf10b58decdc16429e43a4cf874170fcd52"
+    },
+    {
+      "path": "style/stylesheets/loader.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c0777ef9168554bc04eb5644e0b0574aa5da42",
+      "size": 1094,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b6c0777ef9168554bc04eb5644e0b0574aa5da42"
+    },
+    {
+      "path": "style/stylesheets/margin_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34084f573a20de699934314dab827d3616a32322",
+      "size": 7195,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/34084f573a20de699934314dab827d3616a32322"
+    },
+    {
+      "path": "style/stylesheets/media_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e105fe1386929b1e202a7abe11b093342080141",
+      "size": 7137,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3e105fe1386929b1e202a7abe11b093342080141"
+    },
+    {
+      "path": "style/stylesheets/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88d4c23583ce200e2e3aac5af72c535b81e45481",
+      "size": 36280,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/88d4c23583ce200e2e3aac5af72c535b81e45481"
+    },
+    {
+      "path": "style/stylesheets/namespace_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad69b57327fc9caec545af61b51debfcc4645e75",
+      "size": 1440,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ad69b57327fc9caec545af61b51debfcc4645e75"
+    },
+    {
+      "path": "style/stylesheets/nested_declarations_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266488a5846fe7b9d5644f94e0f2902a8849426f",
+      "size": 1763,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/266488a5846fe7b9d5644f94e0f2902a8849426f"
+    },
+    {
+      "path": "style/stylesheets/origin.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6c4f3e6b7d87e3ac9802045e13c6c58fef2778",
+      "size": 7020,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ba6c4f3e6b7d87e3ac9802045e13c6c58fef2778"
+    },
+    {
+      "path": "style/stylesheets/page_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "574a7129e34fd3012db60694b05fbe28dbbe8180",
+      "size": 12792,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/574a7129e34fd3012db60694b05fbe28dbbe8180"
+    },
+    {
+      "path": "style/stylesheets/position_try_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f88aaf46615c5f475a099e37ef7d7d1003616e",
+      "size": 2346,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/76f88aaf46615c5f475a099e37ef7d7d1003616e"
+    },
+    {
+      "path": "style/stylesheets/property_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe32050bfa3ecc3daf0c5d5b6f87aaca6fc9df3",
+      "size": 293,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/abe32050bfa3ecc3daf0c5d5b6f87aaca6fc9df3"
+    },
+    {
+      "path": "style/stylesheets/rule_list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637417352353c3d13e39e80a9ba3dcf3089b4df7",
+      "size": 5222,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/637417352353c3d13e39e80a9ba3dcf3089b4df7"
+    },
+    {
+      "path": "style/stylesheets/rule_parser.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "149efa7735b4e47d2b3fef7d63811cad67b04cef",
+      "size": 45320,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/149efa7735b4e47d2b3fef7d63811cad67b04cef"
+    },
+    {
+      "path": "style/stylesheets/rules_iterator.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e274e614eb7c5b54ce28e0cb73d1db40599097d",
+      "size": 12191,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4e274e614eb7c5b54ce28e0cb73d1db40599097d"
+    },
+    {
+      "path": "style/stylesheets/scope_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2328e756918c45b86f9ba92ae25cf61e2f5442af",
+      "size": 17221,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2328e756918c45b86f9ba92ae25cf61e2f5442af"
+    },
+    {
+      "path": "style/stylesheets/starting_style_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f72b35b2a112acfb4d3671a01b4c7b47f404afa",
+      "size": 2095,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4f72b35b2a112acfb4d3671a01b4c7b47f404afa"
+    },
+    {
+      "path": "style/stylesheets/style_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b3bfc10b7569983588fb71bf12cbaa914ce8b8",
+      "size": 2927,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/74b3bfc10b7569983588fb71bf12cbaa914ce8b8"
+    },
+    {
+      "path": "style/stylesheets/stylesheet.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59430bf681dd28644b1088464b19745daa4ccae0",
+      "size": 19095,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/59430bf681dd28644b1088464b19745daa4ccae0"
+    },
+    {
+      "path": "style/stylesheets/supports_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45281a2c84604d196bbdfe080b9261d12fbea6a4",
+      "size": 15068,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/45281a2c84604d196bbdfe080b9261d12fbea6a4"
+    },
+    {
+      "path": "style/stylesheets/view_transition_rule.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d239ba298165bc56c730a893dc5093f335904a",
+      "size": 2973,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f0d239ba298165bc56c730a893dc5093f335904a"
+    },
+    {
+      "path": "style/stylist.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0839f3915f3fe991b864939e38721079f291ce22",
+      "size": 187207,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0839f3915f3fe991b864939e38721079f291ce22"
+    },
+    {
+      "path": "style/thread_state.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832f81f18e6904fc6941169e1db9349dbfa6e83e",
+      "size": 2782,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/832f81f18e6904fc6941169e1db9349dbfa6e83e"
+    },
+    {
+      "path": "style/traversal.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e073776a9f03b93224794e2a12338fe802ffd28b",
+      "size": 28608,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e073776a9f03b93224794e2a12338fe802ffd28b"
+    },
+    {
+      "path": "style/traversal_flags.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54972043fdf810ff4b53933e86feaf9d85c20b03",
+      "size": 2827,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/54972043fdf810ff4b53933e86feaf9d85c20b03"
+    },
+    {
+      "path": "style/typed_om",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7ceff48256f021372c7ff2b9f72e748c8554c6",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/fc7ceff48256f021372c7ff2b9f72e748c8554c6"
+    },
+    {
+      "path": "style/typed_om/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edb3486455d246ca14f16ae572c0bb6914308d1",
+      "size": 28006,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8edb3486455d246ca14f16ae572c0bb6914308d1"
+    },
+    {
+      "path": "style/typed_om/numeric.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249bff25934e99bf9f580bfd08c436f0163e2795",
+      "size": 4178,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/249bff25934e99bf9f580bfd08c436f0163e2795"
+    },
+    {
+      "path": "style/typed_om/numeric_declaration.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8296bd6f17a0891801c7d320f8bfcacc8f891618",
+      "size": 3557,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8296bd6f17a0891801c7d320f8bfcacc8f891618"
+    },
+    {
+      "path": "style/typed_om/numeric_type.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0afec9e7cdfab3fa8104e0cd8ff78e90ffcc702",
+      "size": 17766,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e0afec9e7cdfab3fa8104e0cd8ff78e90ffcc702"
+    },
+    {
+      "path": "style/typed_om/sum_value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6319048a2c503935cebd749fe87a1b54120410",
+      "size": 13873,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ef6319048a2c503935cebd749fe87a1b54120410"
+    },
+    {
+      "path": "style/url",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8501d92a8029e71dff2c0b06fd61699b30098bed",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/8501d92a8029e71dff2c0b06fd61699b30098bed"
+    },
+    {
+      "path": "style/url/gecko.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0dbddc8beb6f2724aef816c6f5f7a7d879f96a0",
+      "size": 11422,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a0dbddc8beb6f2724aef816c6f5f7a7d879f96a0"
+    },
+    {
+      "path": "style/url/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f060107bd6067023a8a539c36e737fff121a910",
+      "size": 2930,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6f060107bd6067023a8a539c36e737fff121a910"
+    },
+    {
+      "path": "style/url/servo.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350e1479e8f8086f39c77cc0d0d3be8e1c547be7",
+      "size": 7870,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/350e1479e8f8086f39c77cc0d0d3be8e1c547be7"
+    },
+    {
+      "path": "style/use_counters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "280060ae1586df21da1b5389958d01e12285d6c3",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/280060ae1586df21da1b5389958d01e12285d6c3"
+    },
+    {
+      "path": "style/use_counters/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4295508bbb760dfa308d05ba46f240002852eafe",
+      "size": 4505,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4295508bbb760dfa308d05ba46f240002852eafe"
+    },
+    {
+      "path": "style/values",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "101a4d296e5553d02e118624f1dca5cf7e91ce3d",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/101a4d296e5553d02e118624f1dca5cf7e91ce3d"
+    },
+    {
+      "path": "style/values/animated",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8697260d648849728a2d5bb9246117295fd6e5bd",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/8697260d648849728a2d5bb9246117295fd6e5bd"
+    },
+    {
+      "path": "style/values/animated/color.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412befd9c011282618051d5d132d6255daf13e88",
+      "size": 3393,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/412befd9c011282618051d5d132d6255daf13e88"
+    },
+    {
+      "path": "style/values/animated/effects.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03a32af167dcaf70f93f7bfb4ad3a1d831ec04da",
+      "size": 1176,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/03a32af167dcaf70f93f7bfb4ad3a1d831ec04da"
+    },
+    {
+      "path": "style/values/animated/font.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c7168763091867d6f5a5a7abe18a0a8b7a526d",
+      "size": 1395,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d1c7168763091867d6f5a5a7abe18a0a8b7a526d"
+    },
+    {
+      "path": "style/values/animated/grid.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04f1a2fcaa54baad9c4c66a7e3934fb197af9830",
+      "size": 6893,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/04f1a2fcaa54baad9c4c66a7e3934fb197af9830"
+    },
+    {
+      "path": "style/values/animated/lists.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3898c4971935a9106ad9781abfaf8f3a8d6581",
+      "size": 4682,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8b3898c4971935a9106ad9781abfaf8f3a8d6581"
+    },
+    {
+      "path": "style/values/animated/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c052c0e8c364374ea5b26bc6172f398de5d997ad",
+      "size": 16795,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c052c0e8c364374ea5b26bc6172f398de5d997ad"
+    },
+    {
+      "path": "style/values/animated/svg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04e35098adba5bcfead56b6f710965446d1b4157",
+      "size": 1613,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/04e35098adba5bcfead56b6f710965446d1b4157"
+    },
+    {
+      "path": "style/values/animated/text.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2022691cd95cd0aafefe3f09f0bc400917af1306",
+      "size": 2024,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2022691cd95cd0aafefe3f09f0bc400917af1306"
+    },
+    {
+      "path": "style/values/animated/transform.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ab1d8dbef1ef5adc27c2986862202202823c87",
+      "size": 69743,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/37ab1d8dbef1ef5adc27c2986862202202823c87"
+    },
+    {
+      "path": "style/values/computed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a588751a97e1c857ff337c773a397604a27ad1d",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/7a588751a97e1c857ff337c773a397604a27ad1d"
+    },
+    {
+      "path": "style/values/computed/align.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8275344651e4d99c4a01832cf660b6d9c9461ee",
+      "size": 3288,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f8275344651e4d99c4a01832cf660b6d9c9461ee"
+    },
+    {
+      "path": "style/values/computed/angle.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dac52c7436e5be24191dae89d7c0a23bd9de8619",
+      "size": 3269,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dac52c7436e5be24191dae89d7c0a23bd9de8619"
+    },
+    {
+      "path": "style/values/computed/animation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "158649c89f68371f9cd46c5d9ff0c64c959c8573",
+      "size": 4110,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/158649c89f68371f9cd46c5d9ff0c64c959c8573"
+    },
+    {
+      "path": "style/values/computed/background.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9af136e1651826cd2fb29ef223b75c4fb7a921",
+      "size": 633,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/cb9af136e1651826cd2fb29ef223b75c4fb7a921"
+    },
+    {
+      "path": "style/values/computed/basic_shape.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46481e6ede4361e7f318cf7ba50ce7f3cd3ac36e",
+      "size": 10076,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/46481e6ede4361e7f318cf7ba50ce7f3cd3ac36e"
+    },
+    {
+      "path": "style/values/computed/border.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "765b642a4b61f6032030a79ad593ce93dd1ceae2",
+      "size": 5354,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/765b642a4b61f6032030a79ad593ce93dd1ceae2"
+    },
+    {
+      "path": "style/values/computed/box.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2443c500a27488a97bdd10f1ecd409c22148be77",
+      "size": 7969,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2443c500a27488a97bdd10f1ecd409c22148be77"
+    },
+    {
+      "path": "style/values/computed/calc.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f054d1cadf75827071bbba5630e21d5bb8a644",
+      "size": 9578,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/16f054d1cadf75827071bbba5630e21d5bb8a644"
+    },
+    {
+      "path": "style/values/computed/color.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832baefd6b9735e5cdbbcceae505346044626e70",
+      "size": 5268,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/832baefd6b9735e5cdbbcceae505346044626e70"
+    },
+    {
+      "path": "style/values/computed/column.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d473119153e62ba292dacde77359299d6a8f5d7f",
+      "size": 465,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d473119153e62ba292dacde77359299d6a8f5d7f"
+    },
+    {
+      "path": "style/values/computed/corner_shape.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822ea9e356f32d79ef71116e6ffd6552cea069ca",
+      "size": 4301,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/822ea9e356f32d79ef71116e6ffd6552cea069ca"
+    },
+    {
+      "path": "style/values/computed/counters.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd5e915c4a8c2af9033b487a5cd9034b38051ccb",
+      "size": 1093,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/fd5e915c4a8c2af9033b487a5cd9034b38051ccb"
+    },
+    {
+      "path": "style/values/computed/easing.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f3f218879fa33a6884fe6c70f412606818e65d",
+      "size": 4476,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/07f3f218879fa33a6884fe6c70f412606818e65d"
+    },
+    {
+      "path": "style/values/computed/effects.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa92bbb4ee1007d7517beff21972f40e713e8ee",
+      "size": 1352,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8aa92bbb4ee1007d7517beff21972f40e713e8ee"
+    },
+    {
+      "path": "style/values/computed/flex.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c497ecf63ae98cc60a410e0feae982a40e5f6f",
+      "size": 589,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/95c497ecf63ae98cc60a410e0feae982a40e5f6f"
+    },
+    {
+      "path": "style/values/computed/font.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabd9bd694edd4e23d7b4b1fee88839832888cc3",
+      "size": 47929,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dabd9bd694edd4e23d7b4b1fee88839832888cc3"
+    },
+    {
+      "path": "style/values/computed/image.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085d9a60fb6e5ddadf8ac59890a98842f2809a1f",
+      "size": 10745,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/085d9a60fb6e5ddadf8ac59890a98842f2809a1f"
+    },
+    {
+      "path": "style/values/computed/length.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2869f2b4c7a480b2ff938536886eca5775f0bdf4",
+      "size": 16286,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2869f2b4c7a480b2ff938536886eca5775f0bdf4"
+    },
+    {
+      "path": "style/values/computed/length_percentage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f45a7e14c8a9333ba2a77b9edf1571769a83b6d",
+      "size": 36098,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1f45a7e14c8a9333ba2a77b9edf1571769a83b6d"
+    },
+    {
+      "path": "style/values/computed/list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4426dc7dcee6d2f14cf8109eb1f9a161f370ae39",
+      "size": 476,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4426dc7dcee6d2f14cf8109eb1f9a161f370ae39"
+    },
+    {
+      "path": "style/values/computed/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c2086a5c4332563775b8e9bfb31738eafb4339",
+      "size": 39136,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/53c2086a5c4332563775b8e9bfb31738eafb4339"
+    },
+    {
+      "path": "style/values/computed/motion.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13196cfe11281e079aac1bb17b04d39c5547bf49",
+      "size": 2126,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/13196cfe11281e079aac1bb17b04d39c5547bf49"
+    },
+    {
+      "path": "style/values/computed/outline.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f872176529f5b5a665970565b96fc7534b8fb657",
+      "size": 299,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f872176529f5b5a665970565b96fc7534b8fb657"
+    },
+    {
+      "path": "style/values/computed/page.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e55f3f0ced8091ae1a63107a427b75f5e1d8b8",
+      "size": 2756,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f7e55f3f0ced8091ae1a63107a427b75f5e1d8b8"
+    },
+    {
+      "path": "style/values/computed/param.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d8e0f0fb0792484d535f37f0a460fdfd970b70",
+      "size": 395,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/24d8e0f0fb0792484d535f37f0a460fdfd970b70"
+    },
+    {
+      "path": "style/values/computed/percentage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19cccbae3e281968d4cb4486800dca56369379ad",
+      "size": 2801,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/19cccbae3e281968d4cb4486800dca56369379ad"
+    },
+    {
+      "path": "style/values/computed/position.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c47ebcfc8bf533df5f5ad81e7979f9242523e614",
+      "size": 9993,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c47ebcfc8bf533df5f5ad81e7979f9242523e614"
+    },
+    {
+      "path": "style/values/computed/ratio.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2248a63a1aa893e022163f8bad8e2c85c9b6fc7",
+      "size": 3470,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e2248a63a1aa893e022163f8bad8e2c85c9b6fc7"
+    },
+    {
+      "path": "style/values/computed/rect.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c9f3a14d2de651c1c6d32112524d56269e513c",
+      "size": 717,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a8c9f3a14d2de651c1c6d32112524d56269e513c"
+    },
+    {
+      "path": "style/values/computed/resolution.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4635180f7683b1097310ab84699cd29c0bfd279d",
+      "size": 1776,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4635180f7683b1097310ab84699cd29c0bfd279d"
+    },
+    {
+      "path": "style/values/computed/svg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7bb772360e6892933218f950cf070beb2123a68",
+      "size": 2097,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c7bb772360e6892933218f950cf070beb2123a68"
+    },
+    {
+      "path": "style/values/computed/table.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47109e20ecac1f727cf9864140aebe2de39ede80",
+      "size": 307,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/47109e20ecac1f727cf9864140aebe2de39ede80"
+    },
+    {
+      "path": "style/values/computed/text.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770ceee9c275ab4b357b071c9da6ae68ec85c72b",
+      "size": 7105,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/770ceee9c275ab4b357b071c9da6ae68ec85c72b"
+    },
+    {
+      "path": "style/values/computed/time.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07340ce19674e00732207e81c2ed38d84a22e37",
+      "size": 1859,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a07340ce19674e00732207e81c2ed38d84a22e37"
+    },
+    {
+      "path": "style/values/computed/transform.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00e78d464ae615fa957eded9754c77556a05dc8",
+      "size": 23514,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d00e78d464ae615fa957eded9754c77556a05dc8"
+    },
+    {
+      "path": "style/values/computed/tree_counting.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9163159e90507d129be94a4bcaedd40422d07c51",
+      "size": 1039,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9163159e90507d129be94a4bcaedd40422d07c51"
+    },
+    {
+      "path": "style/values/computed/ui.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a16b1793c179d1f1a7d51b812e13c450c8d6fbdd",
+      "size": 886,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a16b1793c179d1f1a7d51b812e13c450c8d6fbdd"
+    },
+    {
+      "path": "style/values/computed/url.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e9b80e6fbb9a7922f8127fa7b569c9d721eb4f",
+      "size": 449,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/75e9b80e6fbb9a7922f8127fa7b569c9d721eb4f"
+    },
+    {
+      "path": "style/values/distance.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db2abb0aa7165fb796802aa3f76edf2f4787926b",
+      "size": 4234,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/db2abb0aa7165fb796802aa3f76edf2f4787926b"
+    },
+    {
+      "path": "style/values/generics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "855e1d5a955ab59cc5e3789f0fe500072a23146f",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/855e1d5a955ab59cc5e3789f0fe500072a23146f"
+    },
+    {
+      "path": "style/values/generics/animation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ddb7957ff03f6c96591cb4b5d4681be4c2379a",
+      "size": 10121,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/56ddb7957ff03f6c96591cb4b5d4681be4c2379a"
+    },
+    {
+      "path": "style/values/generics/background.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9795bfb6eee2b1f61bd780acebac4cc837016f76",
+      "size": 1802,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9795bfb6eee2b1f61bd780acebac4cc837016f76"
+    },
+    {
+      "path": "style/values/generics/basic_shape.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6449f80f033b1c483f8e1833800f96b39cdc5a83",
+      "size": 36530,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6449f80f033b1c483f8e1833800f96b39cdc5a83"
+    },
+    {
+      "path": "style/values/generics/border.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c599c8b2156a511f48c5d9a9159c94bc7556e589",
+      "size": 7379,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c599c8b2156a511f48c5d9a9159c94bc7556e589"
+    },
+    {
+      "path": "style/values/generics/box.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55470a6a3a7a238be10fe1b1cd4593ac04e9df99",
+      "size": 7919,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/55470a6a3a7a238be10fe1b1cd4593ac04e9df99"
+    },
+    {
+      "path": "style/values/generics/calc.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1066efa0ac62a821e27d258a311f1219d54d025",
+      "size": 110964,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f1066efa0ac62a821e27d258a311f1219d54d025"
+    },
+    {
+      "path": "style/values/generics/color.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373b91027abd22b195972c2264db56e727ce3d62",
+      "size": 9285,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/373b91027abd22b195972c2264db56e727ce3d62"
+    },
+    {
+      "path": "style/values/generics/column.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a49356c9ccdce18d8bc474cedd12fd114d550cc",
+      "size": 1027,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5a49356c9ccdce18d8bc474cedd12fd114d550cc"
+    },
+    {
+      "path": "style/values/generics/counters.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f8ce578197a0b6a11e17fcdb2383d47be6264e5",
+      "size": 7591,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2f8ce578197a0b6a11e17fcdb2383d47be6264e5"
+    },
+    {
+      "path": "style/values/generics/easing.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca849dccc8b872092c521df4d5035e69b6b98e84",
+      "size": 2924,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ca849dccc8b872092c521df4d5035e69b6b98e84"
+    },
+    {
+      "path": "style/values/generics/effects.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9239edff8ae90ab25920db07b13e4b26b16399e7",
+      "size": 3382,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9239edff8ae90ab25920db07b13e4b26b16399e7"
+    },
+    {
+      "path": "style/values/generics/flex.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d10ec9fa65ea0904f7be5769b4fb3baeb40713",
+      "size": 750,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/77d10ec9fa65ea0904f7be5769b4fb3baeb40713"
+    },
+    {
+      "path": "style/values/generics/font.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fddafdff6ed77a2a7a44db35f8da6fd8833a092",
+      "size": 9188,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4fddafdff6ed77a2a7a44db35f8da6fd8833a092"
+    },
+    {
+      "path": "style/values/generics/grid.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "165a8239bd9ff09869fab677e77cbb548c54df9e",
+      "size": 28393,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/165a8239bd9ff09869fab677e77cbb548c54df9e"
+    },
+    {
+      "path": "style/values/generics/image.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4098f09e6942c959ee6029d1121af2b49622970",
+      "size": 20965,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b4098f09e6942c959ee6029d1121af2b49622970"
+    },
+    {
+      "path": "style/values/generics/length.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd43984e2ac6988e10a8ee69ee4f856e960d4bcc",
+      "size": 18327,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/bd43984e2ac6988e10a8ee69ee4f856e960d4bcc"
+    },
+    {
+      "path": "style/values/generics/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d678eb3f065b864a52cef1e4e00db1c8e39866",
+      "size": 6334,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c7d678eb3f065b864a52cef1e4e00db1c8e39866"
+    },
+    {
+      "path": "style/values/generics/motion.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a88b82124555bbf22163052a09d8112c1e21fadb",
+      "size": 7433,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a88b82124555bbf22163052a09d8112c1e21fadb"
+    },
+    {
+      "path": "style/values/generics/page.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe629f613d7e550eb3f9f2f6a2b0ccd939b1d85",
+      "size": 4566,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/dfe629f613d7e550eb3f9f2f6a2b0ccd939b1d85"
+    },
+    {
+      "path": "style/values/generics/position.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7b4d257a1c203188a35aba127a578b1ad1bd5a9",
+      "size": 17409,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c7b4d257a1c203188a35aba127a578b1ad1bd5a9"
+    },
+    {
+      "path": "style/values/generics/ratio.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da7fa6c93e2939fbb4490f02a00af8545c8fbaa",
+      "size": 2231,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6da7fa6c93e2939fbb4490f02a00af8545c8fbaa"
+    },
+    {
+      "path": "style/values/generics/rect.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241ec5fb868b028d66e08ad9fc462b71c772df8f",
+      "size": 4467,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/241ec5fb868b028d66e08ad9fc462b71c772df8f"
+    },
+    {
+      "path": "style/values/generics/size.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b190b32818b8afdef05664d27639edf46a9d2e0",
+      "size": 2392,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4b190b32818b8afdef05664d27639edf46a9d2e0"
+    },
+    {
+      "path": "style/values/generics/svg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e37d329df16b5636ee14e46bf9f8fe04f22ddf7",
+      "size": 5092,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2e37d329df16b5636ee14e46bf9f8fe04f22ddf7"
+    },
+    {
+      "path": "style/values/generics/text.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e3464e5da30423f9a628ebd8bb6a68956c597",
+      "size": 6420,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/412e3464e5da30423f9a628ebd8bb6a68956c597"
+    },
+    {
+      "path": "style/values/generics/transform.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56cf9709ac6d2dd8f1cc67b6cfc2feae148772b7",
+      "size": 39504,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/56cf9709ac6d2dd8f1cc67b6cfc2feae148772b7"
+    },
+    {
+      "path": "style/values/generics/ui.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456be7d241655ba82e66f152eb00cfa6be03b533",
+      "size": 3755,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/456be7d241655ba82e66f152eb00cfa6be03b533"
+    },
+    {
+      "path": "style/values/generics/url.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b484b37c36e79dd017e7106c37a6a93dca92fb95",
+      "size": 1129,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b484b37c36e79dd017e7106c37a6a93dca92fb95"
+    },
+    {
+      "path": "style/values/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5a3a7b45fc88eed8309c1ab0f2e1e5a8078143",
+      "size": 20986,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ec5a3a7b45fc88eed8309c1ab0f2e1e5a8078143"
+    },
+    {
+      "path": "style/values/resolved",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09eb9da92301ba7990c0a285c09797172475906e",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/09eb9da92301ba7990c0a285c09797172475906e"
+    },
+    {
+      "path": "style/values/resolved/animation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b45c6fd4b5143bce4d136b2e4128ab71c6ffdf6a",
+      "size": 1226,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b45c6fd4b5143bce4d136b2e4128ab71c6ffdf6a"
+    },
+    {
+      "path": "style/values/resolved/color.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfbc99b26423d583ba7ea5527eb21ff079d2e0a",
+      "size": 1776,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/cbfbc99b26423d583ba7ea5527eb21ff079d2e0a"
+    },
+    {
+      "path": "style/values/resolved/counters.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc91aa608dc9d0e1397d4d7e3edffc4d75a3a12",
+      "size": 1768,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1bc91aa608dc9d0e1397d4d7e3edffc4d75a3a12"
+    },
+    {
+      "path": "style/values/resolved/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9fe49599c0dbdb7394eae651d13aa8c498cd940",
+      "size": 9344,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e9fe49599c0dbdb7394eae651d13aa8c498cd940"
+    },
+    {
+      "path": "style/values/specified",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "233962a41980d05ba36d3599011b3d9616d17b2e",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/233962a41980d05ba36d3599011b3d9616d17b2e"
+    },
+    {
+      "path": "style/values/specified/align.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41886abf78d42d4fbadf8f0509fa0577a774396",
+      "size": 21883,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b41886abf78d42d4fbadf8f0509fa0577a774396"
+    },
+    {
+      "path": "style/values/specified/angle.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561b2cdbfb29a4be79f0cfc98c91f8cde535a52f",
+      "size": 12138,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/561b2cdbfb29a4be79f0cfc98c91f8cde535a52f"
+    },
+    {
+      "path": "style/values/specified/animation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f8b8ff1f7b5d426d05f76db2a845e6a7ff3169",
+      "size": 25784,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/51f8b8ff1f7b5d426d05f76db2a845e6a7ff3169"
+    },
+    {
+      "path": "style/values/specified/background.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cddc996a9596c98089f6155771e94c8794d65928",
+      "size": 8930,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/cddc996a9596c98089f6155771e94c8794d65928"
+    },
+    {
+      "path": "style/values/specified/basic_shape.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c750620d7c52e9209b197c3c2ce13d2d5ec2d8",
+      "size": 37264,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/82c750620d7c52e9209b197c3c2ce13d2d5ec2d8"
+    },
+    {
+      "path": "style/values/specified/border.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9302ba9a34a79ab48a1fa53e70a0f43ff13feb7",
+      "size": 13245,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d9302ba9a34a79ab48a1fa53e70a0f43ff13feb7"
+    },
+    {
+      "path": "style/values/specified/box.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df00176880d31fec3b97abf0603e55b78e0dd16a",
+      "size": 61053,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/df00176880d31fec3b97abf0603e55b78e0dd16a"
+    },
+    {
+      "path": "style/values/specified/calc.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9757f300f114c1f7329176bb94ccb12364364b1",
+      "size": 62802,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f9757f300f114c1f7329176bb94ccb12364364b1"
+    },
+    {
+      "path": "style/values/specified/color.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5aed8013103396ecbcf88804b8fea7db31072fa",
+      "size": 41680,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b5aed8013103396ecbcf88804b8fea7db31072fa"
+    },
+    {
+      "path": "style/values/specified/column.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b3a0ecd5d06e9bbd7acf0533310e214765e707",
+      "size": 468,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/80b3a0ecd5d06e9bbd7acf0533310e214765e707"
+    },
+    {
+      "path": "style/values/specified/corner_shape.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a40436d2d372fadb91d3c8a538f31be069a04c2",
+      "size": 5621,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4a40436d2d372fadb91d3c8a538f31be069a04c2"
+    },
+    {
+      "path": "style/values/specified/counters.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c2ca7d0628589a675be69a03d50eb34a07cc2a9",
+      "size": 10250,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7c2ca7d0628589a675be69a03d50eb34a07cc2a9"
+    },
+    {
+      "path": "style/values/specified/easing.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb8687aa78e5f022159e7c26d80915f3b4bc3be",
+      "size": 10325,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/afb8687aa78e5f022159e7c26d80915f3b4bc3be"
+    },
+    {
+      "path": "style/values/specified/effects.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68aaa17e7cffe089787e614dd91b190dadfdf09d",
+      "size": 17570,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/68aaa17e7cffe089787e614dd91b190dadfdf09d"
+    },
+    {
+      "path": "style/values/specified/flex.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a58d9d8816374993116a735d0a1d3fda8e1c426e",
+      "size": 1270,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a58d9d8816374993116a735d0a1d3fda8e1c426e"
+    },
+    {
+      "path": "style/values/specified/font.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db40a4b73b163492fe3b92a49791209f9afaf81",
+      "size": 69108,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8db40a4b73b163492fe3b92a49791209f9afaf81"
+    },
+    {
+      "path": "style/values/specified/frequency.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ea438c524addaa173236fd97de3034a939cc5c",
+      "size": 1002,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e4ea438c524addaa173236fd97de3034a939cc5c"
+    },
+    {
+      "path": "style/values/specified/grid.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3926d09648c4b30820feb1b234b6a988eacc5d1",
+      "size": 16803,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e3926d09648c4b30820feb1b234b6a988eacc5d1"
+    },
+    {
+      "path": "style/values/specified/image.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10775876ed2427169c17d1af69fe8bf4235c2d8d",
+      "size": 53000,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/10775876ed2427169c17d1af69fe8bf4235c2d8d"
+    },
+    {
+      "path": "style/values/specified/intersection_observer.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315abf3172da9e3013d01ef486b2fcb42239ae15",
+      "size": 3092,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/315abf3172da9e3013d01ef486b2fcb42239ae15"
+    },
+    {
+      "path": "style/values/specified/length.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6675d87a71989cd7fd997412e34c746ed1911856",
+      "size": 71562,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/6675d87a71989cd7fd997412e34c746ed1911856"
+    },
+    {
+      "path": "style/values/specified/list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d984d9a3efeb282106307e95e4635f97846cd02e",
+      "size": 5200,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d984d9a3efeb282106307e95e4635f97846cd02e"
+    },
+    {
+      "path": "style/values/specified/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e15b2c83989e139f772245fa1ad5d1a1e93f758",
+      "size": 23268,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/2e15b2c83989e139f772245fa1ad5d1a1e93f758"
+    },
+    {
+      "path": "style/values/specified/motion.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b55931465cd268b6db1a041e77d954ba8008c9f8",
+      "size": 10403,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b55931465cd268b6db1a041e77d954ba8008c9f8"
+    },
+    {
+      "path": "style/values/specified/number.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d4b1cab436f3b63262e477ab9c8e8dd90132800",
+      "size": 17344,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4d4b1cab436f3b63262e477ab9c8e8dd90132800"
+    },
+    {
+      "path": "style/values/specified/outline.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90065cb35780fe250590117fb045f1374bc19b91",
+      "size": 1875,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/90065cb35780fe250590117fb045f1374bc19b91"
+    },
+    {
+      "path": "style/values/specified/page.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "facd326f22a2da0f0342998cc6ae92adb8b68f9d",
+      "size": 3082,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/facd326f22a2da0f0342998cc6ae92adb8b68f9d"
+    },
+    {
+      "path": "style/values/specified/param.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908ef12327c4add75eccd2ec37834851135d241c",
+      "size": 4364,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/908ef12327c4add75eccd2ec37834851135d241c"
+    },
+    {
+      "path": "style/values/specified/percentage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334f45f4edb62d5c0d73539ca9324b15253b2cbe",
+      "size": 11375,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/334f45f4edb62d5c0d73539ca9324b15253b2cbe"
+    },
+    {
+      "path": "style/values/specified/position.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9687f9be985522b1547082d01617f1d8354b679",
+      "size": 70203,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d9687f9be985522b1547082d01617f1d8354b679"
+    },
+    {
+      "path": "style/values/specified/ratio.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cdddd452ed493c92496ece3c5ef2194a1568144",
+      "size": 1036,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4cdddd452ed493c92496ece3c5ef2194a1568144"
+    },
+    {
+      "path": "style/values/specified/rect.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c5214743219c8638e1e4f7896b1bb9c3e6f9f1",
+      "size": 1115,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e0c5214743219c8638e1e4f7896b1bb9c3e6f9f1"
+    },
+    {
+      "path": "style/values/specified/resolution.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba82c1ae944016f4253d98a8ad6448247958d7ea",
+      "size": 7293,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ba82c1ae944016f4253d98a8ad6448247958d7ea"
+    },
+    {
+      "path": "style/values/specified/source_size_list.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff16f4fed6a8af1bd1c1b2b73f3cc7bc0bc8d34b",
+      "size": 4515,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ff16f4fed6a8af1bd1c1b2b73f3cc7bc0bc8d34b"
+    },
+    {
+      "path": "style/values/specified/svg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b1acc947a7c0041e706ba06b9c2d46a467f469",
+      "size": 12751,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b5b1acc947a7c0041e706ba06b9c2d46a467f469"
+    },
+    {
+      "path": "style/values/specified/svg_path.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c414ac244dc1e9ee3626e6cce4fcb3efe8baa9de",
+      "size": 39196,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c414ac244dc1e9ee3626e6cce4fcb3efe8baa9de"
+    },
+    {
+      "path": "style/values/specified/table.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4acbfce2aa264163b46a606323ce61b7d9ec7397",
+      "size": 924,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4acbfce2aa264163b46a606323ce61b7d9ec7397"
+    },
+    {
+      "path": "style/values/specified/text.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bee3cb7a2ff29ae7137942abe005ab8fdd72f12",
+      "size": 43881,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/8bee3cb7a2ff29ae7137942abe005ab8fdd72f12"
+    },
+    {
+      "path": "style/values/specified/time.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c600fec050ed878f82d85a086044578c5a20b784",
+      "size": 9530,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/c600fec050ed878f82d85a086044578c5a20b784"
+    },
+    {
+      "path": "style/values/specified/transform.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d47319cf6bba17dc784998015353fad72d02f229",
+      "size": 26528,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d47319cf6bba17dc784998015353fad72d02f229"
+    },
+    {
+      "path": "style/values/specified/tree_counting.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e863b1cff51eabc2b886b2f01347ff651f033a30",
+      "size": 1254,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e863b1cff51eabc2b886b2f01347ff651f033a30"
+    },
+    {
+      "path": "style/values/specified/ui.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d368b18282036e5f0fba0663803e17482651a4",
+      "size": 7591,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d5d368b18282036e5f0fba0663803e17482651a4"
+    },
+    {
+      "path": "style/values/specified/url.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b68c300608ada691710bb1575a3d652d29b81d",
+      "size": 440,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/80b68c300608ada691710bb1575a3d652d29b81d"
+    },
+    {
+      "path": "style/values/tagged_numeric.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5002125e8cb36b7a8d325f29187acb058b9ca871",
+      "size": 7081,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5002125e8cb36b7a8d325f29187acb058b9ca871"
+    },
+    {
+      "path": "style_derive",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2439b1d254a7f8d4d47bcd1ad8a41e2b6600e759",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/2439b1d254a7f8d4d47bcd1ad8a41e2b6600e759"
+    },
+    {
+      "path": "style_derive/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c84ad073c697413d537729ffd38263551f3a31",
+      "size": 522,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b1c84ad073c697413d537729ffd38263551f3a31"
+    },
+    {
+      "path": "style_derive/animate.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76fa58baa941e23f88681809947c6495915f9919",
+      "size": 4621,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/76fa58baa941e23f88681809947c6495915f9919"
+    },
+    {
+      "path": "style_derive/cg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7034f6910f099dbd3b607eef858b2399cca560b0",
+      "size": 13188,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7034f6910f099dbd3b607eef858b2399cca560b0"
+    },
+    {
+      "path": "style_derive/compute_squared_distance.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96aa250a584491f576437ef85c7bdbcb4dbcdf98",
+      "size": 4519,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/96aa250a584491f576437ef85c7bdbcb4dbcdf98"
+    },
+    {
+      "path": "style_derive/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7efa429c99247eae8d9636da53209d271a376787",
+      "size": 2793,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7efa429c99247eae8d9636da53209d271a376787"
+    },
+    {
+      "path": "style_derive/parse.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db82b714c2623245a062f6baffecbb74ac4c3004",
+      "size": 10384,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/db82b714c2623245a062f6baffecbb74ac4c3004"
+    },
+    {
+      "path": "style_derive/specified_value_info.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bdb899b6671f1a9ee126647ae743c0035e084aa",
+      "size": 7070,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3bdb899b6671f1a9ee126647ae743c0035e084aa"
+    },
+    {
+      "path": "style_derive/to_animated_value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3871b2fe7ec328b5bdc3ddfcc7bb81399e619d11",
+      "size": 1487,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3871b2fe7ec328b5bdc3ddfcc7bb81399e619d11"
+    },
+    {
+      "path": "style_derive/to_animated_zero.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efcc98d739117bebeb6cfc9c8743955d50483bc",
+      "size": 2579,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/4efcc98d739117bebeb6cfc9c8743955d50483bc"
+    },
+    {
+      "path": "style_derive/to_computed_value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7b00853dc69e47f3fa234b520f7874bdb6e914b",
+      "size": 6171,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b7b00853dc69e47f3fa234b520f7874bdb6e914b"
+    },
+    {
+      "path": "style_derive/to_css.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f42cfdf02e06b845ea406e9c53b6d99fccb0b6dd",
+      "size": 11715,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f42cfdf02e06b845ea406e9c53b6d99fccb0b6dd"
+    },
+    {
+      "path": "style_derive/to_resolved_value.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7c4c7f5e1b1e16e7be92b96b9b3911450ab6efe",
+      "size": 1670,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f7c4c7f5e1b1e16e7be92b96b9b3911450ab6efe"
+    },
+    {
+      "path": "style_derive/to_typed.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22fbf964cd6f865cb1a6dbe9ec951d922ded1944",
+      "size": 28160,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/22fbf964cd6f865cb1a6dbe9ec951d922ded1944"
+    },
+    {
+      "path": "style_traits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d531c0345b00207e913ee2a542743f75dda426e9",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/d531c0345b00207e913ee2a542743f75dda426e9"
+    },
+    {
+      "path": "style_traits/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d065433e5ba27752d07a7dccff4e936bd8281c",
+      "size": 822,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/18d065433e5ba27752d07a7dccff4e936bd8281c"
+    },
+    {
+      "path": "style_traits/arc_slice.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d36b89bab65d54322783d09f5d77d5382eb43e01",
+      "size": 4996,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/d36b89bab65d54322783d09f5d77d5382eb43e01"
+    },
+    {
+      "path": "style_traits/dom.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f42113dc684d0e343def6d145f4d0270cf6c08",
+      "size": 1152,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/18f42113dc684d0e343def6d145f4d0270cf6c08"
+    },
+    {
+      "path": "style_traits/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24c02b8421f61fb46c301159b4d519d61ba4894",
+      "size": 12102,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f24c02b8421f61fb46c301159b4d519d61ba4894"
+    },
+    {
+      "path": "style_traits/owned_array.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd9e89eed4f2d1f6af002e0e58429459953584c",
+      "size": 5106,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ffd9e89eed4f2d1f6af002e0e58429459953584c"
+    },
+    {
+      "path": "style_traits/owned_slice.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a88609960b377f8397f69d261948823bdc1b872",
+      "size": 5374,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/9a88609960b377f8397f69d261948823bdc1b872"
+    },
+    {
+      "path": "style_traits/owned_str.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebfdcd5e06656da056982885419861c49b808663",
+      "size": 1925,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/ebfdcd5e06656da056982885419861c49b808663"
+    },
+    {
+      "path": "style_traits/specified_value_info.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89ded9a74ce57a6d5182981b9d84c0ffd3078c8e",
+      "size": 5640,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/89ded9a74ce57a6d5182981b9d84c0ffd3078c8e"
+    },
+    {
+      "path": "style_traits/values.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "705f333b327ee99f1fdfc22f9f60b2ac260e186f",
+      "size": 19637,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/705f333b327ee99f1fdfc22f9f60b2ac260e186f"
+    },
+    {
+      "path": "stylo_atoms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "502682eabb72da32c339552e18cfdc73de1adf96",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/502682eabb72da32c339552e18cfdc73de1adf96"
+    },
+    {
+      "path": "stylo_atoms/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39f28f9b1b6704f5938481877e4c25fe49c9b05",
+      "size": 455,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/e39f28f9b1b6704f5938481877e4c25fe49c9b05"
+    },
+    {
+      "path": "stylo_atoms/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f67757245ada8bbd2154254766f94ead80ca7c",
+      "size": 988,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b5f67757245ada8bbd2154254766f94ead80ca7c"
+    },
+    {
+      "path": "stylo_atoms/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03560a40c0b5a6278e2c112ebd35d35ed1cecd40",
+      "size": 255,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/03560a40c0b5a6278e2c112ebd35d35ed1cecd40"
+    },
+    {
+      "path": "stylo_atoms/predefined_counter_styles.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f376981e324a904916d0b3f40bbc32a3c7f28cf1",
+      "size": 1503,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f376981e324a904916d0b3f40bbc32a3c7f28cf1"
+    },
+    {
+      "path": "stylo_atoms/static_atoms.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af047ae96e8ce610c2bf597afd518b8c8787e75a",
+      "size": 2402,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/af047ae96e8ce610c2bf597afd518b8c8787e75a"
+    },
+    {
+      "path": "stylo_dom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40937784d3249d3d5de97608af2e19976693084e",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/40937784d3249d3d5de97608af2e19976693084e"
+    },
+    {
+      "path": "stylo_dom/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d25f57c507ce01011ca6df5ff39f4d2db296776",
+      "size": 411,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5d25f57c507ce01011ca6df5ff39f4d2db296776"
+    },
+    {
+      "path": "stylo_dom/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a968cd52dc832cfb2dfa0b53c06042bf03232c0",
+      "size": 9813,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/5a968cd52dc832cfb2dfa0b53c06042bf03232c0"
+    },
+    {
+      "path": "stylo_static_prefs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad74845cd5e71fbb34e99d1df264ec4a3d3d3b06",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/ad74845cd5e71fbb34e99d1df264ec4a3d3d3b06"
+    },
+    {
+      "path": "stylo_static_prefs/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6ef6804c9fa079346f2189d6529739c8c4d144",
+      "size": 405,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3c6ef6804c9fa079346f2189d6529739c8c4d144"
+    },
+    {
+      "path": "stylo_static_prefs/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1b0dfcc8e3717861990c4b300e394be2ec57c69",
+      "size": 4458,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/b1b0dfcc8e3717861990c4b300e394be2ec57c69"
+    },
+    {
+      "path": "stylo_static_prefs/preferences.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3684a3952bef4b3fa4f9dcc47f7eaa1df838837d",
+      "size": 2293,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/3684a3952bef4b3fa4f9dcc47f7eaa1df838837d"
+    },
+    {
+      "path": "stylo_static_prefs/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0efda874ee6469c8d2125c58811b4894a97412c",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/f0efda874ee6469c8d2125c58811b4894a97412c"
+    },
+    {
+      "path": "stylo_static_prefs/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b176c97493e11fbeaaa0cb8a3efef19c7c0e2b3",
+      "size": 612,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/7b176c97493e11fbeaaa0cb8a3efef19c7c0e2b3"
+    },
+    {
+      "path": "sync.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "68c8689c9cefcce948f245377355278a7816d931",
+      "size": 1114,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/68c8689c9cefcce948f245377355278a7816d931"
+    },
+    {
+      "path": "to_shmem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f6905c35f8c0d2f4eaee21fbedf467bb8e69f64",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/1f6905c35f8c0d2f4eaee21fbedf467bb8e69f64"
+    },
+    {
+      "path": "to_shmem/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c89aa2d8ddaf0f570aa70422070506321f4d4c",
+      "size": 1007,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/21c89aa2d8ddaf0f570aa70422070506321f4d4c"
+    },
+    {
+      "path": "to_shmem/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f110c4772fc0c3765baa1ad9debcdd448ce2c146",
+      "size": 21624,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/f110c4772fc0c3765baa1ad9debcdd448ce2c146"
+    },
+    {
+      "path": "to_shmem_derive",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4dc6ca9f432095e837262abf0fc5046f7014f413",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/4dc6ca9f432095e837262abf0fc5046f7014f413"
+    },
+    {
+      "path": "to_shmem_derive/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1901d997dd2933b45f2a4e7abfa4e05622fa8d02",
+      "size": 481,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/1901d997dd2933b45f2a4e7abfa4e05622fa8d02"
+    },
+    {
+      "path": "to_shmem_derive/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b1a3f028f80d690f9c2a38de2ab1cd6f5598786",
+      "size": 483,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/0b1a3f028f80d690f9c2a38de2ab1cd6f5598786"
+    },
+    {
+      "path": "to_shmem_derive/to_shmem.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a680521fd2078322e72518e63411395ec9d4b71b",
+      "size": 2672,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/a680521fd2078322e72518e63411395ec9d4b71b"
+    },
+    {
+      "path": "to_shmem_derive/util.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "078a895c46614e88648ec7b0d94beb646f9dcbf7",
+      "size": 2596,
+      "url": "https://api.github.com/repos/servo/stylo/git/blobs/078a895c46614e88648ec7b0d94beb646f9dcbf7"
+    }
+  ],
+  "truncated": false
+}

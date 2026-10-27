@@ -1,0 +1,1429 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Exact tree snapshots for five V8 submodules lacking a root license in the previous inventory. Gitiles trees here are root-level only; they do not close recursive license discovery.",
+  "trees": [
+    {
+      "path": "partition_alloc",
+      "commit": "ff3b8b885b8374cbd3902642d94dc737bda93d5d",
+      "url": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator/+/ff3b8b885b8374cbd3902642d94dc737bda93d5d/?format=JSON",
+      "treeId": "89bb7ef4a998b00e579155d82dc60064a12fe3f6",
+      "rootEntryCount": 19,
+      "rootEntries": [
+        {
+          "name": ".clang-tidy",
+          "type": "blob"
+        },
+        {
+          "name": ".gn",
+          "type": "blob"
+        },
+        {
+          "name": "BUILD.gn",
+          "type": "blob"
+        },
+        {
+          "name": "DEPS",
+          "type": "blob"
+        },
+        {
+          "name": "DIR_METADATA",
+          "type": "blob"
+        },
+        {
+          "name": "OWNERS",
+          "type": "blob"
+        },
+        {
+          "name": "PRESUBMIT.py",
+          "type": "blob"
+        },
+        {
+          "name": "PRESUBMIT_test.py",
+          "type": "blob"
+        },
+        {
+          "name": "PartitionAlloc.md",
+          "type": "blob"
+        },
+        {
+          "name": "buckets.md",
+          "type": "blob"
+        },
+        {
+          "name": "build_config.md",
+          "type": "blob"
+        },
+        {
+          "name": "build_overrides",
+          "type": "tree"
+        },
+        {
+          "name": "external_builds.md",
+          "type": "blob"
+        },
+        {
+          "name": "glossary.md",
+          "type": "blob"
+        },
+        {
+          "name": "gn",
+          "type": "tree"
+        },
+        {
+          "name": "pa_check.md",
+          "type": "blob"
+        },
+        {
+          "name": "partition_alloc.gni",
+          "type": "blob"
+        },
+        {
+          "name": "src",
+          "type": "tree"
+        },
+        {
+          "name": "static_local_danger.md",
+          "type": "blob"
+        }
+      ],
+      "rootLicenseLikeFiles": []
+    },
+    {
+      "path": "rust",
+      "commit": "26e8ff47f18a8d28d6187a04b6a16cb7332356f8",
+      "url": "https://chromium.googlesource.com/chromium/src/third_party/rust/+/26e8ff47f18a8d28d6187a04b6a16cb7332356f8/?format=JSON",
+      "treeId": "b11eaf710e48d9c3d757090338131ac8d006d65d",
+      "rootEntryCount": 260,
+      "rootEntries": [
+        {
+          "name": ".clang-format",
+          "type": "blob"
+        },
+        {
+          "name": "DEPS",
+          "type": "blob"
+        },
+        {
+          "name": "OWNERS",
+          "type": "blob"
+        },
+        {
+          "name": "OWNERS-review-checklist.md",
+          "type": "blob"
+        },
+        {
+          "name": "PRESUBMIT.py",
+          "type": "blob"
+        },
+        {
+          "name": "README-importing-new-crates.md",
+          "type": "blob"
+        },
+        {
+          "name": "README.md",
+          "type": "blob"
+        },
+        {
+          "name": "addr2line",
+          "type": "tree"
+        },
+        {
+          "name": "adler2",
+          "type": "tree"
+        },
+        {
+          "name": "ahash",
+          "type": "tree"
+        },
+        {
+          "name": "aho_corasick",
+          "type": "tree"
+        },
+        {
+          "name": "android_system_properties",
+          "type": "tree"
+        },
+        {
+          "name": "anstyle",
+          "type": "tree"
+        },
+        {
+          "name": "antlr4rust",
+          "type": "tree"
+        },
+        {
+          "name": "anyhow",
+          "type": "tree"
+        },
+        {
+          "name": "arbitrary_int",
+          "type": "tree"
+        },
+        {
+          "name": "array_init",
+          "type": "tree"
+        },
+        {
+          "name": "autocfg",
+          "type": "tree"
+        },
+        {
+          "name": "backtrace",
+          "type": "tree"
+        },
+        {
+          "name": "base64",
+          "type": "tree"
+        },
+        {
+          "name": "better_any",
+          "type": "tree"
+        },
+        {
+          "name": "bincode",
+          "type": "tree"
+        },
+        {
+          "name": "bincode_derive",
+          "type": "tree"
+        },
+        {
+          "name": "bit_set",
+          "type": "tree"
+        },
+        {
+          "name": "bit_vec",
+          "type": "tree"
+        },
+        {
+          "name": "bitbybit",
+          "type": "tree"
+        },
+        {
+          "name": "bitflags",
+          "type": "tree"
+        },
+        {
+          "name": "bytemuck",
+          "type": "tree"
+        },
+        {
+          "name": "bytemuck_derive",
+          "type": "tree"
+        },
+        {
+          "name": "byteorder",
+          "type": "tree"
+        },
+        {
+          "name": "byteorder_lite",
+          "type": "tree"
+        },
+        {
+          "name": "bytes",
+          "type": "tree"
+        },
+        {
+          "name": "calendrical_calculations",
+          "type": "tree"
+        },
+        {
+          "name": "cc",
+          "type": "tree"
+        },
+        {
+          "name": "cfg_aliases",
+          "type": "tree"
+        },
+        {
+          "name": "cfg_if",
+          "type": "tree"
+        },
+        {
+          "name": "chromium_crates_io",
+          "type": "tree"
+        },
+        {
+          "name": "chrono",
+          "type": "tree"
+        },
+        {
+          "name": "clap",
+          "type": "tree"
+        },
+        {
+          "name": "clap_builder",
+          "type": "tree"
+        },
+        {
+          "name": "clap_lex",
+          "type": "tree"
+        },
+        {
+          "name": "cobs",
+          "type": "tree"
+        },
+        {
+          "name": "codespan_reporting",
+          "type": "tree"
+        },
+        {
+          "name": "const_format",
+          "type": "tree"
+        },
+        {
+          "name": "const_format_proc_macros",
+          "type": "tree"
+        },
+        {
+          "name": "const_panic",
+          "type": "tree"
+        },
+        {
+          "name": "core_foundation_sys",
+          "type": "tree"
+        },
+        {
+          "name": "core_maths",
+          "type": "tree"
+        },
+        {
+          "name": "crc32fast",
+          "type": "tree"
+        },
+        {
+          "name": "ctor",
+          "type": "tree"
+        },
+        {
+          "name": "ctor_proc_macro",
+          "type": "tree"
+        },
+        {
+          "name": "cxx",
+          "type": "tree"
+        },
+        {
+          "name": "cxxbridge_cmd",
+          "type": "tree"
+        },
+        {
+          "name": "cxxbridge_flags",
+          "type": "tree"
+        },
+        {
+          "name": "cxxbridge_macro",
+          "type": "tree"
+        },
+        {
+          "name": "derivre",
+          "type": "tree"
+        },
+        {
+          "name": "diplomat",
+          "type": "tree"
+        },
+        {
+          "name": "diplomat_core",
+          "type": "tree"
+        },
+        {
+          "name": "diplomat_runtime",
+          "type": "tree"
+        },
+        {
+          "name": "displaydoc",
+          "type": "tree"
+        },
+        {
+          "name": "dtor",
+          "type": "tree"
+        },
+        {
+          "name": "dtor_proc_macro",
+          "type": "tree"
+        },
+        {
+          "name": "either",
+          "type": "tree"
+        },
+        {
+          "name": "equivalent",
+          "type": "tree"
+        },
+        {
+          "name": "erased_serde",
+          "type": "tree"
+        },
+        {
+          "name": "fastbloom",
+          "type": "tree"
+        },
+        {
+          "name": "fdeflate",
+          "type": "tree"
+        },
+        {
+          "name": "fend_core",
+          "type": "tree"
+        },
+        {
+          "name": "fixed_decimal",
+          "type": "tree"
+        },
+        {
+          "name": "flate2",
+          "type": "tree"
+        },
+        {
+          "name": "foldhash",
+          "type": "tree"
+        },
+        {
+          "name": "font_types",
+          "type": "tree"
+        },
+        {
+          "name": "fs2",
+          "type": "tree"
+        },
+        {
+          "name": "getrandom",
+          "type": "tree"
+        },
+        {
+          "name": "gimli",
+          "type": "tree"
+        },
+        {
+          "name": "harfrust",
+          "type": "tree"
+        },
+        {
+          "name": "hashbrown",
+          "type": "tree"
+        },
+        {
+          "name": "heck",
+          "type": "tree"
+        },
+        {
+          "name": "hex",
+          "type": "tree"
+        },
+        {
+          "name": "hmac_sha256",
+          "type": "tree"
+        },
+        {
+          "name": "hostname",
+          "type": "tree"
+        },
+        {
+          "name": "iana_time_zone",
+          "type": "tree"
+        },
+        {
+          "name": "icu_calendar",
+          "type": "tree"
+        },
+        {
+          "name": "icu_calendar_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_casemap",
+          "type": "tree"
+        },
+        {
+          "name": "icu_casemap_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_collections",
+          "type": "tree"
+        },
+        {
+          "name": "icu_decimal",
+          "type": "tree"
+        },
+        {
+          "name": "icu_decimal_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_experimental",
+          "type": "tree"
+        },
+        {
+          "name": "icu_experimental_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_list",
+          "type": "tree"
+        },
+        {
+          "name": "icu_list_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_locale",
+          "type": "tree"
+        },
+        {
+          "name": "icu_locale_core",
+          "type": "tree"
+        },
+        {
+          "name": "icu_locale_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_normalizer",
+          "type": "tree"
+        },
+        {
+          "name": "icu_normalizer_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_pattern",
+          "type": "tree"
+        },
+        {
+          "name": "icu_plurals",
+          "type": "tree"
+        },
+        {
+          "name": "icu_plurals_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_properties",
+          "type": "tree"
+        },
+        {
+          "name": "icu_properties_data",
+          "type": "tree"
+        },
+        {
+          "name": "icu_provider",
+          "type": "tree"
+        },
+        {
+          "name": "icu_time",
+          "type": "tree"
+        },
+        {
+          "name": "image",
+          "type": "tree"
+        },
+        {
+          "name": "indexmap",
+          "type": "tree"
+        },
+        {
+          "name": "itertools",
+          "type": "tree"
+        },
+        {
+          "name": "itoa",
+          "type": "tree"
+        },
+        {
+          "name": "ixdtf",
+          "type": "tree"
+        },
+        {
+          "name": "jiff_tzdb",
+          "type": "tree"
+        },
+        {
+          "name": "jxl",
+          "type": "tree"
+        },
+        {
+          "name": "jxl_macros",
+          "type": "tree"
+        },
+        {
+          "name": "jxl_simd",
+          "type": "tree"
+        },
+        {
+          "name": "jxl_transforms",
+          "type": "tree"
+        },
+        {
+          "name": "konst",
+          "type": "tree"
+        },
+        {
+          "name": "konst_macro_rules",
+          "type": "tree"
+        },
+        {
+          "name": "lazy_static",
+          "type": "tree"
+        },
+        {
+          "name": "libafl",
+          "type": "tree"
+        },
+        {
+          "name": "libafl_bolts",
+          "type": "tree"
+        },
+        {
+          "name": "libafl_derive",
+          "type": "tree"
+        },
+        {
+          "name": "libc",
+          "type": "tree"
+        },
+        {
+          "name": "libm",
+          "type": "tree"
+        },
+        {
+          "name": "litemap",
+          "type": "tree"
+        },
+        {
+          "name": "llguidance",
+          "type": "tree"
+        },
+        {
+          "name": "lock_api",
+          "type": "tree"
+        },
+        {
+          "name": "log",
+          "type": "tree"
+        },
+        {
+          "name": "mach2",
+          "type": "tree"
+        },
+        {
+          "name": "memchr",
+          "type": "tree"
+        },
+        {
+          "name": "meminterval",
+          "type": "tree"
+        },
+        {
+          "name": "memo_map",
+          "type": "tree"
+        },
+        {
+          "name": "memoffset",
+          "type": "tree"
+        },
+        {
+          "name": "minijinja",
+          "type": "tree"
+        },
+        {
+          "name": "miniz_oxide",
+          "type": "tree"
+        },
+        {
+          "name": "moxcms",
+          "type": "tree"
+        },
+        {
+          "name": "murmur3",
+          "type": "tree"
+        },
+        {
+          "name": "nix",
+          "type": "tree"
+        },
+        {
+          "name": "num_bigint",
+          "type": "tree"
+        },
+        {
+          "name": "num_complex",
+          "type": "tree"
+        },
+        {
+          "name": "num_derive",
+          "type": "tree"
+        },
+        {
+          "name": "num_enum",
+          "type": "tree"
+        },
+        {
+          "name": "num_enum_derive",
+          "type": "tree"
+        },
+        {
+          "name": "num_integer",
+          "type": "tree"
+        },
+        {
+          "name": "num_rational",
+          "type": "tree"
+        },
+        {
+          "name": "num_traits",
+          "type": "tree"
+        },
+        {
+          "name": "object",
+          "type": "tree"
+        },
+        {
+          "name": "once_cell",
+          "type": "tree"
+        },
+        {
+          "name": "ordered_float",
+          "type": "tree"
+        },
+        {
+          "name": "parking_lot",
+          "type": "tree"
+        },
+        {
+          "name": "parking_lot_core",
+          "type": "tree"
+        },
+        {
+          "name": "png",
+          "type": "tree"
+        },
+        {
+          "name": "postcard",
+          "type": "tree"
+        },
+        {
+          "name": "potential_utf",
+          "type": "tree"
+        },
+        {
+          "name": "primal_check",
+          "type": "tree"
+        },
+        {
+          "name": "proc_macro2",
+          "type": "tree"
+        },
+        {
+          "name": "proc_macro_error2",
+          "type": "tree"
+        },
+        {
+          "name": "proc_macro_error_attr2",
+          "type": "tree"
+        },
+        {
+          "name": "prost",
+          "type": "tree"
+        },
+        {
+          "name": "prost_derive",
+          "type": "tree"
+        },
+        {
+          "name": "pxfm",
+          "type": "tree"
+        },
+        {
+          "name": "qr_code",
+          "type": "tree"
+        },
+        {
+          "name": "quote",
+          "type": "tree"
+        },
+        {
+          "name": "rand_core",
+          "type": "tree"
+        },
+        {
+          "name": "read_fonts",
+          "type": "tree"
+        },
+        {
+          "name": "regex",
+          "type": "tree"
+        },
+        {
+          "name": "regex_automata",
+          "type": "tree"
+        },
+        {
+          "name": "regex_lite",
+          "type": "tree"
+        },
+        {
+          "name": "regex_syntax",
+          "type": "tree"
+        },
+        {
+          "name": "resb",
+          "type": "tree"
+        },
+        {
+          "name": "rustc_demangle",
+          "type": "tree"
+        },
+        {
+          "name": "rustc_demangle_capi",
+          "type": "tree"
+        },
+        {
+          "name": "rustfft",
+          "type": "tree"
+        },
+        {
+          "name": "rustversion",
+          "type": "tree"
+        },
+        {
+          "name": "ryu",
+          "type": "tree"
+        },
+        {
+          "name": "safe_arch",
+          "type": "tree"
+        },
+        {
+          "name": "scc",
+          "type": "tree"
+        },
+        {
+          "name": "scopeguard",
+          "type": "tree"
+        },
+        {
+          "name": "sdd",
+          "type": "tree"
+        },
+        {
+          "name": "serde",
+          "type": "tree"
+        },
+        {
+          "name": "serde_core",
+          "type": "tree"
+        },
+        {
+          "name": "serde_derive",
+          "type": "tree"
+        },
+        {
+          "name": "serde_json",
+          "type": "tree"
+        },
+        {
+          "name": "serde_json_lenient",
+          "type": "tree"
+        },
+        {
+          "name": "serial_test",
+          "type": "tree"
+        },
+        {
+          "name": "serial_test_derive",
+          "type": "tree"
+        },
+        {
+          "name": "shared_brotli_patch_decoder",
+          "type": "tree"
+        },
+        {
+          "name": "simd_adler32",
+          "type": "tree"
+        },
+        {
+          "name": "siphasher",
+          "type": "tree"
+        },
+        {
+          "name": "skrifa",
+          "type": "tree"
+        },
+        {
+          "name": "small_ctor",
+          "type": "tree"
+        },
+        {
+          "name": "smallvec",
+          "type": "tree"
+        },
+        {
+          "name": "src",
+          "type": "tree"
+        },
+        {
+          "name": "stable_deref_trait",
+          "type": "tree"
+        },
+        {
+          "name": "static_assertions",
+          "type": "tree"
+        },
+        {
+          "name": "strck",
+          "type": "tree"
+        },
+        {
+          "name": "strength_reduce",
+          "type": "tree"
+        },
+        {
+          "name": "strsim",
+          "type": "tree"
+        },
+        {
+          "name": "strum",
+          "type": "tree"
+        },
+        {
+          "name": "strum_macros",
+          "type": "tree"
+        },
+        {
+          "name": "subtle",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_bundle_flac",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_bundle_mp3",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_codec_pcm",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_codec_vorbis",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_common",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_core",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_metadata",
+          "type": "tree"
+        },
+        {
+          "name": "symphonia_utils_xiph",
+          "type": "tree"
+        },
+        {
+          "name": "syn",
+          "type": "tree"
+        },
+        {
+          "name": "synstructure",
+          "type": "tree"
+        },
+        {
+          "name": "temporal_capi",
+          "type": "tree"
+        },
+        {
+          "name": "temporal_rs",
+          "type": "tree"
+        },
+        {
+          "name": "termcolor",
+          "type": "tree"
+        },
+        {
+          "name": "thiserror",
+          "type": "tree"
+        },
+        {
+          "name": "thiserror_impl",
+          "type": "tree"
+        },
+        {
+          "name": "timezone_provider",
+          "type": "tree"
+        },
+        {
+          "name": "tinystr",
+          "type": "tree"
+        },
+        {
+          "name": "toktrie",
+          "type": "tree"
+        },
+        {
+          "name": "transpose",
+          "type": "tree"
+        },
+        {
+          "name": "tuple_list",
+          "type": "tree"
+        },
+        {
+          "name": "typed_arena",
+          "type": "tree"
+        },
+        {
+          "name": "typed_builder",
+          "type": "tree"
+        },
+        {
+          "name": "typed_builder_macro",
+          "type": "tree"
+        },
+        {
+          "name": "typed_path",
+          "type": "tree"
+        },
+        {
+          "name": "typeid",
+          "type": "tree"
+        },
+        {
+          "name": "typewit",
+          "type": "tree"
+        },
+        {
+          "name": "tzif",
+          "type": "tree"
+        },
+        {
+          "name": "uds",
+          "type": "tree"
+        },
+        {
+          "name": "unicode_ident",
+          "type": "tree"
+        },
+        {
+          "name": "unicode_width",
+          "type": "tree"
+        },
+        {
+          "name": "unicode_xid",
+          "type": "tree"
+        },
+        {
+          "name": "unty",
+          "type": "tree"
+        },
+        {
+          "name": "utf8_iter",
+          "type": "tree"
+        },
+        {
+          "name": "uuid",
+          "type": "tree"
+        },
+        {
+          "name": "version_check",
+          "type": "tree"
+        },
+        {
+          "name": "virtue",
+          "type": "tree"
+        },
+        {
+          "name": "wait_timeout",
+          "type": "tree"
+        },
+        {
+          "name": "wide",
+          "type": "tree"
+        },
+        {
+          "name": "winapi_util",
+          "type": "tree"
+        },
+        {
+          "name": "windows_aarch64_msvc",
+          "type": "tree"
+        },
+        {
+          "name": "windows_i686_msvc",
+          "type": "tree"
+        },
+        {
+          "name": "windows_link",
+          "type": "tree"
+        },
+        {
+          "name": "windows_sys",
+          "type": "tree"
+        },
+        {
+          "name": "windows_targets",
+          "type": "tree"
+        },
+        {
+          "name": "windows_x86_64_msvc",
+          "type": "tree"
+        },
+        {
+          "name": "writeable",
+          "type": "tree"
+        },
+        {
+          "name": "xml",
+          "type": "tree"
+        },
+        {
+          "name": "xxhash_rust",
+          "type": "tree"
+        },
+        {
+          "name": "yoke",
+          "type": "tree"
+        },
+        {
+          "name": "yoke_derive",
+          "type": "tree"
+        },
+        {
+          "name": "zerocopy",
+          "type": "tree"
+        },
+        {
+          "name": "zerofrom",
+          "type": "tree"
+        },
+        {
+          "name": "zerofrom_derive",
+          "type": "tree"
+        },
+        {
+          "name": "zerotrie",
+          "type": "tree"
+        },
+        {
+          "name": "zerovec",
+          "type": "tree"
+        },
+        {
+          "name": "zerovec_derive",
+          "type": "tree"
+        },
+        {
+          "name": "zip",
+          "type": "tree"
+        },
+        {
+          "name": "zmij",
+          "type": "tree"
+        },
+        {
+          "name": "zoneinfo64",
+          "type": "tree"
+        }
+      ],
+      "rootLicenseLikeFiles": []
+    },
+    {
+      "path": "clang",
+      "commit": "45f4b9e25124809497a27a8ae0e63d603b0f9f1b",
+      "url": "https://chromium.googlesource.com/chromium/src/tools/clang/+/45f4b9e25124809497a27a8ae0e63d603b0f9f1b/?format=JSON",
+      "treeId": "774c370a50677c34e836652cb0513dd226357c64",
+      "rootEntryCount": 30,
+      "rootEntries": [
+        {
+          "name": ".gitignore",
+          "type": "blob"
+        },
+        {
+          "name": "CMakeLists.txt",
+          "type": "blob"
+        },
+        {
+          "name": "DIR_METADATA",
+          "type": "blob"
+        },
+        {
+          "name": "OWNERS",
+          "type": "blob"
+        },
+        {
+          "name": "README.md",
+          "type": "blob"
+        },
+        {
+          "name": "alloc_token",
+          "type": "tree"
+        },
+        {
+          "name": "ast_rewriter",
+          "type": "tree"
+        },
+        {
+          "name": "base_bind_rewriters",
+          "type": "tree"
+        },
+        {
+          "name": "blink_gc_plugin",
+          "type": "tree"
+        },
+        {
+          "name": "dsymutil",
+          "type": "tree"
+        },
+        {
+          "name": "empty_string",
+          "type": "tree"
+        },
+        {
+          "name": "iterator_checker",
+          "type": "tree"
+        },
+        {
+          "name": "pass_to_move",
+          "type": "tree"
+        },
+        {
+          "name": "plugins",
+          "type": "tree"
+        },
+        {
+          "name": "pylib",
+          "type": "tree"
+        },
+        {
+          "name": "raw_ptr_plugin",
+          "type": "tree"
+        },
+        {
+          "name": "rewrite_autofill_form_data",
+          "type": "tree"
+        },
+        {
+          "name": "rewrite_autofill_personal_data_manager",
+          "type": "tree"
+        },
+        {
+          "name": "rewrite_raw_ptr_fields",
+          "type": "tree"
+        },
+        {
+          "name": "rewrite_templated_container_fields",
+          "type": "tree"
+        },
+        {
+          "name": "rewrite_to_chrome_style",
+          "type": "tree"
+        },
+        {
+          "name": "scripts",
+          "type": "tree"
+        },
+        {
+          "name": "spanify",
+          "type": "tree"
+        },
+        {
+          "name": "stack_maps",
+          "type": "tree"
+        },
+        {
+          "name": "string_piece_rewriters",
+          "type": "tree"
+        },
+        {
+          "name": "trace_annotator",
+          "type": "tree"
+        },
+        {
+          "name": "translation_unit",
+          "type": "tree"
+        },
+        {
+          "name": "unsafe_pragma_rewriter",
+          "type": "tree"
+        },
+        {
+          "name": "unsafe_todo_remover",
+          "type": "tree"
+        },
+        {
+          "name": "v8_handle_migrate",
+          "type": "tree"
+        }
+      ],
+      "rootLicenseLikeFiles": []
+    },
+    {
+      "path": "win",
+      "commit": "faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0",
+      "url": "https://chromium.googlesource.com/chromium/src/tools/win/+/faefd1b6fa9eeb033ad6fe60368ccb9bf908cbd0/?format=JSON",
+      "treeId": "1af982f05fae6cd78c986dcd26a9e43503cb4323",
+      "rootEntryCount": 28,
+      "rootEntries": [
+        {
+          "name": ".style.yapf",
+          "type": "blob"
+        },
+        {
+          "name": "CreateTempFilesPerfEvaluation",
+          "type": "tree"
+        },
+        {
+          "name": "DebugVisualizers",
+          "type": "tree"
+        },
+        {
+          "name": "IdleWakeups",
+          "type": "tree"
+        },
+        {
+          "name": "OWNERS",
+          "type": "blob"
+        },
+        {
+          "name": "README.md",
+          "type": "blob"
+        },
+        {
+          "name": "RetrieveSymbols",
+          "type": "tree"
+        },
+        {
+          "name": "ShowGlobals",
+          "type": "tree"
+        },
+        {
+          "name": "ShowThreadNames",
+          "type": "tree"
+        },
+        {
+          "name": "chromeexts",
+          "type": "tree"
+        },
+        {
+          "name": "copy-installer.bat",
+          "type": "blob"
+        },
+        {
+          "name": "link_limiter",
+          "type": "tree"
+        },
+        {
+          "name": "linker_verbose_tracking.py",
+          "type": "blob"
+        },
+        {
+          "name": "pdb_compare_globals.py",
+          "type": "blob"
+        },
+        {
+          "name": "pe_summarize.py",
+          "type": "blob"
+        },
+        {
+          "name": "setenv.bat",
+          "type": "blob"
+        },
+        {
+          "name": "setenv.py",
+          "type": "blob"
+        },
+        {
+          "name": "sizeviewer",
+          "type": "tree"
+        },
+        {
+          "name": "static_initializers",
+          "type": "tree"
+        },
+        {
+          "name": "subtract_time.py",
+          "type": "blob"
+        },
+        {
+          "name": "timeit.bat",
+          "type": "blob"
+        },
+        {
+          "name": "trace-sandbox-viewer.py",
+          "type": "blob"
+        },
+        {
+          "name": "trim_heap",
+          "type": "tree"
+        },
+        {
+          "name": "update_idl.py",
+          "type": "blob"
+        },
+        {
+          "name": "win_sdk_dir.py",
+          "type": "blob"
+        },
+        {
+          "name": "windbg32.bat",
+          "type": "blob"
+        },
+        {
+          "name": "windbg64.bat",
+          "type": "blob"
+        },
+        {
+          "name": "windbg_common.bat",
+          "type": "blob"
+        }
+      ],
+      "rootLicenseLikeFiles": []
+    },
+    {
+      "path": "build",
+      "commit": "8acb33ac8dceef0503443109c0a92988189563ef",
+      "url": "https://api.github.com/repos/denoland/chromium_build/git/trees/8acb33ac8dceef0503443109c0a92988189563ef?recursive=1",
+      "treeId": "8acb33ac8dceef0503443109c0a92988189563ef",
+      "recursive": true,
+      "truncated": false,
+      "entryCount": 1788,
+      "licenseLikePaths": [
+        "android/incremental_install/third_party/AndroidHiddenApiBypass/LICENSE"
+      ]
+    }
+  ],
+  "nestedArchiveInspections": [
+    {
+      "path": "third_party/partition_alloc",
+      "commit": "ff3b8b885b8374cbd3902642d94dc737bda93d5d",
+      "url": "https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator/+archive/ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz",
+      "archivePath": "desktop/.downloads/compliance/deno-v8-partition-alloc-ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz",
+      "archive": "desktop/.downloads/compliance/deno-v8-partition-alloc-ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz",
+      "archiveBytes": 878078,
+      "sha256": "4c215f998d4d1c4d9793fa3b17dc41b030ea2730e1358fa9ec8cbfb91b17e910",
+      "archiveSha256": "4c215f998d4d1c4d9793fa3b17dc41b030ea2730e1358fa9ec8cbfb91b17e910",
+      "fileCount": 411,
+      "licenseFiles": [
+        {
+          "upstreamPath": "src/partition_alloc/third_party/apple_apsl/LICENSE",
+          "localPath": "docs/release/licenses/deno-v8-submodules/third_party/partition_alloc/src/partition_alloc/third_party/apple_apsl/LICENSE",
+          "sha256": "b23e682fda7310afe43505ed6041919ccff8f9e0c6799ebd7542cbcef11102e3",
+          "license": "Apple Public Source License 2.0",
+          "scope": "Platform-specific candidate; presence in source tree does not prove Windows binary linkage."
+        }
+      ],
+      "archive": "desktop/.downloads/compliance/deno-v8-partition-alloc-ff3b8b885b8374cbd3902642d94dc737bda93d5d.tar.gz"
+    }
+  ]
+}

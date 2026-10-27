@@ -1,0 +1,35 @@
+// Copyright 2017 The Rust Project Developers. See the COPYRIGHT
+// file at the top-level directory of this distribution and at
+// http://rust-lang.org/COPYRIGHT.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+//! This module defines types which are thread safe if `cfg!(feature =
+//! "concurrent")` is true.
+//!
+//! `Lrc` is an alias of either Rc or Arc.
+//!
+//! `Lock` is a mutex.
+//! It internally uses `parking_lot::Mutex` if cfg!(parallel_queries) is true,
+//! `RefCell` otherwise.
+//!
+//! `RwLock` is a read-write lock.
+//! It internally uses `parking_lot::RwLock` if cfg!(parallel_queries) is true,
+//! `RefCell` otherwise.
+//!
+//! `LockCell` is a thread safe version of `Cell`, with `set` and `get`
+//! operations. It can never deadlock. It uses `Cell` when
+//! cfg!(parallel_queries) is false, otherwise it is a `Lock`.
+//!
+//! `MTLock` is a mutex which disappears if cfg!(parallel_queries) is false.
+//!
+//! `MTRef` is a immutable reference if cfg!(parallel_queries), and an mutable
+//! reference otherwise.
+//!
+//! `rustc_erase_owner!` erases a OwningRef owner into Erased or Erased + Send +
+//! Sync depending on the value of cfg!(parallel_queries).
+

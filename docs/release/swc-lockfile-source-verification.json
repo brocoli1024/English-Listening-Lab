@@ -1,0 +1,258 @@
+{
+  "scope": "Deno pinned Cargo.lock registry source verification. Git commit availability is supplementary provenance, not the source selected by this lockfile. Does not prove final binary build or complete notice coverage.",
+  "denoSourceSha256": "21069d2f4dd65b6832e3f5c373c24a43a8d35cb3d68d3841e15d0582bed39ea8",
+  "packages": [
+    {
+      "package": "ast_node-5.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "2eb025ef00a6da925cf40870b9c8d008526b6004ece399cb0974209720f0b194",
+      "archive": "desktop/.downloads/compliance/deno-crates/ast_node-5.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 11
+    },
+    {
+      "package": "better_scoped_tls-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "7cd228125315b132eed175bf47619ac79b945b26e56b848ba203ae4ea8603609",
+      "archive": "desktop/.downloads/compliance/deno-crates/better_scoped_tls-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 6
+    },
+    {
+      "package": "from_variant-3.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "e5ff35a391aef949120a0340d690269b3d9f63460a6106e99bd07b961f345ea9",
+      "archive": "desktop/.downloads/compliance/deno-crates/from_variant-3.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 5
+    },
+    {
+      "package": "string_enum-1.0.2",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "ae36a4951ca7bd1cfd991c241584a9824a70f6aff1e7d4f693fb3f2465e4030e",
+      "archive": "desktop/.downloads/compliance/deno-crates/string_enum-1.0.2.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 6
+    },
+    {
+      "package": "swc_allocator-4.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "9d7eefd2c8b228a8c73056482b2ae4b3a1071fbe07638e3b55ceca8570cc48bb",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_allocator-4.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 14
+    },
+    {
+      "package": "swc_atoms-9.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "d4ccbe2ecad10ad7432100f878a107b1d972a8aee83ca53184d00c23a078bb8a",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_atoms-9.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 10
+    },
+    {
+      "package": "swc_common-17.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "259b675d633a26d24efe3802a9d88858c918e6e8f062d3222d3aa02d56a2cf4c",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_common-17.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 48
+    },
+    {
+      "package": "swc_config-3.1.2",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "72e90b52ee734ded867104612218101722ad87ff4cf74fe30383bd244a533f97",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_config-3.1.2.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 18
+    },
+    {
+      "package": "swc_config_macro-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "7b416e8ce6de17dc5ea496e10c7012b35bbc0e3fef38d2e065eed936490db0b3",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_config_macro-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 6
+    },
+    {
+      "package": "swc_ecma_ast-18.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "a573a0c72850dec8d4d8085f152d5778af35a2520c3093b242d2d1d50776da7c",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_ast-18.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 22
+    },
+    {
+      "package": "swc_ecma_codegen-20.0.2",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "ff2a6ee1ec49dda8dedeac54e4147b4e8b3f278d9bb34ab28983257a393d34ed",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_codegen-20.0.2.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 23
+    },
+    {
+      "package": "swc_ecma_codegen_macros-2.0.2",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "e276dc62c0a2625a560397827989c82a93fd545fcf6f7faec0935a82cc4ddbb8",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_codegen_macros-2.0.2.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 5
+    },
+    {
+      "package": "swc_ecma_lexer-26.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "5e82f7747e052c6ff6e111fa4adeb14e33b46ee6e94fe5ef717601f651db48fc",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_lexer-26.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 57
+    },
+    {
+      "package": "swc_ecma_loader-17.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "fbcababb48f0d46587a0a854b2c577eb3a56fa99687de558338021e93cd2c8f5",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_loader-17.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 24
+    },
+    {
+      "package": "swc_ecma_parser-27.0.7",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "7f1a51af1a92cd4904c073b293e491bbc0918400a45d58227b34c961dd6f52d7",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_parser-27.0.7.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 40
+    },
+    {
+      "package": "swc_ecma_transforms_base-30.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "250f6f165578ca4fee47bd57585c1b9597c94bf4ea6591df47f2b5fa5b1883fe",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_base-30.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 130
+    },
+    {
+      "package": "swc_ecma_transforms_classes-30.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "3d3ab35eff4a980e02d708798ae4c35bc017612292adbffe7b7b554df772fdf5",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_classes-30.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 7
+    },
+    {
+      "package": "swc_ecma_transforms_macros-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "bc777288799bf6786e5200325a56e4fbabba590264a4a48a0c70b16ad0cf5cd8",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_macros-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 8
+    },
+    {
+      "package": "swc_ecma_transforms_proposal-30.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "c2d7748d4112c87ce1885260035e4a43cebfe7661a40174b7d77a0a04760a257",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_proposal-30.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 13
+    },
+    {
+      "package": "swc_ecma_transforms_react-33.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "03de12e38e47ac1c96ac576f793ad37a9d7b16fbf4f2203881f89152f2498682",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_react-33.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 21
+    },
+    {
+      "package": "swc_ecma_transforms_typescript-33.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "4408800fdeb541fabf3659db622189a0aeb386f57b6103f9294ff19dfde4f7b0",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_transforms_typescript-33.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 13
+    },
+    {
+      "package": "swc_ecma_utils-24.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "0fb99e179988cabd473779a4452ab942bcb777176983ca3cbaf22a8f056a65b0",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_utils-24.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 19
+    },
+    {
+      "package": "swc_ecma_visit-18.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "a9611a72a4008d62608547a394e5d72a5245413104db096d95a52368a8cc1d63",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ecma_visit-18.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 7
+    },
+    {
+      "package": "swc_eq_ignore_macros-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "c16ce73424a6316e95e09065ba6a207eba7765496fed113702278b7711d4b632",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_eq_ignore_macros-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 5
+    },
+    {
+      "package": "swc_macros_common-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "aae1efbaa74943dc5ad2a2fb16cbd78b77d7e4d63188f3c5b4df2b4dcd2faaae",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_macros_common-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 10
+    },
+    {
+      "package": "swc_ts_fast_strip-36.0.0",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "af7939f2933c4e0fbfedc30fcedd8530c557dee7ea7c73bc4bed854c751c476e",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_ts_fast_strip-36.0.0.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 5
+    },
+    {
+      "package": "swc_visit-2.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "62fb71484b486c185e34d2172f0eabe7f4722742aad700f426a494bb2de232a2",
+      "archive": "desktop/.downloads/compliance/deno-crates/swc_visit-2.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 9
+    },
+    {
+      "package": "testing_macros-1.0.1",
+      "lockSource": "registry+https://github.com/rust-lang/crates.io-index",
+      "lockChecksum": "b7442bd3ca09f38d4788dc5ebafbc1967c3717726b4b074db011d470b353548b",
+      "archive": "desktop/.downloads/compliance/deno-crates/testing_macros-1.0.1.crate",
+      "archiveVerified": true,
+      "declaredLicense": "Apache-2.0",
+      "sourceFiles": 14
+    }
+  ]
+}

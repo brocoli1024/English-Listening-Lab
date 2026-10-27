@@ -1,0 +1,37 @@
+{
+  "commit": "ec41b71ce888806bfec56ada7a7258d333eb3d19",
+  "entries": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "925b124f13fd6e80c410da00c3c71ae23051fae3e11fc40060def0efd91db32f"
+    },
+    {
+      "path": "win/build.bat",
+      "sha256": "4d4099222008813f54a45af1c4dee9d94e90f76a2e9eeab765ba08a6b75a4b18"
+    },
+    {
+      "path": ".github/workflows/build-win.yaml",
+      "sha256": "7783958190ccce2fd38bd81702fa9afdc8165cf4666423e9d82c9a510bc2274a"
+    },
+    {
+      "path": "patches/boringssl.patch",
+      "sha256": "905078eeeaf4e258e26d7ee24af0ac1ae7769671da08fa0362b817d8196e7bcf"
+    },
+    {
+      "path": "patches/brotli.patch",
+      "sha256": "d59ec1994ae6285222f65dd7192c2cbcbc0d0ae6c85eb5fce1cae735010f4d4f"
+    },
+    {
+      "path": "patches/curl.patch",
+      "sha256": "104945b7e8b69456714dacd19665173fb7896dca45490a9d9450edfe7bfb416b"
+    },
+    {
+      "path": "patches/nghttp3.patch",
+      "sha256": "f23395f2896a150910d7620044a0913b6179440326ce8c7f9e5ab93a30a615ac"
+    },
+    {
+      "path": "patches/ngtcp2.patch",
+      "sha256": "2a2634adcc78b2c213ee25af4ce6682e01f5061843bc81ad753150decc42ad34"
+    }
+  ]
+}

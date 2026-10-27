@@ -1,0 +1,145 @@
+{
+  "scope": "Metadata discovery only, not dependency closure; test and build-only subtrees may appear",
+  "complete": false,
+  "entries": [
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/35-fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "fontconfig-bd8f7b597de96761750d0365abb49b19d2f8d5c3/Cargo.lock",
+          "content": null
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-freetype-d333439633039de426f943f28a2926c7f97b5ae5.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "freetype-d333439633039de426f943f28a2926c7f97b5ae5/.gitmodules",
+          "content": "[submodule \"dlg\"]\n\tpath = subprojects/dlg\n\turl = https://github.com/nyorain/dlg.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/45-vulkan-loader-65b3936528cd92eb4ea3de485d03f858a3850484.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "Vulkan-Shim-Loader-65b3936528cd92eb4ea3de485d03f858a3850484/.gitmodules",
+          "content": "[submodule \"Vulkan-Headers\"]\n\tpath = Vulkan-Headers\n\turl = https://github.com/KhronosGroup/Vulkan-Headers.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "shaderc-a8abeb0b8a9d4b11e3d59ca9f4550b8213e733ab/DEPS",
+          "content": null
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "kvazaar-2b06691bb5844404c0e703f12a5d7b0fee914ec7/.gitmodules",
+          "content": "[submodule \"greatest\"]\n\tpath = greatest\n\turl = https://github.com/ultravideo/greatest.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-libbluray-a24f4fad4d62893de647abc8671397747b2359dd.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "libbluray-a24f4fad4d62893de647abc8671397747b2359dd/.gitmodules",
+          "content": "[submodule \"contrib/libudfread\"]\n\tpath = contrib/libudfread\n\turl = https://code.videolan.org/videolan/libudfread.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "libjxl-b87738951c1254cd8cccaa6d47712ba735da56d8/.gitmodules",
+          "content": "[submodule \"third_party/brotli\"]\n\tpath = third_party/brotli\n\turl = https://github.com/google/brotli\n[submodule \"third_party/lcms\"]\n\tpath = third_party/lcms\n\turl = https://github.com/mm2/Little-CMS\n[submodule \"third_party/googletest\"]\n\tpath = third_party/googletest\n\turl = https://github.com/google/googletest\n[submodule \"third_party/sjpeg\"]\n\tpath = third_party/sjpeg\n\turl = https://github.com/webmproject/sjpeg.git\n[submodule \"third_party/skcms\"]\n\tpath = third_party/skcms\n\turl = https://github.com/google/skcms\n[submodule \"third_party/highway\"]\n\tpath = third_party/highway\n\turl = https://github.com/google/highway\n[submodule \"third_party/libpng\"]\n\tpath = third_party/libpng\n\turl = https://github.com/pnggroup/libpng.git\n[submodule \"third_party/zlib\"]\n\tpath = third_party/zlib\n\turl = https://github.com/madler/zlib.git\n[submodule \"third_party/testdata\"]\n\tpath = testdata\n\turl = https://github.com/libjxl/testdata\n[submodule \"third_party/libjpeg-turbo\"]\n\tpath = third_party/libjpeg-turbo\n\turl = https://github.com/libjpeg-turbo/libjpeg-turbo.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-libopus-503d81b138d76621aae4b12786e90de48aa8db3a.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "opus-503d81b138d76621aae4b12786e90de48aa8db3a/.gitmodules",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "libplacebo-e2972fdd09adacd383656738d7d280f0cd84a761/.gitmodules",
+          "content": "[submodule \"demos/3rdparty/nuklear\"]\n\tpath = demos/3rdparty/nuklear\n\turl = https://github.com/Immediate-Mode-UI/Nuklear.git\n[submodule \"3rdparty/glad\"]\n\tpath = 3rdparty/glad\n\turl = https://github.com/Dav1dde/glad\n[submodule \"3rdparty/jinja\"]\n\tpath = 3rdparty/jinja\n\turl = https://github.com/pallets/jinja\n[submodule \"3rdparty/markupsafe\"]\n\tpath = 3rdparty/markupsafe\n\turl = https://github.com/pallets/markupsafe\n[submodule \"3rdparty/Vulkan-Headers\"]\n\tpath = 3rdparty/Vulkan-Headers\n\turl = https://github.com/KhronosGroup/Vulkan-Headers\n[submodule \"3rdparty/fast_float\"]\n\tpath = 3rdparty/fast_float\n\turl = https://github.com/fastfloat/fast_float.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/99-librsvg-7612431eb02dc009319094f8513d63c1faaecfb4.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "librsvg-7612431eb02dc009319094f8513d63c1faaecfb4/.gitmodules",
+          "content": "[submodule \"librsvg-rebind/gir\"]\n\tpath = librsvg-rebind/gir\n\turl = https://github.com/gtk-rs/gir.git\n\tupdate = none\n[submodule \"librsvg-rebind/gir-files\"]\n\tpath = librsvg-rebind/gir-files\n\turl = https://github.com/gtk-rs/gir-files.git\n\tupdate = none\n"
+        },
+        {
+          "path": "librsvg-7612431eb02dc009319094f8513d63c1faaecfb4/Cargo.lock",
+          "content": null
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "rav1e-31435de9d76fddd38f6dcc31d4014574cebb2092/Cargo.lock",
+          "content": null
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-snappy-9c28114a38866f6deeaa826db918293bc28ae410.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "snappy-9c28114a38866f6deeaa826db918293bc28ae410/.gitmodules",
+          "content": "[submodule \"third_party/benchmark\"]\n\tpath = third_party/benchmark\n\turl = https://github.com/google/benchmark.git\n[submodule \"third_party/googletest\"]\n\tpath = third_party/googletest\n\turl = https://github.com/google/googletest.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-srt-ff8ab25c57aece5b7351defe36dacc94fc28527f.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "srt-ff8ab25c57aece5b7351defe36dacc94fc28527f/.gitmodules",
+          "content": "[submodule \"submodules/abi-compliance-checker\"]\n\tpath = submodules/abi-compliance-checker\n\turl = https://github.com/lvc/abi-compliance-checker.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/50-zimg-67e0603271c080e22c8429856dd4a8a56587e61e.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "zimg-67e0603271c080e22c8429856dd4a8a56587e61e/.gitmodules",
+          "content": "[submodule \"test/extra/googletest\"]\n\tpath = test/extra/googletest\n\turl = https://github.com/google/googletest.git\n[submodule \"graphengine\"]\n\tpath = graphengine\n\turl = https://github.com/sekrit-twc/graphengine.git\n"
+        }
+      ]
+    },
+    {
+      "source": "desktop/.downloads/compliance/ffmpeg-enabled/libiconv-1df3087ba8110c7f3ed3eb5f8869b814dbbe00b0-git.tar.gz",
+      "dependencyMetadata": [
+        {
+          "path": "libiconv/.gitmodules",
+          "content": "[subcheckout \"gnulib\"]\r\n\turl = git://git.savannah.gnu.org/gnulib.git\r\n\tpath = gnulib\r\n"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2183 @@
+{
+  "revision": 6835,
+  "baseUrl": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/",
+  "completeFileExport": true,
+  "scope": "HTTP export of fixed SVN file contents; SVN properties and build-generated files not reproduced",
+  "files": [
+    {
+      "path": ".clang-format",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/.clang-format",
+      "sha256": "b05b22715fa26307e81b6ff67387a9e3000b1bbc74a01ca4b80a5130f88756d0"
+    },
+    {
+      "path": ".gitignore",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/.gitignore",
+      "sha256": "021cdbd606fdd3bf84e7c9e971eb15fc1f437ac074c219e3af65b26aebcb1371"
+    },
+    {
+      "path": "ABOUT-NLS",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ABOUT-NLS",
+      "sha256": "fbe8681a07eab3934d302edb4db8fbcea014b460232e3638e7f4cdb7da53e5aa"
+    },
+    {
+      "path": "API",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/API",
+      "sha256": "f60dcaa10535d7e3e0a8c97da203f8e3bd1608c7debe9dd5b2e8016d74cdb213"
+    },
+    {
+      "path": "COPYING",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/COPYING",
+      "sha256": "e64f9c5a18f56828c10a575df13ade641aa3af4512a7afe6c411256943b57aaf"
+    },
+    {
+      "path": "ChangeLog",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ChangeLog",
+      "sha256": "1d628be875a6dd70668c01065b5c2a2b49d9f7345b34b8283f47ea6ac9803642"
+    },
+    {
+      "path": "ChangeLog.header",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ChangeLog.header",
+      "sha256": "80be9f52fa30bbe004d2fef316d89ff5882f4321fe0afb5376c66a5b75ad6e3a"
+    },
+    {
+      "path": "DEFINES",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/DEFINES",
+      "sha256": "a36861ca0dff80eb314f0504e20700706e534ff994f959e4d3f34007528b1caa"
+    },
+    {
+      "path": "HACKING",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/HACKING",
+      "sha256": "d9f5f8bfe1b618951d8699b86d884e9982cce5fd6aa4fb26f3013f6cb37aec46"
+    },
+    {
+      "path": "INSTALL",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/INSTALL",
+      "sha256": "14378606f86782c35ed48b499e9e8bf6f4f411a0a81093d3563a4cffc3e2ea8a"
+    },
+    {
+      "path": "INSTALL.configure",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/INSTALL.configure",
+      "sha256": "de8d909a0cbfd54ab3f96b97ec0f8e3b5725d9b194e15378cbc174190ba44065"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/LICENSE",
+      "sha256": "5c1f8d44f1eacbea3e1c31ff6ee11a4e1690ccbed4ee4af16de3b6eb61dc69a8"
+    },
+    {
+      "path": "Makefile.MSVC",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Makefile.MSVC",
+      "sha256": "c0b98b28d142e5f57e53518ebd7774046c9d8319bef20208e54ded376d92f92c"
+    },
+    {
+      "path": "Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Makefile.am",
+      "sha256": "206836af012c3a429ae441824a254c5d1b6ee9cea00a2fc16cc3ac1349be7f52"
+    },
+    {
+      "path": "Makefile.am.global",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Makefile.am.global",
+      "sha256": "1453ac8afbe021919c591a1ef7dc5fd62ad2b916f30cfaf0c38f4678ef1638d3"
+    },
+    {
+      "path": "Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Makefile.in",
+      "sha256": "6924d7ffe2aea88000745733db209b130e2339413a36fe315a14fe1bc4a0f8ec"
+    },
+    {
+      "path": "README",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/README",
+      "sha256": "e47a4cf08fc823fda8337bd80fcf494a5bfc2b98a26f8c94d5787017afcac044"
+    },
+    {
+      "path": "STYLEGUIDE",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/STYLEGUIDE",
+      "sha256": "ef5597209ec922a868ffb8f3ca3537837b9f00e25c9c6a2dc6919f4c5f50c34d"
+    },
+    {
+      "path": "TODO",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/TODO",
+      "sha256": "35d19557ac4fee5664edd68ce9432ec7cdae20226247f5ed2681e0c51e07014b"
+    },
+    {
+      "path": "USAGE",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/USAGE",
+      "sha256": "e774a290a0324896a27b2e1050dd20accb3c09df216f60cd4d681d80dc90f2a7"
+    },
+    {
+      "path": "acinclude.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/acinclude.m4",
+      "sha256": "a0265dafbd536d2f545bdcc5e0c7eea3179944adea40af423265032246931b0e"
+    },
+    {
+      "path": "aclocal.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/aclocal.m4",
+      "sha256": "26c7b677fda68de0dd12ce45fb6425caa014a66de2b478554c8f5349a80faadf"
+    },
+    {
+      "path": "compile",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/compile",
+      "sha256": "92ed7feeda61ad958dc3c4cc4efd724e1414482f1cad60b74b09e0633a93dfd6"
+    },
+    {
+      "path": "config.guess",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/config.guess",
+      "sha256": "7791fa2c24a0aa966399c7ae9265b1a421b442610db487a429378b7103a6bd28"
+    },
+    {
+      "path": "config.h.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/config.h.in",
+      "sha256": "446844779dbb6396fc08b433b9acf663723bdc5af9ade2ddd5eea4cdc1bf7353"
+    },
+    {
+      "path": "config.rpath",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/config.rpath",
+      "sha256": "46e05ef0ed1805729438662c040e85b0abdeba5fbedd448c4d79a3f0f3af6250"
+    },
+    {
+      "path": "config.sub",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/config.sub",
+      "sha256": "4431bef46ac3d3bee68f283f48d8b94caba57d2f566f8a72b61e92cbad2b8385"
+    },
+    {
+      "path": "configMS.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/configMS.h",
+      "sha256": "96f4a7668c4e7f364228a896447150cfbca64cd5a378b761a15b0802afa4a0a9"
+    },
+    {
+      "path": "configure",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/configure",
+      "sha256": "7157839207bc5f00f87b119194d22218af81254e39f423569b18e872ed314831"
+    },
+    {
+      "path": "configure.ac",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/configure.ac",
+      "sha256": "e03e0b0c26522b2aa299e91364fc2826f4c3c90a5d9d18d7792b6d840e40262f"
+    },
+    {
+      "path": "depcomp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/depcomp",
+      "sha256": "ac3ae010382a83144ff6ec1a4c368a3f16a14ea2b12751aa73ddfb548d931574"
+    },
+    {
+      "path": "install-sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/install-sh",
+      "sha256": "776876b3909b096439109a4c7642eb0f9100f6ba3fb42fa93d05351e50a0a7ef"
+    },
+    {
+      "path": "lame.bat",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/lame.bat",
+      "sha256": "06e43563ffaa78ee5b27d5a94da0ce74a6ed8716441792de7753a7d601d7c005"
+    },
+    {
+      "path": "ltmain.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ltmain.sh",
+      "sha256": "30712e3401deb6e6d5255c71f7bd57f374429d220cfc199ba1f2376ab42c2e35"
+    },
+    {
+      "path": "make_changelog.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/make_changelog.sh",
+      "sha256": "5d9ac587d6a401d6b040a80b54b29e5c06ab344446af65f459ef2d93622ea745"
+    },
+    {
+      "path": "missing",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/missing",
+      "sha256": "4f17c4a66ec5b8000d44573a576f6b5d9c0c84848e8fd1286f84a52f439db4e9"
+    },
+    {
+      "path": "test-driver",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test-driver",
+      "sha256": "f5031431dfc824ee2f012950aef35530e5acf3eb412421c8050662b616deaded"
+    },
+    {
+      "path": "testcase.mp3",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/testcase.mp3",
+      "sha256": "ca9bd0b2527e6714a0d12e14b461f802a070576266913d7ae939495ed5e338aa"
+    },
+    {
+      "path": "testcase.wav",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/testcase.wav",
+      "sha256": "f766aa5dc706b5a4b1741d97c324f5c5479c5d630064b9cbeb4c5a9333007829"
+    },
+    {
+      "path": "vc_solution/.gitignore",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/.gitignore",
+      "sha256": "d6ccd2b55d01458e65a0d16d8c30399a5d8e106cc18607a45f73761cdc178dcf"
+    },
+    {
+      "path": "vc_solution/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/Makefile.am",
+      "sha256": "9ca462bd16fc31b205c9359b2c61f3b4d9fba4c62822bb0e38bf1bfa06f5515c"
+    },
+    {
+      "path": "vc_solution/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/Makefile.in",
+      "sha256": "ef60734a83fa889a0cf37a63c53b2782b0e38295197d7365c3fa69d0a3410ea0"
+    },
+    {
+      "path": "vc_solution/README.vs.txt",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/README.vs.txt",
+      "sha256": "780e5aba8c1ecc6a24dff66e84c50b0d127bad8648fd4bd4f304ea15eadffcb4"
+    },
+    {
+      "path": "vc_solution/vs_clients_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_clients_config.props",
+      "sha256": "d51568d4ad9466a5dbbbf71b1ffdb88164e1c41e2ecbfe26e90a463bf07d0e77"
+    },
+    {
+      "path": "vc_solution/vs_dshow_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_dshow_config.props",
+      "sha256": "46ef57bbbb1221283bacc989b749ca7d396e2f4e463c04de3d9bb151f95a9e8b"
+    },
+    {
+      "path": "vc_solution/vs_gtk_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_gtk_config.props",
+      "sha256": "359f24c1ee605b1051b4c9cd6b95d74dd3402dc2cdeac26cdfc9692f95317ae6"
+    },
+    {
+      "path": "vc_solution/vs_lame.slnx",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame.slnx",
+      "sha256": "29713e69cbd8eaf926ad8600ed19146a07308ded844914bc454653b241dd4729"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm.vcxproj",
+      "sha256": "093e6dacff15def408a242562bbaec5cc10645a9d543c2ab9c3df9eb864ae9ea"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm.vcxproj.filters",
+      "sha256": "1dce6c374696be2ffcd8623f749f7928e6dcb838957362fb1f0e90f6e21a969e"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm_adbg.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm_adbg.vcxproj",
+      "sha256": "f0b21c7447a47ac2abe59abfbdba5dc26aa6de838898e603e2fb7c495b65d28b"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm_adbg.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm_adbg.vcxproj.filters",
+      "sha256": "fb76a5dc49d094e2b026519d85940744340c48476ada254723330dfe67a34b13"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm_test.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm_test.vcxproj",
+      "sha256": "c90bbb7140d3710c73604a89808a92f4b27687771be5e6f8b048a23ae94fe2f2"
+    },
+    {
+      "path": "vc_solution/vs_lame_acm_tinyxml.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_acm_tinyxml.vcxproj",
+      "sha256": "d4d3f6fc87d1116eeee16156c80aa1cb01b54c747717f92d883fbfecb912799f"
+    },
+    {
+      "path": "vc_solution/vs_lame_blade_test.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_blade_test.vcxproj",
+      "sha256": "1fde5a54f2158445eff3a05b0c1d4e12ce5ecfa9698b918afc40dec9dc2e28bf"
+    },
+    {
+      "path": "vc_solution/vs_lame_clients.slnx",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_clients.slnx",
+      "sha256": "2cc701e7118e6a9e0a763284b15cbffe057638e275b9124ca377551f93143658"
+    },
+    {
+      "path": "vc_solution/vs_lame_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_config.props",
+      "sha256": "0e548bc58ba54a1c7a244931dfa1bfb5dc00fc25be2e4e0beedc2fa4a06023cf"
+    },
+    {
+      "path": "vc_solution/vs_lame_dshow.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_dshow.vcxproj",
+      "sha256": "82a721435bbd903d1c2f136a02987fe4e5f8c41fbac8da3fd23b52ea7a22c37e"
+    },
+    {
+      "path": "vc_solution/vs_lame_dshow.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_dshow.vcxproj.filters",
+      "sha256": "705b05da9c9b932aa126aee93ca42c8fb13aad72ea24cae378ff38ab36bd273f"
+    },
+    {
+      "path": "vc_solution/vs_lame_dshow_test.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_dshow_test.vcxproj",
+      "sha256": "fa58ca269719398624b4644e8a00f7232b99da4dafbd51e6b665b6a8e63ece42"
+    },
+    {
+      "path": "vc_solution/vs_lame_enc_dll.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_enc_dll.vcxproj",
+      "sha256": "08b75e54ffa6cd66824dda2e5dbedc7bb7859f8ec1a52b40f7b8c6e946254b8c"
+    },
+    {
+      "path": "vc_solution/vs_lame_enc_dll.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_enc_dll.vcxproj.filters",
+      "sha256": "0ad9e39c7462acead95fd158d8156eb7e543b8565bd13293c5cb929580cd44ff"
+    },
+    {
+      "path": "vc_solution/vs_lame_lame.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_lame.vcxproj",
+      "sha256": "e30f80196c00400279f5dd6bac312fc7821a524c948fcd74061fafab8d6e97f4"
+    },
+    {
+      "path": "vc_solution/vs_lame_lame.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_lame.vcxproj.filters",
+      "sha256": "b5808b5e3feb21ca0099230ed827d16b092ea45cf8b556a0719e4e51777f12af"
+    },
+    {
+      "path": "vc_solution/vs_lame_mp3rtp.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_mp3rtp.vcxproj",
+      "sha256": "5a363f67d5624f1e735d79e45accf92ef6dac245afdc3272326a9880497ef900"
+    },
+    {
+      "path": "vc_solution/vs_lame_mp3rtp.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_mp3rtp.vcxproj.filters",
+      "sha256": "1028f3d5f5a5429b3acb4eb261a223af54ec54f9b4c579d39180c7de78eddbbe"
+    },
+    {
+      "path": "vc_solution/vs_lame_mp3x.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_mp3x.vcxproj",
+      "sha256": "0b927a743ed7bc68136b13a65921e99ae7c898e1a6c811ee2ed5f305c8542324"
+    },
+    {
+      "path": "vc_solution/vs_lame_mp3x.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_mp3x.vcxproj.filters",
+      "sha256": "603f16a56968b15c4efbeae468d901f8f547071f7e08d77bb2efd29785011626"
+    },
+    {
+      "path": "vc_solution/vs_lame_test.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_lame_test.vcxproj",
+      "sha256": "785c1740c82a17d490840a0b7dbdbdf435da7d5d6425fba7fbf64322ae180191"
+    },
+    {
+      "path": "vc_solution/vs_libmp3lame.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_libmp3lame.vcxproj",
+      "sha256": "63abc3b224f7984a55185d8849212ec078b0f2d96eea089bd4c94d5f4a84753b"
+    },
+    {
+      "path": "vc_solution/vs_libmp3lame.vcxproj.filters",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_libmp3lame.vcxproj.filters",
+      "sha256": "7284f4efe2f5a2a0aaffa8c68c49b48332a7104f833371bdf77d3ff10b5a79d8"
+    },
+    {
+      "path": "vc_solution/vs_libmp3lame_dll.vcxproj",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_libmp3lame_dll.vcxproj",
+      "sha256": "353b587f28419f295a51955015d85b3177de2b19acf23c31590e8b102088f56c"
+    },
+    {
+      "path": "vc_solution/vs_libmpg123_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_libmpg123_config.props",
+      "sha256": "ad74d4accc992b70a185abbaa694f9c697d3298598b09e1404aef5dcb8594f00"
+    },
+    {
+      "path": "vc_solution/vs_libsndfile_config.props",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/vc_solution/vs_libsndfile_config.props",
+      "sha256": "fe91454c5a95323f038428bfab49c1ce972df02f2d32931ff7f98f8322bd9197"
+    },
+    {
+      "path": "test/CBRABR.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/CBRABR.op",
+      "sha256": "a56ef15f02aed7bdf2b612fc616dbb698584ac677b2f096f27f24064609b0e65"
+    },
+    {
+      "path": "test/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/Makefile.am",
+      "sha256": "ac338b89feda7ebf4fe0682e745370043730756b4125d73ba55048e3a779210f"
+    },
+    {
+      "path": "test/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/Makefile.in",
+      "sha256": "8045d44fd544568a93f796539d88db0eea3a882dd8206e8b07852d2567de84b0"
+    },
+    {
+      "path": "test/VBR.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/VBR.op",
+      "sha256": "463dcab2acec41b3bf130b123fabd5c0ce3fe72ea8c9de502f6a57258354a457"
+    },
+    {
+      "path": "test/VBRold.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/VBRold.op",
+      "sha256": "d5d618e3bae083a883d2d1d24dc5789623cc41ffa1cd7ef91be239785ba203e6"
+    },
+    {
+      "path": "test/cvscheck.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/cvscheck.sh",
+      "sha256": "0a875f33c5697d9557b3d291f1519798b5a7642b2499c389441115fb31057c4a"
+    },
+    {
+      "path": "test/lame_test.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/lame_test.cpp",
+      "sha256": "5153dcb9843635e1a7eb7e6e647824336aa896a63821788b7417f6e98f441ba0"
+    },
+    {
+      "path": "test/lametest.py",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/lametest.py",
+      "sha256": "d93423aef2fda82624baa5967e2897fe79e09607309b056343244f0835b2fa22"
+    },
+    {
+      "path": "test/misc.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/misc.op",
+      "sha256": "9bb4c295f65b81aff3c23e253a32e306daec044c77b15fde438577be180d4ddd"
+    },
+    {
+      "path": "test/nores.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/nores.op",
+      "sha256": "6902426dfa87e5f68d51e121869b8335f93e6f25343ae647ce7f33e8f5c942c4"
+    },
+    {
+      "path": "test/shortCBRABR.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/shortCBRABR.op",
+      "sha256": "0b713aca88a04339a72c84d2a6a254f54efe5216b5e23239a5dfe91d0d3bd96c"
+    },
+    {
+      "path": "test/shortVBR.op",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/shortVBR.op",
+      "sha256": "d76f9277434637d58a40e17e66819dda13d68848f8489ffb166a91b6e97324ba"
+    },
+    {
+      "path": "test/unit/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/Makefile.am",
+      "sha256": "7f2e970e3506d52a536c3bee42ae962335172fd200dbf54b0b2f32e63086b34c"
+    },
+    {
+      "path": "test/unit/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/Makefile.in",
+      "sha256": "35e57e43bce20e7e967c34b6fa87ae652febf028bd995e46b8629da21bb6a45f"
+    },
+    {
+      "path": "test/unit/parse_test_stubs.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/parse_test_stubs.c",
+      "sha256": "0a027c2ad7b0a4c4d3a3af48a85bb5dd2fa4b51ee607b373f985a9edd0ed321f"
+    },
+    {
+      "path": "test/unit/test_bitstream_headers.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_bitstream_headers.c",
+      "sha256": "c6ff1e0d4a38fe30f2804818319bb80d1d64d8bb83de4f1e942397ee99340005"
+    },
+    {
+      "path": "test/unit/test_calc_sfb_noise_vector.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_calc_sfb_noise_vector.c",
+      "sha256": "76240a47cd99ac080659e78ef67b32700f8ff2b9345b60ed5685249d9e47e1e8"
+    },
+    {
+      "path": "test/unit/test_choose_table_neon.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_choose_table_neon.c",
+      "sha256": "769b12230302ebbbb0176ed8a420dc4b8c2c2cea7662736147778122ed525407"
+    },
+    {
+      "path": "test/unit/test_choose_table_vector.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_choose_table_vector.c",
+      "sha256": "b34cddbb0a21d498347e6a9eb84d7b85c013de390004a5fb586c92f4c6bf53b4"
+    },
+    {
+      "path": "test/unit/test_decode_scale.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_decode_scale.c",
+      "sha256": "3ce0a3fc876ea39d8d29b02d2c679e2354dbae3b7e8670ef97668e1c9596e7b2"
+    },
+    {
+      "path": "test/unit/test_decoder_api.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_decoder_api.c",
+      "sha256": "cf98719118256a8dc0f3c6a1876c25a347b49d9152501bb40393be89be1649c2"
+    },
+    {
+      "path": "test/unit/test_encode_api.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_encode_api.c",
+      "sha256": "0efd677f4aca0cb759363393a4606e4aa6a831a8b18fcc8933907e9e54743237"
+    },
+    {
+      "path": "test/unit/test_encode_clipgain.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_encode_clipgain.c",
+      "sha256": "e1fc1ff4c8ba3d1cf8f23f66fce487aa0dc90bda2b7fe199b66b786d2077f265"
+    },
+    {
+      "path": "test/unit/test_encode_mono_interleaved.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_encode_mono_interleaved.c",
+      "sha256": "8be63d3bfe93c5cb895c62680675598e5a44daf127048c96f3d9c29ea5656ed6"
+    },
+    {
+      "path": "test/unit/test_encode_nonfinite.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_encode_nonfinite.c",
+      "sha256": "37f68296b6de6a147c3ff6f44f2e916cfd907badc2d6355ff0eabc41c30f1b87"
+    },
+    {
+      "path": "test/unit/test_exit_status.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_exit_status.sh",
+      "sha256": "607929e5e65020c391af0b7b8f04a559b35640fd6d4dae26ec6ca14339a51409"
+    },
+    {
+      "path": "test/unit/test_file_times.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_file_times.c",
+      "sha256": "fede4db1207198ff2dd79cf08c0c6b7dfbc2fa38cf193cb4b13bcd56ecb2d7f6"
+    },
+    {
+      "path": "test/unit/test_free_format.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_free_format.c",
+      "sha256": "65647d716b8b6443544acfdfe8bfa6195ff565fc7239ef9f71800af1022da5be"
+    },
+    {
+      "path": "test/unit/test_get_audio_aiff.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_get_audio_aiff.c",
+      "sha256": "4eb5fcdad95b8f4d200f7bcf96721f922afbe0c8ed588b400af4cb0f77b36948"
+    },
+    {
+      "path": "test/unit/test_get_audio_float.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_get_audio_float.c",
+      "sha256": "148d2c456f68eb9548f59712a5fcf9950041daa7947eac7c4c8f4676ec1018d2"
+    },
+    {
+      "path": "test/unit/test_get_audio_wav.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_get_audio_wav.c",
+      "sha256": "861e2ae0cca50d83051eb854d974dc032e0bf3cb633f705346117ef8b7070453"
+    },
+    {
+      "path": "test/unit/test_help_exit.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_help_exit.c",
+      "sha256": "4715d17b5fb4752690e9e50f765e190726477d81a3ae2ffddde6c9d171bb4c3d"
+    },
+    {
+      "path": "test/unit/test_huffman_tables.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_huffman_tables.c",
+      "sha256": "143dc978e0fb7f3d58cb533f6bcc54b73524b25ad96cab0a6f907537751a2f7f"
+    },
+    {
+      "path": "test/unit/test_id3tag.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_id3tag.c",
+      "sha256": "056bd24859217fd44bda63c8f3a6ba7a7cc4e2fb0e79c02dba558be8630e4206"
+    },
+    {
+      "path": "test/unit/test_lib_info.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_lib_info.c",
+      "sha256": "2db30859b03fcb5909cd90d148ec9d71709f55b5e68eb167db19a841b66f3929"
+    },
+    {
+      "path": "test/unit/test_merge_argv.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_merge_argv.c",
+      "sha256": "5390fb1d269cc9786e616af8dcb863415ce43939f2bb13c6fdb5d02d278dc097"
+    },
+    {
+      "path": "test/unit/test_parse_id3.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_parse_id3.c",
+      "sha256": "aeedc87c4bb579d1975be723eeabee374b6ce4f80584e421a30628433a14aa1d"
+    },
+    {
+      "path": "test/unit/test_parse_pathlen.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_parse_pathlen.c",
+      "sha256": "cbec6721cc1d008c7c9d248732ce40c6df123063207286d84eea0ab8f47a1acd"
+    },
+    {
+      "path": "test/unit/test_pkgconfig.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_pkgconfig.sh",
+      "sha256": "a393dcb314dcfcd2b1cd5492db5fddfd90c98d635e3f40156e36052d91b0d6b2"
+    },
+    {
+      "path": "test/unit/test_quantize_lines_vector.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_quantize_lines_vector.c",
+      "sha256": "7cfea9326be8081a4d83b0ff484ce9303b8f432f1cc1d59969a47fe2f049006c"
+    },
+    {
+      "path": "test/unit/test_resample_decision.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_resample_decision.c",
+      "sha256": "c2ead04a0f816041f65676033ba7cc0b35097f00ff4ae867a83c157cae42c8ec"
+    },
+    {
+      "path": "test/unit/test_rtp_socket.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_rtp_socket.c",
+      "sha256": "2e168d811f58cfc67fa4136685160c1c0052f85742d4d6a864cba650cbe0eff8"
+    },
+    {
+      "path": "test/unit/test_sanity.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_sanity.c",
+      "sha256": "0baa17f0753aeb91c76623d0e3a44a5023b326dc804f46f7c3d8ac927278da42"
+    },
+    {
+      "path": "test/unit/test_set_get.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_set_get.c",
+      "sha256": "619c0998b494ebd976e9852f51943b24d4821316d85df67430cad41111ffe2be"
+    },
+    {
+      "path": "test/unit/test_stubs.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_stubs.c",
+      "sha256": "82c8286a0e9c5cfc7f76c34190746da70fdabbd74b23e1779eeb904876feedee"
+    },
+    {
+      "path": "test/unit/test_totalframes.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_totalframes.c",
+      "sha256": "2401d0befae425701130d9a39ad1351acffab266a3dba1cdc53311fc3158ab0f"
+    },
+    {
+      "path": "test/unit/test_unused.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_unused.h",
+      "sha256": "0855df8e5020d4d1aee75518ced622cd6ea75d4ca849caac70c5607bd72daf9d"
+    },
+    {
+      "path": "test/unit/test_vector_ladder.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_vector_ladder.c",
+      "sha256": "1d1863019b324744718ca97c66685651f7ea05eee7966fd3161212688eb3e973"
+    },
+    {
+      "path": "test/unit/test_vector_routines.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/unit/test_vector_routines.c",
+      "sha256": "464739058d1f86ee80cc4f692ac28819dd80d5fc081a769dfd1b635a21bedc4d"
+    },
+    {
+      "path": "test/clients/acm_test.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/clients/acm_test.cpp",
+      "sha256": "d6cc1566280e59fa9662b7e3aea3691f022d7d210db850c79d14520ffe9caf47"
+    },
+    {
+      "path": "test/clients/blade_test.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/clients/blade_test.cpp",
+      "sha256": "5fa80a9c5612554672803117b196a402d7e49fba1011229216f29d5fa0efbca2"
+    },
+    {
+      "path": "test/clients/ctest.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/clients/ctest.h",
+      "sha256": "d851f643bc82d0f92c0ab6142260cbf16d232c7e4ec61b5b1bc909fc504bf9d1"
+    },
+    {
+      "path": "test/clients/dshow_test.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/clients/dshow_test.cpp",
+      "sha256": "418ce09d4cbba36a1e06324f777505c911b423998fd5587f0e2a83921870d44e"
+    },
+    {
+      "path": "test/clients/mp3frame.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/test/clients/mp3frame.h",
+      "sha256": "b93f941020ed485fb7cde5d9cf90808267b1e11edbf25cbb22118c2ccfa353d8"
+    },
+    {
+      "path": "po/Makefile.in.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/Makefile.in.in",
+      "sha256": "8a276dda7a246d267add6fa33ad8c7c26af4d0ee6f7094c78f264bd75a82ee50"
+    },
+    {
+      "path": "po/Makevars.template",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/Makevars.template",
+      "sha256": "d374f67b9c269f97539789e4dc464753cf263064eccb971a70e1e92d3955f4c2"
+    },
+    {
+      "path": "po/Rules-quot",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/Rules-quot",
+      "sha256": "ff0938a507a30899173bb116bcdf44f961ee810fb0d28d48b1be0a89f2f37351"
+    },
+    {
+      "path": "po/boldquot.sed",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/boldquot.sed",
+      "sha256": "c109dbd6b520bb784590fe4b3bbec28d4877b0e8618e180d0f53d695bee43fc7"
+    },
+    {
+      "path": "po/en@boldquot.header",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/en@boldquot.header",
+      "sha256": "80b9c9513f18b49d75e23f0e54e7a331a2ebda50eb0b28f82d48b012340ff5f7"
+    },
+    {
+      "path": "po/en@quot.header",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/en@quot.header",
+      "sha256": "b277bf95b5e1c56f5d860ed3d479a20c37a41d3f965d0954531a8e907bb2f960"
+    },
+    {
+      "path": "po/insert-header.sed",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/insert-header.sed",
+      "sha256": "120513c5348e88d0f9f0381da50dfb5f2dc6557581f8ac76125f2f4d84ab0f45"
+    },
+    {
+      "path": "po/quot.sed",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/quot.sed",
+      "sha256": "a2a83b6f6c4d6a0c28828c81ff621f1d7cb703ed07b56d83bdafe86dcb4d316f"
+    },
+    {
+      "path": "po/remove-potcdate.sed",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/po/remove-potcdate.sed",
+      "sha256": "d582513385c800f75224f4041fbff207053d4229be6038c6810af382420ac362"
+    },
+    {
+      "path": "mpglib/AUTHORS",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/AUTHORS",
+      "sha256": "d8ecf9556aafa8c653796d6be3dc43deea374257680e21c30109a5c3c4484263"
+    },
+    {
+      "path": "mpglib/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/Makefile.am",
+      "sha256": "701a08a37387d15e1404418cc84bea7338db1a243ae52cbca86abe6b36d50489"
+    },
+    {
+      "path": "mpglib/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/Makefile.in",
+      "sha256": "7a911219e166d7b84576821e56181703a6961aca7aab4ac10068aabcff8f90b6"
+    },
+    {
+      "path": "mpglib/README",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/README",
+      "sha256": "c789956f7847ae2f3c93b77c95002a2a7d06c8367fdc0b5b69e7ab057f994b44"
+    },
+    {
+      "path": "mpglib/depcomp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/depcomp",
+      "sha256": "534cc0f4c4bfc8f2c5a674741e46abfcc033776a011c3d5bc48cad7d0394ef91"
+    },
+    {
+      "path": "mpglib/mpglib.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mpglib/mpglib.h",
+      "sha256": "64fc6186562818f598b10e4b341ea0845792077bce5505734d11c7e304c72790"
+    },
+    {
+      "path": "misc/.indent.pro",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/.indent.pro",
+      "sha256": "ee619046382a675002afeb1c5149f59bfed31a120dd1a99c743f45df90cffddd"
+    },
+    {
+      "path": "misc/Lame.vbs",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/Lame.vbs",
+      "sha256": "afaec1dad634cc106e0c0ad999c854ff94c65f00b0a7f480b63137fedb9560b3"
+    },
+    {
+      "path": "misc/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/Makefile.am",
+      "sha256": "1cccf2a529f195edd0c417bf3878bdb82d69408bc3059318b09974132b9a1595"
+    },
+    {
+      "path": "misc/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/Makefile.in",
+      "sha256": "080babeb2c89a43291cfa67de39aa2f4668eb757ade351d7572d135292e03dcf"
+    },
+    {
+      "path": "misc/abx.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/abx.c",
+      "sha256": "bc3a6cef56193960362a5e32c698114fdd60d82de959f63f83ec080078f2c464"
+    },
+    {
+      "path": "misc/ath.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/ath.c",
+      "sha256": "40e927e6c435067bc7e9e60758b57eb078c683604e152993db215a76d7b0154b"
+    },
+    {
+      "path": "misc/auenc",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/auenc",
+      "sha256": "a410e3990d13c96d96930a2a12da4ffb5cd2cc1e11efca91306a98f998c39b2e"
+    },
+    {
+      "path": "misc/depcomp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/depcomp",
+      "sha256": "534cc0f4c4bfc8f2c5a674741e46abfcc033776a011c3d5bc48cad7d0394ef91"
+    },
+    {
+      "path": "misc/lame4dos.bat",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/lame4dos.bat",
+      "sha256": "875e1221af7639ba3ae091ba0336aa5e53a7569c2f6824357762723475a12188"
+    },
+    {
+      "path": "misc/lameGUI.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/lameGUI.html",
+      "sha256": "28884cf5e93ca6ff534a4b9269f1c2c5ec6d7775d1536cd7f25e612322167120"
+    },
+    {
+      "path": "misc/lameid3.pl",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/lameid3.pl",
+      "sha256": "11487fba39d9b1c3f27c3ece0184cd3bca9c767c70e6a891b3897624d9fc91e5"
+    },
+    {
+      "path": "misc/mk_mp3.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/mk_mp3.sh",
+      "sha256": "e832e92d15d120d3bea3897e0fd72d30bdf35c2a34ed6fb4abfbe6c41d185b84"
+    },
+    {
+      "path": "misc/mlame",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/mlame",
+      "sha256": "a61ba84bd99d1163c6db7ad368eecf25221190df2974d3ea0f80a866e68ac0ca"
+    },
+    {
+      "path": "misc/mlame_corr.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/mlame_corr.c",
+      "sha256": "f1fbab4d18803800ceaf559c123604bebfc971fd32e85c75b5cac815430f1992"
+    },
+    {
+      "path": "misc/mugeco.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/mugeco.sh",
+      "sha256": "678154b3d1ce452357189de69ef9137d089d216896a592856bc64c8571cbbbc3"
+    },
+    {
+      "path": "misc/scalartest.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/misc/scalartest.c",
+      "sha256": "6688ede152b3728d9c9d08f18e56d244d353a95c8c54461cd8504addf800c96c"
+    },
+    {
+      "path": "maintainer/abicheck.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/abicheck.sh",
+      "sha256": "a823ed067eeb2c4f8b7850a41ef711c5f868ebe1568486209e55c07137b300c7"
+    },
+    {
+      "path": "maintainer/check-dist.ps1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/check-dist.ps1",
+      "sha256": "1ea081e72d812ddeee3f812192c58b658f0b39557bb9b5643cea41babc5b274c"
+    },
+    {
+      "path": "maintainer/check-dist.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/check-dist.sh",
+      "sha256": "365210234f4912a1ecf43480351037e354d89d4dc468b2e9515284e09dd6a934"
+    },
+    {
+      "path": "maintainer/coverage-mkinputs.py",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/coverage-mkinputs.py",
+      "sha256": "d04fd89c41ae4f6abddd4ab9b8eefe1d3465740328623b254e7f5a7bc0b90568"
+    },
+    {
+      "path": "maintainer/coverage-report.py",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/coverage-report.py",
+      "sha256": "c5ae847a8e04c6bcf0a279b8700fa62eceb6eee064f15d51acb24d0580b87d76"
+    },
+    {
+      "path": "maintainer/coverage-run.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/coverage-run.sh",
+      "sha256": "8af6a90951aab611b07d76dc08c18d0eb2553584f95788b0813f9014c592ea44"
+    },
+    {
+      "path": "maintainer/coverage-workload.txt",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/coverage-workload.txt",
+      "sha256": "ace97458f888d2aff4f13a099c30c845b12396993d7e97a5cb74cca354d378a7"
+    },
+    {
+      "path": "maintainer/gen-api-docs.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/gen-api-docs.sh",
+      "sha256": "86d859b2a6a404c81cf014a09ebdaefb5adb9ab27409ccdac2bfb1aec91c04d8"
+    },
+    {
+      "path": "maintainer/gen-build-matrix.ps1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/gen-build-matrix.ps1",
+      "sha256": "acd9c07a67d09d11203bb1c259170a7866d8ce0ce1e7fa22a35b87e34d009830"
+    },
+    {
+      "path": "maintainer/gen-build-matrix.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/gen-build-matrix.sh",
+      "sha256": "e3180e4f4b141d1d3ed745af0bbe932db9b0c86b84e2d3772a60932433dc9c10"
+    },
+    {
+      "path": "maintainer/gen-coverage-matrix.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/gen-coverage-matrix.sh",
+      "sha256": "8fe01c8df24a76848823ce7d75de02f15c70a7eaf2014f219e8433e642d1c241"
+    },
+    {
+      "path": "maintainer/gen-usage.py",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/gen-usage.py",
+      "sha256": "eb6b8f8ecdec469e7aec6c957c777627cd93e37b50a7e67c2fbacf6d8fe969d8"
+    },
+    {
+      "path": "maintainer/perf-compare.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/perf-compare.sh",
+      "sha256": "9ebba4db168cfa73632774d78f1150f10473d811596198d19cfed273e5a05afc"
+    },
+    {
+      "path": "maintainer/quality-compare.py",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/quality-compare.py",
+      "sha256": "72396ef6d417d0f1b83e3214cdd55d89bfa0b323afecd5d31f8f18bbfabd3a90"
+    },
+    {
+      "path": "maintainer/setup-quality-corpus.sh",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/setup-quality-corpus.sh",
+      "sha256": "97a0e832780809bf317d4a8cd2079e8364ffb36c90686fad7483cfd57f720d7b"
+    },
+    {
+      "path": "maintainer/setup-windows-deps.ps1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/setup-windows-deps.ps1",
+      "sha256": "49953563b004715787db9288c08f183353737130a97af8179a1c0ea05b73e0d8"
+    },
+    {
+      "path": "maintainer/smoke-clients.ps1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/smoke-clients.ps1",
+      "sha256": "bef8fb7361f96dcd2e279492163b98e9450d3d1945c274d432778a4aa6f11881"
+    },
+    {
+      "path": "maintainer/abi/libmp3lame.abi",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/maintainer/abi/libmp3lame.abi",
+      "sha256": "694e4d9d5221e8b44ae08f13f4f32a5c6773569b2925310ad218e32f93b66161"
+    },
+    {
+      "path": "mac/.DS_Store",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/.DS_Store",
+      "sha256": "0234e5d50c4de1cd69e03d32f43386fcb225061237ffab29f020f41e2db8c5e5"
+    },
+    {
+      "path": "mac/LAME.mcp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/LAME.mcp",
+      "sha256": "7a0d92564bd8337923f0c38a990fc04a466937dd0c0f8660c307ffa2ca318e11"
+    },
+    {
+      "path": "mac/LAME_Carbon_Debug.pch",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/LAME_Carbon_Debug.pch",
+      "sha256": "b33b5e7dec7dab59a7b2c62a89e04bc445aa980f92ad969b0f451011f9ba66bb"
+    },
+    {
+      "path": "mac/LAME_Carbon_Final.pch",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/LAME_Carbon_Final.pch",
+      "sha256": "98b88130daaf8dce979596a4233402c7bd256a788706ff7c8e04b05d5574eff4"
+    },
+    {
+      "path": "mac/LAME_Classic_Debug.pch",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/LAME_Classic_Debug.pch",
+      "sha256": "6877d8aaefdc09c8bfeb41a27d824a7817bfc6ffd82162eb327f78c3d05f29a0"
+    },
+    {
+      "path": "mac/LAME_Classic_Final.pch",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/LAME_Classic_Final.pch",
+      "sha256": "120e82bd5a3b4d39ecad0f7bf02d988ac8587b841e108daab5a7e99f8240f1c8"
+    },
+    {
+      "path": "mac/MacDLLMain.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/MacDLLMain.c",
+      "sha256": "86b41ce5ae90f372a27291b548ee4a5be637ee806102c449a10441c480bf25e7"
+    },
+    {
+      "path": "mac/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/Makefile.am",
+      "sha256": "6a714be4d7169e4abff3cee129aa60109b1168e3171deb1c988b95dc57f63b2f"
+    },
+    {
+      "path": "mac/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/Makefile.in",
+      "sha256": "d3c8d3fe074bbfe99b73d8e92c0d3f7a012f05156ac251ad80d223e62517bddb"
+    },
+    {
+      "path": "mac/Precompile_Common.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/mac/Precompile_Common.h",
+      "sha256": "69bbb2d7f8f338e723775e02a3ca3ba3135ac71b35223a5868786bd2f0160b72"
+    },
+    {
+      "path": "m4/build-to-host.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/build-to-host.m4",
+      "sha256": "8307c1f05ec9d5b8da3e3e5af369ed91b9209e517c632d8a95c7c2aa32650ec5"
+    },
+    {
+      "path": "m4/gettext.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/gettext.m4",
+      "sha256": "791f7bb934ad202a7a7624da2042073316449657bd6bfbb970c395137fae62bb"
+    },
+    {
+      "path": "m4/host-cpu-c-abi.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/host-cpu-c-abi.m4",
+      "sha256": "73f20b40965b3668719502fe1264aa3a37d48ed99612e855a090a067e51ae715"
+    },
+    {
+      "path": "m4/iconv.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/iconv.m4",
+      "sha256": "dfb9b8007e8e699b1633ad7ed23ffb71b5bc211a0389d91335a6335ff51a2a90"
+    },
+    {
+      "path": "m4/intlmacosx.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/intlmacosx.m4",
+      "sha256": "85fadf4b8dd2374d2e804f1516ba7cc6607b04e1d2c6c60f8729f73675566718"
+    },
+    {
+      "path": "m4/lib-ld.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/lib-ld.m4",
+      "sha256": "083fac15a131fa7c3a40dbb86caba82821fc76271d0dd2ea991fd9cb226f7744"
+    },
+    {
+      "path": "m4/lib-link.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/lib-link.m4",
+      "sha256": "a70f24ecbaa65fa2ed415ecf30db5abbd464436046f6579c0122ef3a7d721109"
+    },
+    {
+      "path": "m4/lib-prefix.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/lib-prefix.m4",
+      "sha256": "bcc517c7e2e3d67e82a5dc4c58e81174f5aa766c820fb8c0381e2ae5351beedb"
+    },
+    {
+      "path": "m4/libtool.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/libtool.m4",
+      "sha256": "4a3239a2d468e711ce9cee4035b1d4b8fd28c41aac67ca911cafac091fe1c10a"
+    },
+    {
+      "path": "m4/ltoptions.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/ltoptions.m4",
+      "sha256": "4cc29b667909fcde7a08c984367bce1a1902c860acf8774794484a2e1adeb07b"
+    },
+    {
+      "path": "m4/ltsugar.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/ltsugar.m4",
+      "sha256": "4f022724d2703c0c318eed04e04e833b82761b0a0cc02c865d0b7c1e5b2c6aba"
+    },
+    {
+      "path": "m4/ltversion.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/ltversion.m4",
+      "sha256": "40207e691ec7d3f06cedd592e50e44d7bc187b21ad791aeabdd50871b6606799"
+    },
+    {
+      "path": "m4/lt~obsolete.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/lt~obsolete.m4",
+      "sha256": "5a416905cc27c5d99ff81b61b9cf6a85c168b80178bb88f4c3eaf2e8f76c8cac"
+    },
+    {
+      "path": "m4/nls.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/nls.m4",
+      "sha256": "421f67f14db75dc9529baab642dd951fb3fd1358d0a29afa283da621a5ededa5"
+    },
+    {
+      "path": "m4/po.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/po.m4",
+      "sha256": "fa3041b174ad0e9f6ca23745214cdffe1ca3c9556da67b3fad722527dd683075"
+    },
+    {
+      "path": "m4/progtest.m4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/m4/progtest.m4",
+      "sha256": "6a8297736873c61922265b4367223b91377cc2ebd5d2a148a937dd102851e099"
+    },
+    {
+      "path": "libmp3lame/.indent.pro",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/.indent.pro",
+      "sha256": "e97897c36682247af3d02ea9544996a36ac7bba96d3fc78a273c84e55f26da5d"
+    },
+    {
+      "path": "libmp3lame/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/Makefile.am",
+      "sha256": "d7c5b356fb73ff09ed6c5f6800bea8f0fd28f6088fae99af0f4647d7bae2edb6"
+    },
+    {
+      "path": "libmp3lame/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/Makefile.in",
+      "sha256": "a844138d989883a4c4698769104a4ee2e1fe8af4b139c99bbd8f73b2df9a5c36"
+    },
+    {
+      "path": "libmp3lame/VbrTag.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/VbrTag.c",
+      "sha256": "897cde00204093468675047364861d64504de0a28a332d053c2762dd522e6836"
+    },
+    {
+      "path": "libmp3lame/VbrTag.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/VbrTag.h",
+      "sha256": "69f6de79f3e689ab794bcd04d23b3eda202311b690bf1b02ff485520d351b7e2"
+    },
+    {
+      "path": "libmp3lame/VbrTagCrc.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/VbrTagCrc.h",
+      "sha256": "74fac32bc5b4623f88ddc470d0386221f710a97d37f40c2c6d0fb72f3487bcd9"
+    },
+    {
+      "path": "libmp3lame/bitstream.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/bitstream.c",
+      "sha256": "ac80f4b78cbd2e4a11f140559d3a4b9c6a0ed1742562acfe613a180d407e299c"
+    },
+    {
+      "path": "libmp3lame/bitstream.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/bitstream.h",
+      "sha256": "3b94c0c381b09d8755d6638ccee3aa9c8293713cf314b564e0478f4edab12f8f"
+    },
+    {
+      "path": "libmp3lame/depcomp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/depcomp",
+      "sha256": "534cc0f4c4bfc8f2c5a674741e46abfcc033776a011c3d5bc48cad7d0394ef91"
+    },
+    {
+      "path": "libmp3lame/encoder.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/encoder.c",
+      "sha256": "cb76b73182cc46eb31486d9e49eab5f0bd8fade0634ebaa9dab17776550dc2cd"
+    },
+    {
+      "path": "libmp3lame/encoder.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/encoder.h",
+      "sha256": "e959801ad6fab370ad48245d91fd3fc4385d12ab7cfc743d4ea760a711af7517"
+    },
+    {
+      "path": "libmp3lame/fft.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/fft.c",
+      "sha256": "d6cb649f74d689b6a60aef67d87be4eef9b81ebf4b85efc2a402601ce32faca7"
+    },
+    {
+      "path": "libmp3lame/fft.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/fft.h",
+      "sha256": "cadfc3c5d7ecb556d5f5829e28a7b0830a35478afb86ce0a01d83f3cdf977c4e"
+    },
+    {
+      "path": "libmp3lame/gain_analysis.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/gain_analysis.c",
+      "sha256": "749f46ba487e78f621da1171a12fa018cfd2855ac35bd714a9a3732cd3558927"
+    },
+    {
+      "path": "libmp3lame/gain_analysis.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/gain_analysis.h",
+      "sha256": "77791d41eb6e298e4562326ae14e25d887682fdccf166935a14e89135676b55f"
+    },
+    {
+      "path": "libmp3lame/id3tag.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/id3tag.c",
+      "sha256": "c9314f38b7b7a277ebf21bcb342641985e30786f6e3f26f87a03b390310b6770"
+    },
+    {
+      "path": "libmp3lame/id3tag.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/id3tag.h",
+      "sha256": "9597542ffa74ea9328542c3d75f87efa04e667daecd5249bc08b361b0a254e0d"
+    },
+    {
+      "path": "libmp3lame/l3side.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/l3side.h",
+      "sha256": "e4e60ea6b93b7cb7b90cf35ef43bfcd9c7570ff91d79c8a305e95739556d988a"
+    },
+    {
+      "path": "libmp3lame/lame-analysis.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/lame-analysis.h",
+      "sha256": "3953c64ad8997796919f7c5330a0a4b229c4644ede9b6448c2d1a8d61b6da359"
+    },
+    {
+      "path": "libmp3lame/lame.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/lame.c",
+      "sha256": "fa977f3ad229eaba82bf2cb6b7f09eb0d31a22379c6455640d8178a572aa739a"
+    },
+    {
+      "path": "libmp3lame/lame.pc.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/lame.pc.in",
+      "sha256": "09ea9fe5289a0efd4b6d15f2a00d5291fb783d0c29e54dd3b88be577b0c3280b"
+    },
+    {
+      "path": "libmp3lame/lame.rc",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/lame.rc",
+      "sha256": "bb4cb2861ac220dca68dc23dcadcc72d2a017860bf73cbde141eda5c965e06ce"
+    },
+    {
+      "path": "libmp3lame/lame_global_flags.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/lame_global_flags.h",
+      "sha256": "0d7af56b9cfbd6e0ff387155bdd86974a03f19b3b903d703cb4936ca1d2c60e4"
+    },
+    {
+      "path": "libmp3lame/logoe.ico",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/logoe.ico",
+      "sha256": "e2be6015e9a3ff59ed295d044bfef052a024d3fe567c5f880c180fdd51a87242"
+    },
+    {
+      "path": "libmp3lame/machine.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/machine.h",
+      "sha256": "00b18ae98f85d7cfbd1b315ad07364d525793bc2d25ad8e3bb84fb68f4edcc36"
+    },
+    {
+      "path": "libmp3lame/mpglib_interface.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/mpglib_interface.c",
+      "sha256": "718bf9fdf5ede7da38fa16d9c49a53b19e505ab9183e78ed86bbd7deca6a1f25"
+    },
+    {
+      "path": "libmp3lame/newmdct.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/newmdct.c",
+      "sha256": "665583b8567e987754567f89bc4b0b6abb21dc4ccceeb0bb28d2f55f863ca3f4"
+    },
+    {
+      "path": "libmp3lame/newmdct.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/newmdct.h",
+      "sha256": "9aa3a331f57a68ab59d83857dbb85fcf279d39177c6aae311b7442499994ae23"
+    },
+    {
+      "path": "libmp3lame/presets.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/presets.c",
+      "sha256": "a1f4aa4ec4262ab73d713744a434935ad9a49daf18cedaf8b8edea97ca7725bf"
+    },
+    {
+      "path": "libmp3lame/psymodel.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/psymodel.c",
+      "sha256": "e4172e9b845d7df59c06b270288e07cacc9502d098c20f55cf249ae187cc1690"
+    },
+    {
+      "path": "libmp3lame/psymodel.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/psymodel.h",
+      "sha256": "82351d8f739459536085876a78de3e2945cb574affa0fdeca6d4aa3fc45ac6ee"
+    },
+    {
+      "path": "libmp3lame/quantize.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/quantize.c",
+      "sha256": "a1ca0899168eb7643c35b9a71140628e5c40793cb3eb878ae4d0c4b7c00a595d"
+    },
+    {
+      "path": "libmp3lame/quantize.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/quantize.h",
+      "sha256": "adc9ff50e49c948d7afcb27eb51a6ad8fdce1a764f0149136ac5f04b5899a653"
+    },
+    {
+      "path": "libmp3lame/quantize_pvt.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/quantize_pvt.c",
+      "sha256": "905976d7483f8beb59ba60d5fd0e8b6f27ad3d91ae9cd4d4c6c08832b83b495a"
+    },
+    {
+      "path": "libmp3lame/quantize_pvt.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/quantize_pvt.h",
+      "sha256": "4a667bf77485f4cebb1622f5903345469433a314ac4d5790e7b2ada073657a5e"
+    },
+    {
+      "path": "libmp3lame/reservoir.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/reservoir.c",
+      "sha256": "6e3ef02c0a5ca432021e8901c9cc40a86e8da0e14edbe1d19d459e5c8464ef92"
+    },
+    {
+      "path": "libmp3lame/reservoir.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/reservoir.h",
+      "sha256": "e7b0de71faacc119cd4fe2d6f1fb97a42c3166b5358f547ac47544df3b9c2e08"
+    },
+    {
+      "path": "libmp3lame/set_get.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/set_get.c",
+      "sha256": "9f71eab003930cbcfb8c3aa7ac529b14806f43eda217f31b888998428f2096e5"
+    },
+    {
+      "path": "libmp3lame/set_get.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/set_get.h",
+      "sha256": "89bdea10cdb72f45bcab800e836d1ae021d2858bbf30ff1a9355b4f785461ad1"
+    },
+    {
+      "path": "libmp3lame/tables.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/tables.c",
+      "sha256": "7fe2bae7eb842cb874f13468e8567ac996ee1e7422df7b27f31ed9ed60847931"
+    },
+    {
+      "path": "libmp3lame/tables.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/tables.h",
+      "sha256": "acdad155ee8aa8ffac266bb6b30ab901a3253ab07a75d983985c041bf2bad840"
+    },
+    {
+      "path": "libmp3lame/takehiro.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/takehiro.c",
+      "sha256": "83c256370c5f81ef2e359e17aa810d96bf2e1c0c0e53ea46be4bffc0fdc2b02a"
+    },
+    {
+      "path": "libmp3lame/util.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/util.c",
+      "sha256": "d97933558c6bca0b8de14c1d98d907802dd64b6b09610112cb5faedbe33be33d"
+    },
+    {
+      "path": "libmp3lame/util.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/util.h",
+      "sha256": "9ebd91531b291154c5342baaea09f4f36f3a0c0350646fda4b21f74fdacfd694"
+    },
+    {
+      "path": "libmp3lame/vbrquantize.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vbrquantize.c",
+      "sha256": "f7db597de258d2a6f969fb9182b744fc6ae6980f6f9650759e2117f358cdd759"
+    },
+    {
+      "path": "libmp3lame/vbrquantize.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vbrquantize.h",
+      "sha256": "28f1095266c721c2870a2af8f884e815ff984557d49a47ec62854dbce9b3f24f"
+    },
+    {
+      "path": "libmp3lame/version.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/version.c",
+      "sha256": "e095f5d7d76b5397fd2f2e6241c47beee2881e3554c96dd653843a4221389174"
+    },
+    {
+      "path": "libmp3lame/version.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/version.h",
+      "sha256": "3e7528f84f7be56cd570ba89e13eb3605a738edbd811f663c5242cc018aac724"
+    },
+    {
+      "path": "libmp3lame/vector/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/Makefile.am",
+      "sha256": "c0ddc42cccfef7ff49ff7b0279f97d5f489d33f774c31a281b2cf077920a6064"
+    },
+    {
+      "path": "libmp3lame/vector/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/Makefile.in",
+      "sha256": "ea2c2f25a3a423106de36c5904c601140329313b723559569278c4ab16f28cef"
+    },
+    {
+      "path": "libmp3lame/vector/avx2_choose_table.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/avx2_choose_table.c",
+      "sha256": "70611620786160b5236d6d19f40655ade1a47aacc49c9dd98393939fba5a0aaf"
+    },
+    {
+      "path": "libmp3lame/vector/avx2_quantize_lines.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/avx2_quantize_lines.c",
+      "sha256": "c87da69981f8918235d90a52d745c108e7a6ce5e075666da648334d7693543cd"
+    },
+    {
+      "path": "libmp3lame/vector/avx512_quantize_lines.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/avx512_quantize_lines.c",
+      "sha256": "308e60d9872440f129b6a5870986a981ffc05688eca6524f781a1a4c2f6b3c04"
+    },
+    {
+      "path": "libmp3lame/vector/lame_intrin.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/lame_intrin.h",
+      "sha256": "5f73a573654905a5a1501a380058caf3ce17694e3417a29173ce585652adfc18"
+    },
+    {
+      "path": "libmp3lame/vector/neon_choose_table.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/neon_choose_table.c",
+      "sha256": "4073e71eb31f9b771b31933b773d9056bd897a5d0f5062829ed831dd5ff70db0"
+    },
+    {
+      "path": "libmp3lame/vector/xmm_calc_sfb_noise.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/xmm_calc_sfb_noise.c",
+      "sha256": "ec538f78876808799f1d7aac578812b21aa3886ceaeda3b572e344224cdb906e"
+    },
+    {
+      "path": "libmp3lame/vector/xmm_choose_table.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/xmm_choose_table.c",
+      "sha256": "85f2077fa87540caa1cc19336fc647e69b70e93ddc671b98fb54ea9462dfe333"
+    },
+    {
+      "path": "libmp3lame/vector/xmm_quantize_lines.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/xmm_quantize_lines.c",
+      "sha256": "dd6b7cc68a59881187f1770b528bde2ae7410184d27b58415e4e87ea83358bb0"
+    },
+    {
+      "path": "libmp3lame/vector/xmm_quantize_sub.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/libmp3lame/vector/xmm_quantize_sub.c",
+      "sha256": "18f7ab875b5d5fa3804f9a444fdca2a9d3e5098ffd8ec604db92bdf1d726233d"
+    },
+    {
+      "path": "include/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/include/Makefile.am",
+      "sha256": "4f168cb20079bfa0bf3ef163d121a81eae50f82713c3357ce7de0be445ace2c5"
+    },
+    {
+      "path": "include/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/include/Makefile.in",
+      "sha256": "2414d0b8d8f20e731313850c7c2eea1abcaa79eca8f81feca852ec71620b22fd"
+    },
+    {
+      "path": "include/lame.def",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/include/lame.def",
+      "sha256": "287176f44bc7485001c11ee6973aca6ca371f6b0fd37c6cc31d42a7b16cd50ea"
+    },
+    {
+      "path": "include/lame.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/include/lame.h",
+      "sha256": "d04f48a1007cdcb37fddd134878be3ec7c6c2cacbcbbf88c1949c3f000576d82"
+    },
+    {
+      "path": "include/libmp3lame.sym",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/include/libmp3lame.sym",
+      "sha256": "c270249f73ab725f64e0170343d43bb948b85b7cb6e9d0a6351524f4b4c537fc"
+    },
+    {
+      "path": "frontend/.indent.pro",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/.indent.pro",
+      "sha256": "e97897c36682247af3d02ea9544996a36ac7bba96d3fc78a273c84e55f26da5d"
+    },
+    {
+      "path": "frontend/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/Makefile.am",
+      "sha256": "e8304351923fd146b7387e5b662931f3d7303c3ed8c45fc730acef457c2a4f59"
+    },
+    {
+      "path": "frontend/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/Makefile.in",
+      "sha256": "16046f916e0ac1e95723aaf348ad332de76d15793db1fcebee5db9b82c0499cc"
+    },
+    {
+      "path": "frontend/README.mp3x-gtk4",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/README.mp3x-gtk4",
+      "sha256": "57aa246fc894a5e8b76938ac1affa29307c0b76246b830621809235c94dcb3ad"
+    },
+    {
+      "path": "frontend/brhist.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/brhist.c",
+      "sha256": "ddd92ae2cce9a7257fc60fbff585a2ffb99c63386a0e0c771aa435346072479a"
+    },
+    {
+      "path": "frontend/brhist.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/brhist.h",
+      "sha256": "98834ef63eede5317d866648fffda642aa3aee9c94bd9b7221cbe2cdd5d8fa03"
+    },
+    {
+      "path": "frontend/console.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/console.c",
+      "sha256": "7c600cd7f142a6af09ea90184866f244fcc2ec19f92e040805ece1c3ea836e98"
+    },
+    {
+      "path": "frontend/console.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/console.h",
+      "sha256": "37eaeaa140e9c582c1336a062fb63bab1ac98aae5ea41ced44917af44679b065"
+    },
+    {
+      "path": "frontend/depcomp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/depcomp",
+      "sha256": "534cc0f4c4bfc8f2c5a674741e46abfcc033776a011c3d5bc48cad7d0394ef91"
+    },
+    {
+      "path": "frontend/get_audio.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/get_audio.c",
+      "sha256": "f6ee8f9a370bac4b8b6d49aa846a87a56aa57ca443c8026a03ad20e1bc6d6055"
+    },
+    {
+      "path": "frontend/get_audio.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/get_audio.h",
+      "sha256": "ad8f3d405635af87ae7f13b7f1f029a8033b41278ba0a56596cdd741f6fb5a34"
+    },
+    {
+      "path": "frontend/lame_main.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/lame_main.c",
+      "sha256": "1194997634f0158d3c5f9ab573dd4674ef246ded8c2455faa57026725334943c"
+    },
+    {
+      "path": "frontend/lametime.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/lametime.c",
+      "sha256": "ed8c3cb8cdf41710c266e6fe50bf9e64914d46ed5527be2057b35bf30fe7e32f"
+    },
+    {
+      "path": "frontend/lametime.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/lametime.h",
+      "sha256": "9ff5e0865ca9dceadd740b44408fdcbf4680f2c14877b51ea69f418fe8420313"
+    },
+    {
+      "path": "frontend/main.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/main.c",
+      "sha256": "2cb5cf78b9a87ce441610628e3527ecdf0fb8fa46ea442ac0c67b7398cd05065"
+    },
+    {
+      "path": "frontend/main.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/main.h",
+      "sha256": "5bfb135e51d4a2b023e8eaa1858460c2f6cd27d01a2fce62d32952578381e3d0"
+    },
+    {
+      "path": "frontend/mp3rtp.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3rtp.c",
+      "sha256": "63233162e206c4a1b3013b0359e0ac392ea67fb2411c39f92151cbb8fbaa0053"
+    },
+    {
+      "path": "frontend/mp3x_core.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_core.c",
+      "sha256": "1b4abfecafabb8f25747608eeec081bca0233326ade4b8d358119e58cebd6b8a"
+    },
+    {
+      "path": "frontend/mp3x_core.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_core.h",
+      "sha256": "b240fbab92b70715479b12f2973eb6074ca3604c4906f1ea0b61c34ddc954cc6"
+    },
+    {
+      "path": "frontend/mp3x_plot.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_plot.c",
+      "sha256": "b9252a608294af9461f816bdee80fa5f7f5643dc4883c057d3fa997880dc0bfd"
+    },
+    {
+      "path": "frontend/mp3x_plot.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_plot.h",
+      "sha256": "37d4bbce39a75e517c85bc7b28056ed160727b030a1df7a4bb50326117107091"
+    },
+    {
+      "path": "frontend/mp3x_session.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_session.c",
+      "sha256": "6575890751505404dbce2eef6f7d3a3d53f3e8a89d9e2426431b762cb05b207c"
+    },
+    {
+      "path": "frontend/mp3x_session.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_session.h",
+      "sha256": "605319d45408a9f45a7a1377acfa3f4647fe712fdc18a9251c67523b2d31deca"
+    },
+    {
+      "path": "frontend/mp3x_ui.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/mp3x_ui.c",
+      "sha256": "628de62eb1e4f0732a8ed3f4c37d764d677e4917365c2533a75be0d3db3340a6"
+    },
+    {
+      "path": "frontend/parse.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/parse.c",
+      "sha256": "1cd5f4b5062b6c3a0bbb1d8cedd3ccfbff1725f576594949466f588f58033180"
+    },
+    {
+      "path": "frontend/parse.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/parse.h",
+      "sha256": "7190868afb1f3f98109be4051eea26eb1b936ad1295ed0a86813052a4ae51691"
+    },
+    {
+      "path": "frontend/rtp.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/rtp.c",
+      "sha256": "88f0831b4951d95e1822352393d92e3dd53eb77be635ddcba379a62e342b507a"
+    },
+    {
+      "path": "frontend/rtp.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/rtp.h",
+      "sha256": "db3fe2e43e0ba998acf6779459665a38c1bddd39db4e49fa4b1118b4c4d3209f"
+    },
+    {
+      "path": "frontend/timestatus.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/timestatus.c",
+      "sha256": "cd1d5ae0dfa74cb08aea82baa6fea8db6e7fca12e39e917a575b832d9b9d5855"
+    },
+    {
+      "path": "frontend/timestatus.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/frontend/timestatus.h",
+      "sha256": "554c3bb6440fa6138aec16c86513d60d207977348a709f28209ff44cc0907ea9"
+    },
+    {
+      "path": "dshow/Encoder.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Encoder.cpp",
+      "sha256": "b645dc38bb89f4f0b8f903cfdf261a975ea95723ad20c059c5bd1d7e413205f8"
+    },
+    {
+      "path": "dshow/Encoder.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Encoder.h",
+      "sha256": "9bbfb2567e3f867573f8e5b0e02742d04d4edd2cdb464b663be1b4a50984991b"
+    },
+    {
+      "path": "dshow/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Makefile.am",
+      "sha256": "d82f1532ef92fcf5b9bc40b367afcb8e9efc27ace3d0650380e06144ee7d4515"
+    },
+    {
+      "path": "dshow/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Makefile.in",
+      "sha256": "9d8a338bb81c100c65acd42fbc95303b31878303e4544918f8ec333a5664ad75"
+    },
+    {
+      "path": "dshow/Mpegac.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Mpegac.cpp",
+      "sha256": "799677aff9c615075103adf2ff21ded5a187e47c306730cfe66145d5775e39b6"
+    },
+    {
+      "path": "dshow/Mpegac.def",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Mpegac.def",
+      "sha256": "ee9db8693b0e40ad15e9e2b4fe7d3552e43f30159afb3ff9994656af47bde5d6"
+    },
+    {
+      "path": "dshow/Mpegac.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Mpegac.h",
+      "sha256": "168b480a6c7f92662a173567af8d18ab5c27fb16a4a31bc045cc6c5ac46add6c"
+    },
+    {
+      "path": "dshow/PropPage.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/PropPage.cpp",
+      "sha256": "1530f743373f1cae55fc17a79d02a320d1824cbeb205e427cf6221ad541448be"
+    },
+    {
+      "path": "dshow/PropPage.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/PropPage.h",
+      "sha256": "0efbef53791fec5c95ad5a305295efd9ab29e9d68c8087a39606b615f114424e"
+    },
+    {
+      "path": "dshow/PropPage_adv.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/PropPage_adv.cpp",
+      "sha256": "23184cd54add40f89b466e9f6a6f8558ebce8d6d6009dcb6af5505650258c3b9"
+    },
+    {
+      "path": "dshow/PropPage_adv.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/PropPage_adv.h",
+      "sha256": "a15bc5446f1bc3d7de322a68a56faf235d335cff91c5195f1f335a6ce78bab33"
+    },
+    {
+      "path": "dshow/Property.rc",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/Property.rc",
+      "sha256": "17c632aaee51710c074af2a81722cbf34fff013735c792b7dfc87d93ac2f4120"
+    },
+    {
+      "path": "dshow/README",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/README",
+      "sha256": "8dbb5a8ef5fc7e82ab55114cbcf0679e8d5e3626e00a2403d193e020dbbe4c48"
+    },
+    {
+      "path": "dshow/REG.CPP",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/REG.CPP",
+      "sha256": "b9ce2d84969122ad0f6837f6f22bb08a68ab80057f80c0f5ccd0a461a4547b96"
+    },
+    {
+      "path": "dshow/REG.H",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/REG.H",
+      "sha256": "33d5447dae429df57782b74d4b0614d6c5d3043641736f1a040b44cebdaf8ba6"
+    },
+    {
+      "path": "dshow/UIDS.H",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/UIDS.H",
+      "sha256": "dc0ece5846f81a44f11a815dd745b22caad2c11d56b1a43c28eb91261fcd6768"
+    },
+    {
+      "path": "dshow/aboutprp.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/aboutprp.cpp",
+      "sha256": "2992c3063be8e4d4befba12cdcc787b6476491179270a03dfcef80b95597befb"
+    },
+    {
+      "path": "dshow/aboutprp.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/aboutprp.h",
+      "sha256": "e69deb02e5bc899c63f207ece0a42914af3e05e8a2fcdd0f248ffe74344d9e49"
+    },
+    {
+      "path": "dshow/elogo.ico",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/elogo.ico",
+      "sha256": "e9d66cfd4268d956b1f44056f252c68ebf801c44b61840b948b4905fa433d3c0"
+    },
+    {
+      "path": "dshow/iaudioprops.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/iaudioprops.h",
+      "sha256": "3d8ebb4dbd881ad7870a087fa11edb6cfbdf1a6ec70e1be1e6db2e1c02464de7"
+    },
+    {
+      "path": "dshow/resource.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/dshow/resource.h",
+      "sha256": "959c5027898148639f1cb238a930076a3fad7a56a7a164202aedc2c17c66abb5"
+    },
+    {
+      "path": "doc/Doxyfile-common.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/Doxyfile-common.in",
+      "sha256": "ac2ce57d18e20a9b83ddc2b3c61173e7eaaf9dcd6d0eca120b14489a8a51ac1a"
+    },
+    {
+      "path": "doc/Doxyfile-internal.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/Doxyfile-internal.in",
+      "sha256": "79c324cbea833c760a2382cc0f74b05ee1af8e0d430416eada470f17b5d7233e"
+    },
+    {
+      "path": "doc/Doxyfile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/Doxyfile.in",
+      "sha256": "8959a6d8af2cd169178ce42b24ea4aa67f51bfbdcb883dee6862caa1aa172a8e"
+    },
+    {
+      "path": "doc/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/Makefile.am",
+      "sha256": "1a035a25c15fb96037b3df22b44c52451cf178ffade1bd23db597c7477291b20"
+    },
+    {
+      "path": "doc/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/Makefile.in",
+      "sha256": "d6debf2e7d58dd9ac668c99ad1dfa37ba4baf4e56bb69c04c7ceb77f29ede12d"
+    },
+    {
+      "path": "doc/maintainer-abi.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-abi.md",
+      "sha256": "7dd3d511d0407efa21a915ab2b40bd50d7bc9d57643d7cfba2986dceb4baf37e"
+    },
+    {
+      "path": "doc/maintainer-build-matrix.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-build-matrix.md",
+      "sha256": "f35bd4264f6411e1dc1e588498c4dc523e72ea7ab69aca34f75e3d52228c4fca"
+    },
+    {
+      "path": "doc/maintainer-check-dist.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-check-dist.md",
+      "sha256": "7d7406a59e7d1e5e10b393d23848da813e8decbdb493fb9bbaf68c83065cba4b"
+    },
+    {
+      "path": "doc/maintainer-coverage.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-coverage.md",
+      "sha256": "fcbab45be3f85e88f3b68f464581465f3c04d9464f5029f5253905e1b836ac4b"
+    },
+    {
+      "path": "doc/maintainer-gen-api-docs.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-gen-api-docs.md",
+      "sha256": "828266abab8c013c5a43c7fa9914129bea7d67640b1aadcffb7e31b24095a214"
+    },
+    {
+      "path": "doc/maintainer-gen-usage.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-gen-usage.md",
+      "sha256": "3efde7f781578224529515ba1c4fac87b4a749688dc090d548f49c7ad116a231"
+    },
+    {
+      "path": "doc/maintainer-perf.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-perf.md",
+      "sha256": "c8ce7eaeed43b39661940e687e0ac8c6951b357c6ee39d5c9f2d46ce17e0a359"
+    },
+    {
+      "path": "doc/maintainer-quality.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/maintainer-quality.md",
+      "sha256": "7821db5ef6b4e8faf7d44c711e970153d349de7cfe963078b759e4a34b74ab79"
+    },
+    {
+      "path": "doc/man/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/man/Makefile.am",
+      "sha256": "8251f0ecddd53f910d6b67f0e9695d3d19aa39bb79dd5bf0ea47165b19e5cdad"
+    },
+    {
+      "path": "doc/man/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/man/Makefile.in",
+      "sha256": "f68bb739ee241010a100fc1109d65519767dfb81ea253ec67e074f9a9ca3500a"
+    },
+    {
+      "path": "doc/man/lame.1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/man/lame.1",
+      "sha256": "861a768d42f7ebc6b5ef640dc2698225503f095b32411cf1ab5bf629c95867ac"
+    },
+    {
+      "path": "doc/man/mp3rtp.1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/man/mp3rtp.1",
+      "sha256": "13bf5620c14bb356149594bc50901a008b86c05e123b5243881cc32503a51aab"
+    },
+    {
+      "path": "doc/man/mp3x.1",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/man/mp3x.1",
+      "sha256": "d0b6a6f1f4887612458f610a4e3622f3b575edd303e2e443a11c77aa7d501284"
+    },
+    {
+      "path": "doc/html/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/Makefile.am",
+      "sha256": "b9d20fa788eb2f6d77127ffd99978ed0b4500ab447ea9ec4052d69551a06c2f8"
+    },
+    {
+      "path": "doc/html/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/Makefile.in",
+      "sha256": "f3b25f0002af12da00902fd3b09485bcd897fb8712e1fe2e974a4e5d95b54705"
+    },
+    {
+      "path": "doc/html/about.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/about.html",
+      "sha256": "cbf203a685c886cb8e397e6221c2075ee2c69f3240c735196da47fce316658ed"
+    },
+    {
+      "path": "doc/html/abr.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/abr.html",
+      "sha256": "eb00c1a47027cf0f66ebb59bf837e5de7af988c36e794bedcd187d479d68959d"
+    },
+    {
+      "path": "doc/html/cbr.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/cbr.html",
+      "sha256": "8c86c60dacea73a77d3e5cd744dcf804a246e0eca4e634dbb291e8658f5132e9"
+    },
+    {
+      "path": "doc/html/contact.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/contact.html",
+      "sha256": "8f4f01657086f1922f91664ab8fa0406b2347a860dd614042f8f01bf14cd6c42"
+    },
+    {
+      "path": "doc/html/contributors.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/contributors.html",
+      "sha256": "b0b4a5ae08c450e1ada1c554f057ef2448caebf41781d4210f345751009174e0"
+    },
+    {
+      "path": "doc/html/detailed.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/detailed.html",
+      "sha256": "a1f957bc5be90f1108072594acef949f0188c230b248a83c72906fa41955f124"
+    },
+    {
+      "path": "doc/html/history.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/history.html",
+      "sha256": "58dad0a4b7a8dd4f0db5e139643630418805f62c20d4de6b1e26a0a47f78ce98"
+    },
+    {
+      "path": "doc/html/index.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/index.html",
+      "sha256": "d4367191f47dc30ad4a0a352dd0f152cc846bff54d0c8840aa45a45119906bb0"
+    },
+    {
+      "path": "doc/html/introduction.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/introduction.html",
+      "sha256": "78aec3f34a8b01cf3929326bc5e13f565af396f9e98cb9038a7cb4ff6ccf8bb0"
+    },
+    {
+      "path": "doc/html/links.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/links.html",
+      "sha256": "549eb42d78b3c07be3143c7e916b5580e93a60dcd47e9d5069d2f0c8fee9e72d"
+    },
+    {
+      "path": "doc/html/list.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/list.html",
+      "sha256": "2f9a4d8ccc041136cf717941b2c1fd556d8fbfb112e6001355412a3332aada50"
+    },
+    {
+      "path": "doc/html/ms_stereo.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/ms_stereo.html",
+      "sha256": "d64f395cf6a66c5dbe0a9dd663eeb1642aa1914430e47e579bcc08bc2acf7daa"
+    },
+    {
+      "path": "doc/html/usage.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/usage.html",
+      "sha256": "e4207aca9e2db270e74a2569c46722d80691040a56f57cfcbbbf52254c071006"
+    },
+    {
+      "path": "doc/html/vbr.html",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/vbr.html",
+      "sha256": "642ba4aafeb2bdee25b0c204a0f8b310c57da88174e2d82a9069ded5946acc3e"
+    },
+    {
+      "path": "doc/html/styles/lame.css",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/styles/lame.css",
+      "sha256": "9034c548e308b3805c4ade179ffd20c91b41673f74e49c9db14af2b8650012c3"
+    },
+    {
+      "path": "doc/html/images/logo.gif",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/images/logo.gif",
+      "sha256": "bb9cb9359cb7e35255df28d40dffcf2c5f2c5955dc1477d1ec9b24e165209fcb"
+    },
+    {
+      "path": "doc/html/images/sflogo.gif",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/images/sflogo.gif",
+      "sha256": "6a905cb7685c5363db97381c1a78b0cc4184f80bf58de60c8505597607b310c5"
+    },
+    {
+      "path": "doc/html/images/valid-css.png",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/images/valid-css.png",
+      "sha256": "ae7b1dfd7d34188a8640f64e691d057d7e8e84b371c96905a8a9abc94099d531"
+    },
+    {
+      "path": "doc/html/images/valid-html401.png",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/images/valid-html401.png",
+      "sha256": "e2dd625ef1cd8b0711faa967559ecbc68656fbc77a0f01640204414e6b2488b0"
+    },
+    {
+      "path": "doc/html/images/valid-xhtml10.png",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/html/images/valid-xhtml10.png",
+      "sha256": "8a9e64adf9351dbc0f333daae135c88d5162ed8eadf5e65801c19914ab657bab"
+    },
+    {
+      "path": "doc/doxygen/DoxygenLayout-internal.xml",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/DoxygenLayout-internal.xml",
+      "sha256": "47626374e9924058cccc29f31275fee98c6781c4980e4771ce22d88775e68cde"
+    },
+    {
+      "path": "doc/doxygen/DoxygenLayout.xml",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/DoxygenLayout.xml",
+      "sha256": "ea0fab886dc0e8057aa37c234783a810b4c2a59798cfa92bcb7fed3c2b7788bf"
+    },
+    {
+      "path": "doc/doxygen/api.dox",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/api.dox",
+      "sha256": "2c0fe486e422099ec1418e2e1f6ab86f1eca77b8ee9e617e8a56f90d74c43816"
+    },
+    {
+      "path": "doc/doxygen/internal.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/internal.md",
+      "sha256": "538fbee48195b9a0df46ef0328adb9500a1b7057387f7a94cf2c7e7f347eb49e"
+    },
+    {
+      "path": "doc/doxygen/lame-theme.css",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/lame-theme.css",
+      "sha256": "5d4214277d28b014bceae2fc3927f5d2e775dbe11bb18f5e50ceaabe83687506"
+    },
+    {
+      "path": "doc/doxygen/mainpage.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/mainpage.md",
+      "sha256": "7734abd898f637b43432333c55dc52bd4ae7e518cfdf562413afc85420699ded"
+    },
+    {
+      "path": "doc/doxygen/maintainer.md",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/maintainer.md",
+      "sha256": "7f2191a18cc7132e2a2732812a7b49572b3445ac80620bfc48e22d561725073c"
+    },
+    {
+      "path": "doc/doxygen/mp3x-internals.dox",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/mp3x-internals.dox",
+      "sha256": "c0dfad0fc5e4e92e13ebbca8be2b2bde49a24dcff87c5d52cb6e414fde467f27"
+    },
+    {
+      "path": "doc/doxygen/unit_tests.dox",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/unit_tests.dox",
+      "sha256": "b221eedd70421920790d6ea866eadc6d19b28877c29fc485ba5065b45b69aa7c"
+    },
+    {
+      "path": "doc/doxygen/vector-dispatch.dox",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/vector-dispatch.dox",
+      "sha256": "689b7fad79d53f6a136a9a755a10dfc8837ea3d50d3c15f35add8b19fc6ace91"
+    },
+    {
+      "path": "doc/doxygen/logo/lame_logo.svg",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/logo/lame_logo.svg",
+      "sha256": "de80196572ed9394184de87f0e945f79a050f5f360de63952e0721e1672447b3"
+    },
+    {
+      "path": "doc/doxygen/logo/lame_logo_full.svg",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/logo/lame_logo_full.svg",
+      "sha256": "46a7cb046ca55b7063ac01691c0bc197ae1894059f2e36690d97a4c0ac7a99f2"
+    },
+    {
+      "path": "doc/doxygen/doxygen-awesome-css/doxygen-awesome.css",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/doc/doxygen/doxygen-awesome-css/doxygen-awesome.css",
+      "sha256": "5ec49e2dfd097f6b5384e3aae0476eab47748e311fc70e207925f8fcc37477b9"
+    },
+    {
+      "path": "debian/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/Makefile.am",
+      "sha256": "b44f8504cd17631f219e91b53ed55b5b6a1165d030dda09ce966e2970207938c"
+    },
+    {
+      "path": "debian/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/Makefile.in",
+      "sha256": "69a23e27ac4416466b1088ea1ea8b359033bb480322faa648463178094780f4b"
+    },
+    {
+      "path": "debian/changelog",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/changelog",
+      "sha256": "c9dbdd49a1f42820adc36ab4290bc2f7f254b8c7e9db689412c91c73c6a70f70"
+    },
+    {
+      "path": "debian/compat",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/compat",
+      "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+    },
+    {
+      "path": "debian/control",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/control",
+      "sha256": "00a01aae82c7703b11551301f02b7c5f99df38d90b15e868cac979ea71eb5977"
+    },
+    {
+      "path": "debian/copyright",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/copyright",
+      "sha256": "eb2efb4511f3c5d5e4747b6f3a0da1dd5649975082284e12889b6892ededd53d"
+    },
+    {
+      "path": "debian/lame.doc-base",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/lame.doc-base",
+      "sha256": "6d6f247420ac733957c60e379d20e4fb2b2124349c770d9c490e2644f3d43a2f"
+    },
+    {
+      "path": "debian/lame.docs",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/lame.docs",
+      "sha256": "eb90b8ce85368d84ff9681533f7b805267ae1716f45efc863d73cbdc3a0ada3b"
+    },
+    {
+      "path": "debian/lame.install",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/lame.install",
+      "sha256": "df84a18629e26d71b137967e9fd8c73bba39b6cd79db02f26350b685920ba14f"
+    },
+    {
+      "path": "debian/lame.manpages",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/lame.manpages",
+      "sha256": "e971082e375aca9ea161aa08fe77f05125efb8f591c61dacaaaa2d2b5a52b368"
+    },
+    {
+      "path": "debian/libmp3lame-dev.install",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/libmp3lame-dev.install",
+      "sha256": "43aeb7ac305ac5125928cb93f0234dc104016f9b4393bf9c9dc4f23a4481afa9"
+    },
+    {
+      "path": "debian/libmp3lame0.install",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/libmp3lame0.install",
+      "sha256": "a1cfa3f9270ac28085a15594f4e3493df0f0633496a3fc6c0290b5ad744f6d9e"
+    },
+    {
+      "path": "debian/rules",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/rules",
+      "sha256": "12b9bb73297f2b1f26278ba2f4cd1a51501dd763098754011134db36d95ae372"
+    },
+    {
+      "path": "debian/watch",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/watch",
+      "sha256": "76426fe78b92be4eabba6b68c20ebd40108a5c831dd6d302b34413c9bb318c4f"
+    },
+    {
+      "path": "debian/source/format",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/debian/source/format",
+      "sha256": "1be7080d72e6b566df3e236ce2c55efdfbbb8fa1c972d825e5b672ff8773be1a"
+    },
+    {
+      "path": "Dll/BladeMP3EncDLL.c",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/BladeMP3EncDLL.c",
+      "sha256": "b7f4e54dc7829827da47c7fcca359bdb569514b58af3360de79c4ae0a88551ee"
+    },
+    {
+      "path": "Dll/BladeMP3EncDLL.def",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/BladeMP3EncDLL.def",
+      "sha256": "962aed550b09c2fc999440bbbb92fb9da9d368898d1ea1ebe25ef9c54d2325dd"
+    },
+    {
+      "path": "Dll/BladeMP3EncDLL.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/BladeMP3EncDLL.h",
+      "sha256": "82313b68b8706c90ecc6557fd75296dd1e4211ceadcd702c222c86f5599bcb09"
+    },
+    {
+      "path": "Dll/Example.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/Example.cpp",
+      "sha256": "9925cf17aa1068b3e121c9665761c09d3bcef91b12d8ad20a5c28b95eb406977"
+    },
+    {
+      "path": "Dll/LameDLLInterface.htm",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/LameDLLInterface.htm",
+      "sha256": "5472face2f355da86ec31a18c9da17feeaf4c3f54d8a15184609708d501ec6d6"
+    },
+    {
+      "path": "Dll/MP3export.pas",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/MP3export.pas",
+      "sha256": "dbe426dec51d77f53dc0f789db3bcde906c9b573023520dd655ee8260ef3f55d"
+    },
+    {
+      "path": "Dll/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/Makefile.am",
+      "sha256": "76fe89749b3e29a0d657e5c74a17f9fbf5398c2a7baa05ba82d73c96ee276bf2"
+    },
+    {
+      "path": "Dll/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/Makefile.in",
+      "sha256": "3a973b1ad82c0e4e075908adada09e55dfc4f56be761ca52d6fbadb97a36ddbd"
+    },
+    {
+      "path": "Dll/Makefile.mingw32",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/Makefile.mingw32",
+      "sha256": "57510f0afe8351bd3493b4c45e2ed6e709774cce952af4d6dc869e0e492c571d"
+    },
+    {
+      "path": "Dll/README",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/Dll/README",
+      "sha256": "9318ac237af9282d9802f8e59472594a1356559aaaf770ff6fd10d5db229f72c"
+    },
+    {
+      "path": "ACM/ACM.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ACM.cpp",
+      "sha256": "7cefb237856ae53d5cb44a477236af54e9499851f4eb8601b1160313b46e922e"
+    },
+    {
+      "path": "ACM/ACM.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ACM.h",
+      "sha256": "b8572521e164dbb73ec330bfa3417890f212cf298f0817ed0b7ff90335447c7a"
+    },
+    {
+      "path": "ACM/ACMStream.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ACMStream.cpp",
+      "sha256": "20b7cba74dfc5e7223cdb7d198d82225aa13372bdccea97e85fbac8710a0c529"
+    },
+    {
+      "path": "ACM/ACMStream.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ACMStream.h",
+      "sha256": "fe0161c87807e3d6e01c9e36ad114c3f17d20522c0449fcbc3bdb27fa617d720"
+    },
+    {
+      "path": "ACM/AEncodeProperties.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/AEncodeProperties.cpp",
+      "sha256": "e67c1bcf727bf254b1a451ffbfd56aaf9f39a2a9f75d6d70873f19ad59ad8df0"
+    },
+    {
+      "path": "ACM/AEncodeProperties.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/AEncodeProperties.h",
+      "sha256": "fe87cb9c259a06d5b25f6c3afe747d958a5e23358a6875fc1673d722a1a7dbfc"
+    },
+    {
+      "path": "ACM/DecodeStream.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/DecodeStream.cpp",
+      "sha256": "9d8317324a3858a686fa3ffd8099c5f11cb61c42b374fb80e8537c42d04d9df1"
+    },
+    {
+      "path": "ACM/DecodeStream.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/DecodeStream.h",
+      "sha256": "ef8a025f7cdb2069ede8578170b7f3ed17c51c3088f77aa24b439db908fd995d"
+    },
+    {
+      "path": "ACM/LameACM.inf",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/LameACM.inf",
+      "sha256": "e757e674eb2e018146171acce5c8b3d951b489438f0eb6d1dda2040d38845a97"
+    },
+    {
+      "path": "ACM/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/Makefile.am",
+      "sha256": "d4f77d96b3f3f21073cea2ec4c9d966303437f5e1d64bd52aef910748abc0818"
+    },
+    {
+      "path": "ACM/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/Makefile.in",
+      "sha256": "1c822c81ffcc7cd7e6abc59d2e211cb777dd0dac7af831651e2955966a622b7b"
+    },
+    {
+      "path": "ACM/TODO",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/TODO",
+      "sha256": "5b5107e74ff1a1f6ba73a2a42bc8a2bfc537df62fa1e5b899ec239430020afff"
+    },
+    {
+      "path": "ACM/acm.rc",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/acm.rc",
+      "sha256": "e66c276178beadcd2d68eccbab45eb16525cb05c5cb37d093389124fee1ade4b"
+    },
+    {
+      "path": "ACM/adebug.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/adebug.h",
+      "sha256": "c22750a5a18f8d8a02345feda3e1aa55f75c834771f9d2bc0cf4d59a72e7d11a"
+    },
+    {
+      "path": "ACM/lame.ico",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/lame.ico",
+      "sha256": "cd0d91adf94f1e854a866f76a1de48fcef9c57c88a11dcb69bbb73f7ed8660ac"
+    },
+    {
+      "path": "ACM/lameACM.def",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/lameACM.def",
+      "sha256": "9a6c5415a9e32bcd576720bd88572770c0b8f147cabd54741e3925562b4620e4"
+    },
+    {
+      "path": "ACM/lame_acm.xml",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/lame_acm.xml",
+      "sha256": "aac0183da4cfb5c53463d346c04a87df3b333b27d95da29856f205dd19d47d36"
+    },
+    {
+      "path": "ACM/main.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/main.cpp",
+      "sha256": "147a96a1d1395a1c6415fdf3fd796db54a191e3b56d7abff7d25f12f31404d20"
+    },
+    {
+      "path": "ACM/readme.txt",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/readme.txt",
+      "sha256": "6e28ea7e520a56e3fcbd2eada24b4bf0fe6e05d8cc76edbb9077d468a94aea8b"
+    },
+    {
+      "path": "ACM/resource.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/resource.h",
+      "sha256": "9a798f1a869096defd5ea7633fdee57cc5722c9bfcc5fcb237e951a497473a5f"
+    },
+    {
+      "path": "ACM/tinyxml/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/Makefile.am",
+      "sha256": "1abd1112fd1dbcce38982af2954a28519b7a9145a10553fb4f4044cf9ab7c6ce"
+    },
+    {
+      "path": "ACM/tinyxml/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/Makefile.in",
+      "sha256": "7152a6d72d100609ada8e5af812cee18e502bbef952ee386a4baa4e8ce85a577"
+    },
+    {
+      "path": "ACM/tinyxml/Makefile.tinyxml",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/Makefile.tinyxml",
+      "sha256": "759674ac1a6431a1e2e073b5c609652b9f22d83794048751bc4a025492cc2b2c"
+    },
+    {
+      "path": "ACM/tinyxml/changes.txt",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/changes.txt",
+      "sha256": "21b11be0b3955b8a285c1b54540e7a0b45365a3a2cbd145723bb905c24c249f2"
+    },
+    {
+      "path": "ACM/tinyxml/dox",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/dox",
+      "sha256": "8667d1a28b5b1943ab20d62dc7e1a35176a32b6098404cc4f4ac45bd2b598ef0"
+    },
+    {
+      "path": "ACM/tinyxml/makedistlinux",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/makedistlinux",
+      "sha256": "65b793b9201d06c6f66bfc175aa89f783a7593b0ca631b19ef40059270380057"
+    },
+    {
+      "path": "ACM/tinyxml/makedistwin.bat",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/makedistwin.bat",
+      "sha256": "261e00e6512b3f9531c4a310485ce49f095d2d82380f1ca8482597e57d9de0b4"
+    },
+    {
+      "path": "ACM/tinyxml/readme.txt",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/readme.txt",
+      "sha256": "e7c8d9bd63b79762fe862168d739c933ac704ddbc942fbf4a0b2f44c210f5384"
+    },
+    {
+      "path": "ACM/tinyxml/tinyxml.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/tinyxml.cpp",
+      "sha256": "ff168d78a6bb467cb83b10503ff0dd0b258f06fa802e97a2f8dc5b2b40c07d07"
+    },
+    {
+      "path": "ACM/tinyxml/tinyxml.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/tinyxml.h",
+      "sha256": "571e16c17cec7054965e9762004b74bf3044b379eb114557a4c6dfce0df331b7"
+    },
+    {
+      "path": "ACM/tinyxml/tinyxmlerror.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/tinyxmlerror.cpp",
+      "sha256": "453a0097ff4a09792822a2f519a0cb37e130efd434970dbcc84eeb35f2a8d6b1"
+    },
+    {
+      "path": "ACM/tinyxml/tinyxmlparser.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/tinyxmlparser.cpp",
+      "sha256": "ba264a1f7c01943a31906ac4fce6d82442c0b079d051e07210b8aaa380ff6aab"
+    },
+    {
+      "path": "ACM/tinyxml/xmltest.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/tinyxml/xmltest.cpp",
+      "sha256": "1337145a59431927693bb464a93ce22e304de2a1eb07291aff3c4f6978076526"
+    },
+    {
+      "path": "ACM/ddk/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ddk/Makefile.am",
+      "sha256": "7028f867b6a8b1c562396794fe95dae32a7d1b85769f3605bef84b3041397a5d"
+    },
+    {
+      "path": "ACM/ddk/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ddk/Makefile.in",
+      "sha256": "1772c93f1e69ad7281cbbd60da1a2986768602dfe0d635a89b13fbc5066b650e"
+    },
+    {
+      "path": "ACM/ddk/msacmdrv.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ddk/msacmdrv.h",
+      "sha256": "ef21a144851d1fc72604e696c9313836059510d8147cad2c43e100d5faebc4d4"
+    },
+    {
+      "path": "ACM/ADbg/ADbg.cpp",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ADbg/ADbg.cpp",
+      "sha256": "b67db35217d4bab4dd00e2593ade8af60bd725659213ab21d095a0f2a00ab429"
+    },
+    {
+      "path": "ACM/ADbg/ADbg.h",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ADbg/ADbg.h",
+      "sha256": "e9541c2cc4f29ab05fe472dec7469ca2dfa78023acb4c5c6104b8ce3fc5f24c2"
+    },
+    {
+      "path": "ACM/ADbg/Makefile.am",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ADbg/Makefile.am",
+      "sha256": "6ac6a423ad03a399c2e1ce546d7fc35c1e1093a743ada2fbf317960995022fa4"
+    },
+    {
+      "path": "ACM/ADbg/Makefile.in",
+      "url": "https://svn.code.sf.net/p/lame/svn/!svn/bc/6835/trunk/lame/ACM/ADbg/Makefile.in",
+      "sha256": "d6cbff12813df8cb569da2cb6a17642433636d659af717998a68eedae0cde431"
+    }
+  ]
+}
