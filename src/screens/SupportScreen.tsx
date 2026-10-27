@@ -39,7 +39,7 @@ export default function SupportScreen({ navigation }: NativeStackScreenProps<Roo
       <Text style={s.body}>備份包含你的私人內容。不要在 App 運行時搬動檔案；乾淨電腦及不同正式版本間的還原仍待驗收。</Text>
     </View>
     <View style={s.section}><Text accessibilityRole="header" style={s.heading}>授權與第三方通知</Text>
-      <Text style={s.body}>本程式採 MIT 授權；內含工具與素材各有適用條款。完整個別授權檔位於安裝目錄的 resources／licenses 與 resources／tools／licenses。</Text>
+      <Text style={s.body}>新增原創內容以個人檢視與非商業本機建置為限，詳見授權全文；既有 MIT 內容、內含工具與素材依各自條款。完整個別授權檔位於安裝目錄的 resources／licenses 與 resources／tools／licenses。</Text>
       <View style={s.actions}>{(['app', 'thirdParty', 'microsoft'] as const).map(key => <Pressable key={key} accessibilityRole="button" accessibilityState={{ expanded: notice === key }} onPress={() => setNotice(notice === key ? null : key)} style={s.button}><Text style={s.buttonText}>{key === 'app' ? '程式授權全文' : key === 'thirdParty' ? '第三方通知全文' : 'Microsoft 元件附加條款'}</Text></Pressable>)}</View>
       {notice && <Text selectable style={s.notice}>{notice === 'app' ? content.appLicense : notice === 'thirdParty' ? content.thirdPartyNotices : content.microsoftRuntimeTerms}</Text>}
     </View>

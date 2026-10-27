@@ -42,7 +42,8 @@ async function main() {
       await evaluate(`(async()=>{try{await window.listeningLab.openProjectPage('https://evil.invalid/');throw Error('Arbitrary URL accepted');}catch(error){if(!error.message.includes('專案頁面無效'))throw error;}})()`);
       for (const label of ['問題回報','備份與資料復原','授權與第三方通知','版本 '+require('../package.json').version]) if(!support.includes(label)) throw Error('Missing support content: '+label);
       await click('程式授權全文');
-      if(!(await evaluate('document.body.innerText')).includes('Permission is hereby granted')) throw Error('App license missing');
+      const licenseTitle=(await fs.readFile(path.resolve('LICENSE'),'utf8')).split(/\r?\n/)[0];
+      if(!licenseTitle || !(await evaluate('document.body.innerText')).includes(licenseTitle)) throw Error('App license missing');
       await click('第三方通知全文');
       if(!(await evaluate('document.body.innerText')).includes('sacabase')) throw Error('Current third-party notice missing');
       await click('第三方通知全文');

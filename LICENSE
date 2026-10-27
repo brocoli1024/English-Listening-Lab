@@ -1,22 +1,50 @@
-The MIT License (MIT)
+English Listening Lab — 個人檢視與建置授權 1.0
 
 Copyright (c) 2026 brocoli1024
-Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+生效範圍：自引入本授權文件的 Git 提交起，且以本文件第 1 節為限。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. 適用內容與既有權利
+本授權僅適用於 brocoli1024 有權授權、且未另以其他條款提供的原創內容。
+第三方程式、範本、素材及其衍生部分，依各自的授權與聲明處理；本授權不縮減
+第三方授權、法律例外或其他已取得授權所允許的權利。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+先前以 MIT 授權公開的內容，包括公開庫提交
+9fc48edfd2df49e7485a04a42b6400e7b3df7fa6 及其中的程式碼，仍可依原 MIT
+條款使用、修改及散布。其後副本中相同的已授權內容，不因本文件而失去 MIT
+權利。本文件不撤回先前已授予的權利。原 MIT 聲明與全文保留於
+THIRD_PARTY_NOTICES.md；新限制僅適用於未另獲較廣授權的新增原創內容。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. 有限許可
+在遵守本授權且保留著作權及適用授權聲明的情況下，允許自然人：
+(a) 下載及閱讀原始碼，以供個人檢視與學習；
+(b) 在自己控制的電腦上製作必要的本機副本、安裝依賴、編譯、安裝及執行，
+    僅供本人非商業使用；
+(c) 為上述本機建置及執行，進行必要的本機設定與相容性調整，並保留私人備份。
+
+3. 未授予的許可
+除第 1 節及第 4 節的例外、或另獲權利人書面同意外，不授予下列許可：
+(a) 商業使用、銷售、出租、再授權，或將受本授權限制的內容整合至其他產品；
+(b) 向他人散布受本授權限制的原始碼、修改版、安裝檔或其他建置產物，
+    或代他人提供本程式的託管服務；
+(c) 組織、企業或機構用途，以及超出第 2 節的修改與使用。
+可分享權利人提供的儲存庫連結，讓他人自行取得適用版本及條款。
+
+4. GitHub 平台權利
+公開於 GitHub 的內容，仍受 GitHub 服務條款所需的授權約束；本文件不禁止
+該條款允許的站內檢視、fork、重製及其他平台功能。平台授權本身不表示
+另行授予超出其範圍的商業使用或站外散布許可。
+GitHub 服務條款：https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+
+5. 第三方及平台許可
+本授權不提供 YouTube 或其他平台的下載、內容使用或帳號存取許可，也不替代
+第三方元件與教材的條款。請參閱 THIRD_PARTY_NOTICES.md 及各元件授權。
+允許個人建置，不代表安裝檔已獲准向他人再散布。
+
+6. 無擔保及責任限制
+本軟體按現狀提供。在法律允許範圍內，權利人不提供任何明示或默示擔保，
+包含適售性、特定用途適用性及不侵權擔保，亦不就使用本軟體所致損害負責。
+本節不排除法律不允許排除的責任。
+
+7. 其他
+未明確授予的權利均予保留。本文件為自訂的有限用途授權，不是開源授權。
+如需其他用途的書面許可，請透過儲存庫列示的聯絡管道提出。

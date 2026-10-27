@@ -1,5 +1,7 @@
 # English Listening Lab — Windows 首次建置指南
 
+本次起未另獲較廣授權的新增原創內容，僅供檢視、學習及個人非商業建置／執行，詳見 [LICENSE](LICENSE)。先前 MIT 版本及後續相同內容的 MIT 權利保留；第三方授權另行適用。這是公開可檢視的原始碼專案，不將新條款稱為開源授權。詳見 [分享與授權範圍](docs/source-sharing.md)。
+
 請取得完整 GitHub 儲存庫（含 assets 與 docs），不要使用 `source:review` 產生的純文字檢視 ZIP。公開儲存庫可直接下載，無須邀請。以下目標為 Windows 10 22H2／Windows 11 x64；不涵蓋 Windows ARM、macOS 或 Linux 桌面安裝包。
 
 ## 1. 準備環境

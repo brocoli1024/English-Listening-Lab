@@ -2,7 +2,7 @@
   "name": "englishlisteningapp",
   "description": "Local English listening practice with lyrics, scoring and audio import",
   "author": "brocoli1024",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "main": "expo/AppEntry.js",
   "version": "1.0.4",
   "dependencies": {

@@ -1,3 +1,41 @@
+# Licensing scope and prior MIT notice
+
+The current project license is the custom personal review and build license in
+`LICENSE`. It applies only to original content that brocoli1024 may license and
+that is not already available under broader terms. It does not restrict third-party
+materials or rights previously granted under MIT.
+
+The project snapshot at commit `9fc48edfd2df49e7485a04a42b6400e7b3df7fa6`,
+including its existing application code, was published under MIT. Those permissions
+remain available for that material, including unchanged copies in later revisions.
+The following is the complete former project license, preserving the Expo notice.
+It is not a blanket MIT grant for later original content covered only by the new license.
+
+## Former project MIT license and Expo notice
+
+The MIT License (MIT)
+
+Copyright (c) 2026 brocoli1024
+Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 # Third-party audio notices
 
 The application bundles excerpts of the following recordings. The underlying nursery-rhyme compositions and lyrics are in the public domain.
